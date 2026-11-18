@@ -425,7 +425,8 @@
   "Nouveaux défis dans {n} jour": "New challenges in {n} day",
   "Nouveaux défis dans {n} jours": "New challenges in {n} days",
   "{n} jour de suite": "{n} day in a row",
-  "{n} jours de suite": "{n} days in a row"
+  "{n} jours de suite": "{n} days in a row",
+  "{p} % des joueurs ont trouvé": "{p}% of players got it right"
  },
  "zones": {
   "cayenne": "Cayenne island",

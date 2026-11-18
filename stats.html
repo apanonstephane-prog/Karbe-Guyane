@@ -33,7 +33,7 @@ section{margin-top:34px} h2{font:800 22px var(--f-display);margin:0 0 12px}
 <div class="files"><a href="/opendata/lieux.csv" download>CSV (tableur)</a><a href="/opendata/lieux.json">JSON</a><a href="/opendata/lieux.geojson">GeoJSON (SIG)</a><a href="/api/stats">Statistiques (JSON)</a><a href="/affiche.html">Affiches QR</a></div></section>
 </main>
 <script>
-const $=s=>document.querySelector(s), fmt=n=>new Intl.NumberFormat("fr-FR").format(n||0);
+const $=s=>document.querySelector(s), fmt=n=>typeof n==="string"?n:new Intl.NumberFormat("fr-FR").format(n||0);
 let names={};
 const bars=(el,obj,lab)=>{const e=Object.entries(obj).sort((a,b)=>b[1]-a[1]).slice(0,15),max=Math.max(1,...e.map(x=>x[1]));
   $(el).innerHTML=e.length?e.map(([k,v])=>`<div class="bar-r"><span>${lab(k)}</span><i style="width:${v/max*100}%"></i><b>${fmt(v)}</b></div>`).join(""):`<p class="muted">Pas encore de données.</p>`;};
@@ -44,7 +44,7 @@ async function load(m){
   const months=Object.keys(r.mois).sort().reverse(); if(!m){$("#m").innerHTML=months.map(x=>`<option>${x}</option>`).join("");}
   const cur=r.mois[m||months[0]], c=cur.compteurs;
   const sum=o=>Object.values(o).reduce((a,b)=>a+b,0);
-  $("#kpis").innerHTML=[[c.sessions,"visites (appareil × jour)"],[c.nouveaux,"nouveaux appareils"],[sum(pick(c,"vue:")),"fiches de lieux ouvertes"],[sum(pick(c,"checkin:")),"lieux validés sur place"],[c.sorties,"sorties sécurisées créées"],[sum(pick(c,"etat:")),"signalements d'état"]]
+  $("#kpis").innerHTML=[[c.sessions,"visites (appareil × jour)"],[c.nouveaux,"nouveaux appareils"],[sum(pick(c,"vue:")),"fiches de lieux ouvertes"],[sum(pick(c,"checkin:")),"lieux validés sur place"],[c.sorties,"sorties sécurisées créées"],[sum(pick(c,"etat:")),"signalements d'état"],[c["quiz:joues"],"quiz du jour joués"],[c["quiz:joues"]?Math.round((c["quiz:bonnes"]||0)/(c["quiz:joues"]*5)*100)+" %":null,"de bonnes réponses au quiz"]]
     .map(([v,l])=>`<div class="kpi"><b>${fmt(v)}</b><span>${l}</span></div>`).join("");
   const J=cur.jours, ks=Object.keys(J).sort(), max=Math.max(1,...Object.values(J));
   $("#days").innerHTML=ks.length?ks.map(k=>`<div title="${k} : ${J[k]}" style="height:${J[k]/max*100}%"></div>`).join(""):`<p class="muted">Pas encore de données.</p>`;

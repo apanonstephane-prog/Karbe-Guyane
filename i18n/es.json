@@ -425,7 +425,8 @@
   "Nouveaux défis dans {n} jour": "Nuevos retos en {n} día",
   "Nouveaux défis dans {n} jours": "Nuevos retos en {n} días",
   "{n} jour de suite": "{n} día seguido",
-  "{n} jours de suite": "{n} días seguidos"
+  "{n} jours de suite": "{n} días seguidos",
+  "{p} % des joueurs ont trouvé": "{p} % de los jugadores acertaron"
  },
  "zones": {
   "cayenne": "Isla de Cayena",

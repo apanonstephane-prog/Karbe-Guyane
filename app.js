@@ -285,6 +285,10 @@ async function quizOfDay(k = dayKey()) {
   return Q.map((q, i) => { const order = shuffled([0, 1, 2, 3], k + "o" + i); return { ...q, o: order.map(j => q.o[j]), ok: order.indexOf(0) }; });
 }
 const quizLog = () => store.get("quiz", {});
+const qKey = q => q.kind === "img" ? "i:" + q.s : q.kind === "zone" ? "z:" + q.s : "b" + q.bi;
+let quizStats = null, QS = {}; // taux de réussite anonymes, agrégés côté serveur
+const getQuizStats = () => quizStats || (quizStats = api("quiz").then(r => QS = r.q || {}).catch(() => QS));
+const pctLine = (st, q) => { const x = st?.[qKey(q)]; return x && x.n >= 10 ? t("{p} % des joueurs ont trouvé", { p: Math.round(x.ok / x.n * 100) }) : ""; };
 function streak() {
   const L0 = quizLog(); let off = L0[dayKey()]?.done ? 0 : -1, n = 0;
   while (L0[dayKey(off)]?.done) { n++; off--; }
@@ -328,6 +332,7 @@ async function openQuiz() {
   if (Q.length < 5) { toast(t("Quiz indisponible hors-ligne pour l'instant."), "offline"); return; }
   const log = quizLog(), cur = log[k] || { a: [] };
   cur.b = Q.filter(q => q.kind === "bank").map(q => q.bi);
+  getQuizStats();
   const save = () => { const L1 = quizLog(); L1[k] = cur; const keys = Object.keys(L1).sort(); keys.slice(0, Math.max(0, keys.length - 60)).forEach(x => delete L1[x]); store.set("quiz", L1); };
   const dots = () => `<div class="qdots" aria-hidden="true">${Q.map((_, i) => `<i class="${cur.a[i] == null ? (i === cur.a.length ? "cur" : "") : cur.a[i] === Q[i].ok ? "ok" : "ko"}"></i>`).join("")}</div>`;
   const head = `<button class="sheet-x" aria-label="${t("Fermer")}" style="background:var(--canopee)">${ic("close")}</button>`;
@@ -343,7 +348,8 @@ async function openQuiz() {
       $$(".qopt", sheet).forEach(x => { x.disabled = true; if (+x.dataset.o === q.ok) x.classList.add("ok"); });
       if (!good) b.classList.add("ko");
       cur.a.push(j); save();
-      $(".qfb", sheet).innerHTML = `<p class="qv ${good ? "ok" : "ko"}">${good ? t("Bonne réponse !") : t("Pas tout à fait.")}</p><p>${esc(q.x)}</p>
+      const pl = pctLine(QS, q);
+      $(".qfb", sheet).innerHTML = `<p class="qv ${good ? "ok" : "ko"}">${good ? t("Bonne réponse !") : t("Pas tout à fait.")}</p>${pl ? `<p class="qpct">${esc(pl)}</p>` : ""}<p>${esc(q.x)}</p>
         <button class="btn dark wide" id="qnext">${cur.a.length < Q.length ? t("Question suivante") : t("Voir mon score")}</button>`;
       $(".qdots", sheet).outerHTML = dots();
       $("#qnext").onclick = () => cur.a.length < Q.length ? ask() : finish();
@@ -357,6 +363,9 @@ async function openQuiz() {
       const ok = cur.a.filter((x, i) => x === Q[i].ok).length;
       store.set("quizOk", store.get("quizOk", 0) + ok);
       store.set("bestStreak", Math.max(store.get("bestStreak", 0), streak()));
+      const body = { d: k, r: Q.map((q, i) => ({ k: qKey(q), ok: cur.a[i] === q.ok })) };
+      getQuizStats().then(S => body.r.forEach(x => { const o = (S[x.k] ||= { n: 0, ok: 0 }); o.n++; if (x.ok) o.ok++; }));
+      api("quiz", body).catch(e => { if (!e.status || e.status >= 500) { const qq = store.get("queue", []); qq.push({ path: "quiz", body }); store.set("queue", qq); } });
       const r1 = evt("quiz", k), r2 = ok === Q.length ? evt("perfect") : { defis: [], badges: [] };
       r = { defis: [...r1.defis, ...r2.defis], badges: [...r1.badges, ...r2.badges] };
       afterClose = () => { const h = location.hash.slice(1) || "explorer"; if (h === "explorer") rerender(); else if (h === "passeport") routeTo("passeport"); };
@@ -375,10 +384,11 @@ async function openQuiz() {
       ${r.defis.map(d => `<div class="qwon"><span class="medal">🎯</span><div><b>${t("Défi relevé")}</b><small>${esc(defiLabel(d))}</small></div></div>`).join("")}
       <div class="btns" style="margin-top:16px"><button class="btn" id="qshare">${ic("share")}${t("Partager mon score")}</button><a class="btn ghost" href="#passeport">${ic("spark")}${t("Défis de la semaine")}</a></div>
       <h2 class="h3m">${t("Les réponses")}</h2>
-      <ol class="qrecap">${Q.map((q, i) => `<li class="${cur.a[i] === q.ok ? "ok" : "ko"}"><b>${esc(q.kind === "img" ? t("Quel est ce lieu ?") : q.q)}</b><span>${esc(q.o[q.ok])}</span>${q.s && spotById[q.s] ? `<button class="link" data-go="${q.s}">${t("Voir le lieu")}</button>` : ""}</li>`).join("")}</ol>
+      <ol class="qrecap">${Q.map((q, i) => `<li class="${cur.a[i] === q.ok ? "ok" : "ko"}"><b>${esc(q.kind === "img" ? t("Quel est ce lieu ?") : q.q)}</b><span>${esc(q.o[q.ok])}</span><small class="qpct" data-qk="${qKey(q)}">${esc(pctLine(QS, q))}</small>${q.s && spotById[q.s] ? `<button class="link" data-go="${q.s}">${t("Voir le lieu")}</button>` : ""}</li>`).join("")}</ol>
       <p class="note">${t("Un nouveau quiz chaque jour à minuit, heure de Guyane. Les réponses viennent des fiches de Karbé, dont les sources sont citées.")}</p></div>`);
     $("#qshare").onclick = () => { share(t("Quiz Karbé"), `Karbé · ${t("Quiz du {d}", { d: dday(Date.parse(k + "T12:00:00-03:00")) })}\n${grid} ${ok}/${Q.length}${st > 1 ? ` · 🔥${st}` : ""}`, "/#quiz"); };
     $$("[data-go]", sheet).forEach(b => b.onclick = () => openSpot(b.dataset.go));
+    getQuizStats().then(S => Q.forEach(q => { const el = $(`[data-qk="${qKey(q)}"]`, sheet); if (el && !el.textContent) el.textContent = pctLine(S, q); }));
   };
   if (cur.done) result(); else if (cur.a.length >= Q.length) finish(); else ask();
 }
