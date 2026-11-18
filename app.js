@@ -326,7 +326,7 @@ function vExplorer() {
   view.innerHTML = `
   <section class="hero">
     ${pic("hero", "100vw", { eager: true })}
-    <div class="hero-top"><div class="mark">${markSVG}Karbé</div><div class="hero-r"><div class="live" id="live" hidden></div><button class="langbtn" id="langbtn" aria-label="${t("Langue")}">${lang.toUpperCase()}</button></div></div>
+    <div class="hero-top"><div class="mark">${markSVG}Karbé</div><div class="hero-r"><div class="live" id="live" hidden></div><button class="langbtn" id="langbtn" aria-label="${lang.toUpperCase()}, ${t("Langue")}">${lang.toUpperCase()}</button></div></div>
     <div class="hero-copy"><div class="wrap">
       <p>${hello}</p>
       <h1>${t("La Guyane, ce {d}.", { d: esc(weekday()) })}</h1>
