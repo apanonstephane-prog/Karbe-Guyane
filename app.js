@@ -82,7 +82,7 @@ function credit(k) {
   const I = D.images[k]; if (!I) return "";
   if (!I.cr) return `<p class="credit">${t("Illustration originale : ce lieu n'a pas de photo libre exploitable.")}</p>`;
   const c = I.cr, lu = licUrl(c.l);
-  return `<p class="credit">${t("Aquarelle d'après une photo de {a}", { a: esc(t(c.a)) })}, <a href="${c.u}" target="_blank" rel="noopener">Wikimedia Commons</a>, ${lu ? `<a href="${lu}" target="_blank" rel="noopener">${c.l}</a>` : c.l}${/SA/.test(c.l) ? ` (${t("aquarelle sous la même licence")})` : ""}.${c.n ? ` ${t("Note")} : ${esc(t(c.n))}.` : ""}</p>`;
+  return `<p class="credit">${t("Aquarelle d'après une photo de {a}", { a: esc(t(c.a)) })}, <a href="${c.u}" target="_blank" rel="noopener">Wikimedia Commons</a>, ${lu ? `<a href="${lu}" target="_blank" rel="noopener">${c.l}</a>` : c.l}${/SA/.test(c.l) ? ` (${t("aquarelle sous la même licence")})` : ""}.${c.n ? ` ${t("Note")}${lang === "fr" ? " :" : ":"} ${esc(t(c.n))}.` : ""}</p>`;
 }
 function openCredits() {
   const names = { hero: t("Accueil"), route: t("Itinéraires"), lancement: t("Lancements") };
@@ -296,9 +296,9 @@ function etatChip(E, id) {
 }
 function placeRow(s0, E) {
   const s = L(s0), se = inSeason(s0), d = state.userPos ? distKm(state.userPos, s0) : null, M = META(s0.id);
-  return `<div class="place" data-spot="${s.id}" role="button" tabindex="0">
+  return `<div class="place" data-spot="${s.id}">
     ${pic(s0.img, "112px")}
-    <div class="in"><h3>${esc(s.name)}</h3>
+    <div class="in"><h3><button class="open">${esc(s.name)}</button></h3>
       <p>${esc(zoneLabel(s0.zone))}${d != null ? " · " + fmtKm(d) : ""}</p>
       <div class="tags">${se ? `<span class="tag season">${ic("spark")}${t("En saison")}</span>` : ""}${passport[s0.id] ? `<span class="tag done">${ic("check")}${t("Visité")}</span>` : ""}<span class="tag">${t(LVL[M.lvl])}</span>${s0.free ? `<span class="tag">${t("Gratuit")}</span>` : ""}</div>
       ${etatChip(E, s0.id)}
@@ -382,7 +382,7 @@ function vExplorer() {
 
     <p class="footer">Karbé ${esc(D.version)}. ${t("Contenus vérifiés sur sources publiques, à confirmer sur place. États des lieux signalés par les utilisateurs.")}<br>
       ${t("Aquarelles d'après des photos libres de Wikimedia Commons.")} <button class="link" id="credits">${t("Crédits photos")}</button>. ${t("Météo et mer")} <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a>, ${t("lancements")} <a href="https://thespacedevs.com" target="_blank" rel="noopener">The Space Devs</a>, ${t("carte")} <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.<br>
-      <a href="/stats.html">${t("Fréquentation et données ouvertes")}</a> · <button class="link" id="statopt">${statsOn() ? t("Statistiques anonymes : activées") : t("Statistiques anonymes : désactivées")}</button></p>
+      <a href="${lang === "fr" ? "" : "/" + lang}/lieux/">${t("Tous les lieux, page par page")}</a> · <a href="/stats.html">${t("Fréquentation et données ouvertes")}</a> · <button class="link" id="statopt">${statsOn() ? t("Statistiques anonymes : activées") : t("Statistiques anonymes : désactivées")}</button></p>
   </div>`;
 
   let E = etatsCache;
@@ -458,7 +458,7 @@ function openSpot(id) {
   openSheet(`
     <div class="sheet-hero">${pic(s0.img, "720px", { eager: true, cap: true })}
       <button class="sheet-x" aria-label="${t("Fermer")}">${ic("close")}</button>
-      <div class="wrap"><div class="cats-line">${s0.cat.map(k => `<span class="tag" style="background:${CATC[k]};color:#fff">${ic(k)}${esc(catLabel(k))}</span>`).join("")}</div>
+      <div class="wrap"><div class="cats-line">${s0.cat.slice(0, 3).map(k => `<span class="tag" style="background:${CATC[k]};color:#fff">${ic(k)}${esc(catLabel(k))}</span>`).join("")}</div>
       <h1 style="font-size:34px">${esc(s.name)}</h1></div></div>
     <div class="wrap">
       <p class="lead">${esc(s.desc)}</p>
@@ -468,7 +468,7 @@ function openSpot(id) {
         <button class="btn ghost sq ${favs.has(id) ? "on" : ""}" id="favbtn" aria-label="${t("Favori")}" aria-pressed="${favs.has(id)}" style="${favs.has(id) ? "color:var(--ibis)" : ""}">${ic("heart")}</button>
         <button class="btn ghost sq" id="sharebtn" aria-label="${t("Partager")}">${ic("share")}</button>
       </div>
-      <div class="etat-box" id="etatbox"><div class="sec-h" style="margin:0"><h3>${ic("spark", "ic-s")} ${t("État en direct")}</h3><p id="etatsrc"></p></div><div id="etatlist" class="etat-list"><div class="sk" style="height:40px;border-radius:12px"></div></div>
+      <div class="etat-box" id="etatbox"><div class="sec-h" style="margin:0"><h2 class="h3">${ic("spark", "ic-s")} ${t("État en direct")}</h2><p id="etatsrc"></p></div><div id="etatlist" class="etat-list"><div class="sk" style="height:40px;border-radius:12px"></div></div>
         <details class="etat-report"><summary>${t("Signaler l'état du lieu")}</summary><p class="note">${t("Vous y êtes ou vous en revenez ? Votre signalement aide les suivants. Il disparaît après 48 h.")}</p>
           <div class="etat-grid">${Object.entries(D.etats).map(([c, x]) => `<button class="etat-b" data-etat="${c}">${x.e}<span>${esc(etatLabel(c))}</span></button>`).join("")}</div></details></div>
       <div class="facts">
@@ -494,7 +494,7 @@ function openSpot(id) {
       ${credit(s0.img)}
     </div>`);
   $("#favbtn").onclick = e => { toggleFav(id); const on = favs.has(id); e.currentTarget.style.color = on ? "var(--ibis)" : ""; e.currentTarget.setAttribute("aria-pressed", on); toast(on ? t("Ajouté aux favoris") : t("Retiré des favoris"), "heart"); syncFavs(); };
-  $("#sharebtn").onclick = () => share(s.name, `${s.name} (${zoneLabel(s0.zone)}) : ${s.desc}`, `#lieu/${id}`);
+  $("#sharebtn").onclick = () => share(s.name, `${s.name} (${zoneLabel(s0.zone)}) : ${s.desc}`, pagePath("lieu", id));
   $("#cibtn").onclick = () => checkIn(id);
   $$("[data-it]", sheet).forEach(b => b.onclick = () => openItinerary(b.dataset.it));
   $$("[data-etat]", sheet).forEach(b => b.onclick = () => reportEtat(id, b.dataset.etat));
@@ -528,8 +528,9 @@ async function reportEtat(id, c) {
   renderEtatBox(id);
 }
 function syncFavs() { $$(`#view [data-fav]`).forEach(b => { const on = favs.has(b.dataset.fav); b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); }); }
-async function share(title, text, hash = "") {
-  const url = location.origin + "/" + hash;
+const pagePath = (kind, id) => `${lang === "fr" ? "" : "/" + lang}/${kind}/${id}/`;
+async function share(title, text, p = "/") {
+  const url = location.origin + p;
   try { if (navigator.share) { await navigator.share({ title, text, url }); return; } } catch { return; }
   try { await navigator.clipboard.writeText(`${text}\n${url}`); toast(t("Lien copié"), "copy"); } catch { toast(url, "info"); }
 }
@@ -558,15 +559,30 @@ async function vCarte() {
   map.on("error", () => { const m = $("#mmsg"); if (m) m.textContent = t("Certaines zones de la carte ne sont pas disponibles hors-ligne. Téléchargez-les depuis le bouton ↓."); });
   let markers = [];
   const E = await getEtats();
+  // Regroupement à l'écran : les lieux à moins de 46 px se fondent en une pastille numérotée.
   const draw = () => {
     markers.forEach(x => x.remove()); markers = [];
-    D.spots.filter(s => state.cat === "all" || state.cat === "fav" || s.cat.includes(state.cat)).forEach(s => {
-      const e = etatSummary(etatsOf(E, s.id));
+    const S = D.spots.filter(s => state.cat === "all" || state.cat === "fav" || s.cat.includes(state.cat)).map(s => ({ s, p: map.project([s.lon, s.lat]) }));
+    const groups = [];
+    S.forEach(o => { const g = groups.find(g => Math.hypot(g.p.x - o.p.x, g.p.y - o.p.y) < 46); if (g) { g.m.push(o.s); } else groups.push({ p: o.p, m: [o.s] }); });
+    groups.forEach(g => {
+      if (g.m.length > 1) {
+        const el = document.createElement("button"); el.className = "mk mk-n"; el.textContent = g.m.length;
+        el.setAttribute("aria-label", t("{n} lieux, zoomer", { n: g.m.length }));
+        el.addEventListener("click", ev => { ev.stopPropagation(); buzz();
+          const lo = g.m.map(x => x.lon), la = g.m.map(x => x.lat);
+          map.fitBounds([[Math.min(...lo), Math.min(...la)], [Math.max(...lo), Math.max(...la)]], { padding: 90, maxZoom: 14, duration: RM ? 0 : 700 }); });
+        const c = g.m.reduce((a, x) => [a[0] + x.lon / g.m.length, a[1] + x.lat / g.m.length], [0, 0]);
+        markers.push(new maplibregl.Marker({ element: el }).setLngLat(c).addTo(map));
+        return;
+      }
+      const s = g.m[0], e = etatSummary(etatsOf(E, s.id));
       const el = document.createElement("button"); el.className = "mk" + (passport[s.id] ? " done" : "") + (e ? " e-" + e.ton : ""); el.style.setProperty("--k", CATC[s.cat[0]]); el.innerHTML = ic(s.cat[0]); el.setAttribute("aria-label", L(s).name);
       el.addEventListener("click", ev => { ev.stopPropagation(); openSpot(s.id); });
       markers.push(new maplibregl.Marker({ element: el }).setLngLat([s.lon, s.lat]).addTo(map));
     });
   };
+  map.on("zoomend", draw); map.once("load", draw);
   draw();
   $("#mcats").addEventListener("click", e => { const b = e.target.closest("[data-cat]"); if (!b) return; buzz(); state.cat = b.dataset.cat; $$("#mcats .chip").forEach(x => x.classList.toggle("on", x === b)); draw(); });
   let me;
@@ -672,7 +688,7 @@ function openItinerary(id) {
       <ol class="timeline">${it.steps.map(st => { const s = spotById[st.spot]; return `<li><span class="dot" style="--k:${CATC[s.cat[0]]}">${passport[s.id] ? ic("check") : ic(s.cat[0])}</span><div><small>${esc(st.t)}</small><button data-spot="${s.id}">${esc(L(s).name)}</button><p>${esc(st.note)}</p></div></li>`; }).join("")}</ol>
       <div class="btns"><a class="btn" href="${dirUrl}" target="_blank" rel="noopener">${ic("go")}${t("Ouvrir le trajet")}</a><button class="btn ghost" id="itshare">${ic("share")}${t("Partager")}</button></div>${credit(it.img)}</div>`);
   $$(".timeline [data-spot]", sheet).forEach(b => b.onclick = () => openSpot(b.dataset.spot));
-  $("#itshare").onclick = () => share(it.title, `${it.title} : ${uniq.map(s => L(s).name).join(", ")}`);
+  $("#itshare").onclick = () => share(it.title, `${it.title} : ${uniq.map(s => L(s).name).join(", ")}`, pagePath("itineraire", it.id));
 }
 
 /* ---------- vue : Météo ---------- */
@@ -715,7 +731,7 @@ async function vMeteoRender() {
       <p class="rain-cap">${firstRain ? t("Averse probable vers {h} ({p} %).", { h: hm(firstRain.T), p: firstRain.p }) : t("Pas d'averse probable dans les 12 prochaines heures.")}</p>` : ""}
     </div>
     <div class="days5">${d.daily.time.map((tt, i) => `<div><b>${i ? dayShort(tt) : t("Auj.")}</b><div class="e">${WMO(d.daily.weather_code[i])[0]}</div>${Math.round(d.daily.temperature_2m_max[i])}° ${Math.round(d.daily.temperature_2m_min[i])}°<div class="r">${d.daily.precipitation_probability_max[i] ?? "?"} %</div></div>`).join("")}</div>
-    ${sw ? `<div class="tide"><div class="sec-h" style="margin:0"><h3>${ic("tide", "ic-s")} ${t("Marée et houle")}</h3><p>${sw.wave != null ? t("Houle {n} m", { n: sw.wave.toLocaleString(LOC(), { maximumFractionDigits: 1 }) }) : ""}</p></div>${tideSVG(sw)}
+    ${sw ? `<div class="tide"><div class="sec-h" style="margin:0"><h2 class="h3">${ic("tide", "ic-s")} ${t("Marée et houle")}</h2><p>${sw.wave != null ? t("Houle {n} m", { n: sw.wave.toLocaleString(LOC(), { maximumFractionDigits: 1 }) }) : ""}</p></div>${tideSVG(sw)}
       <div class="ev">${sw.ev.slice(0, 4).map(x => `<span>${t(x.type)} ${hm(x.T)}</span>`).join("")}</div></div>` : p.marine ? "" : `<p class="note">${t("Pas de données de mer pour ce point, situé dans les terres.")}</p>`}`;
   $("#wxall").innerHTML = P.map(x => { const dd = w.byId[x.id]; if (!dd) return ""; return `<button class="mini-wx" data-p="${x.id}"><b>${esc(x.label)}</b><span>${WMO(dd.current.weather_code)[0]} ${Math.round(dd.current.temperature_2m)}°</span></button>`; }).join("");
 }

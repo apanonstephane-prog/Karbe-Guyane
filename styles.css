@@ -441,3 +441,24 @@ img{display:block;max-width:100%}
 .credits a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 .cr-thumb .pic{width:56px;height:74px;border-radius:8px;overflow:hidden}
 .cr-thumb .pic img{width:100%;height:100%;object-fit:cover}
+
+/* Karbé 3.3 : accessibilité, desktop */
+h2.h3{font-size:18px;line-height:1.2}
+.etat-box h2.h3{display:flex;align-items:center;gap:6px;font-size:16px;margin:0}
+.tide h2.h3{display:flex;align-items:center;gap:6px;font-size:16px;margin:0}
+.place{position:relative}
+.place .open{all:unset;cursor:pointer;font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+.place .open::before{content:"";position:absolute;inset:0;border-radius:inherit;z-index:1}
+.place .open:focus-visible::before{outline:3px solid var(--awara);outline-offset:-3px}
+.place .fav{position:relative;z-index:2}
+#spots .place .fav{position:absolute;z-index:2}
+.tool.sos{background:#B3261A}
+.tool.sos span{color:#fff}
+.sheet-hero .cats-line{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+.sheet-hero .cats-line::-webkit-scrollbar{display:none}
+@media (min-width:1100px){
+  #view>.wrap,#view .wrap{max-width:1040px}
+  #spots.places{grid-template-columns:repeat(4,1fr)}
+  .sheet .wrap{max-width:720px}
+}
+.mk-n{--k:var(--canopee);font:800 15px/1 var(--f-display);width:42px;height:42px;background:var(--canopee);color:var(--awara);border-radius:50%;box-shadow:0 0 0 3px var(--awara),0 0 0 7px #F2A33A40,0 6px 12px -4px #0008}

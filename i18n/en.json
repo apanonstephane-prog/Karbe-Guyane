@@ -365,7 +365,9 @@
 "Accueil": "Home",
 "Lancements": "Launches",
 "auteur non indiqué": "author not stated",
-"auteur inconnu, collection KITLV": "unknown author, KITLV collection"
+"auteur inconnu, collection KITLV": "unknown author, KITLV collection",
+"{n} lieux, zoomer": "{n} places, zoom in",
+"Tous les lieux, page par page": "All places, page by page"
 },
 "zones": {
 "cayenne": "Cayenne island",

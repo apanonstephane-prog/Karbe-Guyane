@@ -7,9 +7,10 @@ import path from "node:path";
 import crypto from "node:crypto";
 import vm from "node:vm";
 import sharp from "sharp";
+import { buildPages } from "./pages.mjs";
 
 const OUT = "public";
-const STATIC = ["index.html", "styles.css", "app.js", "data.js", "sw.js", "manifest.webmanifest", "icon.svg", "assets.json", "stats.html", "admin.html", "affiche.html"];
+const STATIC = ["index.html", "styles.css", "app.js", "data.js", "sw.js", "manifest.webmanifest", "icon.svg", "assets.json", "stats.html", "admin.html", "affiche.html", "page.css"];
 const assets = JSON.parse(await fs.readFile("assets.json", "utf8"));
 const sha = b => crypto.createHash("sha256").update(b).digest("hex");
 
@@ -60,4 +61,6 @@ await fs.writeFile(path.join(OUT, "opendata/lieux.geojson"), JSON.stringify({ ty
 const cols = Object.keys(rows[0]), q = v => `"${String(v).replace(/"/g, '""')}"`;
 await fs.writeFile(path.join(OUT, "opendata/lieux.csv"), "﻿" + [cols.join(";"), ...rows.map(r => cols.map(c => q(r[c])).join(";"))].join("\r\n"));
 console.log(`✓ données ouvertes : ${rows.length} lieux`);
+const nPages = await buildPages({ D, OUT });
+console.log(`✓ pages indexables : ${nPages} URL dans le plan du site`);
 console.log("Build terminé.");

@@ -365,7 +365,9 @@
 "Accueil": "Inicio",
 "Lancements": "Lanzamientos",
 "auteur non indiqué": "autor no indicado",
-"auteur inconnu, collection KITLV": "autor desconocido, colección KITLV"
+"auteur inconnu, collection KITLV": "autor desconocido, colección KITLV",
+"{n} lieux, zoomer": "{n} lugares, acercar",
+"Tous les lieux, page par page": "Todos los lugares, página por página"
 },
 "zones": {
 "cayenne": "Isla de Cayena",
