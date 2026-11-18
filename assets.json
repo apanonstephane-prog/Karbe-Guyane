@@ -1,0 +1,103 @@
+{
+ "note": "Sources des illustrations. Au build, chaque fichier est d'abord récupéré depuis la production Vercel, puis depuis l'origine Higgsfield en secours.",
+ "images": [
+  {
+   "key": "hero",
+   "file": "img/src/hero.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142628_28df3d67-f488-4de2-aea9-8b4dc4099695.webp",
+   "sha256": "f22f9be74aa83820ce3d6b08b64b0e39d203197b05863b210f9eb64d3864849a",
+   "bytes": 1415928
+  },
+  {
+   "key": "cayenne",
+   "file": "img/src/cayenne.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142807_8def4edf-7832-47e8-99c1-5e78ee943525.webp",
+   "sha256": "b493739af56d1d828753b6987132971207d3390823d359da1d7a4e84b773ccf7",
+   "bytes": 1539828
+  },
+  {
+   "key": "kaw",
+   "file": "img/src/kaw.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142808_a5c23506-6276-48ee-ad4b-06b9d13705e3.webp",
+   "sha256": "df887f0b90baa27f2deebd0e548d9ba409c8ac4d04829a1dccb169a4f5729209",
+   "bytes": 1375426
+  },
+  {
+   "key": "salut",
+   "file": "img/src/salut.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142807_5cfb86bc-7eb6-444b-8eb2-16758ae96260.webp",
+   "sha256": "030acd297b7b3f08c1a12381a323caaa63cb719e19217e2225da87eaf7827b8e",
+   "bytes": 1437684
+  },
+  {
+   "key": "maroni",
+   "file": "img/src/maroni.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142814_8f2b98a6-4dd0-4510-b81a-37e0019b2e28.webp",
+   "sha256": "1774665f2bb1810437a74305841362f61945433ab2baf19e9e561f8107e63f0a",
+   "bytes": 1432098
+  },
+  {
+   "key": "oyapock",
+   "file": "img/src/oyapock.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142812_81a8a879-607f-46cf-b86a-d10a83b6626e.webp",
+   "sha256": "1c31ffa07c40f6dde4a2c0b0c6f832f2fb5fc1d61d6c8e653f9d561d1a038be7",
+   "bytes": 1386712
+  },
+  {
+   "key": "foret",
+   "file": "img/src/foret.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142808_8a62edd0-84cf-4a01-bc5c-4bdb69f7d8bb.webp",
+   "sha256": "d7705856b6e0ba61dac52e291e1d561088436d4baf5c8076efea1b414ba1741e",
+   "bytes": 1755570
+  },
+  {
+   "key": "tortue",
+   "file": "img/src/tortue.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142809_2d2d561a-1a41-410b-8d94-9ea46372c092.webp",
+   "sha256": "ec56970a20a60c3543d2956b0d52b719d990c548057c8480616b47213da3f17a",
+   "bytes": 1345722
+  },
+  {
+   "key": "lancement",
+   "file": "img/src/lancement.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142814_b99844cc-84af-4aea-8797-e0538148d5d3.webp",
+   "sha256": "828a63c596b6d01a64cbcc7abb0876dab096d939373a64d0ac628e7cb2119d79",
+   "bytes": 1366600
+  },
+  {
+   "key": "cacao",
+   "file": "img/src/cacao.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142815_1144f8ae-822e-40cf-b1c4-5a8d803d3b95.webp",
+   "sha256": "d43944fca50885c4264b13732c9e36f7b7ff34ff748b56f9e0f641c26a499315",
+   "bytes": 1839322
+  },
+  {
+   "key": "sentier",
+   "file": "img/src/sentier.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142809_df7b68a5-3318-4504-ae9d-c40ddf5af9d2.webp",
+   "sha256": "fd1330d4eeab75d984544a3588cc7a9f5dd9c58edaacbfa393c35f8380ef78dd",
+   "bytes": 1623966
+  },
+  {
+   "key": "plage",
+   "file": "img/src/plage.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142810_07124762-11e6-45d5-a129-f188da9e97e3.webp",
+   "sha256": "f9f22613f1999bc74c5fbe1654abb591d52ef26ba3174fae694ed3d00baaca0c",
+   "bytes": 1538294
+  },
+  {
+   "key": "route",
+   "file": "img/src/route.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142809_4772457d-3066-4eec-b78b-9c78586be2f7.webp",
+   "sha256": "5e94ca2df6377dd6bd00e3691d997d5483c51fad90c34d2200c06711a44d99c0",
+   "bytes": 1471540
+  }
+ ],
+ "icon": {
+  "key": "icon",
+  "file": "img/src/icon.png",
+  "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_161701_235032a5-4f89-4a0f-9daa-96b6c8c3e7d3.png",
+  "sha256": "b7c6010bc6e1a029d2dfa72693c35c0895801a0338d513515ec09b1e9242627b",
+  "bytes": 1501055
+ }
+}

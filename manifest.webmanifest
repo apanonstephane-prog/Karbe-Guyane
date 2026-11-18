@@ -1,0 +1,16 @@
+{
+  "name": "Karbé, la Guyane à portée de main",
+  "short_name": "Karbé",
+  "description": "Spots, itinéraires, météo, marées, lancements et sécurité pour découvrir la Guyane, même hors-ligne.",
+  "lang": "fr",
+  "start_url": "./#explorer",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0F3D2E",
+  "theme_color": "#0F3D2E",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

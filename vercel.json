@@ -1,0 +1,16 @@
+{
+  "buildCommand": "node build.mjs",
+  "outputDirectory": "public",
+  "installCommand": "npm install",
+  "images": {
+    "sizes": [320, 640, 1080],
+    "qualities": [70],
+    "formats": ["image/avif", "image/webp"],
+    "minimumCacheTTL": 2678400,
+    "localPatterns": [{ "pathname": "^/img/src/.*$", "search": "" }]
+  },
+  "headers": [
+    { "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] }
+  ]
+}
