@@ -19,6 +19,8 @@ await fs.mkdir(path.join(OUT, "img/src"), { recursive: true });
 await fs.mkdir(path.join(OUT, "vendor"), { recursive: true });
 await fs.mkdir(path.join(OUT, "i18n"), { recursive: true });
 await fs.mkdir(path.join(OUT, "opendata"), { recursive: true });
+await fs.mkdir(path.join(OUT, "fiches"), { recursive: true });
+for (const f of await fs.readdir("fiches")) if (f.endsWith(".json")) await fs.copyFile(path.join("fiches", f), path.join(OUT, "fiches", f));
 for (const f of STATIC) await fs.copyFile(f, path.join(OUT, f));
 
 // Images

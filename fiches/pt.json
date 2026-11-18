@@ -1,0 +1,122 @@
+{
+"palmistes": {
+  "sections": [
+    {"h": "História", "p": ["Chamada por muito tempo de « la Savane » e depois de praça da Esplanada, a praça foi urbanizada a partir de 1821. Hoje é monumento histórico protegido, com seus equipamentos, estátuas e mobiliário urbano.", "Suas palmeiras são palmeiras-imperiais (Roystonea oleacea), nativas da Venezuela e do sul do Caribe. Em 1995 restavam 296, e 202 lugares estavam vazios: os replantios explicam as diferenças de altura entre as árvores."]},
+    {"h": "O que ver", "p": ["No centro, o monumento a Félix Éboué, inaugurado em 1957. Nascido em Caiena, governador e figura da França Livre, ele repousa no Panteão. A estátua substituiu uma fonte dedicada ao prefeito Nicolas Merlet.", "Ao redor, algumas das mais belas casas crioulas da cidade, entre elas a casa Thémire, que abriga desde 1908 o hotel e o bar des Palmistes, e o prédio Franconie, sede do museu departamental."]},
+    {"h": "Bom saber", "p": ["À noite, food trucks animam a praça. É o ponto de partida natural de um passeio pelo centro antigo: o forte Cépérou fica a cerca de 700 metros, o mercado a poucas ruas."]}
+  ],
+  "faq": [
+    {"q": "Por que « Palmistes »?", "a": "Pelas centenas de palmeiras-imperiais plantadas na praça, espécie vinda da Venezuela e do sul do Caribe."},
+    {"q": "Quem está no centro da praça?", "a": "Félix Éboué, nascido em Caiena, governador e figura da França Livre. O monumento é de 1957."},
+    {"q": "A praça é animada à noite?", "a": "Sim: food trucks se instalam à noite e os moradores se encontram ali."}
+  ]
+},
+"ceperou": {
+  "sections": [
+    {"h": "História", "p": ["Em 1643, Charles Poncet de Brétigny adquiriu a colina que domina a foz do rio de Caiena de um chefe kali'na, Cépérou (Sépélu nos relatos indígenas), que lhe deu o nome. Ali foi erguido um primeiro forte de madeira: é o nascimento de Caiena, que cresceu ao pé de suas muralhas.", "O forte chamou-se Saint-Michel e depois Saint-Louis antes de retomar o nome Cépérou. Em 1676, o almirante holandês Jacob Binckes desembarcou 900 homens nas proximidades e a guarnição se rendeu."]},
+    {"h": "O que ver", "p": ["Resta pouco do forte: uma passagem abobadada, alguns muros e o topo da colina. Mas a vista, a 28 metros acima do mar, abrange os telhados da cidade, o estuário e o oceano."]},
+    {"h": "Bom saber", "p": ["A subida é curta, por alguns degraus. O local fica a cerca de 700 metros da praça des Palmistes; vá no fim da tarde pela luz e pelo frescor."]}
+  ],
+  "faq": [
+    {"q": "De onde vem o nome Cépérou?", "a": "De um chefe kali'na que cedeu a colina aos franceses por volta de 1643."},
+    {"q": "O que resta do forte?", "a": "Pouco: uma passagem abobadada e trechos de muro. Vem-se sobretudo pela vista."},
+    {"q": "A entrada é gratuita?", "a": "Sim, o local é de acesso livre."}
+  ]
+},
+"marche-cayenne": {
+  "sections": [
+    {"h": "História", "p": ["Em 1907, a câmara municipal decidiu construir um mercado coberto de estrutura metálica, inaugurado em 1910. Hoje é o maior mercado da Guiana Francesa."]},
+    {"h": "Ver e provar", "p": ["Do lado de fora, bancas de frutas e legumes locais: rambutãs, inhames, pimentas, ervas. Sob o pavilhão, açougues, especiarias, artesanato indígena e quilombola e, sobretudo, os balcões de sopa phở das famílias hmong, tradição do café da manhã."]},
+    {"h": "Bom saber", "p": ["O mercado funciona às quartas, sextas e sábados de manhã, na praça du Coq. Chegue cedo: começa ao amanhecer e diminui no início da tarde. O sábado é o dia mais movimentado. Leve dinheiro em espécie para as bancas pequenas."]}
+  ],
+  "faq": [
+    {"q": "Em que dias abre o mercado de Caiena?", "a": "Quartas, sextas e sábados de manhã. Os horários exatos variam conforme as fontes: chegue cedo."},
+    {"q": "O que comer no mercado?", "a": "A sopa phở hmong é a instituição do lugar, com sucos de frutas frescas e acras."},
+    {"q": "Quando o pavilhão foi construído?", "a": "Decidido em 1907, foi inaugurado em 1910."}
+  ]
+},
+"musee-cultures": {
+  "sections": [
+    {"h": "O museu", "p": ["Criado em 1995, o Museu das Culturas Guianenses conserva e apresenta objetos dos povos que construíram a Guiana Francesa: indígenas, bushinengues, crioulos e comunidades chegadas mais recentemente, como hmong, brasileiros e haitianos. Reúne cerca de 10 000 objetos, além de acervos arqueológicos, imagens e arquivos sonoros."]},
+    {"h": "O que ver", "p": ["O museu ocupa duas casas da rua Madame-Payé, nos números 54 e 78. Uma delas é uma casa crioula construída em 1870 por uma família de garimpeiros, belo exemplo de arquitetura tradicional. Duas a três exposições temporárias por ano renovam o acervo, com temas como os têxteis quilombolas ou a arte tembé."]},
+    {"h": "Bom saber", "p": ["Os horários mudam conforme o dia e o museu costuma fechar no fim de semana à tarde: confirme antes de ir. Há oficinas durante as férias escolares curtas."]}
+  ],
+  "faq": [
+    {"q": "Onde fica o museu?", "a": "Nos números 54 e 78 da rua Madame-Payé, no centro de Caiena."},
+    {"q": "O que o museu mostra?", "a": "Objetos, imagens e sons das culturas indígenas, bushinengues, crioulas e das comunidades mais recentes."},
+    {"q": "Há atividades para crianças?", "a": "Sim, oficinas durante as férias escolares curtas."}
+  ]
+},
+"franconie": {
+  "sections": [
+    {"h": "História", "p": ["O prédio Franconie pertencia a uma família instalada na Guiana desde o século XVII. A administração o comprou em 1885 do deputado Gustave Franconie, que doou a biblioteca de seu pai, Alexandre. O museu, uma das instituições culturais mais antigas da Guiana, abriu ali em 1901.", "A casa é monumento histórico desde 1986 e tem o selo « Maison des Illustres »."]},
+    {"h": "O que ver", "p": ["Um verdadeiro gabinete de curiosidades: história natural, arqueologia, etnografia indígena, bushinengue e crioula, minerais. Destaques: a coleção de insetos do padre Yves Barbotin, com quase 4 000 exemplares, as cenas do presídio pintadas pelo ex-condenado Francis Lagrange e a memória de Félix Éboué."]},
+    {"h": "Bom saber", "p": ["O museu fica de frente para a praça des Palmistes. Abre sobretudo de manhã nos dias úteis, com duas tardes: confirme os horários antes de ir."]}
+  ],
+  "faq": [
+    {"q": "Desde quando o museu existe?", "a": "Desde 1901, no prédio comprado pela colônia em 1885."},
+    {"q": "O que não perder?", "a": "As pinturas do presídio de Francis Lagrange e a coleção de insetos do padre Barbotin."},
+    {"q": "Onde fica?", "a": "Avenida du Général-de-Gaulle, 1, na praça des Palmistes."}
+  ]
+},
+"montjoly": {
+  "sections": [
+    {"h": "As tartarugas marinhas", "p": ["As praias de Rémire-Montjoly e de Caiena estão entre os grandes locais de desova da Guiana. Veem-se sobretudo a tartaruga-de-couro, gigante de até 2 metros e cerca de 400 kg, e a tartaruga-oliva; mais raramente a tartaruga-verde e a de-pente.", "As desovas vão de abril a agosto, e os filhotes nascem nas semanas seguintes. A associação Kwata acompanha essas populações há mais de 25 anos e faz patrulhas de informação na praia durante a temporada."]},
+    {"h": "A praia", "p": ["Uma longa praia de areia ladeada de coqueiros. A água é marrom: são os sedimentos do Amazonas, levados pela corrente ao longo da costa. O litoral guianense muda rápido, e as fortes marés de abril e maio podem fazer a praia recuar."]},
+    {"h": "Bom saber", "p": ["Para observar uma desova: nada de luz branca nem flash, fique atrás da tartaruga e à distância, deixe os filhotes chegarem ao mar. Cães são proibidos na praia e nas Salines vizinhas."]}
+  ],
+  "faq": [
+    {"q": "Quando ver as tartarugas em Montjoly?", "a": "De abril a agosto para as desovas, com pico das tartarugas-de-couro em maio e junho; os nascimentos vêm no verão."},
+    {"q": "Dá para nadar?", "a": "Com cautela: informe-se no local sobre correntes e estado do mar."},
+    {"q": "Por que a água é marrom?", "a": "Pelos sedimentos do Amazonas que a corrente leva ao longo da costa."}
+  ]
+},
+"salines": {
+  "sections": [
+    {"h": "O local", "p": ["Antigas salinas, estes 63 hectares pertencem ao Conservatoire du littoral, que comprou os primeiros lotes em 1981. O local é protegido desde 1985 e gerido pela associação Kwata desde 2012, com a prefeitura de Rémire-Montjoly.", "A trilha atravessa quatro ambientes em pouca distância: a praia e seus lodaçais, o cordão de dunas e sua floresta litorânea, o manguezal e, por fim, o brejo."]},
+    {"h": "O que ver", "p": ["Uma passarela sobre palafitas cruza o mangue-vermelho, e um abrigo domina o brejo para observar aves. É um dos raros manguezais da Guiana acessíveis a pé."]},
+    {"h": "Bom saber", "p": ["A trilha tem cerca de 2,5 km e é fácil; começa no fim do caminho Saint-Dominique, atrás da praia de Montjoly. Saia cedo: a areia esquenta rápido. Cães não são permitidos."]}
+  ],
+  "faq": [
+    {"q": "Qual é o comprimento da trilha das Salines?", "a": "Cerca de 2,5 km, nível fácil."},
+    {"q": "Quem gere o local?", "a": "O Conservatoire du littoral é o proprietário; a associação Kwata o gere com a prefeitura."},
+    {"q": "O que se pode observar?", "a": "Aves do brejo e do litoral, caranguejos do mangue, às vezes mamíferos ao amanhecer."}
+  ]
+},
+"rorota": {
+  "sections": [
+    {"h": "A trilha", "p": ["A trilha do Rorota é um circuito de 5,6 km na montanha do Mahury, em Rémire-Montjoly. De nível fácil a médio, com cerca de 150 metros de desnível, é uma das caminhadas mais procuradas da ilha de Caiena e um bom primeiro contato com a floresta."]},
+    {"h": "O que ver", "p": ["O percurso margeia três reservatórios, os lagos do Rorota, de Lalouette e de Rémire, que abastecem a região com água potável. Um mirante se abre sobre a enseada de Gosselin e a colina de Montravel. Com sorte e silêncio, bichos-preguiça e macacos aparecem nas árvores."]},
+    {"h": "Bom saber", "p": ["Saída pela estrada das praias, na entrada sinalizada depois da antiga destilaria; estacionamento no início da trilha, à beira do lago Saccharin. Conte de 1 h 30 a 2 h. Saia cedo e leve água."]}
+  ],
+  "faq": [
+    {"q": "Qual é o comprimento da trilha do Rorota?", "a": "Circuito de 5,6 km, cerca de 150 m de desnível, de 1 h 30 a 2 h."},
+    {"q": "Dá para nadar nos lagos?", "a": "São reservatórios de água potável: o banho não é previsto ali."},
+    {"q": "Que animais se pode ver?", "a": "Bichos-preguiça, macacos e muitas aves, sobretudo de manhã cedo."}
+  ]
+},
+"loyola": {
+  "sections": [
+    {"h": "História", "p": ["Os jesuítas fundaram a fazenda Loyola em 1668, em Rémire, a cerca de dez quilômetros de Caiena. Ela se tornou um engenho de açúcar e depois a maior fazenda escravista da Guiana: mais de 1 000 hectares e cerca de 500 escravizados, com casa dos padres, capela, cemitério, forja, hospital, engenho e anileira.", "Por volta de 1740, os jesuítas abandonaram o açúcar e levaram o equipamento para Saint-Régis. Após a proibição da Companhia de Jesus em 1763, a propriedade foi abandonada."]},
+    {"h": "O que ver", "p": ["A trilha atravessa os terraços e os vestígios em pedra da fazenda, escavados desde os anos 1990 por arqueólogos, entre eles uma equipe da Universidade Laval. O moinho de vento de 1733, monumento histórico, agora é visível da estrada de Rémire. Os vestígios são protegidos desde 1993."]},
+    {"h": "Bom saber", "p": ["É um lugar de memória da escravidão tanto quanto um sítio arqueológico. A trilha se combina facilmente com as do Rorota ou de Vidal."]}
+  ],
+  "faq": [
+    {"q": "Quem fundou a fazenda Loyola?", "a": "Os jesuítas, em 1668."},
+    {"q": "Qual era o seu tamanho?", "a": "Mais de 1 000 hectares e cerca de 500 escravizados no auge."},
+    {"q": "O que se vê hoje?", "a": "Terraços, muros de pedra e o moinho de vento de 1733."}
+  ]
+},
+"diamant": {
+  "sections": [
+    {"h": "História", "p": ["Desde o século XVII, os primeiros colonos fortificaram esta ponta na foz do Mahury, porta de entrada da ilha de Caiena. O forte atual é uma bateria costeira construída nos anos 1840 e concluída por volta de 1849. É monumento histórico desde 1980 e pertence ao departamento."]},
+    {"h": "O que ver", "p": ["A planta é original: uma bateria em meia-lua voltada para o oceano, uma travessa casamatada de nove células e um redente em V voltado para o monte Mahury. As paredes, com cerca de dois metros de espessura, misturam basalto e tijolo. O talude gramado devia esconder o forte dos navios vindos do mar."]},
+    {"h": "Bom saber", "p": ["O interior em geral só abre nas Jornadas do Patrimônio; no resto do ano, admire-o por fora, com a vista para o estuário."]}
+  ],
+  "faq": [
+    {"q": "Dá para visitar o interior do forte Diamant?", "a": "Em geral, só durante as Jornadas do Patrimônio."},
+    {"q": "De quando ele é?", "a": "O forte atual é dos anos 1840, num local fortificado desde o século XVII."},
+    {"q": "Por que « Diamant »?", "a": "A origem é discutida: costuma-se atribuí-la ao seu formato ou a um desembarcadouro vizinho que já tinha esse nome no século XVIII."}
+  ]
+}
+}

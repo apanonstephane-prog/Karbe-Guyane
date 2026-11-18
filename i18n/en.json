@@ -367,7 +367,11 @@
 "auteur non indiqué": "author not stated",
 "auteur inconnu, collection KITLV": "unknown author, KITLV collection",
 "{n} lieux, zoomer": "{n} places, zoom in",
-"Tous les lieux, page par page": "All places, page by page"
+"Tous les lieux, page par page": "All places, page by page",
+"En savoir plus": "Learn more",
+"Questions fréquentes": "Frequently asked questions",
+"Sources": "Sources",
+"Page complète du lieu": "Full page for this place"
 },
 "zones": {
 "cayenne": "Cayenne island",

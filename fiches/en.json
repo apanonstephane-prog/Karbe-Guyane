@@ -1,0 +1,122 @@
+{
+"palmistes": {
+  "sections": [
+    {"h": "History", "p": ["Long called \"la Savane\", then place de l'Esplanade, the square was laid out from 1821. It is now a listed historic monument, together with its fittings, statues and street furniture.", "Its palms are royal palms (Roystonea oleacea), native to Venezuela and the southern Caribbean. In 1995, 296 remained and 202 spots were empty: replanting explains why the trees differ in height."]},
+    {"h": "What to see", "p": ["At the centre stands the monument to Félix Éboué, unveiled in 1957. Born in Cayenne, he was a colonial governor and a leading figure of Free France, and rests in the Panthéon. The statue replaced a fountain dedicated to mayor Nicolas Merlet.", "Around the square are some of the city's finest Creole houses, including the Thémire house, home since 1908 to the Hôtel and Bar des Palmistes, and the Franconie building, seat of the departmental museum."]},
+    {"h": "Good to know", "p": ["In the evening, food trucks bring the square to life. It is the natural start of a walk through the old town: Fort Cépérou is about 700 metres away, the market a few streets off."]}
+  ],
+  "faq": [
+    {"q": "Why \"Palmistes\"?", "a": "For the hundreds of royal palms planted on the square, a species from Venezuela and the southern Caribbean."},
+    {"q": "Who is the statue in the middle?", "a": "Félix Éboué, born in Cayenne, governor and figure of Free France. The monument dates from 1957."},
+    {"q": "Is the square lively at night?", "a": "Yes: food trucks set up in the evening and locals meet there."}
+  ]
+},
+"ceperou": {
+  "sections": [
+    {"h": "History", "p": ["In 1643, Charles Poncet de Brétigny acquired the hill above the mouth of the Cayenne River from a Kali'na chief, Cépérou (Sépélu in Amerindian accounts), who gave it his name. A first wooden fort was built there: this is the founding of Cayenne, which grew at the foot of its walls.", "The fort was successively named Saint-Michel and Saint-Louis before taking back the name Cépérou. In 1676, Dutch admiral Jacob Binckes landed 900 men nearby and the garrison surrendered."]},
+    {"h": "What to see", "p": ["Little remains of the fort itself: a vaulted passage, some walls and the hilltop. But the view, 28 metres above the sea, takes in the city roofs, the estuary and the ocean."]},
+    {"h": "Good to know", "p": ["The climb is short, up a few steps. The site is about 700 metres from Place des Palmistes; go in the late afternoon for the light and the cooler air."]}
+  ],
+  "faq": [
+    {"q": "Where does the name Cépérou come from?", "a": "From a Kali'na chief who ceded the hill to the French around 1643."},
+    {"q": "What is left of the fort?", "a": "Not much: a vaulted passage and sections of wall. People come mainly for the view."},
+    {"q": "Is it free?", "a": "Yes, the site is open access."}
+  ]
+},
+"marche-cayenne": {
+  "sections": [
+    {"h": "History", "p": ["In 1907, the town council decided to build a covered hall with a metal frame; it opened in 1910. Today it is the largest market in French Guiana."]},
+    {"h": "See and taste", "p": ["Outside, stalls of local fruit and vegetables: rambutans, yams, chillies, herbs. Under the hall, butchers, spices, Amerindian and Maroon crafts, and above all the phở soup counters run by Hmong families, a local breakfast ritual."]},
+    {"h": "Good to know", "p": ["The market runs on Wednesday, Friday and Saturday mornings, on Place du Coq. Come early: it starts at dawn and winds down in the early afternoon. Saturday is the busiest day. Bring cash for small stalls."]}
+  ],
+  "faq": [
+    {"q": "Which days is Cayenne market open?", "a": "Wednesday, Friday and Saturday mornings. Exact hours vary between sources: come early."},
+    {"q": "What should I eat there?", "a": "Hmong phở soup is the institution, along with fresh juices and accras."},
+    {"q": "When was the hall built?", "a": "Decided in 1907, it opened in 1910."}
+  ]
+},
+"musee-cultures": {
+  "sections": [
+    {"h": "The museum", "p": ["Founded in 1995, the Museum of Guianese Cultures preserves and presents objects from the peoples who built French Guiana: Amerindians, Bushinengue, Creoles, and more recent communities such as Hmong, Brazilians and Haitians. It manages about 10,000 objects, plus archaeological collections, images and sound archives."]},
+    {"h": "What to see", "p": ["The museum occupies two houses on rue Madame-Payé, at numbers 54 and 78. One is a Creole house built in 1870 by a family of gold miners, a fine example of traditional architecture. Two to three temporary exhibitions a year rotate the collections, on themes such as Maroon textiles or tembé art."]},
+    {"h": "Good to know", "p": ["Opening hours vary by day and it is usually closed at weekends in the afternoon: check before you go. Workshops run during the short school holidays."]}
+  ],
+  "faq": [
+    {"q": "Where is the museum?", "a": "At 54 and 78 rue Madame-Payé, in central Cayenne."},
+    {"q": "What does it show?", "a": "Objects, images and sounds from Amerindian, Bushinengue and Creole cultures and from more recent communities."},
+    {"q": "Are there activities for children?", "a": "Yes, workshops during the short school holidays."}
+  ]
+},
+"franconie": {
+  "sections": [
+    {"h": "History", "p": ["The Franconie building belonged to a family settled in French Guiana since the 17th century. The administration bought it in 1885 from deputy Gustave Franconie, who donated his father Alexandre's library. The museum, one of the oldest cultural institutions in French Guiana, opened there in 1901.", "The house has been a listed historic monument since 1986 and bears the \"Maison des Illustres\" label."]},
+    {"h": "What to see", "p": ["A true cabinet of curiosities: natural history, archaeology, Amerindian, Bushinengue and Creole ethnography, minerals. Highlights include Father Yves Barbotin's insect collection of nearly 4,000 specimens, the penal colony scenes painted by former convict Francis Lagrange, and the memory of Félix Éboué."]},
+    {"h": "Good to know", "p": ["The museum faces Place des Palmistes. It opens mostly on weekday mornings, with two afternoons: check opening hours before you go."]}
+  ],
+  "faq": [
+    {"q": "How old is the museum?", "a": "It opened in 1901, in the building acquired by the colony in 1885."},
+    {"q": "What should I not miss?", "a": "Francis Lagrange's penal colony paintings and Father Barbotin's insect collection."},
+    {"q": "Where is it?", "a": "1 avenue du Général-de-Gaulle, on Place des Palmistes."}
+  ]
+},
+"montjoly": {
+  "sections": [
+    {"h": "Sea turtles", "p": ["The beaches of Rémire-Montjoly and Cayenne are among French Guiana's major nesting sites. You mostly see the leatherback, a giant up to 2 metres long and about 400 kg, and the olive ridley; more rarely the green and hawksbill turtles.", "Nesting runs from April to August, and hatchlings emerge for weeks after. The Kwata association has monitored these populations for more than 25 years and runs information patrols on the beach during the season."]},
+    {"h": "The beach", "p": ["A long sandy beach lined with coconut palms. The water is brown: it carries Amazon sediment swept along the coast by the current. The Guianese coastline moves fast, and strong April and May tides can push the beach back."]},
+    {"h": "Good to know", "p": ["To watch nesting: no white light or flash, stay behind the turtle and keep your distance, let hatchlings reach the sea. Dogs are banned on the beach and at the nearby Salines."]}
+  ],
+  "faq": [
+    {"q": "When can I see turtles at Montjoly?", "a": "April to August for nesting, with a leatherback peak in May and June; hatchlings follow in summer."},
+    {"q": "Can I swim?", "a": "With care: ask locally about currents and sea conditions."},
+    {"q": "Why is the water brown?", "a": "Because of Amazon sediment carried along the coast by the current."}
+  ]
+},
+"salines": {
+  "sections": [
+    {"h": "The site", "p": ["A former saltworks, these 63 hectares belong to the Conservatoire du littoral, which bought the first plots in 1981. The site has been protected since 1985 and managed by the Kwata association since 2012, with the town of Rémire-Montjoly.", "The trail crosses four habitats in a short distance: the beach and its mudflats, the dune ridge and its coastal forest, the mangrove, then the marsh."]},
+    {"h": "What to see", "p": ["A boardwalk on stilts crosses the red mangrove, and a shelter overlooks the marsh for birdwatching. It is one of the few mangroves in French Guiana you can explore on foot."]},
+    {"h": "Good to know", "p": ["The trail is about 2.5 km and easy; it starts at the end of chemin Saint-Dominique, behind Montjoly beach. Go early: the sand heats up fast. Dogs are not allowed."]}
+  ],
+  "faq": [
+    {"q": "How long is the Salines trail?", "a": "About 2.5 km, easy."},
+    {"q": "Who manages the site?", "a": "The Conservatoire du littoral owns it; the Kwata association manages it with the town."},
+    {"q": "What can I see?", "a": "Marsh and shore birds, mangrove crabs, sometimes mammals at dawn."}
+  ]
+},
+"rorota": {
+  "sections": [
+    {"h": "The trail", "p": ["The Rorota trail is a 5.6 km loop on Mahury mountain, in Rémire-Montjoly. Easy to moderate, with about 150 metres of climbing, it is one of the busiest hikes on Cayenne island and a good first taste of the forest."]},
+    {"h": "What to see", "p": ["The path skirts three reservoirs, the Rorota, Lalouette and Rémire lakes, which supply the area with drinking water. A viewpoint opens over Gosselin cove and Montravel hill. With luck and silence, sloths and monkeys show up in the trees."]},
+    {"h": "Good to know", "p": ["Start from the beach road, at the signposted turn after the old distillery; parking at the trailhead by Lake Saccharin. Allow 1 h 30 to 2 h. Start early and carry water."]}
+  ],
+  "faq": [
+    {"q": "How long is the Rorota trail?", "a": "A 5.6 km loop, about 150 m of climbing, 1 h 30 to 2 h."},
+    {"q": "Can I swim in the lakes?", "a": "They are drinking-water reservoirs: swimming is not intended there."},
+    {"q": "What wildlife can I see?", "a": "Sloths, monkeys and many birds, especially early in the morning."}
+  ]
+},
+"loyola": {
+  "sections": [
+    {"h": "History", "p": ["The Jesuits founded the Loyola estate in 1668 in Rémire, about ten kilometres from Cayenne. It became a sugar plantation, then the largest slave plantation in French Guiana: over 1,000 hectares and about 500 enslaved people, with the fathers' house, chapel, cemetery, forge, hospital, sugar works and indigo works.", "Around 1740, the Jesuits gave up sugar and moved the equipment to Saint-Régis. After the Society of Jesus was banned in 1763, the estate was abandoned."]},
+    {"h": "What to see", "p": ["The trail crosses the terraces and stone remains of the estate, excavated since the 1990s by archaeologists including a team from Université Laval. The 1733 windmill, a listed monument, can now be seen from the Rémire road. The remains have been listed since 1993."]},
+    {"h": "Good to know", "p": ["This is a place of memory of slavery as much as an archaeological site. The trail combines easily with the Rorota or Vidal trails."]}
+  ],
+  "faq": [
+    {"q": "Who founded the Loyola estate?", "a": "The Jesuits, in 1668."},
+    {"q": "How big was it?", "a": "Over 1,000 hectares and about 500 enslaved people at its peak."},
+    {"q": "What can be seen today?", "a": "Terraces, stone walls and the 1733 windmill."}
+  ]
+},
+"diamant": {
+  "sections": [
+    {"h": "History", "p": ["From the 17th century, the first settlers fortified this point at the mouth of the Mahury, the gateway to Cayenne island. The present fort is a coastal battery built in the 1840s and completed around 1849. It has been a listed historic monument since 1980 and belongs to the department."]},
+    {"h": "What to see", "p": ["The plan is unusual: a half-moon battery facing the ocean, a casemated traverse of nine cells, and a V-shaped redan pointing towards Mount Mahury. The walls, about two metres thick, combine basalt and brick. The grassy slope was meant to hide the fort from ships at sea."]},
+    {"h": "Good to know", "p": ["The interior is usually open only during European Heritage Days; the rest of the year, admire it from outside, with the view over the estuary."]}
+  ],
+  "faq": [
+    {"q": "Can I visit inside Fort Diamant?", "a": "Usually only during European Heritage Days."},
+    {"q": "How old is it?", "a": "The present fort dates from the 1840s, on a site fortified since the 17th century."},
+    {"q": "Why \"Diamant\"?", "a": "The origin is debated: it is often linked to its shape, or to a nearby landing that already bore the name in the 18th century."}
+  ]
+}
+}

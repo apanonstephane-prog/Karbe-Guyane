@@ -35,12 +35,15 @@ const P = {
   "à {d}": { en: "{d} away", pt: "a {d}", es: "a {d}" },
   "Accueil": { en: "Home", pt: "Início", es: "Inicio" },
   "Contenus vérifiés sur sources publiques, à confirmer sur place.": { en: "Content checked against public sources; confirm on site.", pt: "Conteúdo verificado em fontes públicas; confirme no local.", es: "Contenido verificado en fuentes públicas; confírmalo en el lugar." },
+  "Questions fréquentes": { en: "Frequently asked questions", pt: "Perguntas frequentes", es: "Preguntas frecuentes" },
+  "Sources": { en: "Sources", pt: "Fontes", es: "Fuentes" },
   "Langue": { en: "Language", pt: "Idioma", es: "Idioma" },
   "La Guyane à portée de main": { en: "French Guiana at your fingertips", pt: "A Guiana Francesa na palma da mão", es: "La Guayana Francesa en tu mano" },
 };
 
 export async function buildPages({ D, OUT, root = "." }) {
-  const TR = { fr: null };
+  const TR = { fr: null }, FI = {};
+  for (const lg of LANGS) FI[lg] = JSON.parse(await fs.readFile(path.join(root, "fiches", `${lg}.json`), "utf8").catch(() => "{}"));
   for (const lg of LANGS.slice(1)) TR[lg] = JSON.parse(await fs.readFile(path.join(root, "i18n", `${lg}.json`), "utf8"));
   const t = (lg, s, v = {}) => { let r = lg === "fr" ? s : (P[s]?.[lg] || TR[lg].ui?.[s] || s); for (const [k, x] of Object.entries(v)) r = r.replaceAll(`{${k}}`, x); return r; };
   const L = (lg, s) => (lg === "fr" ? s : { ...s, ...(TR[lg].spots?.[s.id] || {}) });
@@ -94,6 +97,11 @@ export async function buildPages({ D, OUT, root = "." }) {
           isAccessibleForFree: !!s0.free, geo: { "@type": "GeoCoordinates", latitude: s0.lat, longitude: s0.lon },
           address: { "@type": "PostalAddress", addressRegion: "Guyane", addressCountry: "FR" }, touristType: s0.cat.map(c => catL(lg, c)) },
         crumbs(lg, [[t(lg, "Accueil"), appUrl(lg, "explorer")], [t(lg, "Tous les lieux"), hubUrl(lg)], [s.name, spotUrl(lg, s0.id)]]) ] };
+      const F = FI[lg][s0.id], src = FI.fr[s0.id]?.sources || [];
+      if (F?.faq?.length) ld["@graph"].push({ "@type": "FAQPage", mainEntity: F.faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) });
+      const longHtml = F ? F.sections.map(x => `<h2>${esc(x.h)}</h2>${x.p.map(p => `<p>${esc(p)}</p>`).join("")}`).join("") : "";
+      const faqHtml = F?.faq?.length ? `<h2>${esc(t(lg, "Questions fréquentes"))}</h2><div class="faq">${F.faq.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("")}</div>` : "";
+      const srcHtml = F && src.length ? `<h2>${esc(t(lg, "Sources"))}</h2><ul class="src">${src.map(x => `<li><a href="${esc(x.u)}" rel="noopener">${esc(x.t)}</a></li>`).join("")}</ul>` : "";
       const body = `<article class="wrap">
 <nav class="bc"><a href="${hubUrl(lg)}">${esc(t(lg, "Tous les lieux"))}</a> / <a href="${hubUrl(lg)}#${s0.zone}">${esc(zoneL(lg, s0.zone))}</a></nav>
 <div class="hero">${picture(s0.img, s.name, true)}</div>
@@ -102,11 +110,13 @@ export async function buildPages({ D, OUT, root = "." }) {
 <p class="cta"><a class="btn" href="${appUrl(lg, "lieu/" + s0.id)}">${esc(t(lg, "Ouvrir dans Karbé"))}</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s0.nav + ", Guyane")}" rel="noopener">${esc(t(lg, "Y aller"))}</a></p>
 <p class="note">${esc(t(lg, "Dans l'app : état du lieu signalé par les visiteurs, météo du jour, carte hors-ligne et passeport."))}</p>
 <dl class="facts">${facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
+${longHtml}
 <h2>${esc(t(lg, "Conseils terrain"))}</h2><ul class="tips">${s.tips.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+${faqHtml}
 ${its.length ? `<h2>${esc(t(lg, "Dans un itinéraire"))}</h2><ul class="links">${its.map(i => `<li><a href="${itUrl(lg, i.id)}">${esc(LI(lg, i).title)}</a></li>`).join("")}</ul>` : ""}
 <h2>${esc(t(lg, "À proximité"))}</h2><ul class="near">${near.map(([x, d]) => `<li><a href="${spotUrl(lg, x.id)}">${picture(x.img, "", false)}<b>${esc(L(lg, x).name)}</b><span>${esc(t(lg, "à {d}", { d: d < 10 ? d.toFixed(1).replace(".", lg === "en" ? "." : ",") + " km" : Math.round(d) + " km" }))}</span></a></li>`).join("")}</ul>
 <p class="note">${esc(t(lg, "Horaires, tarifs et accès à confirmer avant de partir."))} ${s0.prec === "zone" ? esc(t(lg, "Sur la carte, la position est approximative.")) : ""}</p>
-${credit(lg, s0.img)}</article>`;
+${srcHtml}${credit(lg, s0.img)}</article>`;
       const u = spotUrl(lg, s0.id); urls.push([u, l => spotUrl(l, s0.id)]);
       await write(u, page({ lg, title: `${s.name} — ${zoneL(lg, s0.zone)}, Guyane | Karbé`, desc, url: u, og: s0.img, alt: l => spotUrl(l, s0.id), ld, body }));
     }

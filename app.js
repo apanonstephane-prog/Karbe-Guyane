@@ -448,6 +448,22 @@ addEventListener("keydown", e => { if (e.key === "Escape" && !sheet.hidden) clos
 })();
 
 /* ---------- fiche lieu ---------- */
+/* Fiche longue : chargée à la demande, gardée en cache par le service worker. */
+const ficheCache = {};
+async function loadFiches(lg) {
+  if (!ficheCache[lg]) ficheCache[lg] = fetch(`/fiches/${lg}.json?v=${D.version}`).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  return ficheCache[lg];
+}
+async function renderFiche(id) {
+  const [F, FR] = await Promise.all([loadFiches(lang), lang === "fr" ? null : loadFiches("fr")]);
+  const f = F[id], src = (lang === "fr" ? F : FR)?.[id]?.sources || [], box = $("#fiche");
+  if (!f || !box) return;
+  box.innerHTML = `<details class="fiche"><summary><span>${t("En savoir plus")}</span><small>${esc(f.sections.map(x => x.h).join(" · "))}</small></summary>
+    ${f.sections.map(x => `<h3>${esc(x.h)}</h3>${x.p.map(p => `<p>${esc(p)}</p>`).join("")}`).join("")}
+    ${f.faq?.length ? `<h3>${t("Questions fréquentes")}</h3>${f.faq.map(x => `<p class="q"><b>${esc(x.q)}</b><br>${esc(x.a)}</p>`).join("")}` : ""}
+    ${src.length ? `<h3>${t("Sources")}</h3><ul class="src">${src.map(x => `<li><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t)}</a></li>`).join("")}</ul>` : ""}
+    <p class="note"><a href="${pagePath("lieu", id)}">${t("Page complète du lieu")}</a></p></details>`;
+}
 function openSpot(id) {
   const s0 = spotById[id]; if (!s0) return; buzz();
   const s = L(s0), M = META(id);
@@ -486,6 +502,7 @@ function openSpot(id) {
       <div class="wxline" id="spotwx"><span class="big">…</span><p>${t("Météo à {p}", { p: esc(near.label) })}</p></div>
       <h2 class="h3m">${t("Conseils terrain")}</h2>
       <ul class="tips">${s.tips.map(x => `<li>${ic("check")}<span>${esc(x)}</span></li>`).join("")}</ul>
+      <div id="fiche"></div>
       ${its.length ? `<h2 class="h3m">${t("Dans un itinéraire")}</h2><div class="btns" style="margin-top:12px">${its.map(i => `<button class="chip" data-it="${i.id}">${ic("route")}${esc(LI(i).title)}</button>`).join("")}</div>` : ""}
       <h2 class="h3m">${t("Sur place")}</h2>
       <div class="btns" style="margin-top:10px"><a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t("guide") + " " + s0.nav + " Guyane")}">${ic("walk")}${t("Guides et sorties à proximité")}</a>
@@ -496,6 +513,7 @@ function openSpot(id) {
   $("#favbtn").onclick = e => { toggleFav(id); const on = favs.has(id); e.currentTarget.style.color = on ? "var(--ibis)" : ""; e.currentTarget.setAttribute("aria-pressed", on); toast(on ? t("Ajouté aux favoris") : t("Retiré des favoris"), "heart"); syncFavs(); };
   $("#sharebtn").onclick = () => share(s.name, `${s.name} (${zoneLabel(s0.zone)}) : ${s.desc}`, pagePath("lieu", id));
   $("#cibtn").onclick = () => checkIn(id);
+  renderFiche(id);
   $$("[data-it]", sheet).forEach(b => b.onclick = () => openItinerary(b.dataset.it));
   $$("[data-etat]", sheet).forEach(b => b.onclick = () => reportEtat(id, b.dataset.etat));
   renderEtatBox(id);
@@ -631,7 +649,8 @@ function offlineUrls() {
   const u = [];
   Object.keys(D.images).forEach(k => u.push(opt(k, 320), opt(k, 640)));
   u.push(opt("hero", 1080), "/vendor/maplibre-gl.js", "/vendor/maplibre-gl.css");
-  if (lang !== "fr") u.push(`i18n/${lang}.js?v=${D.version}`);
+  if (lang !== "fr") u.push(`i18n/${lang}.js?v=${D.version}`, `/fiches/${lang}.json?v=${D.version}`);
+  u.push(`/fiches/fr.json?v=${D.version}`);
   return [...new Set(u)];
 }
 function openOffline() {

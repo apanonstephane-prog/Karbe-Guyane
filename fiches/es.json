@@ -1,0 +1,122 @@
+{
+"palmistes": {
+  "sections": [
+    {"h": "Historia", "p": ["Llamada durante mucho tiempo « la Savane » y luego plaza de la Esplanada, la plaza se urbanizó a partir de 1821. Hoy es monumento histórico protegido, con sus elementos, estatuas y mobiliario urbano.", "Sus palmeras son palmas reales (Roystonea oleacea), originarias de Venezuela y del sur del Caribe. En 1995 quedaban 296 y 202 huecos estaban vacíos: las replantaciones explican las diferencias de altura entre los árboles."]},
+    {"h": "Qué ver", "p": ["En el centro, el monumento a Félix Éboué, inaugurado en 1957. Nacido en Cayena, gobernador y figura de la Francia Libre, descansa en el Panteón. La estatua sustituyó una fuente dedicada al alcalde Nicolas Merlet.", "Alrededor, algunas de las casas criollas más bellas de la ciudad, entre ellas la casa Thémire, que alberga desde 1908 el hotel y el bar des Palmistes, y el edificio Franconie, sede del museo departamental."]},
+    {"h": "Bueno saber", "p": ["Por la noche, los food trucks animan la plaza. Es el punto de partida natural de un paseo por el casco antiguo: el fuerte Cépérou está a unos 700 metros y el mercado a pocas calles."]}
+  ],
+  "faq": [
+    {"q": "¿Por qué « Palmistes »?", "a": "Por los cientos de palmas reales plantadas en la plaza, una especie venida de Venezuela y del sur del Caribe."},
+    {"q": "¿Quién está en el centro de la plaza?", "a": "Félix Éboué, nacido en Cayena, gobernador y figura de la Francia Libre. El monumento es de 1957."},
+    {"q": "¿La plaza tiene ambiente por la noche?", "a": "Sí: se instalan food trucks y los vecinos se reúnen allí."}
+  ]
+},
+"ceperou": {
+  "sections": [
+    {"h": "Historia", "p": ["En 1643, Charles Poncet de Brétigny adquirió la colina que domina la desembocadura del río de Cayena a un jefe kali'na, Cépérou (Sépélu en los relatos indígenas), que le dio su nombre. Allí se levantó un primer fuerte de madera: es el nacimiento de Cayena, que creció al pie de sus muros.", "El fuerte se llamó Saint-Michel y luego Saint-Louis antes de recuperar el nombre de Cépérou. En 1676, el almirante neerlandés Jacob Binckes desembarcó 900 hombres cerca y la guarnición se rindió."]},
+    {"h": "Qué ver", "p": ["Queda poco del fuerte: un pasaje abovedado, algunos muros y la cima de la colina. Pero la vista, a 28 metros sobre el mar, abarca los tejados de la ciudad, el estuario y el océano."]},
+    {"h": "Bueno saber", "p": ["La subida es corta, por unos escalones. El sitio está a unos 700 metros de la plaza des Palmistes; ve al final de la tarde por la luz y el fresco."]}
+  ],
+  "faq": [
+    {"q": "¿De dónde viene el nombre Cépérou?", "a": "De un jefe kali'na que cedió la colina a los franceses hacia 1643."},
+    {"q": "¿Qué queda del fuerte?", "a": "Poco: un pasaje abovedado y tramos de muro. Se viene sobre todo por la vista."},
+    {"q": "¿La entrada es gratuita?", "a": "Sí, el sitio es de acceso libre."}
+  ]
+},
+"marche-cayenne": {
+  "sections": [
+    {"h": "Historia", "p": ["En 1907, el concejo municipal decidió construir un mercado cubierto con estructura metálica, inaugurado en 1910. Hoy es el mayor mercado de la Guayana Francesa."]},
+    {"h": "Ver y probar", "p": ["Fuera, puestos de frutas y verduras locales: rambutanes, ñames, ajíes, hierbas. Bajo la nave, carnicerías, especias, artesanía indígena y cimarrona y, sobre todo, los mostradores de sopa phở de las familias hmong, ritual del desayuno."]},
+    {"h": "Bueno saber", "p": ["El mercado abre los miércoles, viernes y sábados por la mañana, en la plaza du Coq. Llega temprano: empieza al amanecer y decae a primera hora de la tarde. El sábado es el día más animado. Lleva efectivo para los puestos pequeños."]}
+  ],
+  "faq": [
+    {"q": "¿Qué días abre el mercado de Cayena?", "a": "Miércoles, viernes y sábados por la mañana. Los horarios exactos varían según las fuentes: llega temprano."},
+    {"q": "¿Qué comer en el mercado?", "a": "La sopa phở hmong es la institución del lugar, junto con zumos de fruta fresca y acras."},
+    {"q": "¿Cuándo se construyó la nave?", "a": "Decidida en 1907, se inauguró en 1910."}
+  ]
+},
+"musee-cultures": {
+  "sections": [
+    {"h": "El museo", "p": ["Creado en 1995, el Museo de las Culturas Guayanesas conserva y presenta objetos de los pueblos que construyeron la Guayana Francesa: amerindios, bushinengue, criollos y comunidades llegadas más recientemente, como hmong, brasileños o haitianos. Reúne unos 10 000 objetos, además de fondos arqueológicos, imágenes y archivos sonoros."]},
+    {"h": "Qué ver", "p": ["El museo ocupa dos casas de la calle Madame-Payé, en los números 54 y 78. Una es una casa criolla construida en 1870 por una familia de buscadores de oro, buen ejemplo de arquitectura tradicional. Dos o tres exposiciones temporales al año renuevan las colecciones, con temas como los textiles cimarrones o el arte tembé."]},
+    {"h": "Bueno saber", "p": ["Los horarios cambian según el día y suele cerrar el fin de semana por la tarde: compruébalo antes de ir. Hay talleres durante las vacaciones escolares cortas."]}
+  ],
+  "faq": [
+    {"q": "¿Dónde está el museo?", "a": "En los números 54 y 78 de la calle Madame-Payé, en el centro de Cayena."},
+    {"q": "¿Qué muestra?", "a": "Objetos, imágenes y sonidos de las culturas amerindias, bushinengue y criollas y de las comunidades más recientes."},
+    {"q": "¿Hay actividades para niños?", "a": "Sí, talleres durante las vacaciones escolares cortas."}
+  ]
+},
+"franconie": {
+  "sections": [
+    {"h": "Historia", "p": ["El edificio Franconie pertenecía a una familia instalada en Guayana desde el siglo XVII. La administración lo compró en 1885 al diputado Gustave Franconie, que donó la biblioteca de su padre, Alexandre. El museo, una de las instituciones culturales más antiguas de Guayana, abrió allí en 1901.", "La casa es monumento histórico desde 1986 y lleva el sello « Maison des Illustres »."]},
+    {"h": "Qué ver", "p": ["Un verdadero gabinete de curiosidades: historia natural, arqueología, etnografía amerindia, bushinengue y criolla, minerales. Destacan la colección de insectos del padre Yves Barbotin, con casi 4 000 ejemplares, las escenas del presidio pintadas por el ex presidiario Francis Lagrange y la memoria de Félix Éboué."]},
+    {"h": "Bueno saber", "p": ["El museo da a la plaza des Palmistes. Abre sobre todo por la mañana entre semana, con dos tardes: confirma los horarios antes de ir."]}
+  ],
+  "faq": [
+    {"q": "¿Desde cuándo existe el museo?", "a": "Desde 1901, en el edificio comprado por la colonia en 1885."},
+    {"q": "¿Qué no hay que perderse?", "a": "Las pinturas del presidio de Francis Lagrange y la colección de insectos del padre Barbotin."},
+    {"q": "¿Dónde está?", "a": "Avenida du Général-de-Gaulle, 1, en la plaza des Palmistes."}
+  ]
+},
+"montjoly": {
+  "sections": [
+    {"h": "Las tortugas marinas", "p": ["Las playas de Rémire-Montjoly y Cayena están entre los grandes sitios de anidación de Guayana. Se ven sobre todo la tortuga laúd, gigante de hasta 2 metros y unos 400 kg, y la tortuga golfina; más raramente la tortuga verde y la carey.", "La anidación va de abril a agosto, y las crías nacen en las semanas siguientes. La asociación Kwata sigue estas poblaciones desde hace más de 25 años y hace patrullas de información en la playa durante la temporada."]},
+    {"h": "La playa", "p": ["Una larga playa de arena bordeada de cocoteros. El agua es marrón: son los sedimentos del Amazonas, arrastrados por la corriente a lo largo de la costa. El litoral guayanés se mueve rápido, y las fuertes mareas de abril y mayo pueden hacer retroceder la playa."]},
+    {"h": "Bueno saber", "p": ["Para observar una puesta: nada de luz blanca ni flash, quédate detrás de la tortuga y a distancia, deja que las crías lleguen al mar. Los perros están prohibidos en la playa y en las Salines vecinas."]}
+  ],
+  "faq": [
+    {"q": "¿Cuándo ver tortugas en Montjoly?", "a": "De abril a agosto para la anidación, con pico de laúdes en mayo y junio; las crías nacen en verano."},
+    {"q": "¿Se puede nadar?", "a": "Con precaución: infórmate en el lugar sobre corrientes y estado del mar."},
+    {"q": "¿Por qué el agua es marrón?", "a": "Por los sedimentos del Amazonas que la corriente lleva a lo largo de la costa."}
+  ]
+},
+"salines": {
+  "sections": [
+    {"h": "El sitio", "p": ["Antiguas salinas, estas 63 hectáreas pertenecen al Conservatoire du littoral, que compró las primeras parcelas en 1981. El sitio está protegido desde 1985 y lo gestiona la asociación Kwata desde 2012, con el municipio de Rémire-Montjoly.", "El sendero atraviesa cuatro ambientes en poca distancia: la playa y sus marismas, el cordón de dunas y su bosque litoral, el manglar y, por último, la ciénaga."]},
+    {"h": "Qué ver", "p": ["Una pasarela sobre pilotes cruza el manglar rojo, y un refugio domina la ciénaga para observar aves. Es uno de los pocos manglares de Guayana accesibles a pie."]},
+    {"h": "Bueno saber", "p": ["El sendero tiene unos 2,5 km y es fácil; empieza al final del camino Saint-Dominique, detrás de la playa de Montjoly. Sal temprano: la arena se calienta rápido. No se admiten perros."]}
+  ],
+  "faq": [
+    {"q": "¿Cuánto mide el sendero de las Salines?", "a": "Unos 2,5 km, nivel fácil."},
+    {"q": "¿Quién gestiona el sitio?", "a": "El Conservatoire du littoral es el propietario; la asociación Kwata lo gestiona con el municipio."},
+    {"q": "¿Qué se puede observar?", "a": "Aves de la ciénaga y del litoral, cangrejos de manglar y, a veces, mamíferos al amanecer."}
+  ]
+},
+"rorota": {
+  "sections": [
+    {"h": "El sendero", "p": ["El sendero del Rorota es un circuito de 5,6 km en la montaña del Mahury, en Rémire-Montjoly. De nivel fácil a medio, con unos 150 metros de desnivel, es una de las caminatas más concurridas de la isla de Cayena y un buen primer contacto con la selva."]},
+    {"h": "Qué ver", "p": ["El recorrido bordea tres embalses, los lagos del Rorota, de Lalouette y de Rémire, que abastecen de agua potable a la zona. Un mirador se abre sobre la ensenada de Gosselin y la colina de Montravel. Con suerte y silencio, perezosos y monos aparecen en los árboles."]},
+    {"h": "Bueno saber", "p": ["Salida desde la carretera de las playas, en el desvío señalizado tras la antigua destilería; aparcamiento al pie del sendero, junto al lago Saccharin. Calcula de 1 h 30 a 2 h. Sal temprano y lleva agua."]}
+  ],
+  "faq": [
+    {"q": "¿Cuánto mide el sendero del Rorota?", "a": "Circuito de 5,6 km, unos 150 m de desnivel, de 1 h 30 a 2 h."},
+    {"q": "¿Se puede nadar en los lagos?", "a": "Son embalses de agua potable: el baño no está previsto."},
+    {"q": "¿Qué animales se pueden ver?", "a": "Perezosos, monos y muchas aves, sobre todo temprano por la mañana."}
+  ]
+},
+"loyola": {
+  "sections": [
+    {"h": "Historia", "p": ["Los jesuitas fundaron la hacienda Loyola en 1668 en Rémire, a unos diez kilómetros de Cayena. Se convirtió en un ingenio azucarero y luego en la mayor hacienda esclavista de Guayana: más de 1 000 hectáreas y unas 500 personas esclavizadas, con casa de los padres, capilla, cementerio, forja, hospital, ingenio y añilería.", "Hacia 1740, los jesuitas abandonaron el azúcar y trasladaron el equipo a Saint-Régis. Tras la prohibición de la Compañía de Jesús en 1763, la hacienda quedó abandonada."]},
+    {"h": "Qué ver", "p": ["El sendero atraviesa las terrazas y los restos de piedra de la hacienda, excavados desde los años 1990 por arqueólogos, entre ellos un equipo de la Universidad Laval. El molino de viento de 1733, monumento histórico, se ve ahora desde la carretera de Rémire. Los restos están protegidos desde 1993."]},
+    {"h": "Bueno saber", "p": ["Es un lugar de memoria de la esclavitud tanto como un sitio arqueológico. El sendero se combina fácilmente con los del Rorota o de Vidal."]}
+  ],
+  "faq": [
+    {"q": "¿Quién fundó la hacienda Loyola?", "a": "Los jesuitas, en 1668."},
+    {"q": "¿Qué tamaño tenía?", "a": "Más de 1 000 hectáreas y unas 500 personas esclavizadas en su apogeo."},
+    {"q": "¿Qué se ve hoy?", "a": "Terrazas, muros de piedra y el molino de viento de 1733."}
+  ]
+},
+"diamant": {
+  "sections": [
+    {"h": "Historia", "p": ["Desde el siglo XVII, los primeros colonos fortificaron esta punta en la desembocadura del Mahury, puerta de entrada a la isla de Cayena. El fuerte actual es una batería costera construida en los años 1840 y terminada hacia 1849. Es monumento histórico desde 1980 y pertenece al departamento."]},
+    {"h": "Qué ver", "p": ["La planta es original: una batería en media luna frente al océano, una travesía casamatada de nueve celdas y un rediente en V orientado hacia el monte Mahury. Los muros, de unos dos metros de espesor, combinan basalto y ladrillo. El talud de hierba debía ocultar el fuerte a los barcos que llegaban del mar."]},
+    {"h": "Bueno saber", "p": ["El interior suele abrir solo en las Jornadas del Patrimonio; el resto del año se admira desde fuera, con la vista sobre el estuario."]}
+  ],
+  "faq": [
+    {"q": "¿Se puede visitar el interior del fuerte Diamant?", "a": "Por lo general, solo durante las Jornadas del Patrimonio."},
+    {"q": "¿De cuándo es?", "a": "El fuerte actual es de los años 1840, en un sitio fortificado desde el siglo XVII."},
+    {"q": "¿Por qué « Diamant »?", "a": "El origen se discute: suele atribuirse a su forma o a un embarcadero vecino que ya llevaba ese nombre en el siglo XVIII."}
+  ]
+}
+}

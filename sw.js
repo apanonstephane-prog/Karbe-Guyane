@@ -1,5 +1,5 @@
 // Karbé 3 — service worker : app hors-ligne, médias, tuiles en cache, packs de cartes par territoire.
-const V = "karbe-3.3.0";
+const V = "karbe-3.4.0";
 const MEDIA = "karbe-media", TILES = "karbe-tiles", PACK = "karbe-tiles-pack", STATIC = "karbe-static";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "data.js", "manifest.webmanifest", "icon.svg", "icon-192.png", "apple-touch-icon.png"];
 const MAX_TILES = 3000;
@@ -29,7 +29,7 @@ async function trimCache(c, max) {
 }
 async function swr(name, req, event, opts = {}) {
   const c = await caches.open(name);
-  const hit = await c.match(req, opts);
+  const hit = (await c.match(req, opts)) || (await caches.match(req, opts));
   const net = fetch(req).then(r => { if (r.ok) c.put(req, r.clone()); return r; }).catch(() => null);
   if (hit) { event.waitUntil(net); return hit; }
   const r = await net;

@@ -462,3 +462,16 @@ h2.h3{font-size:18px;line-height:1.2}
   .sheet .wrap{max-width:720px}
 }
 .mk-n{--k:var(--canopee);font:800 15px/1 var(--f-display);width:42px;height:42px;background:var(--canopee);color:var(--awara);border-radius:50%;box-shadow:0 0 0 3px var(--awara),0 0 0 7px #F2A33A40,0 6px 12px -4px #0008}
+/* Karbé 3.4 : fiches longues */
+.fiche{margin-top:18px;background:var(--papier);border-radius:20px;padding:4px 16px;box-shadow:inset 0 0 0 1px var(--line)}
+.fiche summary{cursor:pointer;list-style:none;padding:12px 0;display:grid;gap:2px}
+.fiche summary::-webkit-details-marker{display:none}
+.fiche summary span{font:700 17px/1.2 var(--f-display)}
+.fiche summary span::after{content:" +";color:var(--canopee-3)}
+.fiche[open] summary span::after{content:" −"}
+.fiche summary small{color:var(--mute);font-size:13px}
+.fiche h3{font-size:16px;margin:16px 0 6px}
+.fiche p{font-size:15px;line-height:1.55;margin:0 0 10px;color:var(--encre)}
+.fiche .q{font-size:14.5px}
+.fiche .src{padding-left:18px;font-size:13.5px}
+.fiche .src a{color:var(--canopee-3)}
