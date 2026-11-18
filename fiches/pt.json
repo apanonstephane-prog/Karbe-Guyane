@@ -1,122 +1,871 @@
 {
-"palmistes": {
+ "palmistes": {
   "sections": [
-    {"h": "História", "p": ["Chamada por muito tempo de « la Savane » e depois de praça da Esplanada, a praça foi urbanizada a partir de 1821. Hoje é monumento histórico protegido, com seus equipamentos, estátuas e mobiliário urbano.", "Suas palmeiras são palmeiras-imperiais (Roystonea oleacea), nativas da Venezuela e do sul do Caribe. Em 1995 restavam 296, e 202 lugares estavam vazios: os replantios explicam as diferenças de altura entre as árvores."]},
-    {"h": "O que ver", "p": ["No centro, o monumento a Félix Éboué, inaugurado em 1957. Nascido em Caiena, governador e figura da França Livre, ele repousa no Panteão. A estátua substituiu uma fonte dedicada ao prefeito Nicolas Merlet.", "Ao redor, algumas das mais belas casas crioulas da cidade, entre elas a casa Thémire, que abriga desde 1908 o hotel e o bar des Palmistes, e o prédio Franconie, sede do museu departamental."]},
-    {"h": "Bom saber", "p": ["À noite, food trucks animam a praça. É o ponto de partida natural de um passeio pelo centro antigo: o forte Cépérou fica a cerca de 700 metros, o mercado a poucas ruas."]}
+   {
+    "h": "História",
+    "p": [
+     "Chamada por muito tempo de « la Savane » e depois de praça da Esplanada, a praça foi urbanizada a partir de 1821. Hoje é monumento histórico protegido, com seus equipamentos, estátuas e mobiliário urbano.",
+     "Suas palmeiras são palmeiras-imperiais (Roystonea oleacea), nativas da Venezuela e do sul do Caribe. Em 1995 restavam 296, e 202 lugares estavam vazios: os replantios explicam as diferenças de altura entre as árvores."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "No centro, o monumento a Félix Éboué, inaugurado em 1957. Nascido em Caiena, governador e figura da França Livre, ele repousa no Panteão. A estátua substituiu uma fonte dedicada ao prefeito Nicolas Merlet.",
+     "Ao redor, algumas das mais belas casas crioulas da cidade, entre elas a casa Thémire, que abriga desde 1908 o hotel e o bar des Palmistes, e o prédio Franconie, sede do museu departamental."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "À noite, food trucks animam a praça. É o ponto de partida natural de um passeio pelo centro antigo: o forte Cépérou fica a cerca de 700 metros, o mercado a poucas ruas."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Por que « Palmistes »?", "a": "Pelas centenas de palmeiras-imperiais plantadas na praça, espécie vinda da Venezuela e do sul do Caribe."},
-    {"q": "Quem está no centro da praça?", "a": "Félix Éboué, nascido em Caiena, governador e figura da França Livre. O monumento é de 1957."},
-    {"q": "A praça é animada à noite?", "a": "Sim: food trucks se instalam à noite e os moradores se encontram ali."}
+   {
+    "q": "Por que « Palmistes »?",
+    "a": "Pelas centenas de palmeiras-imperiais plantadas na praça, espécie vinda da Venezuela e do sul do Caribe."
+   },
+   {
+    "q": "Quem está no centro da praça?",
+    "a": "Félix Éboué, nascido em Caiena, governador e figura da França Livre. O monumento é de 1957."
+   },
+   {
+    "q": "A praça é animada à noite?",
+    "a": "Sim: food trucks se instalam à noite e os moradores se encontram ali."
+   }
   ]
-},
-"ceperou": {
+ },
+ "ceperou": {
   "sections": [
-    {"h": "História", "p": ["Em 1643, Charles Poncet de Brétigny adquiriu a colina que domina a foz do rio de Caiena de um chefe kali'na, Cépérou (Sépélu nos relatos indígenas), que lhe deu o nome. Ali foi erguido um primeiro forte de madeira: é o nascimento de Caiena, que cresceu ao pé de suas muralhas.", "O forte chamou-se Saint-Michel e depois Saint-Louis antes de retomar o nome Cépérou. Em 1676, o almirante holandês Jacob Binckes desembarcou 900 homens nas proximidades e a guarnição se rendeu."]},
-    {"h": "O que ver", "p": ["Resta pouco do forte: uma passagem abobadada, alguns muros e o topo da colina. Mas a vista, a 28 metros acima do mar, abrange os telhados da cidade, o estuário e o oceano."]},
-    {"h": "Bom saber", "p": ["A subida é curta, por alguns degraus. O local fica a cerca de 700 metros da praça des Palmistes; vá no fim da tarde pela luz e pelo frescor."]}
+   {
+    "h": "História",
+    "p": [
+     "Em 1643, Charles Poncet de Brétigny adquiriu a colina que domina a foz do rio de Caiena de um chefe kali'na, Cépérou (Sépélu nos relatos indígenas), que lhe deu o nome. Ali foi erguido um primeiro forte de madeira: é o nascimento de Caiena, que cresceu ao pé de suas muralhas.",
+     "O forte chamou-se Saint-Michel e depois Saint-Louis antes de retomar o nome Cépérou. Em 1676, o almirante holandês Jacob Binckes desembarcou 900 homens nas proximidades e a guarnição se rendeu."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Resta pouco do forte: uma passagem abobadada, alguns muros e o topo da colina. Mas a vista, a 28 metros acima do mar, abrange os telhados da cidade, o estuário e o oceano."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A subida é curta, por alguns degraus. O local fica a cerca de 700 metros da praça des Palmistes; vá no fim da tarde pela luz e pelo frescor."
+    ]
+   }
   ],
   "faq": [
-    {"q": "De onde vem o nome Cépérou?", "a": "De um chefe kali'na que cedeu a colina aos franceses por volta de 1643."},
-    {"q": "O que resta do forte?", "a": "Pouco: uma passagem abobadada e trechos de muro. Vem-se sobretudo pela vista."},
-    {"q": "A entrada é gratuita?", "a": "Sim, o local é de acesso livre."}
+   {
+    "q": "De onde vem o nome Cépérou?",
+    "a": "De um chefe kali'na que cedeu a colina aos franceses por volta de 1643."
+   },
+   {
+    "q": "O que resta do forte?",
+    "a": "Pouco: uma passagem abobadada e trechos de muro. Vem-se sobretudo pela vista."
+   },
+   {
+    "q": "A entrada é gratuita?",
+    "a": "Sim, o local é de acesso livre."
+   }
   ]
-},
-"marche-cayenne": {
+ },
+ "marche-cayenne": {
   "sections": [
-    {"h": "História", "p": ["Em 1907, a câmara municipal decidiu construir um mercado coberto de estrutura metálica, inaugurado em 1910. Hoje é o maior mercado da Guiana Francesa."]},
-    {"h": "Ver e provar", "p": ["Do lado de fora, bancas de frutas e legumes locais: rambutãs, inhames, pimentas, ervas. Sob o pavilhão, açougues, especiarias, artesanato indígena e quilombola e, sobretudo, os balcões de sopa phở das famílias hmong, tradição do café da manhã."]},
-    {"h": "Bom saber", "p": ["O mercado funciona às quartas, sextas e sábados de manhã, na praça du Coq. Chegue cedo: começa ao amanhecer e diminui no início da tarde. O sábado é o dia mais movimentado. Leve dinheiro em espécie para as bancas pequenas."]}
+   {
+    "h": "História",
+    "p": [
+     "Em 1907, a câmara municipal decidiu construir um mercado coberto de estrutura metálica, inaugurado em 1910. Hoje é o maior mercado da Guiana Francesa."
+    ]
+   },
+   {
+    "h": "Ver e provar",
+    "p": [
+     "Do lado de fora, bancas de frutas e legumes locais: rambutãs, inhames, pimentas, ervas. Sob o pavilhão, açougues, especiarias, artesanato indígena e quilombola e, sobretudo, os balcões de sopa phở das famílias hmong, tradição do café da manhã."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "O mercado funciona às quartas, sextas e sábados de manhã, na praça du Coq. Chegue cedo: começa ao amanhecer e diminui no início da tarde. O sábado é o dia mais movimentado. Leve dinheiro em espécie para as bancas pequenas."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Em que dias abre o mercado de Caiena?", "a": "Quartas, sextas e sábados de manhã. Os horários exatos variam conforme as fontes: chegue cedo."},
-    {"q": "O que comer no mercado?", "a": "A sopa phở hmong é a instituição do lugar, com sucos de frutas frescas e acras."},
-    {"q": "Quando o pavilhão foi construído?", "a": "Decidido em 1907, foi inaugurado em 1910."}
+   {
+    "q": "Em que dias abre o mercado de Caiena?",
+    "a": "Quartas, sextas e sábados de manhã. Os horários exatos variam conforme as fontes: chegue cedo."
+   },
+   {
+    "q": "O que comer no mercado?",
+    "a": "A sopa phở hmong é a instituição do lugar, com sucos de frutas frescas e acras."
+   },
+   {
+    "q": "Quando o pavilhão foi construído?",
+    "a": "Decidido em 1907, foi inaugurado em 1910."
+   }
   ]
-},
-"musee-cultures": {
+ },
+ "musee-cultures": {
   "sections": [
-    {"h": "O museu", "p": ["Criado em 1995, o Museu das Culturas Guianenses conserva e apresenta objetos dos povos que construíram a Guiana Francesa: indígenas, bushinengues, crioulos e comunidades chegadas mais recentemente, como hmong, brasileiros e haitianos. Reúne cerca de 10 000 objetos, além de acervos arqueológicos, imagens e arquivos sonoros."]},
-    {"h": "O que ver", "p": ["O museu ocupa duas casas da rua Madame-Payé, nos números 54 e 78. Uma delas é uma casa crioula construída em 1870 por uma família de garimpeiros, belo exemplo de arquitetura tradicional. Duas a três exposições temporárias por ano renovam o acervo, com temas como os têxteis quilombolas ou a arte tembé."]},
-    {"h": "Bom saber", "p": ["Os horários mudam conforme o dia e o museu costuma fechar no fim de semana à tarde: confirme antes de ir. Há oficinas durante as férias escolares curtas."]}
+   {
+    "h": "O museu",
+    "p": [
+     "Criado em 1995, o Museu das Culturas Guianenses conserva e apresenta objetos dos povos que construíram a Guiana Francesa: indígenas, bushinengues, crioulos e comunidades chegadas mais recentemente, como hmong, brasileiros e haitianos. Reúne cerca de 10 000 objetos, além de acervos arqueológicos, imagens e arquivos sonoros."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "O museu ocupa duas casas da rua Madame-Payé, nos números 54 e 78. Uma delas é uma casa crioula construída em 1870 por uma família de garimpeiros, belo exemplo de arquitetura tradicional. Duas a três exposições temporárias por ano renovam o acervo, com temas como os têxteis quilombolas ou a arte tembé."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Os horários mudam conforme o dia e o museu costuma fechar no fim de semana à tarde: confirme antes de ir. Há oficinas durante as férias escolares curtas."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Onde fica o museu?", "a": "Nos números 54 e 78 da rua Madame-Payé, no centro de Caiena."},
-    {"q": "O que o museu mostra?", "a": "Objetos, imagens e sons das culturas indígenas, bushinengues, crioulas e das comunidades mais recentes."},
-    {"q": "Há atividades para crianças?", "a": "Sim, oficinas durante as férias escolares curtas."}
+   {
+    "q": "Onde fica o museu?",
+    "a": "Nos números 54 e 78 da rua Madame-Payé, no centro de Caiena."
+   },
+   {
+    "q": "O que o museu mostra?",
+    "a": "Objetos, imagens e sons das culturas indígenas, bushinengues, crioulas e das comunidades mais recentes."
+   },
+   {
+    "q": "Há atividades para crianças?",
+    "a": "Sim, oficinas durante as férias escolares curtas."
+   }
   ]
-},
-"franconie": {
+ },
+ "franconie": {
   "sections": [
-    {"h": "História", "p": ["O prédio Franconie pertencia a uma família instalada na Guiana desde o século XVII. A administração o comprou em 1885 do deputado Gustave Franconie, que doou a biblioteca de seu pai, Alexandre. O museu, uma das instituições culturais mais antigas da Guiana, abriu ali em 1901.", "A casa é monumento histórico desde 1986 e tem o selo « Maison des Illustres »."]},
-    {"h": "O que ver", "p": ["Um verdadeiro gabinete de curiosidades: história natural, arqueologia, etnografia indígena, bushinengue e crioula, minerais. Destaques: a coleção de insetos do padre Yves Barbotin, com quase 4 000 exemplares, as cenas do presídio pintadas pelo ex-condenado Francis Lagrange e a memória de Félix Éboué."]},
-    {"h": "Bom saber", "p": ["O museu fica de frente para a praça des Palmistes. Abre sobretudo de manhã nos dias úteis, com duas tardes: confirme os horários antes de ir."]}
+   {
+    "h": "História",
+    "p": [
+     "O prédio Franconie pertencia a uma família instalada na Guiana desde o século XVII. A administração o comprou em 1885 do deputado Gustave Franconie, que doou a biblioteca de seu pai, Alexandre. O museu, uma das instituições culturais mais antigas da Guiana, abriu ali em 1901.",
+     "A casa é monumento histórico desde 1986 e tem o selo « Maison des Illustres »."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Um verdadeiro gabinete de curiosidades: história natural, arqueologia, etnografia indígena, bushinengue e crioula, minerais. Destaques: a coleção de insetos do padre Yves Barbotin, com quase 4 000 exemplares, as cenas do presídio pintadas pelo ex-condenado Francis Lagrange e a memória de Félix Éboué."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "O museu fica de frente para a praça des Palmistes. Abre sobretudo de manhã nos dias úteis, com duas tardes: confirme os horários antes de ir."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Desde quando o museu existe?", "a": "Desde 1901, no prédio comprado pela colônia em 1885."},
-    {"q": "O que não perder?", "a": "As pinturas do presídio de Francis Lagrange e a coleção de insetos do padre Barbotin."},
-    {"q": "Onde fica?", "a": "Avenida du Général-de-Gaulle, 1, na praça des Palmistes."}
+   {
+    "q": "Desde quando o museu existe?",
+    "a": "Desde 1901, no prédio comprado pela colônia em 1885."
+   },
+   {
+    "q": "O que não perder?",
+    "a": "As pinturas do presídio de Francis Lagrange e a coleção de insetos do padre Barbotin."
+   },
+   {
+    "q": "Onde fica?",
+    "a": "Avenida du Général-de-Gaulle, 1, na praça des Palmistes."
+   }
   ]
-},
-"montjoly": {
+ },
+ "montjoly": {
   "sections": [
-    {"h": "As tartarugas marinhas", "p": ["As praias de Rémire-Montjoly e de Caiena estão entre os grandes locais de desova da Guiana. Veem-se sobretudo a tartaruga-de-couro, gigante de até 2 metros e cerca de 400 kg, e a tartaruga-oliva; mais raramente a tartaruga-verde e a de-pente.", "As desovas vão de abril a agosto, e os filhotes nascem nas semanas seguintes. A associação Kwata acompanha essas populações há mais de 25 anos e faz patrulhas de informação na praia durante a temporada."]},
-    {"h": "A praia", "p": ["Uma longa praia de areia ladeada de coqueiros. A água é marrom: são os sedimentos do Amazonas, levados pela corrente ao longo da costa. O litoral guianense muda rápido, e as fortes marés de abril e maio podem fazer a praia recuar."]},
-    {"h": "Bom saber", "p": ["Para observar uma desova: nada de luz branca nem flash, fique atrás da tartaruga e à distância, deixe os filhotes chegarem ao mar. Cães são proibidos na praia e nas Salines vizinhas."]}
+   {
+    "h": "As tartarugas marinhas",
+    "p": [
+     "As praias de Rémire-Montjoly e de Caiena estão entre os grandes locais de desova da Guiana. Veem-se sobretudo a tartaruga-de-couro, gigante de até 2 metros e cerca de 400 kg, e a tartaruga-oliva; mais raramente a tartaruga-verde e a de-pente.",
+     "As desovas vão de abril a agosto, e os filhotes nascem nas semanas seguintes. A associação Kwata acompanha essas populações há mais de 25 anos e faz patrulhas de informação na praia durante a temporada."
+    ]
+   },
+   {
+    "h": "A praia",
+    "p": [
+     "Uma longa praia de areia ladeada de coqueiros. A água é marrom: são os sedimentos do Amazonas, levados pela corrente ao longo da costa. O litoral guianense muda rápido, e as fortes marés de abril e maio podem fazer a praia recuar."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Para observar uma desova: nada de luz branca nem flash, fique atrás da tartaruga e à distância, deixe os filhotes chegarem ao mar. Cães são proibidos na praia e nas Salines vizinhas."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Quando ver as tartarugas em Montjoly?", "a": "De abril a agosto para as desovas, com pico das tartarugas-de-couro em maio e junho; os nascimentos vêm no verão."},
-    {"q": "Dá para nadar?", "a": "Com cautela: informe-se no local sobre correntes e estado do mar."},
-    {"q": "Por que a água é marrom?", "a": "Pelos sedimentos do Amazonas que a corrente leva ao longo da costa."}
+   {
+    "q": "Quando ver as tartarugas em Montjoly?",
+    "a": "De abril a agosto para as desovas, com pico das tartarugas-de-couro em maio e junho; os nascimentos vêm no verão."
+   },
+   {
+    "q": "Dá para nadar?",
+    "a": "Com cautela: informe-se no local sobre correntes e estado do mar."
+   },
+   {
+    "q": "Por que a água é marrom?",
+    "a": "Pelos sedimentos do Amazonas que a corrente leva ao longo da costa."
+   }
   ]
-},
-"salines": {
+ },
+ "salines": {
   "sections": [
-    {"h": "O local", "p": ["Antigas salinas, estes 63 hectares pertencem ao Conservatoire du littoral, que comprou os primeiros lotes em 1981. O local é protegido desde 1985 e gerido pela associação Kwata desde 2012, com a prefeitura de Rémire-Montjoly.", "A trilha atravessa quatro ambientes em pouca distância: a praia e seus lodaçais, o cordão de dunas e sua floresta litorânea, o manguezal e, por fim, o brejo."]},
-    {"h": "O que ver", "p": ["Uma passarela sobre palafitas cruza o mangue-vermelho, e um abrigo domina o brejo para observar aves. É um dos raros manguezais da Guiana acessíveis a pé."]},
-    {"h": "Bom saber", "p": ["A trilha tem cerca de 2,5 km e é fácil; começa no fim do caminho Saint-Dominique, atrás da praia de Montjoly. Saia cedo: a areia esquenta rápido. Cães não são permitidos."]}
+   {
+    "h": "O local",
+    "p": [
+     "Antigas salinas, estes 63 hectares pertencem ao Conservatoire du littoral, que comprou os primeiros lotes em 1981. O local é protegido desde 1985 e gerido pela associação Kwata desde 2012, com a prefeitura de Rémire-Montjoly.",
+     "A trilha atravessa quatro ambientes em pouca distância: a praia e seus lodaçais, o cordão de dunas e sua floresta litorânea, o manguezal e, por fim, o brejo."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Uma passarela sobre palafitas cruza o mangue-vermelho, e um abrigo domina o brejo para observar aves. É um dos raros manguezais da Guiana acessíveis a pé."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A trilha tem cerca de 2,5 km e é fácil; começa no fim do caminho Saint-Dominique, atrás da praia de Montjoly. Saia cedo: a areia esquenta rápido. Cães não são permitidos."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Qual é o comprimento da trilha das Salines?", "a": "Cerca de 2,5 km, nível fácil."},
-    {"q": "Quem gere o local?", "a": "O Conservatoire du littoral é o proprietário; a associação Kwata o gere com a prefeitura."},
-    {"q": "O que se pode observar?", "a": "Aves do brejo e do litoral, caranguejos do mangue, às vezes mamíferos ao amanhecer."}
+   {
+    "q": "Qual é o comprimento da trilha das Salines?",
+    "a": "Cerca de 2,5 km, nível fácil."
+   },
+   {
+    "q": "Quem gere o local?",
+    "a": "O Conservatoire du littoral é o proprietário; a associação Kwata o gere com a prefeitura."
+   },
+   {
+    "q": "O que se pode observar?",
+    "a": "Aves do brejo e do litoral, caranguejos do mangue, às vezes mamíferos ao amanhecer."
+   }
   ]
-},
-"rorota": {
+ },
+ "rorota": {
   "sections": [
-    {"h": "A trilha", "p": ["A trilha do Rorota é um circuito de 5,6 km na montanha do Mahury, em Rémire-Montjoly. De nível fácil a médio, com cerca de 150 metros de desnível, é uma das caminhadas mais procuradas da ilha de Caiena e um bom primeiro contato com a floresta."]},
-    {"h": "O que ver", "p": ["O percurso margeia três reservatórios, os lagos do Rorota, de Lalouette e de Rémire, que abastecem a região com água potável. Um mirante se abre sobre a enseada de Gosselin e a colina de Montravel. Com sorte e silêncio, bichos-preguiça e macacos aparecem nas árvores."]},
-    {"h": "Bom saber", "p": ["Saída pela estrada das praias, na entrada sinalizada depois da antiga destilaria; estacionamento no início da trilha, à beira do lago Saccharin. Conte de 1 h 30 a 2 h. Saia cedo e leve água."]}
+   {
+    "h": "A trilha",
+    "p": [
+     "A trilha do Rorota é um circuito de 5,6 km na montanha do Mahury, em Rémire-Montjoly. De nível fácil a médio, com cerca de 150 metros de desnível, é uma das caminhadas mais procuradas da ilha de Caiena e um bom primeiro contato com a floresta."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "O percurso margeia três reservatórios, os lagos do Rorota, de Lalouette e de Rémire, que abastecem a região com água potável. Um mirante se abre sobre a enseada de Gosselin e a colina de Montravel. Com sorte e silêncio, bichos-preguiça e macacos aparecem nas árvores."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Saída pela estrada das praias, na entrada sinalizada depois da antiga destilaria; estacionamento no início da trilha, à beira do lago Saccharin. Conte de 1 h 30 a 2 h. Saia cedo e leve água."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Qual é o comprimento da trilha do Rorota?", "a": "Circuito de 5,6 km, cerca de 150 m de desnível, de 1 h 30 a 2 h."},
-    {"q": "Dá para nadar nos lagos?", "a": "São reservatórios de água potável: o banho não é previsto ali."},
-    {"q": "Que animais se pode ver?", "a": "Bichos-preguiça, macacos e muitas aves, sobretudo de manhã cedo."}
+   {
+    "q": "Qual é o comprimento da trilha do Rorota?",
+    "a": "Circuito de 5,6 km, cerca de 150 m de desnível, de 1 h 30 a 2 h."
+   },
+   {
+    "q": "Dá para nadar nos lagos?",
+    "a": "São reservatórios de água potável: o banho não é previsto ali."
+   },
+   {
+    "q": "Que animais se pode ver?",
+    "a": "Bichos-preguiça, macacos e muitas aves, sobretudo de manhã cedo."
+   }
   ]
-},
-"loyola": {
+ },
+ "loyola": {
   "sections": [
-    {"h": "História", "p": ["Os jesuítas fundaram a fazenda Loyola em 1668, em Rémire, a cerca de dez quilômetros de Caiena. Ela se tornou um engenho de açúcar e depois a maior fazenda escravista da Guiana: mais de 1 000 hectares e cerca de 500 escravizados, com casa dos padres, capela, cemitério, forja, hospital, engenho e anileira.", "Por volta de 1740, os jesuítas abandonaram o açúcar e levaram o equipamento para Saint-Régis. Após a proibição da Companhia de Jesus em 1763, a propriedade foi abandonada."]},
-    {"h": "O que ver", "p": ["A trilha atravessa os terraços e os vestígios em pedra da fazenda, escavados desde os anos 1990 por arqueólogos, entre eles uma equipe da Universidade Laval. O moinho de vento de 1733, monumento histórico, agora é visível da estrada de Rémire. Os vestígios são protegidos desde 1993."]},
-    {"h": "Bom saber", "p": ["É um lugar de memória da escravidão tanto quanto um sítio arqueológico. A trilha se combina facilmente com as do Rorota ou de Vidal."]}
+   {
+    "h": "História",
+    "p": [
+     "Os jesuítas fundaram a fazenda Loyola em 1668, em Rémire, a cerca de dez quilômetros de Caiena. Ela se tornou um engenho de açúcar e depois a maior fazenda escravista da Guiana: mais de 1 000 hectares e cerca de 500 escravizados, com casa dos padres, capela, cemitério, forja, hospital, engenho e anileira.",
+     "Por volta de 1740, os jesuítas abandonaram o açúcar e levaram o equipamento para Saint-Régis. Após a proibição da Companhia de Jesus em 1763, a propriedade foi abandonada."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "A trilha atravessa os terraços e os vestígios em pedra da fazenda, escavados desde os anos 1990 por arqueólogos, entre eles uma equipe da Universidade Laval. O moinho de vento de 1733, monumento histórico, agora é visível da estrada de Rémire. Os vestígios são protegidos desde 1993."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "É um lugar de memória da escravidão tanto quanto um sítio arqueológico. A trilha se combina facilmente com as do Rorota ou de Vidal."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Quem fundou a fazenda Loyola?", "a": "Os jesuítas, em 1668."},
-    {"q": "Qual era o seu tamanho?", "a": "Mais de 1 000 hectares e cerca de 500 escravizados no auge."},
-    {"q": "O que se vê hoje?", "a": "Terraços, muros de pedra e o moinho de vento de 1733."}
+   {
+    "q": "Quem fundou a fazenda Loyola?",
+    "a": "Os jesuítas, em 1668."
+   },
+   {
+    "q": "Qual era o seu tamanho?",
+    "a": "Mais de 1 000 hectares e cerca de 500 escravizados no auge."
+   },
+   {
+    "q": "O que se vê hoje?",
+    "a": "Terraços, muros de pedra e o moinho de vento de 1733."
+   }
   ]
-},
-"diamant": {
+ },
+ "diamant": {
   "sections": [
-    {"h": "História", "p": ["Desde o século XVII, os primeiros colonos fortificaram esta ponta na foz do Mahury, porta de entrada da ilha de Caiena. O forte atual é uma bateria costeira construída nos anos 1840 e concluída por volta de 1849. É monumento histórico desde 1980 e pertence ao departamento."]},
-    {"h": "O que ver", "p": ["A planta é original: uma bateria em meia-lua voltada para o oceano, uma travessa casamatada de nove células e um redente em V voltado para o monte Mahury. As paredes, com cerca de dois metros de espessura, misturam basalto e tijolo. O talude gramado devia esconder o forte dos navios vindos do mar."]},
-    {"h": "Bom saber", "p": ["O interior em geral só abre nas Jornadas do Patrimônio; no resto do ano, admire-o por fora, com a vista para o estuário."]}
+   {
+    "h": "História",
+    "p": [
+     "Desde o século XVII, os primeiros colonos fortificaram esta ponta na foz do Mahury, porta de entrada da ilha de Caiena. O forte atual é uma bateria costeira construída nos anos 1840 e concluída por volta de 1849. É monumento histórico desde 1980 e pertence ao departamento."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "A planta é original: uma bateria em meia-lua voltada para o oceano, uma travessa casamatada de nove células e um redente em V voltado para o monte Mahury. As paredes, com cerca de dois metros de espessura, misturam basalto e tijolo. O talude gramado devia esconder o forte dos navios vindos do mar."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "O interior em geral só abre nas Jornadas do Patrimônio; no resto do ano, admire-o por fora, com a vista para o estuário."
+    ]
+   }
   ],
   "faq": [
-    {"q": "Dá para visitar o interior do forte Diamant?", "a": "Em geral, só durante as Jornadas do Patrimônio."},
-    {"q": "De quando ele é?", "a": "O forte atual é dos anos 1840, num local fortificado desde o século XVII."},
-    {"q": "Por que « Diamant »?", "a": "A origem é discutida: costuma-se atribuí-la ao seu formato ou a um desembarcadouro vizinho que já tinha esse nome no século XVIII."}
+   {
+    "q": "Dá para visitar o interior do forte Diamant?",
+    "a": "Em geral, só durante as Jornadas do Patrimônio."
+   },
+   {
+    "q": "De quando ele é?",
+    "a": "O forte atual é dos anos 1840, num local fortificado desde o século XVII."
+   },
+   {
+    "q": "Por que « Diamant »?",
+    "a": "A origem é discutida: costuma-se atribuí-la ao seu formato ou a um desembarcadouro vizinho que já tinha esse nome no século XVIII."
+   }
   ]
-}
+ },
+ "bourda": {
+  "sections": [
+   {
+    "h": "O local",
+    "p": [
+     "O monte Bourda é um pequeno maciço florestal de cerca de trinta hectares que chega a 114 metros, entre Caiena e Rémire-Montjoly. É gerido pelo Conservatoire du littoral e faz parte da rede de trilhas que liga a colina de Montabo a Bourda, com cerca de 3,8 km."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "O caminho sobe pela mata até o calvário do topo. A vista sobre a praia das Salines era aberta; a vegetação a fechou em parte, mas ainda há vislumbres do mar pelo caminho."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Acesso pela rota de Montabo e depois pela rota de Bourda; estacionamento perto da placa de início. A trilha é muito frequentada no fim da tarde por quem pratica esporte: vá acompanhado e leve lanterna se sair tarde."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Qual é a altura do monte Bourda?",
+    "a": "Cerca de 114 metros."
+   },
+   {
+    "q": "Quanto tempo leva?",
+    "a": "Uma a duas horas conforme o circuito; a ligação Montabo-Bourda tem cerca de 3,8 km."
+   },
+   {
+    "q": "Há vista no topo?",
+    "a": "O calvário do topo está em parte cercado de vegetação; as melhores vistas do mar estão pelo caminho."
+   }
+  ]
+ },
+ "matoury": {
+  "sections": [
+   {
+    "h": "A reserva",
+    "p": [
+     "A reserva natural nacional do Mont Grand Matoury foi criada por decreto em 6 de setembro de 2006 e cobre cerca de 2 123 hectares. É a maior reserva natural periurbana da França: uma verdadeira floresta tropical no coração da ilha de Caiena, com topo a 254 metros."
+    ]
+   },
+   {
+    "h": "As trilhas",
+    "p": [
+     "As trilhas da Mirande oferecem três percursos: a grande volta (3,9 km, cerca de 4 h), o circuito das cascatas (2,5 km, cerca de 2 h) e o circuito do Paypayo (2 km, cerca de 1 h 30). Outra trilha, a do lago dos Americanos, atravessa um dos últimos fragmentos de floresta primária do litoral."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A reserva é sobretudo rica em aves: acorde cedo para ouvi-las. Fique nas trilhas sinalizadas e não colha nada: tudo ali é protegido."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Desde quando o Mont Grand Matoury é reserva?",
+    "a": "Desde o decreto de 6 de setembro de 2006."
+   },
+   {
+    "q": "Que trilha escolher?",
+    "a": "O circuito do Paypayo (2 km) para conhecer, a grande volta (3,9 km) para meio dia."
+   },
+   {
+    "q": "Qual a altitude do topo?",
+    "a": "254 metros."
+   }
+  ]
+ },
+ "montabo": {
+  "sections": [
+   {
+    "h": "As trilhas",
+    "p": [
+     "Dois passeios dividem a colina de Montabo, a nordeste de Caiena. A trilha litorânea, fácil e bem marcada, segue o mar e termina numa praia muitas vezes deserta. A trilha da colina, com cerca de 3,8 km e sinalizada, entra numa floresta densa e bem preservada, a poucos minutos do centro; conte de 2 h a 2 h 30."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "O percurso alterna trechos sombreados e mirantes sobre o Atlântico. O litoral de Caiena, cheio de manguezais e lodaçais, é bom para observar aves migratórias, da ponta Buzaré à enseada Chaton."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A entrada da trilha da colina fica na rota de Montabo, atrás do IRD. Várias praias de Montabo são locais de banho vigiados: siga a sinalização e cuidado com correntes e bancos de lama."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "A trilha de Montabo é difícil?",
+    "a": "Não: a trilha litorânea é fácil, e a da colina também, sinalizada, com cerca de 3,8 km."
+   },
+   {
+    "q": "Onde começa?",
+    "a": "Na rota de Montabo, atrás do IRD."
+   },
+   {
+    "q": "Dá para nadar?",
+    "a": "Nas praias vigiadas de Montabo, seguindo as instruções afixadas."
+   }
+  ]
+ },
+ "vidal": {
+  "sections": [
+   {
+    "h": "História",
+    "p": [
+     "A fazenda Vidal, também chamada Mondélice, era um engenho de açúcar escravista ao pé do planalto do Mahury. Em 1819 era descrita como « recém-instalada como engenho », com prédios e usinas novos e caldeiras de cobre. A propriedade está abandonada desde 1880.",
+     "Seus vestígios foram tombados como monumento histórico em 1999. O local, propriedade do Conservatoire du littoral desde 2015 e protegido como paisagem em 2016, é gerido pela associação Kwata desde 2020."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Um caminho na floresta de quase 3 km leva às ruínas do engenho e às suas máquinas, tomadas pela vegetação. No caminho, a floresta secundária é rica em aves: araçaris, tucanos, beija-flores-eremitas, urutaus."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A saída é mal sinalizada, entre o estádio e o liceu Léon-Gontran-Damas. A Kwata organiza saídas temáticas (história, etnobotânica, biodiversidade)."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "O que era a fazenda Vidal?",
+    "a": "Um engenho de açúcar escravista, instalado no início do século XIX e abandonado por volta de 1880."
+   },
+   {
+    "q": "Qual é o comprimento da trilha?",
+    "a": "Quase 3 km até os vestígios."
+   },
+   {
+    "q": "Quem gere o local?",
+    "a": "A associação Kwata, para o Conservatoire du littoral."
+   }
+  ]
+ },
+ "topu": {
+  "sections": [
+   {
+    "h": "A trilha",
+    "p": [
+     "A trilha da Montagne Topu, gerida pela Collectivité territoriale de Guyane, é um circuito sinalizado de 3,3 km, cerca de 1 h 20, nas alturas do Mahury. Passa entre os lagos do Rorota, o igarapé Angélique e a trilha de Loyola, em plena floresta tropical."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Painéis contam a ocupação humana da região: muito depois da chegada dos europeus à costa, os indígenas continuaram a explorar os recursos do monte Mahury e da ilha de Caiena. Um mirante se abre sobre os lagos do Rorota, às vezes escondido pela vegetação."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Duas saídas possíveis: pela trilha do Rorota ou pela de Loyola. As três trilhas se combinam numa manhã completa no Mahury."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Qual é o comprimento da trilha Topu?",
+    "a": "3,3 km, cerca de 1 h 20."
+   },
+   {
+    "q": "Onde começar?",
+    "a": "Pela trilha do Rorota ou pela trilha de Loyola."
+   },
+   {
+    "q": "Quem a mantém?",
+    "a": "A Collectivité territoriale de Guyane."
+   }
+  ]
+ },
+ "csg": {
+  "sections": [
+   {
+    "h": "História",
+    "p": [
+     "Em 21 de março de 1964, em Caiena, o general de Gaulle anunciou a instalação do centro espacial na Guiana. Kourou foi escolhida pela proximidade do equador, pela distância de furacões e terremotos e pela baixa densidade populacional. Quatro anos depois, em 9 de abril de 1968, o foguete-sonda Véronique abriu a série de lançamentos. O Ariane 1 veio em 24 de dezembro de 1979.",
+     "Hoje porto espacial da Europa, o centro ocupa cerca de 660 km². Os depoimentos das famílias desapropriadas abrem o percurso do Guyaspace Expérience."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "A visita guiada de ônibus percorre as instalações dos lançadores Ariane 6 e Vega-C; é gratuita mediante reserva, com documento de identidade. O Museu do Espaço, pago, conta a aventura espacial de forma lúdica, com planetário e atividades para crianças."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Reserve com bastante antecedência, sobretudo nas férias. O CNES também abre locais de observação gratuitos nos dias de lançamento, mediante reserva: consulte a Agenda do Karbé."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "A visita ao Centro Espacial é gratuita?",
+    "a": "Sim, a visita guiada é gratuita mediante reserva, com documento. O Museu do Espaço é pago."
+   },
+   {
+    "q": "Desde quando há lançamentos em Kourou?",
+    "a": "Desde 9 de abril de 1968, com o foguete-sonda Véronique."
+   },
+   {
+    "q": "Dá para ver um lançamento?",
+    "a": "Sim, em locais de observação abertos mediante reserva ou em lugares públicos como a praia de Kourou."
+   }
+  ]
+ },
+ "kourou-plage": {
+  "sections": [
+   {
+    "h": "História",
+    "p": [
+     "Na ponta das Roches, a torre Dreyfus é um dos raros vestígios do antigo presídio agrícola de Kourou. Inaugurada em 1856, servia de semáforo para se comunicar com o presídio das ilhas da Salvação. Depois do fechamento, a maioria dos prédios foi demolida para dar lugar ao hotel des Roches."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "A ponta das Roches marca o encontro do rio Kourou com o oceano. Suas rochas, granodioritos cortados por veios de pegmatito, têm mais de dois bilhões de anos. Perto do antigo cais do presídio, é também um ponto de observação de aves conhecido dos ornitólogos guianenses."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A orla é um dos pontos públicos para ver um foguete decolar: chegue cedo, há muita gente nas noites de lançamento. Nos dias de lançamento, algumas áreas de Kourou e as ilhas ficam fechadas."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "O que é a torre Dreyfus?",
+    "a": "Um antigo semáforo do presídio de Kourou, inaugurado em 1856, que se comunicava com as ilhas da Salvação."
+   },
+   {
+    "q": "Dá para ver um lançamento da praia?",
+    "a": "Sim, a orla de Kourou é um dos locais públicos de observação."
+   },
+   {
+    "q": "Dá para nadar?",
+    "a": "A praia des Roches é um dos locais de banho monitorados de Kourou: siga a sinalização."
+   }
+  ]
+ },
+ "salut": {
+  "sections": [
+   {
+    "h": "História",
+    "p": [
+     "Desde o início da transportação, em 1852, as ilhas da Salvação foram destinadas ao presídio, e assim ficaram até os anos 1950. Cada ilha tinha seu papel: a ilha Royale recebia os condenados, Saint-Joseph servia de reclusão, em silêncio e no escuro, e a ilha do Diabo recebia os deportados políticos. O capitão Alfred Dreyfus esteve preso lá de 1895 a 1899.",
+     "Propriedade do CNES desde 1971, o arquipélago é um posto de observação dos lançamentos. Com cerca de 50 000 visitantes em 2017, é o principal local turístico da Guiana."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Três ilhas vulcânicas a uns quinze quilômetros de Kourou. Na ilha Royale e em Saint-Joseph, percorre-se o hospital, a igreja, o farol e os alojamentos dos condenados, entre coqueiros, macacos e cutias. Alguns prédios do presídio viraram hospedagem."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A ilha do Diabo não pode ser visitada: o desembarque é proibido. As ilhas fecham em alguns dias de lançamento; consulte a Agenda antes de reservar a travessia."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Dá para visitar a ilha do Diabo?",
+    "a": "Não, o desembarque é proibido. Visitam-se a ilha Royale e a ilha Saint-Joseph."
+   },
+   {
+    "q": "Quem é o dono das ilhas?",
+    "a": "O CNES, desde 1971."
+   },
+   {
+    "q": "Dreyfus esteve na ilha do Diabo?",
+    "a": "Sim, de 1895 a 1899."
+   }
+  ]
+ },
+ "zoo": {
+  "sections": [
+   {
+    "h": "História",
+    "p": [
+     "Criado em 1983 como centro de criação de beija-flores e transformado em zoológico em 1985, o parque fechou em 2007 por não atender às normas. Foi retomado pelos criadores do jardim de Balata, na Martinica, e reabriu em 2008 como Zoo de Guyane."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Mais de 450 animais da fauna guianense e amazônica, em recintos no meio da floresta: onça-pintada, anta, ariranha, harpia, jiboia-esmeralda, sucuri. Passarelas suspensas permitem observar as espécies arborícolas na altura da copa. O local abriga também um centro de cuidados da fauna silvestre, mantido pela associação SOS Faune Sauvage Antilles-Guyane."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "O zoológico fica na rota du Galion, entre Macouria e Montsinéry, a cerca de 25 a 40 minutos de Caiena. Abre de quarta a domingo; chegue de manhã, no fresco, quando os animais estão ativos."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quando o zoológico abre?",
+    "a": "De quarta a domingo; confira horários e preços no site antes de ir."
+   },
+   {
+    "q": "Que animais se veem?",
+    "a": "Sobretudo a fauna guianense: onça, anta, ariranha, harpia, serpentes."
+   },
+   {
+    "q": "É também um refúgio?",
+    "a": "Sim, um centro de cuidados da fauna silvestre funciona ali."
+   }
+  ]
+ },
+ "annamites": {
+  "sections": [
+   {
+    "h": "História",
+    "p": [
+     "Em 1931, a administração trouxe para a Guiana prisioneiros indochineses, então chamados « anamitas »: cerca de cem presos políticos e mais de 400 detentos comuns. Deviam servir de mão de obra para desenvolver o território do Inini. O campo do igarapé Anguille, em Montsinéry-Tonnegrande, funcionou de 1931 a 6 de dezembro de 1944. A mortalidade ali era alta."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Os vestígios do campo, engolidos pela floresta: muros, celas, fundações. O sítio do presídio dos anamitas e do igarapé Anguille é monumento histórico desde 8 de julho de 2022 e recebe quase 30 000 visitantes por ano."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Uma trilha sinalizada de cerca de 5 km ida e volta, sem grande dificuldade, parte da estrada de Montsinéry, a uns vinte quilômetros de Caiena; conte de 2 a 3 horas. Também é possível chegar de canoa pelo igarapé Anguille. É um lugar de memória: respeite os vestígios."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quem eram os « anamitas »?",
+    "a": "Prisioneiros indochineses, políticos e comuns, enviados à Guiana a partir de 1931."
+   },
+   {
+    "q": "Quanto tempo dura a visita?",
+    "a": "Cerca de 2 a 3 horas pela trilha de uns 5 km ida e volta."
+   },
+   {
+    "q": "O local é protegido?",
+    "a": "Sim, é monumento histórico desde 2022."
+   }
+  ]
+ },
+ "yiyi": {
+  "sections": [
+   {
+    "h": "O local",
+    "p": [
+     "O Grand Pripri de Yiyi ocupa quase 15 000 hectares de brejos, manguezais e savanas alagadas entre os rios Sinnamary e Iracoubo. Propriedade do Conservatoire du littoral, é cogerido com a prefeitura de Sinnamary e a SEPANGUY, a mais antiga associação guianense de proteção da natureza. Desde 2008 é sítio Ramsar, zona úmida de importância internacional, com o nome de estuário do rio Sinnamary."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Uma trilha de 2,5 km atravessa os brejos, com torre e observatórios. Podem-se ver jacarés-de-óculos, capivaras, macacos-de-cheiro, guarás e muitas aves aquáticas; com muita sorte, a ariranha."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A Maison de la Nature, à beira da RN1 a uns doze quilômetros de Sinnamary, é a porta de entrada: exposições, informações sobre a trilha, saídas guiadas. Venha cedo de manhã ou no fim do dia."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "O que é um pripri?",
+    "a": "Um brejo de água doce da planície costeira guianense."
+   },
+   {
+    "q": "Qual é o comprimento da trilha?",
+    "a": "2,5 km, cerca de 1 h 30."
+   },
+   {
+    "q": "Quando ir?",
+    "a": "Cedo de manhã ou no fim da tarde, quando os animais estão mais ativos."
+   }
+  ]
+ },
+ "iracoubo": {
+  "sections": [
+   {
+    "h": "História",
+    "p": [
+     "A igreja Saint-Joseph de Iracoubo foi construída entre 1887 e 1893, por iniciativa do padre Prosper Raffray. Em 1891 ele conheceu Pierre Huguet, decorador parisiense condenado ao presídio e designado para as obras da estrada colonial n.º 1. A tradição atribui a ele a decoração pintada, concluída para a consagração da igreja em 6 de janeiro de 1893. Poucas semanas depois, em 20 de fevereiro de 1893, Huguet fugiu."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "Teto, coro, nave e pilares: cerca de 600 m² de superfícies pintadas, em estilo ingênuo e colorido, segundo uma iconografia definida por Raffray. É às vezes chamada de « Capela Sistina da Amazônia ». A igreja é monumento histórico desde 1978.",
+     "Na saída do povoado rumo a Saint-Laurent, um memorial homenageia os 47 Kali'na e Arawak levados à Europa em 1882 e 1892 para serem exibidos em « zoológicos humanos »."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Uma parada ideal na estrada Caiena – Saint-Laurent. O horário de abertura pode variar: pergunte na prefeitura se a igreja estiver fechada."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quem pintou a igreja de Iracoubo?",
+    "a": "A tradição atribui ao condenado Pierre Huguet, entre 1891 e 1893."
+   },
+   {
+    "q": "Quanto foi pintado?",
+    "a": "Cerca de 600 m²: teto, coro, nave e pilares."
+   },
+   {
+    "q": "Ela é protegida?",
+    "a": "Sim, monumento histórico desde 1978."
+   }
+  ]
+ },
+ "montagne-singes": {
+  "sections": [
+   {
+    "h": "O local",
+    "p": [
+     "A montanha dos Macacos chega a 161 metros a sudoeste de Kourou. O terreno pertence ao CNES e o ONF fez as trilhas. Dois percursos: uma trilha botânica fácil de cerca de 650 m e um circuito maior, de cerca de 3,9 km, mais puxado, que passa por uma clareira, um igarapé e uma floresta alagadiça antes do topo."
+    ]
+   },
+   {
+    "h": "O que ver",
+    "p": [
+     "No topo, o abrigo do ONF dá vista para a copa das árvores, a cidade de Kourou, seu rio, as ilhas da Salvação e as instalações do Centro Espacial; serve também de ponto de observação dos lançamentos. Na mata, morfos-azuis e o canto do cricrió; os saguis-de-mãos-douradas às vezes aparecem, os macacos são raros."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "Pela RN1 rumo a Saint-Laurent, vire à esquerda para « Montagne des Singes / Dégrad Saramaka » e siga cerca de 8 km até o estacionamento. A subida é forte e a trilha escorrega depois da chuva: bons calçados e água."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Qual é o comprimento do circuito?",
+    "a": "Cerca de 3,9 km o circuito maior, 650 m a trilha botânica."
+   },
+   {
+    "q": "Dá mesmo para ver macacos?",
+    "a": "Raramente: é mais fácil ver morfos-azuis e aves."
+   },
+   {
+    "q": "Dá para ver um lançamento de lá?",
+    "a": "Sim, o abrigo do topo serve de ponto de observação."
+   }
+  ]
+ },
+ "bois-diable": {
+  "sections": [
+   {
+    "h": "O local",
+    "p": [
+     "Kourou tem três lagos: Bois Diable, Marie-Claire e Bois Chaudat. O lago Bois Diable, na cidade, está entre os locais de banho recenseados de Kourou, com as praias Pollux, Castor e des Roches. É a opção de água doce quando o mar está agitado ou com muita lama."
+    ]
+   },
+   {
+    "h": "Bom saber",
+    "p": [
+     "A qualidade da água é controlada durante a temporada, mas em 2026 nenhum resultado estava publicado para este local quando verificamos: veja a sinalização antes de nadar e não entre na água se for proibido. Como em toda água doce, evite nadar com ferida aberta."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Dá para nadar no lago Bois Diable?",
+    "a": "É um local de banho recenseado; confira o aviso sobre a qualidade da água antes de ir."
+   },
+   {
+    "q": "Onde fica?",
+    "a": "Na cidade de Kourou."
+   },
+   {
+    "q": "Há outros lagos em Kourou?",
+    "a": "Sim: Marie-Claire e Bois Chaudat."
+   }
+  ]
+ }
 }
