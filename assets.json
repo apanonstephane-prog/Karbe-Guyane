@@ -1,471 +1,818 @@
 {
- "note": "Sources des illustrations. Au build, chaque fichier est d'abord récupéré depuis la production Vercel, puis depuis l'origine Higgsfield en secours.",
- "images": [
-  {
-   "key": "hero",
-   "file": "img/src/hero.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142628_28df3d67-f488-4de2-aea9-8b4dc4099695.webp",
-   "sha256": "f22f9be74aa83820ce3d6b08b64b0e39d203197b05863b210f9eb64d3864849a",
-   "bytes": 1415928
-  },
-  {
-   "key": "cayenne",
-   "file": "img/src/cayenne.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142807_8def4edf-7832-47e8-99c1-5e78ee943525.webp",
-   "sha256": "b493739af56d1d828753b6987132971207d3390823d359da1d7a4e84b773ccf7",
-   "bytes": 1539828
-  },
-  {
-   "key": "kaw",
-   "file": "img/src/kaw.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142808_a5c23506-6276-48ee-ad4b-06b9d13705e3.webp",
-   "sha256": "df887f0b90baa27f2deebd0e548d9ba409c8ac4d04829a1dccb169a4f5729209",
-   "bytes": 1375426
-  },
-  {
-   "key": "salut",
-   "file": "img/src/salut.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142807_5cfb86bc-7eb6-444b-8eb2-16758ae96260.webp",
-   "sha256": "030acd297b7b3f08c1a12381a323caaa63cb719e19217e2225da87eaf7827b8e",
-   "bytes": 1437684
-  },
-  {
-   "key": "maroni",
-   "file": "img/src/maroni.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142814_8f2b98a6-4dd0-4510-b81a-37e0019b2e28.webp",
-   "sha256": "1774665f2bb1810437a74305841362f61945433ab2baf19e9e561f8107e63f0a",
-   "bytes": 1432098
-  },
-  {
-   "key": "oyapock",
-   "file": "img/src/oyapock.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142812_81a8a879-607f-46cf-b86a-d10a83b6626e.webp",
-   "sha256": "1c31ffa07c40f6dde4a2c0b0c6f832f2fb5fc1d61d6c8e653f9d561d1a038be7",
-   "bytes": 1386712
-  },
-  {
-   "key": "foret",
-   "file": "img/src/foret.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142808_8a62edd0-84cf-4a01-bc5c-4bdb69f7d8bb.webp",
-   "sha256": "d7705856b6e0ba61dac52e291e1d561088436d4baf5c8076efea1b414ba1741e",
-   "bytes": 1755570
-  },
-  {
-   "key": "tortue",
-   "file": "img/src/tortue.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142809_2d2d561a-1a41-410b-8d94-9ea46372c092.webp",
-   "sha256": "ec56970a20a60c3543d2956b0d52b719d990c548057c8480616b47213da3f17a",
-   "bytes": 1345722
-  },
-  {
-   "key": "lancement",
-   "file": "img/src/lancement.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142814_b99844cc-84af-4aea-8797-e0538148d5d3.webp",
-   "sha256": "828a63c596b6d01a64cbcc7abb0876dab096d939373a64d0ac628e7cb2119d79",
-   "bytes": 1366600
-  },
-  {
-   "key": "cacao",
-   "file": "img/src/cacao.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142815_1144f8ae-822e-40cf-b1c4-5a8d803d3b95.webp",
-   "sha256": "d43944fca50885c4264b13732c9e36f7b7ff34ff748b56f9e0f641c26a499315",
-   "bytes": 1839322
-  },
-  {
-   "key": "sentier",
-   "file": "img/src/sentier.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142809_df7b68a5-3318-4504-ae9d-c40ddf5af9d2.webp",
-   "sha256": "fd1330d4eeab75d984544a3588cc7a9f5dd9c58edaacbfa393c35f8380ef78dd",
-   "bytes": 1623966
-  },
-  {
-   "key": "plage",
-   "file": "img/src/plage.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142810_07124762-11e6-45d5-a129-f188da9e97e3.webp",
-   "sha256": "f9f22613f1999bc74c5fbe1654abb591d52ef26ba3174fae694ed3d00baaca0c",
-   "bytes": 1538294
-  },
-  {
-   "key": "route",
-   "file": "img/src/route.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142809_4772457d-3066-4eec-b78b-9c78586be2f7.webp",
-   "sha256": "5e94ca2df6377dd6bd00e3691d997d5483c51fad90c34d2200c06711a44d99c0",
-   "bytes": 1471540
-  },
-  {
-   "key": "ceperou",
-   "file": "img/src/ceperou.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_ec3f8d5b-7bb7-4df0-9a1b-77ad4445a0c1.png",
-   "sha256": "5d30d95779afd5864ab22d2e5c483b7e976a2faae3bfac8c4fce6e37211f6a49",
-   "bytes": 303982,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "marche-cayenne",
-   "file": "img/src/marche-cayenne.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172851_fe9f87b6-b3ba-43bf-80c7-1a3aff31c06b.png",
-   "sha256": "c3761142265ae545558778b53425e008b72a2c4e9ef4a8a131ea7e3f1db7ab83",
-   "bytes": 324176,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "musee-cultures",
-   "file": "img/src/musee-cultures.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172851_ff264132-4c9d-4f59-9dda-778dc638db39.png",
-   "sha256": "534d28aae7c0409a34fdc40f737c8770859c6dfae2e1f65616cd546af86d4e4f",
-   "bytes": 305942,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "salines",
-   "file": "img/src/salines.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_8c4cc290-56e3-4d25-9006-70149cc08c23.png",
-   "sha256": "3c8a74447306540a2bacb725eea4975705f4585fa15ceb528dffa412754ff6c1",
-   "bytes": 320368,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "bourda",
-   "file": "img/src/bourda.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172853_a9d23265-c55f-4957-8b2b-a4f950d75ccc.png",
-   "sha256": "7a9a1de9693ca3dccb7ce304ffa069bfaff63e5033d88d13a7f7ac506aab3ec5",
-   "bytes": 312600,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "loyola",
-   "file": "img/src/loyola.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172853_8532c1cc-9ca0-409c-947e-bb2c36ffcad6.png",
-   "sha256": "123bb5580b34be2f09e95e079222d4f1f15bc31cc4466d0603de530ddddf90e8",
-   "bytes": 382236,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "diamant",
-   "file": "img/src/diamant.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172855_ed22c865-2930-4368-a5ef-7bb1b90e2ede.png",
-   "sha256": "7d1c92fdab9e37c36b379d7bc7060d422060ce6e168389ac941aae39b4eef4e6",
-   "bytes": 307356,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "matoury",
-   "file": "img/src/matoury.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_6bf19b09-86c3-4044-9f64-5bc99f678f39.png",
-   "sha256": "ab451d39d4eedeeac3080881cf066cf09999fb2ab873fd7d8aa32be40b597f40",
-   "bytes": 330272,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "molokoi",
-   "file": "img/src/molokoi.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_60fb7723-56c4-4b5c-8e6c-8b52b78ece3c.png",
-   "sha256": "bddcf794515f1d0f222a67b1c3e105bc1604a0f6acbbc157b7489a3006b031d2",
-   "bytes": 338258,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "roura",
-   "file": "img/src/roura.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172852_4892db4d-4cca-4c08-9e9c-44c3d0b81398.png",
-   "sha256": "2db05acdfc90611b56092edf34315e03ef4c8852e3d46fec2a7fd863eb2b8e65",
-   "bytes": 277782,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "tresor",
-   "file": "img/src/tresor.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172852_786e126a-a571-4a55-b199-9227e6391699.png",
-   "sha256": "6bfa888a3f28c7a7b0718cccf5f2a1c398668090b0cb8bc3aa808b1d5ca8b3b7",
-   "bytes": 318874,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "csg",
-   "file": "img/src/csg.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172853_6c4f236b-0bf2-4fe4-bac7-275bf2e518c4.png",
-   "sha256": "c9b5a9c58bf26201f75d0e091b7c7109eb39436e137cac42832591b06e2c8e8b",
-   "bytes": 269334,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "kourou-plage",
-   "file": "img/src/kourou-plage.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172919_80de4b00-c50c-436d-a38a-a4139cd60da9.png",
-   "sha256": "eeb0e8409ed7819d4164afeff60ecdfcf9cf62ad2be502b28dc7dbf8fd588d9a",
-   "bytes": 276140,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "zoo",
-   "file": "img/src/zoo.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172920_2ca6ccff-cb7b-4fa5-97d8-98a043e3a132.png",
-   "sha256": "01802810f1f15eb4ff6cf0da7bfa5169546cc8ccb4be83dbae6ee8856dad1111",
-   "bytes": 352924,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "annamites",
-   "file": "img/src/annamites.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172921_ccad2c34-cbad-48f6-8211-cc6d50da8d5a.png",
-   "sha256": "dcb27acb5547df1b322bee270b09d0554814ea92fee059f11e76bb069e7f6e84",
-   "bytes": 374750,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "yiyi",
-   "file": "img/src/yiyi.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_6478896b-a2b7-4252-84dc-921b0cd3b8c6.png",
-   "sha256": "b5737ed5057da62cf2eb1cafb39120d0b9d78443d5cf6f9aa7840cc782fe2762",
-   "bytes": 288614,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "iracoubo",
-   "file": "img/src/iracoubo.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_d18686dc-eea7-484f-a13b-c4f6357e0b76.png",
-   "sha256": "5c852e38e3d0e4d0ac4d45903ae82b19d6b18ff58cbb9becdcdd8700f77ac395",
-   "bytes": 312184,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "transportation",
-   "file": "img/src/transportation.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172920_3175260d-e84f-48ee-a38f-685ef0a01599.png",
-   "sha256": "3f6a2346139eb886293f28103908eadf0b433793d93b0f85f488f86f9a5473bf",
-   "bytes": 314910,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "relegation",
-   "file": "img/src/relegation.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_403c76a7-10ab-4c8a-9c3a-9ff6c78a1f69.png",
-   "sha256": "fe8244c0213ca1f342e57d301d505af96641db5c6ebaa59d6bf6922d197df9d9",
-   "bytes": 346976,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "javouhey",
-   "file": "img/src/javouhey.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172921_76204d23-7e7a-4479-aa68-be3c0ae2d91a.png",
-   "sha256": "96ea007aaf9e66aa6b3d397ecdb79b7371480916b765876464858991d94a7f68",
-   "bytes": 357214,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "mana",
-   "file": "img/src/mana.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172919_93f66806-5e91-4bab-bb57-c876c6b2d8ad.png",
-   "sha256": "e7b05c306d2d1f6af8c7e070f7aacd699101bde1d7eb2828b628a436b47c2d66",
-   "bytes": 333346,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "maripasoula",
-   "file": "img/src/maripasoula.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172920_c8ed548c-840e-4b1c-b766-7bffff1c3117.png",
-   "sha256": "df24a6c28e1cc9b7efe89eb089a930e5fbf8ccdc0d5e264fe5ee3b7e47c7261c",
-   "bytes": 355638,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "franconie",
-   "file": "img/src/franconie.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_424712e8-fa9d-4642-b596-c8cfbf69c21e.png",
-   "sha256": "c9ebd13f43260e09c50bc2860bf6b5dc7a278c3f50430002979c5407c237a101",
-   "bytes": 320780,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "montabo",
-   "file": "img/src/montabo.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172919_7baf5a91-2412-4014-b045-d7bb3ab9e7df.png",
-   "sha256": "ce46181da33d354c55a21297a73f7a0912630f293f3e08a004cb3b0e673f9002",
-   "bytes": 296944,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "vidal",
-   "file": "img/src/vidal.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172949_a0407d26-0b54-448f-b5f8-a312101ef288.png",
-   "sha256": "afc9c0e6da63259b67bf3caf13ad68d8a61235a0fd8fa1f0676cfce43f38c1d5",
-   "bytes": 353480,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "topu",
-   "file": "img/src/topu.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172946_2fd471a2-5ef6-4332-8de6-2175c4fca76b.png",
-   "sha256": "1e056379ab4aa1d57b2f44919230503d4904a8f1a3554f2eb0a778b6464dd0bb",
-   "bytes": 313696,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "fourgassie",
-   "file": "img/src/fourgassie.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172945_58a4bc20-bca6-4509-a5ea-bc5fda550461.png",
-   "sha256": "5a68b318c815c0d5fbe0edd1d4791d4fa73af1a68adae1872c729450ad449d4c",
-   "bytes": 324980,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "coq-de-roche",
-   "file": "img/src/coq-de-roche.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172948_9dc93533-56eb-4290-846c-6e1b1d133049.png",
-   "sha256": "76bed0fd401dffe3f99b64fb5d39b415a57e33b3662b81f4158df317937e7758",
-   "bytes": 264606,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "roche-virginie",
-   "file": "img/src/roche-virginie.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172946_dec8f376-4998-464e-8fbf-70ec10b0362e.png",
-   "sha256": "f714db0ffaaea7a933cb2127d6fcd5aac94a83812e3651ff0d84b847b274e7bc",
-   "bytes": 260814,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "maripa",
-   "file": "img/src/maripa.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172945_3d51d320-9f65-460f-95aa-a8d959a10a03.png",
-   "sha256": "61613fe954bd95c31e969bb3d8e0f25d347b5d5cb534ef5fb3aee35bb3ef898c",
-   "bytes": 367436,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "montagne-singes",
-   "file": "img/src/montagne-singes.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172948_a3e5758d-f40f-4d2c-bca5-45b8a42f9be0.png",
-   "sha256": "4dba5fa6df26b4e0ed77ec2e13a655c58def00d4daec085ad8cd5b1242896597",
-   "bytes": 310384,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "bois-diable",
-   "file": "img/src/bois-diable.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172948_577dfc45-5811-4d22-9840-7d223670e0f5.png",
-   "sha256": "2900c5ef9b83c80affcd23ee51bf3ae0efe00bf373335d1edbd6ea1d8ce05f6a",
-   "bytes": 314460,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "voltaire",
-   "file": "img/src/voltaire.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172946_92580635-491b-44c9-9f77-eba47357c734.png",
-   "sha256": "c190c3d0c28623efa6241921502ea237e36ac01d9b6aef5b293e9778d1e01419",
-   "bytes": 323776,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "marche-slm",
-   "file": "img/src/marche-slm.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172949_673d3e4e-1caa-406c-bc2b-1298ecd676a9.png",
-   "sha256": "0d7dede950100a4c4220e81007acea620125bccbc9a4c3eb13c63d52e1db004d",
-   "bytes": 350284,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "z-cayenne",
-   "file": "img/src/z-cayenne.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172947_a9e702fe-55be-44ab-9d93-4ce45732001f.png",
-   "sha256": "ff6a6b37bd62b84412b9b773650dfa44bb9c61b9a3a6aec535aa00e023cf2786",
-   "bytes": 279282,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "z-est",
-   "file": "img/src/z-est.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172947_0dcad293-b149-48a8-b724-0e84378478c2.png",
-   "sha256": "711061fc338ddddb0999ea74ac9f4c6d589247e1e167766077149d10637654c7",
-   "bytes": 327146,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "z-savanes",
-   "file": "img/src/z-savanes.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173002_8ff65dae-14e2-45fb-8f97-8e0e926fae1b.png",
-   "sha256": "a32958ebcf46ab8c54115854fc0382c70df6dcae97a8b0343aff6f779d162004",
-   "bytes": 295198,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "z-ouest",
-   "file": "img/src/z-ouest.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173002_4728f45d-d26e-42ba-ab27-8de0ab64ba9c.png",
-   "sha256": "dddaadd39cfed5fe3cdaaa2a5836ae85b3288c19b183909868f90abb9891f110",
-   "bytes": 308088,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "z-oyapock",
-   "file": "img/src/z-oyapock.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_c57fc360-114a-43bd-97ca-e4433ea85d86.png",
-   "sha256": "236f9608a22414b8869222e7c00f766b5fe3dfdae8b664d55d16062d90ca3867",
-   "bytes": 312356,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "z-sud",
-   "file": "img/src/z-sud.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_8467c848-5c49-4103-8c84-1c71ed4edb39.png",
-   "sha256": "a3e4ac3de163528a1fc31367ccc718fbc9b6e65a814b9f7376717a0ee7a40b2a",
-   "bytes": 280922,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "it-cayenne-1j",
-   "file": "img/src/it-cayenne-1j.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173002_6deca73c-1401-4ddc-99c5-b9afd9e9bcb8.png",
-   "sha256": "772afe8ab83926697707051ac642329eb1e50581fe097039127c97b05936e936",
-   "bytes": 331860,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "it-ile-nature",
-   "file": "img/src/it-ile-nature.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173000_b85aadc9-a647-4786-830f-44154e0d558c.png",
-   "sha256": "8931d3055ef2ef63000b082429371645866848fc3371db42eadb201b0dfdb3ff",
-   "bytes": 350936,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "it-kourou-salut",
-   "file": "img/src/it-kourou-salut.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_2e30e32a-862c-4589-ae3f-262309ba5d85.png",
-   "sha256": "3753877d70d1a7b5e79f3837976d0312783b5bbebab3431a481f0f83392532ce",
-   "bytes": 245204,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "it-cacao-kaw",
-   "file": "img/src/it-cacao-kaw.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173000_1c034072-6cc8-439a-99c4-3f68f07e442f.png",
-   "sha256": "f7a897f2df2d39f0ddebc4a7d04ead0a6f7a55fd2f58de7ac46fc4068fc63d74",
-   "bytes": 280028,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "it-ouest-3j",
-   "file": "img/src/it-ouest-3j.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173003_ff5efd5d-7d11-445b-b1b1-788957b24251.png",
-   "sha256": "e9a19db6e627b4c3d015b99aefb5a0c1fe4a782c92ec40c81575eae1bc58dc9e",
-   "bytes": 289834,
-   "note": "converti en WebP q86 depuis l’origine PNG"
-  },
-  {
-   "key": "it-grand-sud",
-   "file": "img/src/it-grand-sud.webp",
-   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_aff31fd2-fccd-4ed8-be46-a29f4c74f317.png",
-   "sha256": "ed232ebe161e24a2a6c93dc4f2ef9be061abe42f5fcb5da4bbe5845f361c3902",
-   "bytes": 313664,
-   "note": "converti en WebP q86 depuis l’origine PNG"
+  "note": "Aquarelles réalisées d'après des photographies libres de Wikimedia Commons (auteur et licence dans « photo »), sauf les entrées marquées « illustration ». Fichiers versionnés dans img/src, vérifiés par SHA-256 au build. Les dérivés de photos CC BY-SA sont diffusés sous la même licence.",
+  "images": [
+    {
+      "key": "hero",
+      "file": "img/src/hero.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181143_03cbf056-fb17-4bca-bf25-9f4eac81d9c0.png",
+      "sha256": "b5dc76414583b11489a9b295b41f9b23ddf3315c4d165fcaa3b6722c4bce275e",
+      "bytes": 354028,
+      "photo": {
+        "titre": "French Guiana tropical forest towards Cacao.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFrench_Guiana_tropical_forest_towards_Cacao.jpg"
+      }
+    },
+    {
+      "key": "cayenne",
+      "file": "img/src/cayenne.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181028_47acc762-8dd1-4e23-9e35-b5a80c80f9e0.png",
+      "sha256": "6724ed15f2722c3f2b1bb561fd2547321182e9fd1fe80a459c93e15397c98ed4",
+      "bytes": 341772,
+      "photo": {
+        "titre": "Cayenne place des palmistes et Bar des palmistes 2013.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACayenne_place_des_palmistes_et_Bar_des_palmistes_2013.jpg"
+      }
+    },
+    {
+      "key": "kaw",
+      "file": "img/src/kaw.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181055_582d413b-3699-4e0e-8e89-6af3baa0b06c.png",
+      "sha256": "d93cde7a690bf57ae569b08735a482e13be5ef0a0194da733ec7cb149094e3a7",
+      "bytes": 386526,
+      "photo": {
+        "titre": "Marais de Kaw 3.jpg",
+        "auteur": "Don-vip",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMarais_de_Kaw_3.jpg"
+      }
+    },
+    {
+      "key": "salut",
+      "file": "img/src/salut.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_180540_5963e93f-5bef-4123-ac0c-547ec6874f3c.png",
+      "sha256": "4100f6cd27b003b6c573d5680383a9f5a7a9028d7e4770468aab3f30d2aaf603",
+      "bytes": 423280,
+      "photo": {
+        "titre": "Île du Diable depuis l'Île Royale.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele_du_Diable_depuis_l%27%C3%8Ele_Royale.jpg"
+      }
+    },
+    {
+      "key": "maroni",
+      "file": "img/src/maroni.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181059_95952726-935e-44cc-a671-194771f2d3b3.png",
+      "sha256": "67a2476511376b3a2fad91c74acc8275bb8d7c1ed9612e602d9349a686268dc2",
+      "bytes": 268480,
+      "photo": {
+        "titre": "Pirogues sur les rives du fleuve Maroni.jpg",
+        "auteur": "Lechatsylvestre",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APirogues_sur_les_rives_du_fleuve_Maroni.jpg"
+      }
+    },
+    {
+      "key": "oyapock",
+      "file": "img/src/oyapock.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181120_2b50aaf1-c63e-4513-9c27-0e17d7df27b0.png",
+      "sha256": "f2d71154c6ef63eabd7e76aeb5aa6d32e0e77aedfd51b700f44aa3fa58553edb",
+      "bytes": 296168,
+      "photo": {
+        "titre": "Saint Georges (44172299474).jpg",
+        "auteur": "Rômulo Ferreira",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASaint_Georges_%2844172299474%29.jpg"
+      }
+    },
+    {
+      "key": "foret",
+      "file": "img/src/foret.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181119_bf93dddc-4276-490e-98e5-774a9562baf7.png",
+      "sha256": "88cad5e76831b859fc32daae280c93bf3c742094a05d413aff10dd9609e26fc6",
+      "bytes": 453626,
+      "photo": {
+        "titre": "Une balade à Saül, parc amazonien de Guyane.jpg",
+        "auteur": "Melanie Dinane",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AUne_balade_%C3%A0_Sa%C3%BCl%2C_parc_amazonien_de_Guyane.jpg"
+      }
+    },
+    {
+      "key": "tortue",
+      "file": "img/src/tortue.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181121_b02c882e-a3c6-47e5-b452-dad71a645afb.png",
+      "sha256": "15851287c4cab254e384f7c654320c46440a98fe2531cd74132133f66eb63d33",
+      "bytes": 355378,
+      "photo": {
+        "titre": "Les Hattes, French Guiana 061.jpg",
+        "auteur": "Ayshka Sene, Sophie Fuggle, Claire Reddleman",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALes_Hattes%2C_French_Guiana_061.jpg"
+      }
+    },
+    {
+      "key": "lancement",
+      "file": "img/src/lancement.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181142_f6b0749d-7b86-4137-a67d-a6756f1196bd.png",
+      "sha256": "c336d8f40792a540930efcb2ef0f6942bda72657e9c03cb89c9294cba84f37e7",
+      "bytes": 252818,
+      "photo": {
+        "titre": "Ariane 5ECA on its way to launch pad ELA-3.jpg",
+        "auteur": "Elisabetta Monaco",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAriane_5ECA_on_its_way_to_launch_pad_ELA-3.jpg"
+      }
+    },
+    {
+      "key": "cacao",
+      "file": "img/src/cacao.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181026_e11bd48e-320d-45d9-ab26-3f81b3a9bfcd.png",
+      "sha256": "3f63c5d5af65a8e4449786c701ea0dc952e81e0a0a14332cb70523f580a69aa0",
+      "bytes": 351816,
+      "photo": {
+        "titre": "French Guiana Cacao house 01.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFrench_Guiana_Cacao_house_01.jpg"
+      }
+    },
+    {
+      "key": "sentier",
+      "file": "img/src/sentier.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181027_653167c8-2d2e-4ed6-aced-fe1e9fee4e40.png",
+      "sha256": "c594d043cd783658197ba1c5a043549dd510f1b532a142b463a033c62af7190b",
+      "bytes": 402894,
+      "photo": {
+        "titre": "Sentier rorota 07.JPG",
+        "auteur": "G.Mannaerts",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASentier_rorota_07.JPG"
+      }
+    },
+    {
+      "key": "plage",
+      "file": "img/src/plage.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181027_b1882f9b-66da-4b56-88ef-de7ecaa6339c.png",
+      "sha256": "f513b5a84b6ed97eb4685afacd81731f26bec5ab70629fe6cbad25f6d5d45a5a",
+      "bytes": 370984,
+      "photo": {
+        "titre": "Plages de Rémire-Montjoly - Guyane.JPG",
+        "auteur": "Lebrouillard",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APlages_de_R%C3%A9mire-Montjoly_-_Guyane.JPG"
+      }
+    },
+    {
+      "key": "route",
+      "file": "img/src/route.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181144_8d81b625-e570-49dc-95ec-0acbeac2fd02.png",
+      "sha256": "b66890be74987acbcf6bf13ade82ec35a12b1db2162f8c29f42cb133e6c55371",
+      "bytes": 328486,
+      "photo": {
+        "titre": "RN2 route vers le pont.jpg",
+        "auteur": "Loljules",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARN2_route_vers_le_pont.jpg"
+      }
+    },
+    {
+      "key": "ceperou",
+      "file": "img/src/ceperou.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181028_7f517052-084a-4698-95e8-782140e08a6d.png",
+      "sha256": "58074a8cb6cfbe78d235189b995142f2f87ea8f5d08b3a9a7ba783c640fb67c2",
+      "bytes": 333312,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Cayenne Fort Cépérou 2013.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACayenne_Fort_C%C3%A9p%C3%A9rou_2013.jpg"
+      }
+    },
+    {
+      "key": "marche-cayenne",
+      "file": "img/src/marche-cayenne.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181026_0e3bf7df-e5c5-4a16-9096-7e2fbdacc0eb.png",
+      "sha256": "ef6d79d9f7677e404031d2b8bd0df99b61a81f3b8961dafcd36b97a42450475f",
+      "bytes": 348132,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Fruits du marché de Cayenne.jpg",
+        "auteur": "Lechatsylvestre",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFruits_du_march%C3%A9_de_Cayenne.jpg"
+      }
+    },
+    {
+      "key": "musee-cultures",
+      "file": "img/src/musee-cultures.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181026_80628386-0429-499d-a207-9b62d479303b.png",
+      "sha256": "d476aeab2c0d7b7e85df5e95bafb57112308f25c0bb8f2f0e452daf421ed002a",
+      "bytes": 314966,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Musée des cultures guyanaises 001.jpg",
+        "auteur": "Ayshka Sene, Sophie Fuggle, Claire Reddleman",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_des_cultures_guyanaises_001.jpg"
+      }
+    },
+    {
+      "key": "salines",
+      "file": "img/src/salines.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181028_1ea4201e-732f-4a6e-90ea-a3e7e3b0d133.png",
+      "sha256": "1ed74963dcf60116dbde3c952c178b81b59d75bd3377427a72c3f67eeab1e464",
+      "bytes": 327340,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Salines Montjoly.JPG",
+        "auteur": "G.Mannaerts",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASalines_Montjoly.JPG"
+      }
+    },
+    {
+      "key": "bourda",
+      "file": "img/src/bourda.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181026_54e9cb17-55b6-4010-b82f-be8d61be91e7.png",
+      "sha256": "f06a1a5532e859a3dea0ad573d8babea24a3b73b22d5d012cdd1be543a1fe72b",
+      "bytes": 332848,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Beach-bourda-cayenne-french-guiana-e05b877bcaf630188232b6d5897d4921.jpg",
+        "auteur": "auteur non indiqué",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABeach-bourda-cayenne-french-guiana-e05b877bcaf630188232b6d5897d4921.jpg"
+      }
+    },
+    {
+      "key": "loyola",
+      "file": "img/src/loyola.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181027_63001ef3-c920-43dc-9e75-e92420f5c9d9.png",
+      "sha256": "4e885b53f66060df75f7b2e4df3d807db85d58aeb34b7eb518984c025d42a1ba",
+      "bytes": 419868,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Moulin à vent de l'habitation Loyola, Rémire (Guyane française).jpg",
+        "auteur": "Collège Holder",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMoulin_%C3%A0_vent_de_l%27habitation_Loyola%2C_R%C3%A9mire_%28Guyane_fran%C3%A7aise%29.jpg"
+      }
+    },
+    {
+      "key": "diamant",
+      "file": "img/src/diamant.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181028_ec14e5ad-759c-4b29-82d0-d2a9b869d3ef.png",
+      "sha256": "7da22fb5e313ef16d57088ce6baaeccf9a6d5c5c788e0b72765d70ea2f480bec",
+      "bytes": 337282,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Fort Diamant.jpg",
+        "auteur": "Itachili",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFort_Diamant.jpg"
+      }
+    },
+    {
+      "key": "matoury",
+      "file": "img/src/matoury.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181025_a383fdb5-2add-497c-92bc-dd2c6a0ffa2f.png",
+      "sha256": "7dc8d8e69f49c6359d214542a8004bef41611f84e92973c7da9052f23727ae39",
+      "bytes": 394034,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Ville de Cayenne vue depuis le mont Grand Matoury (Guyane) (Ifremer 00805-91714 - 52682).jpg",
+        "auteur": "Stéphane Lesbats / Ifremer",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVille_de_Cayenne_vue_depuis_le_mont_Grand_Matoury_%28Guyane%29_%28Ifremer_00805-91714_-_52682%29.jpg"
+      }
+    },
+    {
+      "key": "molokoi",
+      "file": "img/src/molokoi.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181057_73a1f7c9-721a-4b95-800f-ba28b4e98345.png",
+      "sha256": "e308791f64729803ff860610e0628a1b72a464d1f7d83cce475c3f405051d939",
+      "bytes": 409676,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Sentier Molokoi2.JPG",
+        "auteur": "G.Mannaerts",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASentier_Molokoi2.JPG"
+      }
+    },
+    {
+      "key": "roura",
+      "file": "img/src/roura.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181055_c01e93b3-b4cb-41d3-bef7-57448741769d.png",
+      "sha256": "d515ba333a8b4ac1675e34eab2a86ad7690e80c0de917194288c00dc15c2616a",
+      "bytes": 319736,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "P1020050 Roura.jpg",
+        "auteur": "Topobaloo",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AP1020050_Roura.jpg"
+      }
+    },
+    {
+      "key": "tresor",
+      "file": "img/src/tresor.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181057_435334ea-4933-4986-8d36-7027a00be312.png",
+      "sha256": "9f946b42d38f9e5b0b9c55c0e79418424a166067bc0b95c188429c88f2feb0e7",
+      "bytes": 449512,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Entrée RD6 Maison de la,Réserve Régionale Trésor.jpg",
+        "auteur": "JF.Szpigel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e_RD6_Maison_de_la%2CR%C3%A9serve_R%C3%A9gionale_Tr%C3%A9sor.jpg"
+      }
+    },
+    {
+      "key": "csg",
+      "file": "img/src/csg.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181056_21bc4788-5388-40e1-a237-ed0c9c5970c8.png",
+      "sha256": "17ade162aa1c6b3faf79cafb920780487fc31900a0e42a5eb702f0ffdbc4122e",
+      "bytes": 320070,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Centre Spatial Guyanais (46886212831).jpg",
+        "auteur": "mike from New York",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACentre_Spatial_Guyanais_%2846886212831%29.jpg"
+      }
+    },
+    {
+      "key": "kourou-plage",
+      "file": "img/src/kourou-plage.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181059_4ff9265d-ff91-4625-91f5-07e03467ee85.png",
+      "sha256": "bd729e40be0567fae167243fe3d3728c61a966b1d0e0272e0abfa0e74047ceb3",
+      "bytes": 335470,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Kourou pointe des Roches plage hôtel des Roches.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKourou_pointe_des_Roches_plage_h%C3%B4tel_des_Roches.jpg"
+      }
+    },
+    {
+      "key": "zoo",
+      "file": "img/src/zoo.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181056_4eac7e88-1a5b-4f79-adac-8a45fb4dee47.png",
+      "sha256": "52e621fb34b8b2af35718721da2e567e26f09c9f94c6640d94fb82a790ee1988",
+      "bytes": 430958,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Pont suspendu au zoo de Guyane.jpg",
+        "auteur": "Don-vip",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APont_suspendu_au_zoo_de_Guyane.jpg"
+      }
+    },
+    {
+      "key": "annamites",
+      "file": "img/src/annamites.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181056_c73b54af-3147-48ab-af50-c14550eff19e.png",
+      "sha256": "125b0fcbf7a9ebb8161dafea38bf4e3bf257aaaa0ae1dce6511d36cab9043eec",
+      "bytes": 419814,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Camp Crique Anguille 3.JPG",
+        "auteur": "Chatsam",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACamp_Crique_Anguille_3.JPG"
+      }
+    },
+    {
+      "key": "yiyi",
+      "file": "img/src/yiyi.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181157_d3da983c-5f51-42ac-841b-4c6e35aa2ae1.png",
+      "sha256": "0ed5ca629304029c74c1d53854634efe3196a5975d22fa9e6ca9d362b0387f65",
+      "bytes": 349858,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "nature": "illustration"
+    },
+    {
+      "key": "iracoubo",
+      "file": "img/src/iracoubo.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_180540_54851e68-901f-4656-9881-0a798e80d961.png",
+      "sha256": "35973fb1ae3c7aa4993ec2ab9e877b177c7ff10e259eb965f9f094fb9fb04e21",
+      "bytes": 435496,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Iracoubo-23.jpg",
+        "auteur": "Psu973",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AIracoubo-23.jpg"
+      }
+    },
+    {
+      "key": "transportation",
+      "file": "img/src/transportation.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181100_f9a5d53a-6a7b-40d9-b07b-bb40a80e97fb.png",
+      "sha256": "10fd042f5de565ff0c84118d603b84b867869b502d76f99c439b26ddce67dfc1",
+      "bytes": 355294,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Bagne de Saint-Laurent-du-Maroni 11.JPG",
+        "auteur": "Chatsam",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABagne_de_Saint-Laurent-du-Maroni_11.JPG"
+      }
+    },
+    {
+      "key": "relegation",
+      "file": "img/src/relegation.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181056_3984538a-7ddd-437e-bf3e-01f091e7bbed.png",
+      "sha256": "8f4ea5ba1e261b7b0336c992e69fb12f53bdc0f88d105eac4e7b1d0b3adce4ef",
+      "bytes": 126336,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "KITLV A871 - Sint Jean in Frans Guyana aan de Marowijne, gezien vanaf Albina, KITLV 103123.tiff",
+        "auteur": "auteur inconnu, collection KITLV",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKITLV_A871_-_Sint_Jean_in_Frans_Guyana_aan_de_Marowijne%2C_gezien_vanaf_Albina%2C_KITLV_103123.tiff",
+        "note": "photo ancienne de Saint-Jean vue depuis Albina"
+      }
+    },
+    {
+      "key": "javouhey",
+      "file": "img/src/javouhey.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181057_680e262b-2c57-4da6-ad96-0039d5245291.png",
+      "sha256": "6eeceb2132c206cf7698507540174baab4f69816584480b2eef24d7ed7c73518",
+      "bytes": 284306,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Javouhey 2.jpg",
+        "auteur": "Don-vip",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AJavouhey_2.jpg"
+      }
+    },
+    {
+      "key": "mana",
+      "file": "img/src/mana.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181119_ea1a104e-205e-45a3-b587-c79f067a6770.png",
+      "sha256": "9017b8cb629e867ec97b2a0d6b0499745917840aa38907b34a59a516b612a504",
+      "bytes": 286430,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Mana-1603.JPG",
+        "auteur": "Psu973",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMana-1603.JPG"
+      }
+    },
+    {
+      "key": "maripasoula",
+      "file": "img/src/maripasoula.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181119_86cf76dc-077a-472f-a825-e380197962dd.png",
+      "sha256": "b76704503b867d77fa8760ec593ff0403c790d053cbff11c66959d9fd49090c7",
+      "bytes": 252344,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "ALI, M. (2011-2013). Parc Amazonien de la Guyane. Fleuve Maroni. 1 (20).jpg",
+        "auteur": "Maurizio Alì",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AALI%2C_M._%282011-2013%29._Parc_Amazonien_de_la_Guyane._Fleuve_Maroni._1_%2820%29.jpg"
+      }
+    },
+    {
+      "key": "franconie",
+      "file": "img/src/franconie.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181119_5c97cb38-c67d-40be-91f0-2a018f9182ef.png",
+      "sha256": "60d766366541bb6c178659ecc7efa6eb061e0865fa451fd950ca723d4c03a270",
+      "bytes": 307040,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Cayenne Maison Franconie 2013.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACayenne_Maison_Franconie_2013.jpg"
+      }
+    },
+    {
+      "key": "montabo",
+      "file": "img/src/montabo.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181118_a808341d-a6f6-4b5b-a465-fddddd03b9ed.png",
+      "sha256": "030e2cdff335c83557432a402860e11fa2aa33886c47d07b6db7e61e239a79df",
+      "bytes": 263224,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Plage de Montabo (39290881921).jpg",
+        "auteur": "Bernard Dupont",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APlage_de_Montabo_%2839290881921%29.jpg"
+      }
+    },
+    {
+      "key": "vidal",
+      "file": "img/src/vidal.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181119_7557fced-48ed-48d8-b6c3-a7df8e3b7737.png",
+      "sha256": "0e4a894bd996a6cfdaca6551d8fc3e4fc1b45f50364d70303d35daaabe34c883",
+      "bytes": 377450,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Vestiges au milieu de la forêt.jpg",
+        "auteur": "Andre Gaston Georges",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVestiges_au_milieu_de_la_for%C3%AAt.jpg"
+      }
+    },
+    {
+      "key": "topu",
+      "file": "img/src/topu.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181118_dab9811c-7497-4ba7-8882-138aa26e98f1.png",
+      "sha256": "5158cf55bf6e6a1f71ff0c7913bd64b6b6491236809724e71eeae46ba042923e",
+      "bytes": 371316,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Sentier rorota 01.JPG",
+        "auteur": "G.Mannaerts",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASentier_rorota_01.JPG",
+        "note": "photo du sentier Rorota voisin, même massif du Mahury"
+      }
+    },
+    {
+      "key": "fourgassie",
+      "file": "img/src/fourgassie.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181120_e0e00db7-4481-47bf-a7d7-7c4a90ac3b9c.png",
+      "sha256": "687d9f523c7b5ce601fa4013f95910e3c6f79bfc93af28e69a9925545dc3d49d",
+      "bytes": 399524,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Crique Fourgassié (25263812157).jpg",
+        "auteur": "Bernard Dupont",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACrique_Fourgassi%C3%A9_%2825263812157%29.jpg"
+      }
+    },
+    {
+      "key": "coq-de-roche",
+      "file": "img/src/coq-de-roche.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181118_b4bbe778-f9b8-439d-a114-29dc3d192243.png",
+      "sha256": "5814bd8796b55e89252b9cc9d06562b3361e244b488e5076092dc985e2f12d1b",
+      "bytes": 336912,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Guianan cock-of-the-rock (Rupicola rupicola) Iwokrama (16674569850).jpg",
+        "auteur": "Feroze Omardeen",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGuianan_cock-of-the-rock_%28Rupicola_rupicola%29_Iwokrama_%2816674569850%29.jpg",
+        "note": "espèce photographiée au Guyana (Iwokrama), pas sur ce sentier"
+      }
+    },
+    {
+      "key": "roche-virginie",
+      "file": "img/src/roche-virginie.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_180541_e6dfd4fa-94e1-4ca1-9b7f-dacd90d5c1ba.png",
+      "sha256": "0f00718cddc9db19519a9a08bc1f31069363fb87e6ffd93fe28f504cd13d1c13",
+      "bytes": 305578,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Savane roche Virginie.jpg",
+        "auteur": "Jo Carletti",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASavane_roche_Virginie.jpg"
+      }
+    },
+    {
+      "key": "maripa",
+      "file": "img/src/maripa.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181120_0fac5a79-f4e1-4983-9f92-0a17297637d0.png",
+      "sha256": "e9b275a0484534be499fad7963db743d395bae4f72579992e0ccf84b39de4f38",
+      "bytes": 344504,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Oyapock maripa falls view.jpg",
+        "auteur": "Arria Belli",
+        "licence": "CC BY 2.5",
+        "page": "https://commons.wikimedia.org/wiki/File%3AOyapock_maripa_falls_view.jpg"
+      }
+    },
+    {
+      "key": "montagne-singes",
+      "file": "img/src/montagne-singes.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181142_f217e2f5-e560-442c-88ac-a0f016fc9fcf.png",
+      "sha256": "6b5dee509bb0af51bb647e42a8a29c08a0cfa60567d4cdbd99fc9e57a8f4d716",
+      "bytes": 377024,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Carbet de la montagne des singes.jpg",
+        "auteur": "Don-vip",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACarbet_de_la_montagne_des_singes.jpg"
+      }
+    },
+    {
+      "key": "bois-diable",
+      "file": "img/src/bois-diable.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181506_d4e0375f-77e3-42ac-a3b6-ee7144ebf720.png",
+      "sha256": "d94ce281e80df9a51bfe2c6d0615dc17588b29065e6d9e329abd9ea10982dc29",
+      "bytes": 334150,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "nature": "illustration"
+    },
+    {
+      "key": "voltaire",
+      "file": "img/src/voltaire.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181143_66c98700-d62a-4ca7-a406-fd46076b8efc.png",
+      "sha256": "2d2d6e6cce913442ecb1d4741a70468982e6acf1e145690daa26060d0fa5b134",
+      "bytes": 400302,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Chutes Voltaire.jpg",
+        "auteur": "Riri97",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AChutes_Voltaire.jpg"
+      }
+    },
+    {
+      "key": "marche-slm",
+      "file": "img/src/marche-slm.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181141_79cb0fe1-7c88-447e-8ed7-39b1a183800d.png",
+      "sha256": "1afc5724e9dc4c5bce5acbeac9061e5d64051c34a2c5db8ae2f251939cc340fd",
+      "bytes": 270766,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Marché de Saint-Laurent du Maroni 2.JPG",
+        "auteur": "Lebrouillard",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMarch%C3%A9_de_Saint-Laurent_du_Maroni_2.JPG"
+      }
+    },
+    {
+      "key": "z-cayenne",
+      "file": "img/src/z-cayenne.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181142_a5193545-43fe-40c3-9ff8-c225ef449e55.png",
+      "sha256": "97237f5c3a0cffee31c3462beb54af2113ec1266bb2d92cc9e0899ebfe241ee8",
+      "bytes": 338004,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Cayenne vista from Mont Cépérou.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACayenne_vista_from_Mont_C%C3%A9p%C3%A9rou.jpg"
+      }
+    },
+    {
+      "key": "z-est",
+      "file": "img/src/z-est.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181141_57a829f6-4a38-41e4-9825-39adeac9624b.png",
+      "sha256": "34e343344c91c6c55a227a8d7918687e8025a259542df58b918988d6cc61b4d6",
+      "bytes": 401132,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Mt Kaw.JPG",
+        "auteur": "Esperanto2000",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMt_Kaw.JPG"
+      }
+    },
+    {
+      "key": "z-savanes",
+      "file": "img/src/z-savanes.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181144_6ab0bb17-ea54-4bc8-9022-3bfbacade648.png",
+      "sha256": "61d9f3fddde76ced57f36753abf68066e24fbeb80e6f38d79cdee0620673eb59",
+      "bytes": 384380,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Vue depuis la Montagne des Singes 03.jpg",
+        "auteur": "Don-vip",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVue_depuis_la_Montagne_des_Singes_03.jpg"
+      }
+    },
+    {
+      "key": "z-ouest",
+      "file": "img/src/z-ouest.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181144_80fbc41b-1eb2-4a9f-8768-308e4ca034bb.png",
+      "sha256": "afe35df44847e80ca9227c18eca5ab25729384e3de90c121b7568dcbee805724",
+      "bytes": 266412,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Saint-Laurent-du-Maroni ilot.JPG",
+        "auteur": "Chatsam",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASaint-Laurent-du-Maroni_ilot.JPG"
+      }
+    },
+    {
+      "key": "z-oyapock",
+      "file": "img/src/z-oyapock.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181143_f8929662-d869-41b4-9819-07d75a5b308e.png",
+      "sha256": "a9e047e85614a141127af3ead554b0f9c1fdcdbf04295ba26011ad77e74d7c78",
+      "bytes": 291578,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Pont sur le fleuve Oyapoque en 2018.jpg",
+        "auteur": "Enji973",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APont_sur_le_fleuve_Oyapoque_en_2018.jpg"
+      }
+    },
+    {
+      "key": "z-sud",
+      "file": "img/src/z-sud.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181143_96ac37e1-30c4-4cdc-a812-4dd0b8a4c236.png",
+      "sha256": "f2142528eabb075f943f5327c76ccb59ea7238577362e15429114e5a1e44e47e",
+      "bytes": 345198,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "French Guiana Saül centre.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFrench_Guiana_Sa%C3%BCl_centre.jpg"
+      }
+    },
+    {
+      "key": "it-cayenne-1j",
+      "file": "img/src/it-cayenne-1j.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181155_f8903252-dcb8-42e7-bb6f-3459aa893a08.png",
+      "sha256": "d3fcec50ba155002efe7703bb1051c83a49a4f331d8602c5fec37131018300d0",
+      "bytes": 295678,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Cayenne av Général-de-Gaulle.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACayenne_av_G%C3%A9n%C3%A9ral-de-Gaulle.jpg"
+      }
+    },
+    {
+      "key": "it-ile-nature",
+      "file": "img/src/it-ile-nature.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181156_aaf61f49-4d34-43d9-8840-cdda7cf3a482.png",
+      "sha256": "a5a94c255ad2150f02235fd194eeede71610d4924c12d199160e57a2f419bae7",
+      "bytes": 309022,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Fort Diamant vue aérienne par mon.nini.jpg",
+        "auteur": "mon.nini",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFort_Diamant_vue_a%C3%A9rienne_par_mon.nini.jpg"
+      }
+    },
+    {
+      "key": "it-kourou-salut",
+      "file": "img/src/it-kourou-salut.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181156_2342ba35-b124-4985-9dbf-50d9f7614d0c.png",
+      "sha256": "01727071e295c5f3e5da7a7f8a10bbfb1652cd88d654f07c2d044cea7f6e6324",
+      "bytes": 388396,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Ile Royale Musée du bagne - latéral.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AIle_Royale_Mus%C3%A9e_du_bagne_-_lat%C3%A9ral.jpg"
+      }
+    },
+    {
+      "key": "it-cacao-kaw",
+      "file": "img/src/it-cacao-kaw.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181157_a4dd6ca6-ecc4-456f-9f1f-25f38301f736.png",
+      "sha256": "eac25b3bc8bba6275c4869c9acbce9b2049b6e2fe9a5df3b7a8ce63b8485429f",
+      "bytes": 263904,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Guyane Marais de Kaw 01.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGuyane_Marais_de_Kaw_01.jpg"
+      }
+    },
+    {
+      "key": "it-ouest-3j",
+      "file": "img/src/it-ouest-3j.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181156_ce0766be-06a6-4f96-8509-2cbc5b41be5b.png",
+      "sha256": "373daec090ff8a56cfed917a52461df6490cead0f67f50033f360a28cd537c1a",
+      "bytes": 331270,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Camp de la Transportation-14.jpg",
+        "auteur": "Psu973",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACamp_de_la_Transportation-14.jpg"
+      }
+    },
+    {
+      "key": "it-grand-sud",
+      "file": "img/src/it-grand-sud.webp",
+      "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_181157_dc86dfc6-d47c-41fc-b4ca-628978e936ea.png",
+      "sha256": "3cae30127f9ce4334fdca7688120573f76e560c18c642540904f978e90999bfc",
+      "bytes": 284510,
+      "note": "converti en WebP q86 depuis l’origine PNG",
+      "photo": {
+        "titre": "Air Guyane Saül 2013.jpg",
+        "auteur": "Cayambe",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAir_Guyane_Sa%C3%BCl_2013.jpg"
+      }
+    }
+  ],
+  "icon": {
+    "key": "icon",
+    "file": "img/src/icon.png",
+    "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_161701_235032a5-4f89-4a0f-9daa-96b6c8c3e7d3.png",
+    "sha256": "b7c6010bc6e1a029d2dfa72693c35c0895801a0338d513515ec09b1e9242627b",
+    "bytes": 1501055
   }
- ],
- "icon": {
-  "key": "icon",
-  "file": "img/src/icon.png",
-  "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_161701_235032a5-4f89-4a0f-9daa-96b6c8c3e7d3.png",
-  "sha256": "b7c6010bc6e1a029d2dfa72693c35c0895801a0338d513515ec09b1e9242627b",
-  "bytes": 1501055
- }
 }

@@ -75,7 +75,30 @@ function pic(k, sizes = "100vw", { eager = false, cap = false } = {}) {
     <img alt="" decoding="async" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} sizes="${sizes}"
       src="${opt(k, 640)}" srcset="${opt(k, 320)} 320w, ${opt(k, 640)} 640w, ${opt(k, 1080)} 1080w"
       onload="this.classList.add('on')" onerror="if(!this.dataset.r){this.dataset.r=1;this.removeAttribute('srcset');this.src='${raw(k)}'}">
-    ${cap ? `<span class="cap">${t("Illustration")}</span>` : ""}</div>`;
+    ${cap ? `<span class="cap">${I.cr ? t("Aquarelle d'après photo") : t("Illustration")}</span>` : ""}</div>`;
+}
+const licUrl = l => { const m = /^CC (BY(?:-SA)?) (\d\.\d)$/.exec(l); return l === "CC0" ? "https://creativecommons.org/publicdomain/zero/1.0/deed.fr" : m ? `https://creativecommons.org/licenses/${m[1].toLowerCase()}/${m[2]}/deed.fr` : ""; };
+function credit(k) {
+  const I = D.images[k]; if (!I) return "";
+  if (!I.cr) return `<p class="credit">${t("Illustration originale : ce lieu n'a pas de photo libre exploitable.")}</p>`;
+  const c = I.cr, lu = licUrl(c.l);
+  return `<p class="credit">${t("Aquarelle d'après une photo de {a}", { a: esc(t(c.a)) })}, <a href="${c.u}" target="_blank" rel="noopener">Wikimedia Commons</a>, ${lu ? `<a href="${lu}" target="_blank" rel="noopener">${c.l}</a>` : c.l}${/SA/.test(c.l) ? ` (${t("aquarelle sous la même licence")})` : ""}.${c.n ? ` ${t("Note")} : ${esc(t(c.n))}.` : ""}</p>`;
+}
+function openCredits() {
+  const names = { hero: t("Accueil"), route: t("Itinéraires"), lancement: t("Lancements") };
+  Object.entries(D.zones).forEach(([k, z]) => names[z.img] = zoneLabel(k));
+  D.itineraries.forEach(i => names[i.img] = LI(i).title);
+  D.spots.forEach(sp => names[sp.img] = L(sp).name);
+  const rows = Object.entries(D.images).map(([k, I]) => [names[k] || k, k, I]).sort((a, b) => a[0].localeCompare(b[0], LOC())).map(([n, k, I]) => {
+    const c = I.cr, lu = c && licUrl(c.l);
+    return `<li><div class="cr-thumb">${pic(k, "64px")}</div><div><b>${esc(n)}</b><br>${c
+      ? `${esc(t(c.a))} · <a href="${c.u}" target="_blank" rel="noopener">${t("source")}</a> · ${lu ? `<a href="${lu}" target="_blank" rel="noopener">${c.l}</a>` : c.l}${c.n ? `<br><i>${esc(t(c.n))}</i>` : ""}`
+      : t("Illustration originale, sans photo source.")}</div></li>`;
+  }).join("");
+  openSheet(`<button class="sheet-x" aria-label="${t("Fermer")}" style="background:var(--canopee)">${ic("close")}</button><div class="wrap sheet-plain">
+    <h2 class="h2">${t("Crédits photos")}</h2>
+    <p class="note">${t("Chaque image de Karbé est une aquarelle peinte d'après une vraie photo du lieu, publiée sous licence libre sur Wikimedia Commons. Les aquarelles dérivées de photos CC BY-SA sont diffusées sous la même licence. Deux lieux sans photo libre sont des illustrations.")}</p>
+    <ul class="credits">${rows}</ul></div>`);
 }
 
 /* ---------- réseau ---------- */
@@ -352,13 +375,13 @@ function vExplorer() {
       <div class="tools">
         <button class="tool red" id="t-red">${ic("torch")}<b>${t("Lumière rouge")}</b><span>${t("Pour observer les tortues sans les déranger.")}</span></button>
         <button class="tool sos" id="t-sos">${ic("sos")}<b>${t("Urgences")}</b><span>${t("Numéros et suivi de sortie partagé avec un proche.")}</span></button>
-        <button class="tool wide" id="t-off">${ic("download")}<span><b>${t("Emporter hors-ligne")}</b><br><span id="off-txt">${t("Fiches, illustrations et cartes par territoire.")}</span></span>${ic("next")}<div class="bar" hidden><i></i></div></button>
+        <button class="tool wide" id="t-off">${ic("download")}<span><b>${t("Emporter hors-ligne")}</b><br><span id="off-txt">${t("Fiches, aquarelles et cartes par territoire.")}</span></span>${ic("next")}<div class="bar" hidden><i></i></div></button>
         <button class="tool wide" id="t-part">${ic("culture")}<span><b>${t("Vous êtes prestataire ?")}</b><br><span>${t("Guides, carbets, restaurants : rejoignez Karbé.")}</span></span>${ic("next")}</button>
       </div>
     </section>
 
     <p class="footer">Karbé ${esc(D.version)}. ${t("Contenus vérifiés sur sources publiques, à confirmer sur place. États des lieux signalés par les utilisateurs.")}<br>
-      ${t("Illustrations originales créées pour Karbé.")} ${t("Météo et mer")} <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a>, ${t("lancements")} <a href="https://thespacedevs.com" target="_blank" rel="noopener">The Space Devs</a>, ${t("carte")} <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.<br>
+      ${t("Aquarelles d'après des photos libres de Wikimedia Commons.")} <button class="link" id="credits">${t("Crédits photos")}</button>. ${t("Météo et mer")} <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a>, ${t("lancements")} <a href="https://thespacedevs.com" target="_blank" rel="noopener">The Space Devs</a>, ${t("carte")} <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.<br>
       <a href="/stats.html">${t("Fréquentation et données ouvertes")}</a> · <button class="link" id="statopt">${statsOn() ? t("Statistiques anonymes : activées") : t("Statistiques anonymes : désactivées")}</button></p>
   </div>`;
 
@@ -385,6 +408,7 @@ function vExplorer() {
   $("#t-off").onclick = openOffline;
   $("#langbtn").onclick = openLang;
   $("#statopt").onclick = () => { store.set("stats", !statsOn()); rerender(); };
+  $("#credits").onclick = openCredits;
   $("#tripdone") && ($("#tripdone").onclick = tripDone);
 
   Promise.allSettled([getWeather(), getLaunches(), getEtats()]).then(([w, l, e]) => {
@@ -466,7 +490,8 @@ function openSpot(id) {
       <h2 class="h3m">${t("Sur place")}</h2>
       <div class="btns" style="margin-top:10px"><a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t("guide") + " " + s0.nav + " Guyane")}">${ic("walk")}${t("Guides et sorties à proximité")}</a>
         <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("restaurant " + s0.nav + " Guyane")}">${ic("culture")}${t("Où manger à proximité")}</a></div>
-      <p class="note">${t("Karbé ne référence aucun prestataire non vérifié : ces liens ouvrent une recherche sur la carte.")} ${s0.prec === "zone" ? t("Sur la carte, la position est approximative.") : ""} ${t("Horaires, tarifs et accès à confirmer avant de partir. L'image est une illustration d'ambiance.")}</p>
+      <p class="note">${t("Karbé ne référence aucun prestataire non vérifié : ces liens ouvrent une recherche sur la carte.")} ${s0.prec === "zone" ? t("Sur la carte, la position est approximative.") : ""} ${t("Horaires, tarifs et accès à confirmer avant de partir.")}</p>
+      ${credit(s0.img)}
     </div>`);
   $("#favbtn").onclick = e => { toggleFav(id); const on = favs.has(id); e.currentTarget.style.color = on ? "var(--ibis)" : ""; e.currentTarget.setAttribute("aria-pressed", on); toast(on ? t("Ajouté aux favoris") : t("Retiré des favoris"), "heart"); syncFavs(); };
   $("#sharebtn").onclick = () => share(s.name, `${s.name} (${zoneLabel(s0.zone)}) : ${s.desc}`, `#lieu/${id}`);
@@ -598,7 +623,7 @@ function openOffline() {
   openSheet(`<button class="sheet-x" aria-label="${t("Fermer")}" style="background:var(--canopee)">${ic("close")}</button><div class="wrap sheet-plain">
     <h1 style="font-size:32px">${t("Emporter hors-ligne")}</h1>
     <p class="lead">${t("Le réseau disparaît dès qu'on quitte le littoral. Téléchargez avant de partir, en wifi de préférence.")}</p>
-    <div class="dl-row"><div><b>${t("Fiches et illustrations")}</b><span id="dl-base">${t("Toutes les fiches, environ 15 Mo")}</span><div class="bar" hidden><i></i></div></div><button class="btn dark" id="dlbase">${ic("download")}</button></div>
+    <div class="dl-row"><div><b>${t("Fiches et aquarelles")}</b><span id="dl-base">${t("Toutes les fiches, environ 15 Mo")}</span><div class="bar" hidden><i></i></div></div><button class="btn dark" id="dlbase">${ic("download")}</button></div>
     <h2 class="h3m">${t("Cartes par territoire")}</h2>
     ${Object.keys(D.zones).map(k => `<div class="dl-row" data-z="${k}"><div><b>${esc(zoneLabel(k))}</b><span>${packs[k] ? t("Téléchargée {a}", { a: ago(packs[k].t) }) : t("Environ 10 à 30 Mo")}</span><div class="bar" hidden><i></i></div></div><button class="btn ${packs[k] ? "ghost" : "dark"}" data-dlz="${k}">${packs[k] ? ic("check") : ic("download")}</button></div>`).join("")}
     <p class="note">${t("Les cartes viennent d'OpenFreeMap (données OpenStreetMap). Elles restent sur votre téléphone jusqu'à ce que vous vidiez les données du navigateur.")}</p></div>`);
@@ -645,7 +670,7 @@ function openItinerary(id) {
     <div class="wrap"><p class="lead">${esc(it.pitch)}</p>
       <div class="facts"><div class="fact"><small>${t("Accès")}</small><b>${esc(it.access)}</b></div><div class="fact"><small>${t("Départ")}</small><b>${it0.startDay ? t("Un {d}", { d: t(it0.startDay) }) : t("Quand vous voulez")}</b></div></div>
       <ol class="timeline">${it.steps.map(st => { const s = spotById[st.spot]; return `<li><span class="dot" style="--k:${CATC[s.cat[0]]}">${passport[s.id] ? ic("check") : ic(s.cat[0])}</span><div><small>${esc(st.t)}</small><button data-spot="${s.id}">${esc(L(s).name)}</button><p>${esc(st.note)}</p></div></li>`; }).join("")}</ol>
-      <div class="btns"><a class="btn" href="${dirUrl}" target="_blank" rel="noopener">${ic("go")}${t("Ouvrir le trajet")}</a><button class="btn ghost" id="itshare">${ic("share")}${t("Partager")}</button></div></div>`);
+      <div class="btns"><a class="btn" href="${dirUrl}" target="_blank" rel="noopener">${ic("go")}${t("Ouvrir le trajet")}</a><button class="btn ghost" id="itshare">${ic("share")}${t("Partager")}</button></div>${credit(it.img)}</div>`);
   $$(".timeline [data-spot]", sheet).forEach(b => b.onclick = () => openSpot(b.dataset.spot));
   $("#itshare").onclick = () => share(it.title, `${it.title} : ${uniq.map(s => L(s).name).join(", ")}`);
 }
