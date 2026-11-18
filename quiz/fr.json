@@ -1,0 +1,409 @@
+[
+{
+"s": "palmistes",
+"q": "Qui représente la statue au centre de la place des Palmistes ?",
+"o": [
+"Félix Éboué",
+"Victor Schœlcher",
+"Gaston Monnerville",
+"Henri Charrière"
+],
+"x": "Félix Éboué, né à Cayenne, gouverneur et figure de la France libre. Le monument date de 1957."
+},
+{
+"s": "ceperou",
+"q": "D'où vient le nom du fort Cépérou ?",
+"o": [
+"D'un chef kali'na",
+"D'un gouverneur français",
+"D'un navire hollandais",
+"D'un arbre de la colline"
+],
+"x": "Cépérou était un chef kali'na qui céda la colline aux Français vers 1643."
+},
+{
+"s": "marche-cayenne",
+"q": "Quelle soupe est l'institution du marché de Cayenne ?",
+"o": [
+"Le phở hmong",
+"Le ramen",
+"La soupe miso",
+"La harira"
+],
+"x": "Sous la halle, les comptoirs de phở tenus par des familles hmong se dégustent dès le petit-déjeuner."
+},
+{
+"s": "marche-cayenne",
+"q": "En quelle année la halle du marché de Cayenne a-t-elle été inaugurée ?",
+"o": [
+"1910",
+"1852",
+"1946",
+"1968"
+],
+"x": "Décidée en 1907, la halle a été inaugurée en 1910."
+},
+{
+"s": "franconie",
+"q": "Quel bagnard a peint les scènes du bagne exposées au musée Franconie ?",
+"o": [
+"Francis Lagrange",
+"Pierre Huguet",
+"Henri Charrière",
+"Alfred Dreyfus"
+],
+"x": "Francis Lagrange a peint la vie du bagne. Pierre Huguet, lui, est le peintre attribué de l'église d'Iracoubo."
+},
+{
+"s": "loyola",
+"q": "Qui a fondé l'habitation Loyola en 1668 ?",
+"o": [
+"Les jésuites",
+"Les dominicains",
+"La Compagnie des Indes",
+"Les Hollandais"
+],
+"x": "Les jésuites en ont fait un grand domaine de plus de 1 000 hectares, avec environ 500 esclaves à son apogée."
+},
+{
+"s": "montjoly",
+"q": "Pourquoi la mer est-elle brune à Montjoly ?",
+"o": [
+"À cause des sédiments de l'Amazone",
+"À cause du port de Cayenne",
+"À cause du sable volcanique",
+"À cause des pluies de la nuit"
+],
+"x": "Le courant porte le long de la côte les sédiments arrachés par l'Amazone."
+},
+{
+"s": "rorota",
+"q": "Pourquoi ne se baigne-t-on pas dans les lacs du Rorota ?",
+"o": [
+"Ce sont des retenues d'eau potable",
+"L'eau est salée",
+"Les lacs sont privés",
+"L'eau est trop froide"
+],
+"x": "Le sentier longe les lacs du Rorota, de Lalouette et de Rémire, qui alimentent l'agglomération en eau potable."
+},
+{
+"s": "matoury",
+"q": "Quelle est l'altitude du sommet du Mont Grand Matoury ?",
+"o": [
+"254 m",
+"114 m",
+"35 m",
+"851 m"
+],
+"x": "254 m. Le mont Bourda culmine à environ 114 m."
+},
+{
+"s": "csg",
+"q": "En quelle année la première fusée a-t-elle décollé de Kourou ?",
+"o": [
+"1968",
+"1979",
+"1957",
+"1986"
+],
+"x": "Le 9 avril 1968, avec la fusée-sonde Véronique."
+},
+{
+"s": "salut",
+"q": "Sur quelle île du Salut le débarquement est-il interdit ?",
+"o": [
+"L'île du Diable",
+"L'île Royale",
+"L'île Saint-Joseph",
+"Aucune"
+],
+"x": "On visite l'île Royale et l'île Saint-Joseph. L'île du Diable, où étaient détenus les déportés politiques, est interdite au débarquement."
+},
+{
+"s": "salut",
+"q": "Qui est propriétaire des îles du Salut depuis 1971 ?",
+"o": [
+"Le CNES",
+"L'ONF",
+"Le Conservatoire du littoral",
+"La commune de Kourou"
+],
+"x": "Le Centre national d'études spatiales ; l'archipel sert aussi de poste d'observation des lancements."
+},
+{
+"s": "salut",
+"q": "Quel prisonnier fut enfermé sur l'île du Diable de 1895 à 1899 ?",
+"o": [
+"Alfred Dreyfus",
+"Henri Charrière",
+"Victor Hugo",
+"Jean Genet"
+],
+"x": "Le capitaine Dreyfus, condamné à tort, y passa plus de quatre ans."
+},
+{
+"s": "kourou-plage",
+"q": "Qu'était la tour Dreyfus, à Kourou ?",
+"o": [
+"Un sémaphore relié aux îles du Salut",
+"Un phare",
+"Une prison",
+"Un château d'eau"
+],
+"x": "Inaugurée en 1856, elle transmettait des signaux entre le pénitencier de Kourou et les îles."
+},
+{
+"s": "annamites",
+"q": "Qui étaient les « Annamites » du bagne de la Montagne des Singes ?",
+"o": [
+"Des prisonniers indochinois",
+"Des ouvriers brésiliens",
+"Des soldats anglais",
+"Des orpailleurs chinois"
+],
+"x": "Des prisonniers politiques et de droit commun venus d'Indochine, envoyés en Guyane à partir de 1931."
+},
+{
+"s": "iracoubo",
+"q": "À qui la tradition attribue-t-elle les peintures de l'église d'Iracoubo ?",
+"o": [
+"Au bagnard Pierre Huguet",
+"À Francis Lagrange",
+"Aux jésuites",
+"À un peintre brésilien"
+],
+"x": "Pierre Huguet aurait peint environ 600 m² entre 1891 et 1893."
+},
+{
+"s": "transportation",
+"q": "Combien de bagnards sont passés par le camp de la Transportation ?",
+"o": [
+"Plus de 50 000",
+"Environ 5 000",
+"Environ 17 000",
+"Plus de 500 000"
+],
+"x": "Plus de 50 000. Environ 17 000, c'est le nombre de relégués."
+},
+{
+"s": "relegation",
+"q": "Qui la loi de 1885 sur la relégation envoyait-elle en Guyane ?",
+"o": [
+"Les récidivistes",
+"Les opposants politiques",
+"Les déserteurs",
+"Les journalistes"
+],
+"x": "Des récidivistes, souvent de petits délinquants, internés à vie dans la colonie."
+},
+{
+"s": "maroni",
+"q": "Avec quel pays le Maroni marque-t-il la frontière ?",
+"o": [
+"Le Suriname",
+"Le Brésil",
+"Le Guyana",
+"Le Venezuela"
+],
+"x": "Le Maroni sépare la Guyane du Suriname ; l'Oyapock la sépare du Brésil."
+},
+{
+"s": "maroni",
+"q": "Combien de pirogues traversent le Maroni chaque jour, selon les estimations ?",
+"o": [
+"Plus de 1 000",
+"Une dizaine",
+"Une centaine",
+"Plus de 100 000"
+],
+"x": "Plus de 1 000 traversées par jour, dont des centaines d'enfants qui vont à l'école."
+},
+{
+"s": "mana",
+"q": "Qui a fondé Mana en 1828 ?",
+"o": [
+"Anne-Marie Javouhey",
+"Victor Schœlcher",
+"Félix Éboué",
+"Joséphine de Beauharnais"
+],
+"x": "La mère Anne-Marie Javouhey, fondatrice des sœurs de Saint-Joseph de Cluny."
+},
+{
+"s": "hattes",
+"q": "De combien les tortues luths ont-elles diminué sur la plage des Hattes ?",
+"o": [
+"D'environ 97 %",
+"D'environ 20 %",
+"D'environ 50 %",
+"Elles ont augmenté"
+],
+"x": "Selon Kwata. Une écloserie protège les nids depuis 2023."
+},
+{
+"s": "voltaire",
+"q": "Quelle est la hauteur des chutes Voltaire ?",
+"o": [
+"Environ 35 m",
+"Environ 5 m",
+"Environ 120 m",
+"Environ 300 m"
+],
+"x": "Environ 35 m, parmi les plus hautes de Guyane."
+},
+{
+"s": "cacao",
+"q": "En quelle année les premiers réfugiés hmongs arrivent-ils à Cacao ?",
+"o": [
+"1977",
+"1946",
+"1962",
+"1995"
+],
+"x": "En septembre 1977, environ 500 personnes."
+},
+{
+"s": "cacao",
+"q": "De quel pays les réfugiés hmongs de Cacao avaient-ils fui ?",
+"o": [
+"Le Laos",
+"L'Indonésie",
+"Les Philippines",
+"Le Japon"
+],
+"x": "Du Laos, via la Thaïlande, après la prise du pouvoir communiste."
+},
+{
+"s": "molokoi",
+"q": "Quelle est la longueur du sentier Molokoï ?",
+"o": [
+"Environ 18 km",
+"Environ 3 km",
+"Environ 45 km",
+"Environ 70 km"
+],
+"x": "Environ 18 km entre Cacao et la piste Coralie, avec des carbets à mi-parcours."
+},
+{
+"s": "kaw",
+"q": "Quel animal des marais de Kaw est le plus grand crocodilien d'Amérique du Sud ?",
+"o": [
+"Le caïman noir",
+"Le caïman à lunettes",
+"L'alligator",
+"Le gavial"
+],
+"x": "Kaw abrite l'une des dernières populations stables de caïman noir."
+},
+{
+"s": "kaw",
+"q": "Quelle est la superficie de la réserve des marais de Kaw-Roura ?",
+"o": [
+"Environ 94 700 ha",
+"Environ 2 464 ha",
+"Environ 500 ha",
+"Environ 1 million d'ha"
+],
+"x": "Environ 94 700 ha. 2 464 ha, c'est la réserve Trésor."
+},
+{
+"s": "coq-de-roche",
+"q": "De quelle couleur est le coq-de-roche mâle ?",
+"o": [
+"Orange vif",
+"Bleu",
+"Noir et blanc",
+"Vert"
+],
+"x": "Orange vif, avec une crête en éventail. Les femelles sont plus brunes."
+},
+{
+"s": "saint-georges",
+"q": "Quelle ville le pont de l'Oyapock relie-t-il à Saint-Georges ?",
+"o": [
+"Oiapoque",
+"Albina",
+"Macapá",
+"Paramaribo"
+],
+"x": "Oiapoque, au Brésil. Albina est en face de Saint-Laurent, au Suriname."
+},
+{
+"s": "saint-georges",
+"q": "En quelle année le pont de l'Oyapock a-t-il ouvert à la circulation ?",
+"o": [
+"2017",
+"2003",
+"2011",
+"2021"
+],
+"x": "Achevé en 2011, il n'a ouvert que le 20 mars 2017."
+},
+{
+"s": "roche-virginie",
+"q": "Qu'est-ce qu'un inselberg ?",
+"o": [
+"Un dôme rocheux qui émerge de la forêt",
+"Une île au milieu d'un fleuve",
+"Un marais d'eau douce",
+"Un ancien volcan"
+],
+"x": "Le mot allemand veut dire « montagne-île ». La Roche Virginie est un dôme de granite."
+},
+{
+"s": "yiyi",
+"q": "En Guyane, qu'est-ce qu'un pripri ?",
+"o": [
+"Un marais d'eau douce",
+"Une pirogue",
+"Un plat de poisson",
+"Un oiseau"
+],
+"x": "Un marais d'eau douce de la plaine côtière, comme les pripris de Yiyi à Sinnamary."
+},
+{
+"s": "saul",
+"q": "Comment rejoint-on le village de Saül ?",
+"o": [
+"Uniquement en avion",
+"Par la route",
+"En train",
+"En bac"
+],
+"x": "Aucune route ne mène à Saül, au centre de la Guyane."
+},
+{
+"s": "maripasoula",
+"q": "Quel record détient Maripasoula ?",
+"o": [
+"Plus vaste commune de France",
+"Commune la plus peuplée de Guyane",
+"Plus ancienne commune de Guyane",
+"Point le plus haut de France"
+],
+"x": "Environ 18 360 km², un peu plus que le Koweït."
+},
+{
+"s": "tresor",
+"q": "Quelle université est liée à la création de la réserve Trésor ?",
+"o": [
+"Utrecht",
+"Leyde",
+"La Sorbonne",
+"Harvard"
+],
+"x": "La fondation Trésor, liée à l'université d'Utrecht, a acheté les terrains."
+},
+{
+"s": "vidal",
+"q": "Qu'était l'habitation Vidal ?",
+"o": [
+"Une sucrerie esclavagiste",
+"Une mine d'or",
+"Un fort",
+"Une léproserie"
+],
+"x": "Établie au début du XIXe siècle, abandonnée vers 1880."
+}
+]

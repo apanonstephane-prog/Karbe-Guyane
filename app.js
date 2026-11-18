@@ -211,6 +211,7 @@ addEventListener("online", flushQueue);
 let passport = store.get("passport", {}); // { id: timestamp }
 const visited = () => Object.keys(passport).filter(id => spotById[id]);
 function badgeState(b) {
+  if (b.k) { const v = b.k === "streak" ? Math.max(streak(), store.get("bestStreak", 0)) : b.k === "ok" ? store.get("quizOk", 0) : store.get("defisDone", []).length; return { got: v >= b.n, p: Math.min(v, b.n), of: b.n }; }
   const V = visited(), Vs = V.map(id => spotById[id]);
   if (b.n && !b.cat && !b.spots) return { got: V.length >= b.n, p: Math.min(V.length, b.n), of: b.n };
   if (b.zones) { const z = new Set(Vs.map(s => s.zone)).size; return { got: z >= b.zones, p: Math.min(z, b.zones), of: b.zones }; }
@@ -224,7 +225,9 @@ function badgeState(b) {
 const BADGE_FR = { premier: ["Premier pas", "Valider un premier lieu"], cinq: ["Curieux", "5 lieux validés"], quinze: ["Explorateur", "15 lieux validés"],
   trente: ["Grand explorateur", "30 lieux validés"], zones: ["Tour de Guyane", "Un lieu dans chacun des 6 territoires"], bagne: ["Mémoire du bagne", "4 lieux de patrimoine"],
   foret: ["Coureur des bois", "5 sentiers ou lieux de nature"], fleuve: ["Gens du fleuve", "3 lieux sur les fleuves et les îles"], plages: ["Bain de mer", "3 plages"],
-  tortues: ["Gardien des tortues", "Montjoly ou Les Hattes en saison de ponte"], espace: ["Vers l'espace", "Un lieu du spatial à Kourou"], marches: ["Au marché", "2 marchés différents"] };
+  tortues: ["Gardien des tortues", "Montjoly ou Les Hattes en saison de ponte"], espace: ["Vers l'espace", "Un lieu du spatial à Kourou"], marches: ["Au marché", "2 marchés différents"],
+  serie: ["Fidèle", "Quiz du jour 7 jours de suite"], savant: ["Savant", "50 bonnes réponses au quiz"], defis: ["Défi relevé", "5 défis de la semaine réussis"] };
+const gotBadges = () => new Set(D.badges.filter(b => badgeState(b).got).map(b => b.id));
 
 async function checkIn(id) {
   const s = spotById[id]; if (!s) return;
@@ -236,8 +239,9 @@ async function checkIn(id) {
   const before = new Set(D.badges.filter(b => badgeState(b).got).map(b => b.id));
   passport[id] = Date.now(); store.set("passport", passport); buzz();
   stat.c.add(id);
+  const dn = evt("ci", id).defis;
   const won = D.badges.filter(b => badgeState(b).got && !before.has(b.id));
-  if (won.length) openBadge(won[0]); else toast(t("Lieu validé dans votre passeport"), "check");
+  if (won.length) openBadge(won[0]); else toast(dn.length ? t("Défi relevé : {d}", { d: defiLabel(dn[0]) }) : t("Lieu validé dans votre passeport"), dn.length ? "spark" : "check");
   const btn = $("#cibtn"); if (btn) { btn.classList.add("on"); btn.innerHTML = `${ic("check")}${t("Validé le {d}", { d: dday(passport[id]) })}`; }
 }
 function openBadge(b) {
@@ -245,6 +249,165 @@ function openBadge(b) {
   openSheet(`<button class="sheet-x" aria-label="${t("Fermer")}" style="background:var(--canopee)">${ic("close")}</button><div class="wrap sheet-plain badge-won">
     <div class="medal big">${b.e}</div><h1>${esc(t(n))}</h1><p class="lead">${esc(t(d))}</p>
     <div class="btns" style="justify-content:center"><a class="btn" href="#passeport">${ic("spark")}${t("Voir mon passeport")}</a></div></div>`);
+}
+
+/* ---------- jeu du jour : lieu du jour, quiz, défis de la semaine ----------
+   Tout est calculé sur le téléphone à partir de la date de Guyane : chacun a le même lieu et le même quiz
+   le même jour, sans serveur ni compte. Les questions viennent des fiches sourcées. */
+const dayKey = (off = 0) => { const p = part({ year: "numeric", month: "2-digit", day: "2-digit" }); const d = new Date(Date.UTC(+p.year, +p.month - 1, +p.day + off)); return d.toISOString().slice(0, 10); };
+const dayNum = k => Math.round(Date.parse(k + "T12:00:00Z") / 864e5);
+const seedOf = s => { let h = 2166136261; for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return h >>> 0; };
+const rng = s => { let a = seedOf(s); return () => { a = a + 0x6D2B79F5 | 0; let x = Math.imul(a ^ a >>> 15, 1 | a); x = x + Math.imul(x ^ x >>> 7, 61 | x) ^ x; return ((x ^ x >>> 14) >>> 0) / 4294967296; }; };
+const shuffled = (arr, s) => { const r = rng(s), a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const SPOT_IDS = D.spots.map(s => s.id);
+const pickCycle = (tag, n, offset = 0) => { const m = SPOT_IDS.length, x = n + offset; return shuffled(SPOT_IDS, tag + Math.floor(x / m))[x % m]; };
+const lieuDuJour = (k = dayKey()) => spotById[pickCycle("lieu", dayNum(k))];
+
+const quizCache = {};
+function loadQuiz(lg) {
+  if (!quizCache[lg]) quizCache[lg] = fetch(`/quiz/${lg}.json?v=${D.version}`).then(r => r.ok ? r.json() : []).catch(() => []);
+  return quizCache[lg];
+}
+async function quizOfDay(k = dayKey()) {
+  const [FRB, LB] = await Promise.all([loadQuiz("fr"), lang === "fr" ? null : loadQuiz(lang)]);
+  const bank = FRB.map((q, i) => ({ ...q, ...(LB?.[i] || {}) })), n = dayNum(k), Q = [];
+  // 1. Quel est ce lieu ? (l'aquarelle, sans le nom)
+  const a = spotById[pickCycle("img", n, 11)], others = shuffled(SPOT_IDS.filter(id => id !== a.id), k + "i").slice(0, 3);
+  Q.push({ kind: "img", s: a.id, img: a.img, q: t("Quel est ce lieu ?"), o: [a.id, ...others].map(id => L(spotById[id]).name), x: L(a).desc });
+  // 2. Dans quel territoire ?
+  let zi = 23; while (pickCycle("zone", n, zi) === a.id) zi++;
+  const z = spotById[pickCycle("zone", n, zi)], zs = shuffled(Object.keys(D.zones).filter(x => x !== z.zone), k + "z").slice(0, 3);
+  Q.push({ kind: "zone", s: z.id, q: t("Dans quel territoire se trouve {p} ?", { p: L(z).name }), o: [z.zone, ...zs].map(zoneLabel), x: `${L(z).name} (${zoneLabel(z.zone)}). ${L(z).desc}` });
+  // 3 à 5. Questions de la banque, sans répétition sur un cycle.
+  if (bank.length >= 3) { const per = Math.floor(bank.length / 3), idx = shuffled(bank.map((_, i) => i), "bank" + Math.floor(n / per)).slice((n % per) * 3, (n % per) * 3 + 3); idx.forEach(i => Q.push({ kind: "bank", ...bank[i] })); }
+  return Q.map((q, i) => { const order = shuffled([0, 1, 2, 3], k + "o" + i); return { ...q, o: order.map(j => q.o[j]), ok: order.indexOf(0) }; });
+}
+const quizLog = () => store.get("quiz", {});
+function streak() {
+  const L0 = quizLog(); let off = L0[dayKey()]?.done ? 0 : -1, n = 0;
+  while (L0[dayKey(off)]?.done) { n++; off--; }
+  return n;
+}
+
+/* Défis de la semaine : un défi « depuis chez soi », un défi « communauté », un défi « terrain ». */
+const DEFIS = [
+  [{ k: "quiz", n: 5, l: "Faire le quiz du jour {n} jours" }, { k: "read", n: 3, l: "Lire {n} fiches « En savoir plus »" }, { k: "perfect", n: 1, l: "Faire un sans-faute au quiz" }, { k: "lieu", n: 4, l: "Découvrir le lieu du jour {n} jours" }],
+  [{ k: "rep", n: 1, l: "Signaler l'état d'un lieu" }, { k: "rep", n: 2, l: "Signaler l'état de {n} lieux" }, { k: "share", n: 1, l: "Partager un lieu ou votre score" }],
+  [...Object.keys(D.zones).map(z => ({ k: "zone", z, n: 1, l: "Valider un lieu : {z}" })), ...["nature", "plage", "patrimoine", "fleuve", "faune"].map(c => ({ k: "cat", c, n: 1, l: "Valider un lieu : {c}" }))],
+];
+const weekNum = (k = dayKey()) => Math.floor((dayNum(k) + 3) / 7);
+const weekDefis = (w = weekNum()) => DEFIS.map((pool, i) => ({ ...shuffled(pool, "defi" + w + i)[0], i, w }));
+const defiLabel = d => t(d.l, { n: d.n, z: d.z ? zoneLabel(d.z) : "", c: d.c ? catLabel(d.c) : "" });
+function wkState() { const w = weekNum(), s = store.get("wk", {}); return s.w === w ? s : { w, quiz: [], read: [], lieu: [], ci: [], rep: 0, share: 0, perfect: 0 }; }
+function defiProgress(d, s = wkState()) {
+  const v = d.k === "quiz" ? s.quiz.length : d.k === "read" ? s.read.length : d.k === "lieu" ? s.lieu.length : d.k === "perfect" ? s.perfect : d.k === "rep" ? s.rep : d.k === "share" ? s.share
+    : s.ci.filter(id => spotById[id] && (d.k === "zone" ? spotById[id].zone === d.z : spotById[id].cat.includes(d.c))).length;
+  return Math.min(v, d.n);
+}
+/* Enregistre une action ; renvoie les défis et badges gagnés à cette occasion. */
+function evt(kind, val) {
+  const before = gotBadges(), s = wkState(), D0 = weekDefis(s.w), was = D0.map(d => defiProgress(d, s) >= d.n);
+  if (["quiz", "read", "lieu", "ci"].includes(kind)) { if (!s[kind].includes(val)) s[kind].push(val); }
+  else if (kind === "perfect") s.perfect = 1; else s[kind] = (s[kind] || 0) + 1;
+  store.set("wk", s);
+  const defis = D0.filter((d, i) => !was[i] && defiProgress(d, s) >= d.n);
+  if (defis.length) { const done = new Set(store.get("defisDone", [])); defis.forEach(d => done.add(d.w + ":" + d.i)); store.set("defisDone", [...done]); }
+  return { defis, badges: D.badges.filter(b => badgeState(b).got && !before.has(b.id)) };
+}
+function celebrate(r) {
+  if (r.badges.length) toast(t("Nouveau badge : {b}", { b: t(BADGE_FR[r.badges[0].id][0]) }), "spark");
+  else if (r.defis.length) toast(t("Défi relevé : {d}", { d: defiLabel(r.defis[0]) }), "spark");
+}
+
+/* Le quiz se joue dans la feuille, une question à la fois ; on peut le quitter et le reprendre. */
+async function openQuiz() {
+  buzz();
+  const k = dayKey(), Q = await quizOfDay(k);
+  if (Q.length < 5) { toast(t("Quiz indisponible hors-ligne pour l'instant."), "offline"); return; }
+  const log = quizLog(), cur = log[k] || { a: [] };
+  const save = () => { const L1 = quizLog(); L1[k] = cur; const keys = Object.keys(L1).sort(); keys.slice(0, Math.max(0, keys.length - 60)).forEach(x => delete L1[x]); store.set("quiz", L1); };
+  const dots = () => `<div class="qdots" aria-hidden="true">${Q.map((_, i) => `<i class="${cur.a[i] == null ? (i === cur.a.length ? "cur" : "") : cur.a[i] === Q[i].ok ? "ok" : "ko"}"></i>`).join("")}</div>`;
+  const head = `<button class="sheet-x" aria-label="${t("Fermer")}" style="background:var(--canopee)">${ic("close")}</button>`;
+  const ask = () => {
+    const i = cur.a.length, q = Q[i];
+    openSheet(`${head}<div class="wrap sheet-plain quiz">${dots()}<p class="qnum">${t("Question {i} sur {n}", { i: i + 1, n: Q.length })}</p>
+      ${q.kind === "img" ? `<div class="qimg">${pic(q.img, "720px", { eager: true })}</div>` : ""}
+      <h2 class="qq">${esc(q.q)}</h2>
+      <div class="qopts" role="group">${q.o.map((o, j) => `<button class="qopt" data-o="${j}">${esc(o)}</button>`).join("")}</div>
+      <div class="qfb" aria-live="polite"></div></div>`);
+    $$(".qopt", sheet).forEach(b => b.onclick = () => {
+      const j = +b.dataset.o, good = j === q.ok; buzz();
+      $$(".qopt", sheet).forEach(x => { x.disabled = true; if (+x.dataset.o === q.ok) x.classList.add("ok"); });
+      if (!good) b.classList.add("ko");
+      cur.a.push(j); save();
+      $(".qfb", sheet).innerHTML = `<p class="qv ${good ? "ok" : "ko"}">${good ? t("Bonne réponse !") : t("Pas tout à fait.")}</p><p>${esc(q.x)}</p>
+        <button class="btn dark wide" id="qnext">${cur.a.length < Q.length ? t("Question suivante") : t("Voir mon score")}</button>`;
+      $(".qdots", sheet).outerHTML = dots();
+      $("#qnext").onclick = () => cur.a.length < Q.length ? ask() : finish();
+      $("#qnext").focus({ preventScroll: true }); $("#qnext").scrollIntoView({ block: "nearest", behavior: RM ? "auto" : "smooth" });
+    });
+  };
+  const finish = () => {
+    let r = { defis: [], badges: [] };
+    if (!cur.done) {
+      cur.done = true; save();
+      const ok = cur.a.filter((x, i) => x === Q[i].ok).length;
+      store.set("quizOk", store.get("quizOk", 0) + ok);
+      store.set("bestStreak", Math.max(store.get("bestStreak", 0), streak()));
+      const r1 = evt("quiz", k), r2 = ok === Q.length ? evt("perfect") : { defis: [], badges: [] };
+      r = { defis: [...r1.defis, ...r2.defis], badges: [...r1.badges, ...r2.badges] };
+      afterClose = () => { const h = location.hash.slice(1) || "explorer"; if (h === "explorer") rerender(); else if (h === "passeport") routeTo("passeport"); };
+    }
+    result(r);
+  };
+  const result = (r = { defis: [], badges: [] }) => {
+    const ok = cur.a.filter((x, i) => x === Q[i].ok).length, st = streak();
+    const grid = Q.map((q, i) => cur.a[i] === q.ok ? "🟩" : "🟥").join("");
+    openSheet(`${head}<div class="wrap sheet-plain quiz qres">
+      <p class="qnum">${t("Quiz du {d}", { d: dday(Date.parse(k + "T12:00:00-03:00")) })}</p>
+      <div class="qscore"><b>${ok}</b><span>/ ${Q.length}</span></div>
+      <p class="lead">${ok === Q.length ? t("Sans-faute. Vous connaissez votre Guyane.") : ok >= 3 ? t("Bien joué.") : t("La Guyane a encore des secrets pour vous.")}</p>
+      <p class="qstreak">🔥 ${plural(st, "{n} jour de suite", "{n} jours de suite")}</p>
+      ${r.badges.map(b => `<div class="qwon"><span class="medal">${b.e}</span><div><b>${t("Nouveau badge : {b}", { b: esc(t(BADGE_FR[b.id][0])) })}</b><small>${esc(t(BADGE_FR[b.id][1]))}</small></div></div>`).join("")}
+      ${r.defis.map(d => `<div class="qwon"><span class="medal">🎯</span><div><b>${t("Défi relevé")}</b><small>${esc(defiLabel(d))}</small></div></div>`).join("")}
+      <div class="btns" style="margin-top:16px"><button class="btn" id="qshare">${ic("share")}${t("Partager mon score")}</button><a class="btn ghost" href="#passeport">${ic("spark")}${t("Défis de la semaine")}</a></div>
+      <h2 class="h3m">${t("Les réponses")}</h2>
+      <ol class="qrecap">${Q.map((q, i) => `<li class="${cur.a[i] === q.ok ? "ok" : "ko"}"><b>${esc(q.kind === "img" ? t("Quel est ce lieu ?") : q.q)}</b><span>${esc(q.o[q.ok])}</span>${q.s && spotById[q.s] ? `<button class="link" data-go="${q.s}">${t("Voir le lieu")}</button>` : ""}</li>`).join("")}</ol>
+      <p class="note">${t("Un nouveau quiz chaque jour à minuit, heure de Guyane. Les réponses viennent des fiches de Karbé, dont les sources sont citées.")}</p></div>`);
+    $("#qshare").onclick = () => { share(t("Quiz Karbé"), `Karbé · ${t("Quiz du {d}", { d: dday(Date.parse(k + "T12:00:00-03:00")) })}\n${grid} ${ok}/${Q.length}${st > 1 ? ` · 🔥${st}` : ""}`, "/#quiz"); };
+    $$("[data-go]", sheet).forEach(b => b.onclick = () => openSpot(b.dataset.go));
+  };
+  if (cur.done) result(); else if (cur.a.length >= Q.length) finish(); else ask();
+}
+
+/* Bloc d'accueil : lieu du jour + quiz + défis. */
+function jeuHTML() {
+  const s0 = lieuDuJour(), s = L(s0), k = dayKey(), Lg = quizLog()[k], st = streak(), Dw = weekDefis(), ws = wkState();
+  const nd = Dw.filter(d => defiProgress(d, ws) >= d.n).length;
+  return `<section class="sec" id="jeu">
+    <div class="sec-h"><h2>${t("Le jeu du jour")}</h2>${st ? `<span class="streak" title="${t("Série")}">🔥 ${st}</span>` : ""}</div>
+    <div class="jeu">
+      <button class="ldj" data-ldj="${s0.id}">${pic(s0.img, "(min-width:700px) 420px, 100vw")}<div class="in"><span class="why">${ic("spark")}${t("Lieu du jour")}</span><h3>${esc(s.name)}</h3><p id="ldj-fact">${esc(zoneLabel(s0.zone))}</p></div></button>
+      <div class="jeu-side">
+        <button class="qcard ${Lg?.done ? "done" : ""}" id="qdj"><span class="qic">?</span><span><b>${t("Quiz du jour")}</b><small id="qdj-s">${Lg?.done ? t("Fait aujourd'hui. Revoyez vos réponses.") : Lg?.a?.length ? t("En cours : {i} sur 5", { i: Lg.a.length }) : t("5 questions sur la Guyane, 1 minute.")}</small></span>${ic("next")}</button>
+        <a class="dcard" href="#passeport"><span class="qic">🎯</span><span><b>${t("Défis de la semaine")}</b><small>${t("{n} sur 3 réussis", { n: nd })}</small></span><span class="dbar"><i style="width:${nd / 3 * 100}%"></i></span></a>
+      </div>
+    </div></section>`;
+}
+function jeuBind() {
+  const b = $("[data-ldj]"); if (!b) return;
+  b.onclick = () => { const r = evt("lieu", dayKey()); openSpot(b.dataset.ldj); celebrate(r); };
+  $("#qdj").onclick = openQuiz;
+  loadFiches(lang).then(F => { const f = F[b.dataset.ldj], el = $("#ldj-fact"); if (f?.faq?.[0] && el) el.textContent = `${f.faq[0].q} ${f.faq[0].a}`; });
+}
+function defisHTML() {
+  const ws = wkState(), Dw = weekDefis(), st = streak();
+  const end = 7 - ((dayNum(dayKey()) + 3) % 7);
+  return `<section class="sec"><div class="sec-h"><h2>${t("Défis de la semaine")}</h2><span class="note">${plural(end, "Nouveaux défis dans {n} jour", "Nouveaux défis dans {n} jours")}</span></div>
+    <div class="defis">${Dw.map((d, i) => { const p = defiProgress(d, ws), ok = p >= d.n;
+      return `<div class="defi ${ok ? "ok" : ""}"><span class="dk">${["🏠", "🤝", "🥾"][i]}</span><div><b>${esc(defiLabel(d))}</b><small>${[t("Depuis chez vous"), t("Pour la communauté"), t("Sur le terrain")][i]} · ${p}/${d.n}</small><span class="dbar"><i style="width:${p / d.n * 100}%"></i></span></div>${ok ? ic("check") : ""}</div>`; }).join("")}</div>
+    <div class="qstats"><div><b>🔥 ${st}</b><small>${t("Série en cours")}</small></div><div><b>${store.get("bestStreak", 0)}</b><small>${t("Meilleure série")}</small></div><div><b>${store.get("quizOk", 0)}</b><small>${t("Bonnes réponses")}</small></div><div><b>${store.get("defisDone", []).length}</b><small>${t("Défis réussis")}</small></div></div>
+    <button class="btn dark wide" id="pquiz" style="margin-top:12px">${t(quizLog()[dayKey()]?.done ? "Revoir le quiz du jour" : "Jouer au quiz du jour")}</button></section>`;
 }
 
 /* ---------- statistiques anonymes (agrégées, sans identifiant ni cookie) ---------- */
@@ -345,6 +508,8 @@ function vExplorer() {
       <div class="rail" id="now">${[0,1,2].map(() => `<div class="now-card sk"></div>`).join("")}</div>
     </section>
 
+    ${jeuHTML()}
+
     <a class="pass-card" href="#passeport">${ic("spark")}<div><b>${t("Mon passeport")}</b><span>${t("{n} lieux validés sur {t}", { n: visited().length, t: D.spots.length })} · ${D.badges.filter(b => badgeState(b).got).length} ${t("badges")}</span></div>${ic("next")}</a>
 
     <section class="sec">
@@ -410,6 +575,7 @@ function vExplorer() {
   $("#statopt").onclick = () => { store.set("stats", !statsOn()); rerender(); };
   $("#credits").onclick = openCredits;
   $("#tripdone") && ($("#tripdone").onclick = tripDone);
+  jeuBind();
 
   Promise.allSettled([getWeather(), getLaunches(), getEtats()]).then(([w, l, e]) => {
     const wx = w.status === "fulfilled" ? w.value : null, la = l.status === "fulfilled" ? l.value : null;
@@ -463,6 +629,7 @@ async function renderFiche(id) {
     ${f.faq?.length ? `<h3>${t("Questions fréquentes")}</h3>${f.faq.map(x => `<p class="q"><b>${esc(x.q)}</b><br>${esc(x.a)}</p>`).join("")}` : ""}
     ${src.length ? `<h3>${t("Sources")}</h3><ul class="src">${src.map(x => `<li><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t)}</a></li>`).join("")}</ul>` : ""}
     <p class="note"><a href="${pagePath("lieu", id)}">${t("Page complète du lieu")}</a></p></details>`;
+  $("details.fiche", box).addEventListener("toggle", e => { if (e.target.open) celebrate(evt("read", id)); }, { once: true });
 }
 function openSpot(id) {
   const s0 = spotById[id]; if (!s0) return; buzz();
@@ -536,7 +703,7 @@ async function reportEtat(id, c) {
   if (Date.now() - last < 15 * 60000) { toast(t("Déjà signalé, merci !"), "check"); return; }
   store.set(key, Date.now());
   const body = { s: id, c };
-  try { await api("etat", body); etatsCache = null; toast(t("Merci, signalement publié"), "check"); }
+  try { await api("etat", body); etatsCache = null; const r = evt("rep"); if (r.badges.length || r.defis.length) celebrate(r); else toast(t("Merci, signalement publié"), "check"); }
   catch (e) {
     if (e.status === 429) toast(t("Déjà signalé, merci !"), "check");
     else if (!e.status || e.status >= 500) { const q = store.get("queue", []); q.push({ path: "etat", body }); store.set("queue", q); toast(t("Pas de réseau : envoi au retour du réseau"), "offline"); }
@@ -548,9 +715,9 @@ async function reportEtat(id, c) {
 function syncFavs() { $$(`#view [data-fav]`).forEach(b => { const on = favs.has(b.dataset.fav); b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); }); }
 const pagePath = (kind, id) => `${lang === "fr" ? "" : "/" + lang}/${kind}/${id}/`;
 async function share(title, text, p = "/") {
-  const url = location.origin + p;
-  try { if (navigator.share) { await navigator.share({ title, text, url }); return; } } catch { return; }
-  try { await navigator.clipboard.writeText(`${text}\n${url}`); toast(t("Lien copié"), "copy"); } catch { toast(url, "info"); }
+  const url = location.origin + p, done = () => setTimeout(() => celebrate(evt("share")), 600);
+  try { if (navigator.share) { await navigator.share({ title, text, url }); done(); return; } } catch { return; }
+  try { await navigator.clipboard.writeText(`${text}\n${url}`); toast(t("Lien copié"), "copy"); done(); } catch { toast(url, "info"); }
 }
 
 /* ---------- carte : MapLibre auto-hébergé + tuiles OpenFreeMap, téléchargeables par territoire ---------- */
@@ -650,7 +817,8 @@ function offlineUrls() {
   Object.keys(D.images).forEach(k => u.push(opt(k, 320), opt(k, 640)));
   u.push(opt("hero", 1080), "/vendor/maplibre-gl.js", "/vendor/maplibre-gl.css");
   if (lang !== "fr") u.push(`i18n/${lang}.js?v=${D.version}`, `/fiches/${lang}.json?v=${D.version}`);
-  u.push(`/fiches/fr.json?v=${D.version}`);
+  u.push(`/fiches/fr.json?v=${D.version}`, `/quiz/fr.json?v=${D.version}`);
+  if (lang !== "fr") u.push(`/quiz/${lang}.json?v=${D.version}`);
   return [...new Set(u)];
 }
 function openOffline() {
@@ -849,6 +1017,7 @@ function vPasseport() {
   view.innerHTML = `<div class="wrap"><div class="page-h"><h1>${t("Mon passeport")}</h1><p>${t("Validez chaque lieu sur place grâce au GPS. Tout reste sur votre téléphone.")}</p></div>
     <div class="pass-hero"><div class="big">${V.length}<small>/ ${D.spots.length}</small></div><div>${zones.map(k => { const n = D.spots.filter(s => s.zone === k).length, v = V.filter(id => spotById[id].zone === k).length;
       return `<div class="zbar"><span>${esc(zoneLabel(k))}</span><i style="--p:${v / n * 100}%"></i><b>${v}/${n}</b></div>`; }).join("")}</div></div>
+    ${defisHTML()}
     <section class="sec"><div class="sec-h"><h2>${t("Badges")}</h2></div><div class="badges">${D.badges.map(b => { const st = badgeState(b), [n, d] = BADGE_FR[b.id];
       return `<div class="badge ${st.got ? "got" : ""}"><div class="medal">${b.e}</div><b>${esc(t(n))}</b><small>${esc(t(d))}</small>${st.got ? "" : `<div class="prog"><i style="width:${st.p / st.of * 100}%"></i></div>`}</div>`; }).join("")}</div></section>
     <section class="sec"><div class="sec-h"><h2>${t("Mon carnet")}</h2>${V.length ? `<button class="link" id="pshare">${t("Partager mon carnet")}</button>` : ""}</div>
@@ -856,6 +1025,7 @@ function vPasseport() {
         : `<div class="empty">${t("Ouvrez la fiche d'un lieu une fois sur place et touchez « J'y suis ».")}</div>`}</div></section>
     <p class="note">${t("La validation demande d'être à moins de 600 m du lieu (2 km quand sa position est approximative).")}</p></div>`;
   $("#pshare") && ($("#pshare").onclick = shareCarnet);
+  $("#pquiz").onclick = openQuiz;
 }
 async function shareCarnet() {
   // Carnet partageable : une image générée sur le téléphone (aucune donnée envoyée).
@@ -1006,6 +1176,7 @@ const routes = { explorer: vExplorer, carte: vCarte, itineraires: vItineraires, 
 function route() {
   const [r0, arg] = location.hash.slice(1).split("/");
   if (r0 === "lieu" && spotById[arg]) { if (!view.childElementCount) { routeTo("explorer"); } openSpot(arg); return; }
+  if (r0 === "quiz") { if (!view.childElementCount) routeTo("explorer"); history.replaceState(null, "", location.pathname + location.search); openQuiz(); return; }
   routeTo(r0 in routes && routes[r0] ? r0 : "explorer", arg);
 }
 function routeTo(r, arg) {

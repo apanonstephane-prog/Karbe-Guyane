@@ -5,7 +5,7 @@
 // `verif` : date de dernière vérification documentaire du contenu.
 
 window.KARBE = {
-  version: "3.4.3",
+  version: "3.5.0",
 
   // Illustrations (gouache, créées pour Karbé), hébergées sur Vercel dans /img/src/.
   // c = couleur dominante, lqip = aperçu flou. Les originaux et leur provenance sont listés dans assets.json.
@@ -419,6 +419,9 @@ window.KARBE = {
     { id: "tortues", spots: ["montjoly","hattes"], months: [3,4,5,6,7,8], e: "🐢" },
     { id: "espace", spots: ["kourou-plage","csg","montagne-singes"], e: "🚀" },
     { id: "marches", spots: ["marche-cayenne","cacao","javouhey","marche-slm"], n: 2, e: "🧺" },
+    { id: "serie", k: "streak", n: 7, e: "🔥" },
+    { id: "savant", k: "ok", n: 50, e: "📚" },
+    { id: "defis", k: "defis", n: 5, e: "🎯" },
   ],
 
   safety: {
