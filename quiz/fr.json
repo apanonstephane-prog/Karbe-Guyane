@@ -405,5 +405,951 @@
 "Une léproserie"
 ],
 "x": "Établie au début du XIXe siècle, abandonnée vers 1880."
+},
+{
+"s": "palmistes",
+"q": "Quel était l'ancien nom de la place des Palmistes ?",
+"o": [
+"La Savane",
+"La place du Coq",
+"La place de la Victoire",
+"La place Royale"
+],
+"x": "Longtemps appelée « la Savane », puis place de l'Esplanade, elle est aménagée à partir de 1821."
+},
+{
+"s": "palmistes",
+"q": "D'où viennent les palmiers royaux de la place des Palmistes ?",
+"o": [
+"Du Venezuela et du sud des Caraïbes",
+"D'Afrique de l'Ouest",
+"D'Asie du Sud-Est",
+"De Polynésie"
+],
+"x": "Ce sont des Roystonea oleacea ; les replantations expliquent les différences de taille."
+},
+{
+"s": "palmistes",
+"q": "Où repose Félix Éboué ?",
+"o": [
+"Au Panthéon",
+"Place des Palmistes",
+"Aux Invalides",
+"À Fort-de-France"
+],
+"x": "Né à Cayenne, gouverneur et figure de la France libre, il repose au Panthéon ; sa statue trône sur la place depuis 1957."
+},
+{
+"s": "palmistes",
+"q": "Qu'abrite la maison Thémire depuis 1908 ?",
+"o": [
+"L'hôtel et le bar des Palmistes",
+"La mairie de Cayenne",
+"Le musée Franconie",
+"Une banque"
+],
+"x": "C'est l'une des plus belles maisons créoles de la place."
+},
+{
+"s": "ceperou",
+"q": "En quelle année la colline de Cépérou est-elle acquise par Poncet de Brétigny ?",
+"o": [
+"1643",
+"1492",
+"1763",
+"1852"
+],
+"x": "Un premier fortin en bois y est élevé : c'est l'acte de naissance de Cayenne."
+},
+{
+"s": "ceperou",
+"q": "Quel amiral hollandais obtient la reddition du fort en 1676 ?",
+"o": [
+"Jacob Binckes",
+"Peter Stuyvesant",
+"Abel Tasman",
+"Jan van Riebeeck"
+],
+"x": "Il débarque 900 hommes aux abords du fort."
+},
+{
+"s": "ceperou",
+"q": "À quelle hauteur au-dessus de la mer se trouve le sommet du fort Cépérou ?",
+"o": [
+"28 m",
+"254 m",
+"3 m",
+"114 m"
+],
+"x": "Assez haut pour embrasser la ville, l'estuaire et l'océan."
+},
+{
+"s": "marche-cayenne",
+"q": "Quels jours se tient le marché de Cayenne ?",
+"o": [
+"Mercredi, vendredi et samedi matin",
+"Tous les jours",
+"Le dimanche seulement",
+"Lundi et jeudi soir"
+],
+"x": "Le samedi est le jour le plus animé : venez tôt."
+},
+{
+"s": "marche-cayenne",
+"q": "Sur quelle place se tient le marché de Cayenne ?",
+"o": [
+"La place du Coq",
+"La place des Palmistes",
+"La place de l'Esplanade",
+"La place de la Savane"
+],
+"x": "L'Esplanade et la Savane sont les anciens noms de la place des Palmistes."
+},
+{
+"s": "musee-cultures",
+"q": "En quelle année le Musée des cultures guyanaises a-t-il été créé ?",
+"o": [
+"1995",
+"1901",
+"1968",
+"2015"
+],
+"x": "1901, c'est l'ouverture du musée Franconie."
+},
+{
+"s": "musee-cultures",
+"q": "Combien d'objets le Musée des cultures guyanaises gère-t-il environ ?",
+"o": [
+"10 000",
+"500",
+"1 million",
+"100"
+],
+"x": "S'y ajoutent des fonds d'archéologie, des images et des archives sonores."
+},
+{
+"s": "franconie",
+"q": "En quelle année le musée Franconie a-t-il ouvert ?",
+"o": [
+"1901",
+"1995",
+"1853",
+"1968"
+],
+"x": "C'est l'une des plus anciennes institutions culturelles de Guyane."
+},
+{
+"s": "franconie",
+"q": "Combien de spécimens compte la collection d'insectes du père Barbotin ?",
+"o": [
+"Près de 4 000",
+"Une cinquantaine",
+"Près de 400 000",
+"Une dizaine"
+],
+"x": "Elle fait partie du cabinet de curiosités du musée Franconie."
+},
+{
+"s": "montjoly",
+"q": "Jusqu'à quelle taille une tortue luth peut-elle atteindre ?",
+"o": [
+"Environ 2 m et 400 kg",
+"Environ 50 cm et 10 kg",
+"Environ 5 m et 2 t",
+"Environ 1 m et 50 kg"
+],
+"x": "C'est une géante : on la voit pondre sur les plages de Rémire-Montjoly."
+},
+{
+"s": "montjoly",
+"q": "Avec la luth, quelle tortue pond surtout à Montjoly ?",
+"o": [
+"La tortue olivâtre",
+"La tortue d'Hermann",
+"La tortue des Galápagos",
+"La tortue serpentine"
+],
+"x": "Plus rarement, la tortue verte et la tortue imbriquée."
+},
+{
+"s": "montjoly",
+"q": "Quand les tortues pondent-elles à Montjoly ?",
+"o": [
+"D'avril à août",
+"De novembre à janvier",
+"Toute l'année",
+"En février seulement"
+],
+"x": "Les émergences des petits se prolongent ensuite."
+},
+{
+"s": "salines",
+"q": "À qui appartient le site des Salines de Montjoly ?",
+"o": [
+"Au Conservatoire du littoral",
+"Au CNES",
+"À l'armée",
+"À une sucrerie"
+],
+"x": "Premières parcelles acquises dès 1981 ; l'association Kwata le gère depuis 2012."
+},
+{
+"s": "salines",
+"q": "Quel milieu la passerelle sur pilotis des Salines traverse-t-elle ?",
+"o": [
+"Une mangrove de palétuviers rouges",
+"Une savane-roche",
+"Une forêt de montagne",
+"Un récif corallien"
+],
+"x": "C'est l'une des rares mangroves de Guyane accessibles à pied."
+},
+{
+"s": "rorota",
+"q": "Quelle est la longueur de la boucle du Rorota ?",
+"o": [
+"5,6 km",
+"18 km",
+"600 m",
+"30 km"
+],
+"x": "Environ 150 m de dénivelé, 1 h 30 à 2 h."
+},
+{
+"s": "rorota",
+"q": "Sur quelle montagne se trouve le sentier du Rorota ?",
+"o": [
+"Le Mahury",
+"La montagne de Kaw",
+"La montagne des Singes",
+"Les monts Tumuc-Humac"
+],
+"x": "Il se combine avec les sentiers de Topu et de Loyola, sur le même massif."
+},
+{
+"s": "loyola",
+"q": "Quel vestige de Loyola se voit depuis la route de Rémire ?",
+"o": [
+"Le moulin à vent de 1733",
+"Un phare",
+"Un fort en demi-lune",
+"Une église peinte"
+],
+"x": "Le moulin est monument historique ; les vestiges sont inscrits depuis 1993."
+},
+{
+"s": "loyola",
+"q": "Quelle université a mené des fouilles à Loyola ?",
+"o": [
+"L'université Laval",
+"L'université d'Utrecht",
+"Oxford",
+"Coimbra"
+],
+"x": "Le site est fouillé depuis les années 1990."
+},
+{
+"s": "loyola",
+"q": "Pourquoi le domaine de Loyola est-il délaissé après 1763 ?",
+"o": [
+"La Compagnie de Jésus est interdite",
+"Un cyclone l'a détruit",
+"Une route le traverse",
+"La ruée vers l'or"
+],
+"x": "Les jésuites avaient déjà abandonné le sucre vers 1740."
+},
+{
+"s": "diamant",
+"q": "À l'embouchure de quel fleuve se trouve le fort Diamant ?",
+"o": [
+"Le Mahury",
+"Le Maroni",
+"L'Oyapock",
+"Le Kourou"
+],
+"x": "C'était la porte d'entrée de l'île de Cayenne."
+},
+{
+"s": "diamant",
+"q": "Quelle épaisseur font les murs du fort Diamant ?",
+"o": [
+"Environ 2 m",
+"Environ 10 cm",
+"Environ 20 m",
+"Environ 50 cm"
+],
+"x": "Basalte et brique ; un talus herbeux devait le cacher aux navires."
+},
+{
+"s": "bourda",
+"q": "Qu'y a-t-il au sommet du mont Bourda ?",
+"o": [
+"Un calvaire",
+"Un phare",
+"Une base de lancement",
+"Un fort"
+],
+"x": "La végétation a en partie refermé la vue, mais la mer se devine en chemin."
+},
+{
+"s": "matoury",
+"q": "Quel record détient la réserve du Mont Grand Matoury ?",
+"o": [
+"Plus grande réserve naturelle périurbaine de France",
+"Plus haute montagne de Guyane",
+"Seule réserve marine de France",
+"Plus ancienne réserve de Guyane"
+],
+"x": "Environ 2 123 ha de forêt tropicale au cœur de l'île de Cayenne."
+},
+{
+"s": "matoury",
+"q": "En quelle année la réserve du Mont Grand Matoury a-t-elle été créée ?",
+"o": [
+"2006",
+"1968",
+"1998",
+"2023"
+],
+"x": "Par décret du 6 septembre 2006. 1998, c'est la réserve de Kaw."
+},
+{
+"s": "montabo",
+"q": "Derrière quel établissement part le sentier de la colline de Montabo ?",
+"o": [
+"L'IRD",
+"Le CNES",
+"L'aéroport",
+"Le zoo"
+],
+"x": "Sur la route de Montabo ; environ 3,8 km balisés."
+},
+{
+"s": "vidal",
+"q": "Quel est l'autre nom de l'habitation Vidal ?",
+"o": [
+"Mondélice",
+"Loyola",
+"Saint-Régis",
+"Thémire"
+],
+"x": "Saint-Régis est l'habitation où les jésuites transférèrent leur sucrerie ; Thémire, une maison de Cayenne."
+},
+{
+"s": "vidal",
+"q": "Quels oiseaux peut-on voir sur le chemin de l'habitation Vidal ?",
+"o": [
+"Toucans et aracaris",
+"Manchots",
+"Autruches",
+"Cygnes"
+],
+"x": "La forêt secondaire y est riche en oiseaux : aracaris à cou noir, toucans ariel, hermites."
+},
+{
+"s": "topu",
+"q": "Qui gère le sentier de la Montagne Topu ?",
+"o": [
+"La Collectivité territoriale de Guyane",
+"Le CNES",
+"Le Conservatoire du littoral",
+"L'association Kwata"
+],
+"x": "Une boucle balisée de 3,3 km sur les hauteurs du Mahury."
+},
+{
+"s": "csg",
+"q": "Qui annonce en 1964 l'implantation du centre spatial en Guyane ?",
+"o": [
+"Le général de Gaulle",
+"Félix Éboué",
+"Georges Pompidou",
+"François Mitterrand"
+],
+"x": "Le 21 mars 1964, à Cayenne."
+},
+{
+"s": "csg",
+"q": "Pourquoi Kourou a-t-il été choisi pour le centre spatial ?",
+"o": [
+"Sa proximité de l'équateur",
+"Ses gisements de pétrole",
+"Sa haute altitude",
+"Son climat frais"
+],
+"x": "Aussi : peu de cyclones et de séismes, et une faible densité de population."
+},
+{
+"s": "csg",
+"q": "En quelle année Ariane 1 a-t-elle décollé pour la première fois ?",
+"o": [
+"1979",
+"1968",
+"1964",
+"2000"
+],
+"x": "Le 24 décembre 1979. 1968, c'est la fusée-sonde Véronique."
+},
+{
+"s": "csg",
+"q": "Quelle surface couvre le Centre spatial guyanais ?",
+"o": [
+"Environ 660 km²",
+"Environ 6 km²",
+"Environ 66 000 km²",
+"Environ 60 ha"
+],
+"x": "C'est le port spatial de l'Europe."
+},
+{
+"s": "csg",
+"q": "Quels lanceurs voit-on lors de la visite du Centre spatial ?",
+"o": [
+"Ariane 6 et Vega-C",
+"Saturn V et Atlas",
+"La navette spatiale",
+"Longue Marche"
+],
+"x": "La visite guidée en bus est gratuite sur réservation, avec pièce d'identité."
+},
+{
+"s": "kourou-plage",
+"q": "Quel âge ont les roches de la pointe des Roches, à Kourou ?",
+"o": [
+"Plus de 2 milliards d'années",
+"Environ 10 000 ans",
+"Environ 200 ans",
+"Environ 65 millions d'années"
+],
+"x": "Des granodiorites traversées de filons de pegmatite."
+},
+{
+"s": "salut",
+"q": "Quel rôle avait l'île Saint-Joseph au temps du bagne ?",
+"o": [
+"La réclusion, au silence et dans l'obscurité",
+"L'accueil des déportés politiques",
+"Le quartier des forçats ordinaires",
+"Le port des navires"
+],
+"x": "Les déportés politiques allaient sur l'île du Diable, les forçats sur l'île Royale."
+},
+{
+"s": "salut",
+"q": "Combien de visiteurs les îles du Salut ont-elles reçu en 2017 ?",
+"o": [
+"Environ 50 000",
+"Environ 500",
+"Environ 5 millions",
+"Environ 2 000"
+],
+"x": "C'est le premier site touristique de Guyane."
+},
+{
+"s": "salut",
+"q": "Quelle est l'origine des îles du Salut ?",
+"o": [
+"Volcanique",
+"Corallienne",
+"Un banc de sable",
+"Artificielle"
+],
+"x": "Trois îles volcaniques à une quinzaine de kilomètres de Kourou."
+},
+{
+"s": "zoo",
+"q": "Comment le zoo de Guyane a-t-il commencé, en 1983 ?",
+"o": [
+"Comme centre d'élevage de colibris",
+"Comme cirque",
+"Comme ferme à crocodiles",
+"Comme aquarium"
+],
+"x": "Devenu zoo en 1985, il ferme en 2007 puis rouvre en 2008."
+},
+{
+"s": "zoo",
+"q": "Qui a repris le zoo de Guyane pour sa réouverture en 2008 ?",
+"o": [
+"Les créateurs du jardin de Balata, en Martinique",
+"Le CNES",
+"La Ville de Paris",
+"L'ONF"
+],
+"x": "Il accueille plus de 450 animaux de la faune guyanaise et amazonienne."
+},
+{
+"s": "annamites",
+"q": "Dans quelle commune se trouve le bagne des Annamites ?",
+"o": [
+"Montsinéry-Tonnegrande",
+"Saint-Laurent-du-Maroni",
+"Saül",
+"Apatou"
+],
+"x": "Le camp de la crique Anguille ; environ 5 km aller-retour depuis la route."
+},
+{
+"s": "annamites",
+"q": "Jusqu'à quand le camp de la crique Anguille a-t-il fonctionné ?",
+"o": [
+"1944",
+"1890",
+"1968",
+"2001"
+],
+"x": "De 1931 au 6 décembre 1944 ; la mortalité y était élevée."
+},
+{
+"s": "yiyi",
+"q": "Quelle surface couvre le Grand Pripri de Yiyi ?",
+"o": [
+"Près de 15 000 ha",
+"Environ 15 ha",
+"Environ 1,5 million d'ha",
+"Environ 150 ha"
+],
+"x": "Marais, mangroves et savanes inondées entre les fleuves Sinnamary et Iracoubo."
+},
+{
+"s": "yiyi",
+"q": "Quelle association, la plus ancienne de Guyane pour la nature, cogère Yiyi ?",
+"o": [
+"La SEPANGUY",
+"Kwata",
+"Le WWF",
+"SOS Faune Sauvage"
+],
+"x": "Avec la commune de Sinnamary, pour le Conservatoire du littoral."
+},
+{
+"s": "iracoubo",
+"q": "Quel surnom donne-t-on parfois à l'église d'Iracoubo ?",
+"o": [
+"La « chapelle Sixtine de l'Amazonie »",
+"La « Notre-Dame des forêts »",
+"La « cathédrale verte »",
+"Le « Versailles créole »"
+],
+"x": "Pour ses 600 m² de peintures naïves et colorées."
+},
+{
+"s": "iracoubo",
+"q": "Qu'a fait Pierre Huguet quelques semaines après la consécration de l'église ?",
+"o": [
+"Il s'est évadé",
+"Il est devenu curé",
+"Il a été gracié",
+"Il a peint le musée Franconie"
+],
+"x": "L'église est consacrée le 6 janvier 1893 ; Huguet s'évade le 20 février."
+},
+{
+"s": "iracoubo",
+"q": "Que rappelle le mémorial à la sortie d'Iracoubo ?",
+"o": [
+"Les Kali'na et Arawak exhibés dans des « zoos humains »",
+"Le premier lancement de fusée",
+"L'arrivée des Hmong",
+"La ruée vers l'or"
+],
+"x": "47 personnes emmenées en Europe en 1882 et 1892."
+},
+{
+"s": "montagne-singes",
+"q": "Quelle est l'altitude de la montagne des Singes ?",
+"o": [
+"161 m",
+"1 610 m",
+"16 m",
+"2 500 m"
+],
+"x": "Au sommet, un carbet de l'ONF domine la canopée et le Centre spatial."
+},
+{
+"s": "montagne-singes",
+"q": "Quel papillon croise-t-on souvent à la montagne des Singes ?",
+"o": [
+"Le morpho bleu",
+"Le monarque",
+"Le machaon",
+"Le paon-du-jour"
+],
+"x": "Les singes, eux, restent rares malgré le nom."
+},
+{
+"s": "bois-diable",
+"q": "Combien de lacs compte Kourou ?",
+"o": [
+"Trois",
+"Un",
+"Dix",
+"Aucun"
+],
+"x": "Bois Diable, Marie-Claire et Bois Chaudat."
+},
+{
+"s": "transportation",
+"q": "En quelle année Saint-Laurent-du-Maroni est-elle officiellement inaugurée ?",
+"o": [
+"1858",
+"1643",
+"1910",
+"1946"
+],
+"x": "Le 21 janvier 1858, après le transfert du bagne dans l'Ouest."
+},
+{
+"s": "transportation",
+"q": "À quel bagnard célèbre attribue-t-on une cellule du camp de la Transportation ?",
+"o": [
+"Henri Charrière, dit Papillon",
+"Alfred Dreyfus",
+"Jean Valjean",
+"Edmond Dantès"
+],
+"x": "Jean Valjean et Edmond Dantès sont des personnages de roman."
+},
+{
+"s": "transportation",
+"q": "Depuis quand Saint-Laurent-du-Maroni est-elle Ville d'art et d'histoire ?",
+"o": [
+"2007",
+"1858",
+"1985",
+"2020"
+],
+"x": "Son centre du patrimoine occupe plusieurs cases du camp."
+},
+{
+"s": "relegation",
+"q": "Où arrivent les premiers relégués, en 1887 ?",
+"o": [
+"À Saint-Jean-du-Maroni",
+"À Cayenne",
+"Sur l'île du Diable",
+"À Kourou"
+],
+"x": "Le 20 juin 1887 ; rien n'est prêt, ils construisent eux-mêmes leur camp."
+},
+{
+"s": "maroni",
+"q": "En quelle année la frontière a-t-elle été fixée sur la ligne médiane du Maroni ?",
+"o": [
+"1915",
+"1643",
+"1848",
+"1975"
+],
+"x": "C'est la cinquième plus longue frontière terrestre de la France."
+},
+{
+"s": "maroni",
+"q": "Quelle ville du Suriname fait face à Saint-Laurent ?",
+"o": [
+"Albina",
+"Paramaribo",
+"Oiapoque",
+"Nieuw Nickerie"
+],
+"x": "Un bac officiel relie les deux rives."
+},
+{
+"s": "javouhey",
+"q": "En quelle année le village hmong de Javouhey est-il fondé ?",
+"o": [
+"1978",
+"1828",
+"1946",
+"2003"
+],
+"x": "Un an après Cacao ; 1828, c'est la fondation de Mana."
+},
+{
+"s": "mana",
+"q": "Quelle mission le gouvernement confie-t-il à Anne-Marie Javouhey à Mana ?",
+"o": [
+"Préparer des centaines d'esclaves à la liberté",
+"Construire un pont",
+"Chercher de l'or",
+"Diriger un bagne"
+],
+"x": "La colonie de Mana était alors autonome vis-à-vis de Cayenne."
+},
+{
+"s": "mana",
+"q": "En quelle année Anne-Marie Javouhey a-t-elle été béatifiée ?",
+"o": [
+"1950",
+"1828",
+"1848",
+"2005"
+],
+"x": "Elle avait quitté la Guyane en 1843."
+},
+{
+"s": "hattes",
+"q": "Dans quelle commune se trouve la plage des Hattes ?",
+"o": [
+"Awala-Yalimapo",
+"Kourou",
+"Rémire-Montjoly",
+"Saint-Georges"
+],
+"x": "En territoire kali'na, à une vingtaine de kilomètres de Mana."
+},
+{
+"s": "hattes",
+"q": "Comment s'appelle l'écloserie naturelle de la plage des Hattes ?",
+"o": [
+"Kawana",
+"Kwata",
+"Amana",
+"Cépérou"
+],
+"x": "Gérée depuis 2023 par l'association Kwata avec la réserve de l'Amana et les chefs coutumiers."
+},
+{
+"s": "hattes",
+"q": "En quelle année la réserve naturelle de l'Amana a-t-elle été créée ?",
+"o": [
+"1998",
+"1968",
+"2017",
+"1853"
+],
+"x": "Pour protéger l'un des plus grands sites de ponte de tortues luths au monde."
+},
+{
+"s": "voltaire",
+"q": "Par quelle piste accède-t-on aux chutes Voltaire ?",
+"o": [
+"La piste de Paul Isnard",
+"La piste Coralie",
+"La route de Kaw",
+"La route du Galion"
+],
+"x": "Environ 70 km de latérite depuis Saint-Laurent. La piste Coralie mène au Molokoï."
+},
+{
+"s": "cacao",
+"q": "Combien de jours dure le Nouvel An hmong à Cacao ?",
+"o": [
+"Trois à quatre jours",
+"Une heure",
+"Un mois",
+"Une semaine entière en juillet"
+],
+"x": "Il a lieu en décembre."
+},
+{
+"s": "cacao",
+"q": "Quel musée trouve-t-on à Cacao ?",
+"o": [
+"Le Planeur Bleu, avec des milliers d'insectes",
+"Le musée Franconie",
+"Le musée de l'Espace",
+"Le musée des cultures guyanaises"
+],
+"x": "Les trois autres sont à Cayenne et à Kourou."
+},
+{
+"s": "molokoi",
+"q": "Combien de temps faut-il pour la traversée complète du Molokoï ?",
+"o": [
+"Une dizaine d'heures",
+"Une demi-heure",
+"Trois semaines",
+"Deux heures"
+],
+"x": "La plupart des randonneurs coupent en deux jours, avec une nuit en carbet."
+},
+{
+"s": "roura",
+"q": "Au bord de quelle rivière se trouve le bourg de Roura ?",
+"o": [
+"L'Oyak",
+"Le Maroni",
+"La Mana",
+"Le Sinnamary"
+],
+"x": "C'est la porte d'entrée de l'Est, au départ de la route de Kaw."
+},
+{
+"s": "tresor",
+"q": "Quel botaniste est à l'origine de la réserve Trésor ?",
+"o": [
+"Joep Moonen",
+"Fusée Aublet",
+"Charles Darwin",
+"Alexander von Humboldt"
+],
+"x": "Botaniste néerlandais vivant en Guyane, il a lancé l'achat des terrains."
+},
+{
+"s": "kaw",
+"q": "Quel oiseau a, à Kaw, sa plus grande colonie reproductrice connue ?",
+"o": [
+"Le héron agami",
+"Le flamant rose",
+"Le manchot",
+"Le pélican"
+],
+"x": "Les marais abritent aussi l'hoazin, l'ibis rouge et le héron cocoï."
+},
+{
+"s": "kaw",
+"q": "Quelle distance sépare Roura du débarcadère de Kaw ?",
+"o": [
+"Environ 55 km",
+"Environ 5 km",
+"Environ 250 km",
+"Environ 550 km"
+],
+"x": "Par la route départementale 6 ; le village se rejoint ensuite en pirogue."
+},
+{
+"s": "coq-de-roche",
+"q": "Où le coq-de-roche fait-il son nid ?",
+"o": [
+"Dans des abris sous roche",
+"Au sommet des grands arbres",
+"Dans le sable des plages",
+"Au milieu des marais"
+],
+"x": "D'où son nom. Son site de nidification se trouve sur la route de Kaw."
+},
+{
+"s": "saint-georges",
+"q": "En quelle année Saint-Georges a-t-elle été reliée à Cayenne par la route ?",
+"o": [
+"2003",
+"1853",
+"1968",
+"2017"
+],
+"x": "2017, c'est l'ouverture du pont vers le Brésil."
+},
+{
+"s": "saint-georges",
+"q": "Quelle est la hauteur des pylônes du pont de l'Oyapock ?",
+"o": [
+"83 m",
+"8 m",
+"830 m",
+"28 m"
+],
+"x": "Un pont haubané de 378 m de long."
+},
+{
+"s": "saint-georges",
+"q": "Quel peuple amérindien compte environ 500 membres à Saint-Georges ?",
+"o": [
+"Les Palikur",
+"Les Mapuche",
+"Les Guarani",
+"Les Navajo"
+],
+"x": "La ville a aussi une forte ambiance franco-brésilienne."
+},
+{
+"s": "roche-virginie",
+"q": "À quelle altitude culmine la Roche Virginie ?",
+"o": [
+"138 m",
+"1 380 m",
+"13 m",
+"2 500 m"
+],
+"x": "Assez haut pour dominer la canopée."
+},
+{
+"s": "roche-virginie",
+"q": "Quelles plantes poussent sur la dalle de la Roche Virginie ?",
+"o": [
+"Orchidées et broméliacées",
+"Sapins et mélèzes",
+"Bruyères et genêts",
+"Oliviers et chênes-lièges"
+],
+"x": "Une végétation rare de savane-roche, protégée en ZNIEFF."
+},
+{
+"s": "maripa",
+"q": "Sur quel fleuve se trouve le saut Maripa ?",
+"o": [
+"L'Oyapock",
+"Le Maroni",
+"La Mana",
+"L'Approuague"
+],
+"x": "À une vingtaine de kilomètres au sud-ouest de Saint-Georges."
+},
+{
+"s": "saul",
+"q": "Combien d'habitants Saül et ses écarts ont-ils compté au temps des ruées vers l'or ?",
+"o": [
+"Jusqu'à 800",
+"Jusqu'à 80 000",
+"Jamais plus de 10",
+"Jusqu'à 8 000"
+],
+"x": "Une centaine de personnes y vivent aujourd'hui."
+},
+{
+"s": "saul",
+"q": "En quelle année le Parc amazonien de Guyane a-t-il été créé ?",
+"o": [
+"2007",
+"1977",
+"1853",
+"2020"
+],
+"x": "Le 27 février 2007 : c'est le plus vaste parc national de France et de l'Union européenne."
+},
+{
+"s": "maripasoula",
+"q": "Quel pays revendique environ un dixième du territoire de Maripasoula ?",
+"o": [
+"Le Suriname",
+"Le Brésil",
+"Le Guyana",
+"Le Venezuela"
+],
+"x": "La commune s'étend sur le haut Maroni, face au Suriname."
+},
+{
+"s": "maripasoula",
+"q": "Que faut-il pour se rendre dans les villages amérindiens au sud d'Élahé ?",
+"o": [
+"Une autorisation préfectorale",
+"Un visa brésilien",
+"Un permis de chasse",
+"Rien de particulier"
+],
+"x": "Ils sont en zone d'accès réglementé."
+},
+{
+"s": "fourgassie",
+"q": "Sur quelle route se trouvent les chutes de Fourgassié ?",
+"o": [
+"La route de Kaw",
+"La RN1 vers Saint-Laurent",
+"La route de Montabo",
+"La piste de Paul Isnard"
+],
+"x": "À quelques kilomètres de Roura, en forêt primaire."
+},
+{
+"s": "marche-slm",
+"q": "Lequel de ces produits trouve-t-on sur les étals du marché de Saint-Laurent ?",
+"o": [
+"Le couac",
+"Le sirop d'érable",
+"La truffe noire",
+"Le hareng frais"
+],
+"x": "Avec fruits, légumes, épices et les cuisines du Maroni."
 }
 ]

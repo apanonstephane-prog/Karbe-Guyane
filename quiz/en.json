@@ -1,39 +1,1232 @@
 [
-{"q":"Who does the statue in the middle of Place des Palmistes depict?","o":["Félix Éboué","Victor Schœlcher","Gaston Monnerville","Henri Charrière"],"x":"Félix Éboué, born in Cayenne, governor and a leading figure of Free France. The monument dates from 1957."},
-{"q":"Where does the name of Fort Cépérou come from?","o":["A Kali'na chief","A French governor","A Dutch ship","A tree on the hill"],"x":"Cépérou was a Kali'na chief who ceded the hill to the French around 1643."},
-{"q":"Which soup is the institution of Cayenne market?","o":["Hmong phở","Ramen","Miso soup","Harira"],"x":"Under the market hall, phở counters run by Hmong families serve it from breakfast time."},
-{"q":"In which year was Cayenne's market hall inaugurated?","o":["1910","1852","1946","1968"],"x":"Decided in 1907, the hall was inaugurated in 1910."},
-{"q":"Which convict painted the penal colony scenes shown at the Franconie museum?","o":["Francis Lagrange","Pierre Huguet","Henri Charrière","Alfred Dreyfus"],"x":"Francis Lagrange painted penal colony life. Pierre Huguet is the painter credited with Iracoubo church."},
-{"q":"Who founded the Loyola estate in 1668?","o":["The Jesuits","The Dominicans","The French East India Company","The Dutch"],"x":"The Jesuits made it a large estate of over 1,000 hectares, with about 500 enslaved people at its peak."},
-{"q":"Why is the sea brown at Montjoly?","o":["Because of Amazon sediments","Because of Cayenne harbour","Because of volcanic sand","Because of overnight rain"],"x":"The current carries sediment from the Amazon along the coast."},
-{"q":"Why don't people swim in the Rorota lakes?","o":["They are drinking-water reservoirs","The water is salty","The lakes are private","The water is too cold"],"x":"The trail runs along the Rorota, Lalouette and Rémire lakes, which supply the area with drinking water."},
-{"q":"How high is the summit of Mont Grand Matoury?","o":["254 m","114 m","35 m","851 m"],"x":"254 m. Mont Bourda rises to about 114 m."},
-{"q":"In which year did the first rocket lift off from Kourou?","o":["1968","1979","1957","1986"],"x":"On 9 April 1968, with the Véronique sounding rocket."},
-{"q":"On which of the Salvation Islands is landing forbidden?","o":["Devil's Island","Île Royale","Île Saint-Joseph","None"],"x":"Visitors go to Île Royale and Île Saint-Joseph. Devil's Island, where political deportees were held, is closed to landings."},
-{"q":"Who has owned the Salvation Islands since 1971?","o":["CNES","The National Forestry Office","The Coastal Conservancy","The town of Kourou"],"x":"The French space agency (CNES); the islands also serve as a launch viewing post."},
-{"q":"Which prisoner was held on Devil's Island from 1895 to 1899?","o":["Alfred Dreyfus","Henri Charrière","Victor Hugo","Jean Genet"],"x":"Captain Dreyfus, wrongly convicted, spent more than four years there."},
-{"q":"What was the Dreyfus tower in Kourou?","o":["A signal station linked to the Salvation Islands","A lighthouse","A prison","A water tower"],"x":"Inaugurated in 1856, it relayed signals between the Kourou penitentiary and the islands."},
-{"q":"Who were the 'Annamites' of the Montagne des Singes penal camp?","o":["Indochinese prisoners","Brazilian workers","English soldiers","Chinese gold miners"],"x":"Political and common-law prisoners from Indochina, sent to French Guiana from 1931."},
-{"q":"To whom does tradition attribute the paintings in Iracoubo church?","o":["The convict Pierre Huguet","Francis Lagrange","The Jesuits","A Brazilian painter"],"x":"Pierre Huguet is said to have painted about 600 m² between 1891 and 1893."},
-{"q":"How many convicts passed through the Transportation Camp?","o":["More than 50,000","About 5,000","About 17,000","More than 500,000"],"x":"More than 50,000. About 17,000 is the number of relégués."},
-{"q":"Who did the 1885 relegation law send to French Guiana?","o":["Repeat offenders","Political opponents","Deserters","Journalists"],"x":"Repeat offenders, often petty criminals, interned in the colony for life."},
-{"q":"Which country does the Maroni form a border with?","o":["Suriname","Brazil","Guyana","Venezuela"],"x":"The Maroni separates French Guiana from Suriname; the Oyapock separates it from Brazil."},
-{"q":"How many pirogues cross the Maroni each day, by estimates?","o":["More than 1,000","About ten","About a hundred","More than 100,000"],"x":"More than 1,000 crossings a day, including hundreds of children going to school."},
-{"q":"Who founded Mana in 1828?","o":["Anne-Marie Javouhey","Victor Schœlcher","Félix Éboué","Joséphine de Beauharnais"],"x":"Mother Anne-Marie Javouhey, founder of the Sisters of Saint Joseph of Cluny."},
-{"q":"By how much have leatherback turtles declined on Les Hattes beach?","o":["About 97%","About 20%","About 50%","They have increased"],"x":"According to Kwata. A hatchery has protected the nests since 2023."},
-{"q":"How high are the Voltaire Falls?","o":["About 35 m","About 5 m","About 120 m","About 300 m"],"x":"About 35 m, among the highest in French Guiana."},
-{"q":"In which year did the first Hmong refugees arrive in Cacao?","o":["1977","1946","1962","1995"],"x":"In September 1977, about 500 people."},
-{"q":"Which country had the Hmong refugees of Cacao fled?","o":["Laos","Indonesia","The Philippines","Japan"],"x":"Laos, via Thailand, after the communist takeover."},
-{"q":"How long is the Molokoï trail?","o":["About 18 km","About 3 km","About 45 km","About 70 km"],"x":"About 18 km between Cacao and the Coralie track, with shelters halfway."},
-{"q":"Which animal of the Kaw marshes is South America's largest crocodilian?","o":["The black caiman","The spectacled caiman","The alligator","The gharial"],"x":"Kaw shelters one of the last stable populations of black caiman."},
-{"q":"How big is the Kaw-Roura marshes reserve?","o":["About 94,700 ha","About 2,464 ha","About 500 ha","About 1 million ha"],"x":"About 94,700 ha. 2,464 ha is the Trésor reserve."},
-{"q":"What colour is the male cock-of-the-rock?","o":["Bright orange","Blue","Black and white","Green"],"x":"Bright orange, with a fan-shaped crest. Females are browner."},
-{"q":"Which town does the Oyapock bridge link to Saint-Georges?","o":["Oiapoque","Albina","Macapá","Paramaribo"],"x":"Oiapoque, in Brazil. Albina faces Saint-Laurent, in Suriname."},
-{"q":"In which year did the Oyapock bridge open to traffic?","o":["2017","2003","2011","2021"],"x":"Finished in 2011, it only opened on 20 March 2017."},
-{"q":"What is an inselberg?","o":["A rock dome rising from the forest","An island in a river","A freshwater marsh","An old volcano"],"x":"The German word means 'island mountain'. Roche Virginie is a granite dome."},
-{"q":"In French Guiana, what is a pripri?","o":["A freshwater marsh","A pirogue","A fish dish","A bird"],"x":"A freshwater marsh of the coastal plain, like the Yiyi pripris at Sinnamary."},
-{"q":"How do you get to the village of Saül?","o":["Only by plane","By road","By train","By ferry"],"x":"No road leads to Saül, in the centre of French Guiana."},
-{"q":"What record does Maripasoula hold?","o":["Largest commune in France","Most populous commune in French Guiana","Oldest commune in French Guiana","Highest point in France"],"x":"About 18,360 km², slightly more than Kuwait."},
-{"q":"Which university is linked to the creation of the Trésor reserve?","o":["Utrecht","Leiden","The Sorbonne","Harvard"],"x":"The Trésor foundation, linked to Utrecht University, bought the land."},
-{"q":"What was the Vidal estate?","o":["A sugar plantation worked by enslaved people","A gold mine","A fort","A leper colony"],"x":"Established in the early 19th century, abandoned around 1880."}
+{
+"q": "Who does the statue in the middle of Place des Palmistes depict?",
+"o": [
+"Félix Éboué",
+"Victor Schœlcher",
+"Gaston Monnerville",
+"Henri Charrière"
+],
+"x": "Félix Éboué, born in Cayenne, governor and a leading figure of Free France. The monument dates from 1957."
+},
+{
+"q": "Where does the name of Fort Cépérou come from?",
+"o": [
+"A Kali'na chief",
+"A French governor",
+"A Dutch ship",
+"A tree on the hill"
+],
+"x": "Cépérou was a Kali'na chief who ceded the hill to the French around 1643."
+},
+{
+"q": "Which soup is the institution of Cayenne market?",
+"o": [
+"Hmong phở",
+"Ramen",
+"Miso soup",
+"Harira"
+],
+"x": "Under the market hall, phở counters run by Hmong families serve it from breakfast time."
+},
+{
+"q": "In which year was Cayenne's market hall inaugurated?",
+"o": [
+"1910",
+"1852",
+"1946",
+"1968"
+],
+"x": "Decided in 1907, the hall was inaugurated in 1910."
+},
+{
+"q": "Which convict painted the penal colony scenes shown at the Franconie museum?",
+"o": [
+"Francis Lagrange",
+"Pierre Huguet",
+"Henri Charrière",
+"Alfred Dreyfus"
+],
+"x": "Francis Lagrange painted penal colony life. Pierre Huguet is the painter credited with Iracoubo church."
+},
+{
+"q": "Who founded the Loyola estate in 1668?",
+"o": [
+"The Jesuits",
+"The Dominicans",
+"The French East India Company",
+"The Dutch"
+],
+"x": "The Jesuits made it a large estate of over 1,000 hectares, with about 500 enslaved people at its peak."
+},
+{
+"q": "Why is the sea brown at Montjoly?",
+"o": [
+"Because of Amazon sediments",
+"Because of Cayenne harbour",
+"Because of volcanic sand",
+"Because of overnight rain"
+],
+"x": "The current carries sediment from the Amazon along the coast."
+},
+{
+"q": "Why don't people swim in the Rorota lakes?",
+"o": [
+"They are drinking-water reservoirs",
+"The water is salty",
+"The lakes are private",
+"The water is too cold"
+],
+"x": "The trail runs along the Rorota, Lalouette and Rémire lakes, which supply the area with drinking water."
+},
+{
+"q": "How high is the summit of Mont Grand Matoury?",
+"o": [
+"254 m",
+"114 m",
+"35 m",
+"851 m"
+],
+"x": "254 m. Mont Bourda rises to about 114 m."
+},
+{
+"q": "In which year did the first rocket lift off from Kourou?",
+"o": [
+"1968",
+"1979",
+"1957",
+"1986"
+],
+"x": "On 9 April 1968, with the Véronique sounding rocket."
+},
+{
+"q": "On which of the Salvation Islands is landing forbidden?",
+"o": [
+"Devil's Island",
+"Île Royale",
+"Île Saint-Joseph",
+"None"
+],
+"x": "Visitors go to Île Royale and Île Saint-Joseph. Devil's Island, where political deportees were held, is closed to landings."
+},
+{
+"q": "Who has owned the Salvation Islands since 1971?",
+"o": [
+"CNES",
+"The National Forestry Office",
+"The Coastal Conservancy",
+"The town of Kourou"
+],
+"x": "The French space agency (CNES); the islands also serve as a launch viewing post."
+},
+{
+"q": "Which prisoner was held on Devil's Island from 1895 to 1899?",
+"o": [
+"Alfred Dreyfus",
+"Henri Charrière",
+"Victor Hugo",
+"Jean Genet"
+],
+"x": "Captain Dreyfus, wrongly convicted, spent more than four years there."
+},
+{
+"q": "What was the Dreyfus tower in Kourou?",
+"o": [
+"A signal station linked to the Salvation Islands",
+"A lighthouse",
+"A prison",
+"A water tower"
+],
+"x": "Inaugurated in 1856, it relayed signals between the Kourou penitentiary and the islands."
+},
+{
+"q": "Who were the 'Annamites' of the Montagne des Singes penal camp?",
+"o": [
+"Indochinese prisoners",
+"Brazilian workers",
+"English soldiers",
+"Chinese gold miners"
+],
+"x": "Political and common-law prisoners from Indochina, sent to French Guiana from 1931."
+},
+{
+"q": "To whom does tradition attribute the paintings in Iracoubo church?",
+"o": [
+"The convict Pierre Huguet",
+"Francis Lagrange",
+"The Jesuits",
+"A Brazilian painter"
+],
+"x": "Pierre Huguet is said to have painted about 600 m² between 1891 and 1893."
+},
+{
+"q": "How many convicts passed through the Transportation Camp?",
+"o": [
+"More than 50,000",
+"About 5,000",
+"About 17,000",
+"More than 500,000"
+],
+"x": "More than 50,000. About 17,000 is the number of relégués."
+},
+{
+"q": "Who did the 1885 relegation law send to French Guiana?",
+"o": [
+"Repeat offenders",
+"Political opponents",
+"Deserters",
+"Journalists"
+],
+"x": "Repeat offenders, often petty criminals, interned in the colony for life."
+},
+{
+"q": "Which country does the Maroni form a border with?",
+"o": [
+"Suriname",
+"Brazil",
+"Guyana",
+"Venezuela"
+],
+"x": "The Maroni separates French Guiana from Suriname; the Oyapock separates it from Brazil."
+},
+{
+"q": "How many pirogues cross the Maroni each day, by estimates?",
+"o": [
+"More than 1,000",
+"About ten",
+"About a hundred",
+"More than 100,000"
+],
+"x": "More than 1,000 crossings a day, including hundreds of children going to school."
+},
+{
+"q": "Who founded Mana in 1828?",
+"o": [
+"Anne-Marie Javouhey",
+"Victor Schœlcher",
+"Félix Éboué",
+"Joséphine de Beauharnais"
+],
+"x": "Mother Anne-Marie Javouhey, founder of the Sisters of Saint Joseph of Cluny."
+},
+{
+"q": "By how much have leatherback turtles declined on Les Hattes beach?",
+"o": [
+"About 97%",
+"About 20%",
+"About 50%",
+"They have increased"
+],
+"x": "According to Kwata. A hatchery has protected the nests since 2023."
+},
+{
+"q": "How high are the Voltaire Falls?",
+"o": [
+"About 35 m",
+"About 5 m",
+"About 120 m",
+"About 300 m"
+],
+"x": "About 35 m, among the highest in French Guiana."
+},
+{
+"q": "In which year did the first Hmong refugees arrive in Cacao?",
+"o": [
+"1977",
+"1946",
+"1962",
+"1995"
+],
+"x": "In September 1977, about 500 people."
+},
+{
+"q": "Which country had the Hmong refugees of Cacao fled?",
+"o": [
+"Laos",
+"Indonesia",
+"The Philippines",
+"Japan"
+],
+"x": "Laos, via Thailand, after the communist takeover."
+},
+{
+"q": "How long is the Molokoï trail?",
+"o": [
+"About 18 km",
+"About 3 km",
+"About 45 km",
+"About 70 km"
+],
+"x": "About 18 km between Cacao and the Coralie track, with shelters halfway."
+},
+{
+"q": "Which animal of the Kaw marshes is South America's largest crocodilian?",
+"o": [
+"The black caiman",
+"The spectacled caiman",
+"The alligator",
+"The gharial"
+],
+"x": "Kaw shelters one of the last stable populations of black caiman."
+},
+{
+"q": "How big is the Kaw-Roura marshes reserve?",
+"o": [
+"About 94,700 ha",
+"About 2,464 ha",
+"About 500 ha",
+"About 1 million ha"
+],
+"x": "About 94,700 ha. 2,464 ha is the Trésor reserve."
+},
+{
+"q": "What colour is the male cock-of-the-rock?",
+"o": [
+"Bright orange",
+"Blue",
+"Black and white",
+"Green"
+],
+"x": "Bright orange, with a fan-shaped crest. Females are browner."
+},
+{
+"q": "Which town does the Oyapock bridge link to Saint-Georges?",
+"o": [
+"Oiapoque",
+"Albina",
+"Macapá",
+"Paramaribo"
+],
+"x": "Oiapoque, in Brazil. Albina faces Saint-Laurent, in Suriname."
+},
+{
+"q": "In which year did the Oyapock bridge open to traffic?",
+"o": [
+"2017",
+"2003",
+"2011",
+"2021"
+],
+"x": "Finished in 2011, it only opened on 20 March 2017."
+},
+{
+"q": "What is an inselberg?",
+"o": [
+"A rock dome rising from the forest",
+"An island in a river",
+"A freshwater marsh",
+"An old volcano"
+],
+"x": "The German word means 'island mountain'. Roche Virginie is a granite dome."
+},
+{
+"q": "In French Guiana, what is a pripri?",
+"o": [
+"A freshwater marsh",
+"A pirogue",
+"A fish dish",
+"A bird"
+],
+"x": "A freshwater marsh of the coastal plain, like the Yiyi pripris at Sinnamary."
+},
+{
+"q": "How do you get to the village of Saül?",
+"o": [
+"Only by plane",
+"By road",
+"By train",
+"By ferry"
+],
+"x": "No road leads to Saül, in the centre of French Guiana."
+},
+{
+"q": "What record does Maripasoula hold?",
+"o": [
+"Largest commune in France",
+"Most populous commune in French Guiana",
+"Oldest commune in French Guiana",
+"Highest point in France"
+],
+"x": "About 18,360 km², slightly more than Kuwait."
+},
+{
+"q": "Which university is linked to the creation of the Trésor reserve?",
+"o": [
+"Utrecht",
+"Leiden",
+"The Sorbonne",
+"Harvard"
+],
+"x": "The Trésor foundation, linked to Utrecht University, bought the land."
+},
+{
+"q": "What was the Vidal estate?",
+"o": [
+"A sugar plantation worked by enslaved people",
+"A gold mine",
+"A fort",
+"A leper colony"
+],
+"x": "Established in the early 19th century, abandoned around 1880."
+},
+{
+"q": "What was the old name of Place des Palmistes?",
+"o": [
+"La Savane",
+"Place du Coq",
+"Place de la Victoire",
+"Place Royale"
+],
+"x": "Long called 'la Savane', then Place de l'Esplanade, it was laid out from 1821."
+},
+{
+"q": "Where do the royal palms of Place des Palmistes come from?",
+"o": [
+"Venezuela and the southern Caribbean",
+"West Africa",
+"South-East Asia",
+"Polynesia"
+],
+"x": "They are Roystonea oleacea; replanting explains the different heights."
+},
+{
+"q": "Where is Félix Éboué buried?",
+"o": [
+"In the Panthéon",
+"On Place des Palmistes",
+"At Les Invalides",
+"In Fort-de-France"
+],
+"x": "Born in Cayenne, governor and Free France figure, he rests in the Panthéon; his statue has stood on the square since 1957."
+},
+{
+"q": "What has the Thémire house held since 1908?",
+"o": [
+"The Palmistes hotel and bar",
+"Cayenne town hall",
+"The Franconie museum",
+"A bank"
+],
+"x": "It is one of the finest Creole houses on the square."
+},
+{
+"q": "In which year did Poncet de Brétigny acquire Cépérou hill?",
+"o": [
+"1643",
+"1492",
+"1763",
+"1852"
+],
+"x": "A first wooden fort was built there: the birth of Cayenne."
+},
+{
+"q": "Which Dutch admiral forced the fort to surrender in 1676?",
+"o": [
+"Jacob Binckes",
+"Peter Stuyvesant",
+"Abel Tasman",
+"Jan van Riebeeck"
+],
+"x": "He landed 900 men near the fort."
+},
+{
+"q": "How high above the sea is the top of Fort Cépérou?",
+"o": [
+"28 m",
+"254 m",
+"3 m",
+"114 m"
+],
+"x": "High enough to take in the town, the estuary and the ocean."
+},
+{
+"q": "Which days is Cayenne market held?",
+"o": [
+"Wednesday, Friday and Saturday mornings",
+"Every day",
+"Sunday only",
+"Monday and Thursday evenings"
+],
+"x": "Saturday is the busiest day: come early."
+},
+{
+"q": "On which square is Cayenne market held?",
+"o": [
+"Place du Coq",
+"Place des Palmistes",
+"Place de l'Esplanade",
+"Place de la Savane"
+],
+"x": "Esplanade and Savane are former names of Place des Palmistes."
+},
+{
+"q": "In which year was the Museum of Guianese Cultures founded?",
+"o": [
+"1995",
+"1901",
+"1968",
+"2015"
+],
+"x": "1901 is when the Franconie museum opened."
+},
+{
+"q": "Roughly how many objects does the Museum of Guianese Cultures hold?",
+"o": [
+"10,000",
+"500",
+"1 million",
+"100"
+],
+"x": "Plus archaeology collections, images and sound archives."
+},
+{
+"q": "In which year did the Franconie museum open?",
+"o": [
+"1901",
+"1995",
+"1853",
+"1968"
+],
+"x": "It is one of French Guiana's oldest cultural institutions."
+},
+{
+"q": "How many specimens are in Father Barbotin's insect collection?",
+"o": [
+"Nearly 4,000",
+"About fifty",
+"Nearly 400,000",
+"About ten"
+],
+"x": "It is part of the Franconie museum's cabinet of curiosities."
+},
+{
+"q": "How big can a leatherback turtle get?",
+"o": [
+"About 2 m and 400 kg",
+"About 50 cm and 10 kg",
+"About 5 m and 2 t",
+"About 1 m and 50 kg"
+],
+"x": "A giant: it nests on the beaches of Rémire-Montjoly."
+},
+{
+"q": "Besides the leatherback, which turtle mostly nests at Montjoly?",
+"o": [
+"The olive ridley",
+"Hermann's tortoise",
+"The Galápagos tortoise",
+"The snapping turtle"
+],
+"x": "More rarely, the green and hawksbill turtles."
+},
+{
+"q": "When do turtles nest at Montjoly?",
+"o": [
+"April to August",
+"November to January",
+"All year round",
+"February only"
+],
+"x": "Hatchlings keep emerging afterwards."
+},
+{
+"q": "Who owns the Montjoly Salines site?",
+"o": [
+"The Coastal Conservancy",
+"CNES",
+"The army",
+"A sugar company"
+],
+"x": "First plots acquired in 1981; the Kwata association has managed it since 2012."
+},
+{
+"q": "What does the boardwalk at the Salines cross?",
+"o": [
+"A red mangrove forest",
+"A rock savannah",
+"A mountain forest",
+"A coral reef"
+],
+"x": "One of the few mangroves in French Guiana you can reach on foot."
+},
+{
+"q": "How long is the Rorota loop?",
+"o": [
+"5.6 km",
+"18 km",
+"600 m",
+"30 km"
+],
+"x": "About 150 m of ascent, 1 h 30 to 2 h."
+},
+{
+"q": "Which mountain is the Rorota trail on?",
+"o": [
+"Mahury",
+"The Kaw mountain",
+"Montagne des Singes",
+"The Tumuc-Humac mountains"
+],
+"x": "It links up with the Topu and Loyola trails on the same massif."
+},
+{
+"q": "Which Loyola ruin can be seen from the Rémire road?",
+"o": [
+"The 1733 windmill",
+"A lighthouse",
+"A half-moon fort",
+"A painted church"
+],
+"x": "The windmill is a historic monument; the ruins have been listed since 1993."
+},
+{
+"q": "Which university has excavated at Loyola?",
+"o": [
+"Université Laval",
+"Utrecht University",
+"Oxford",
+"Coimbra"
+],
+"x": "The site has been excavated since the 1990s."
+},
+{
+"q": "Why was the Loyola estate abandoned after 1763?",
+"o": [
+"The Society of Jesus was banned",
+"A hurricane destroyed it",
+"A road was built through it",
+"The gold rush"
+],
+"x": "The Jesuits had already given up sugar around 1740."
+},
+{
+"q": "At the mouth of which river is Fort Diamant?",
+"o": [
+"The Mahury",
+"The Maroni",
+"The Oyapock",
+"The Kourou"
+],
+"x": "It guarded the entrance to the island of Cayenne."
+},
+{
+"q": "How thick are the walls of Fort Diamant?",
+"o": [
+"About 2 m",
+"About 10 cm",
+"About 20 m",
+"About 50 cm"
+],
+"x": "Basalt and brick; a grassy bank was meant to hide it from ships."
+},
+{
+"q": "What stands at the top of Mont Bourda?",
+"o": [
+"A calvary",
+"A lighthouse",
+"A launch pad",
+"A fort"
+],
+"x": "Vegetation has partly closed the view, but the sea shows along the way."
+},
+{
+"q": "What record does the Mont Grand Matoury reserve hold?",
+"o": [
+"Largest peri-urban nature reserve in France",
+"Highest mountain in French Guiana",
+"France's only marine reserve",
+"Oldest reserve in French Guiana"
+],
+"x": "About 2,123 ha of rainforest in the heart of Cayenne island."
+},
+{
+"q": "In which year was the Mont Grand Matoury reserve created?",
+"o": [
+"2006",
+"1968",
+"1998",
+"2023"
+],
+"x": "By decree of 6 September 2006. 1998 is the Kaw reserve."
+},
+{
+"q": "Behind which institution does the Montabo hill trail start?",
+"o": [
+"The IRD research institute",
+"CNES",
+"The airport",
+"The zoo"
+],
+"x": "On the Montabo road; about 3.8 km, marked."
+},
+{
+"q": "What is the other name of the Vidal estate?",
+"o": [
+"Mondélice",
+"Loyola",
+"Saint-Régis",
+"Thémire"
+],
+"x": "Saint-Régis is where the Jesuits moved their sugar works; Thémire is a house in Cayenne."
+},
+{
+"q": "Which birds can you see on the way to the Vidal estate?",
+"o": [
+"Toucans and aracaris",
+"Penguins",
+"Ostriches",
+"Swans"
+],
+"x": "The secondary forest is rich in birds: black-necked aracaris, channel-billed toucans, hermits."
+},
+{
+"q": "Who manages the Montagne Topu trail?",
+"o": [
+"The French Guiana territorial authority",
+"CNES",
+"The Coastal Conservancy",
+"The Kwata association"
+],
+"x": "A marked 3.3 km loop on the heights of Mahury."
+},
+{
+"q": "Who announced the space centre in French Guiana in 1964?",
+"o": [
+"General de Gaulle",
+"Félix Éboué",
+"Georges Pompidou",
+"François Mitterrand"
+],
+"x": "On 21 March 1964, in Cayenne."
+},
+{
+"q": "Why was Kourou chosen for the space centre?",
+"o": [
+"Its closeness to the equator",
+"Its oil fields",
+"Its high altitude",
+"Its cool climate"
+],
+"x": "Also: few hurricanes or earthquakes, and a low population density."
+},
+{
+"q": "In which year did Ariane 1 first lift off?",
+"o": [
+"1979",
+"1968",
+"1964",
+"2000"
+],
+"x": "On 24 December 1979. 1968 was the Véronique sounding rocket."
+},
+{
+"q": "How large is the Guiana Space Centre?",
+"o": [
+"About 660 km²",
+"About 6 km²",
+"About 66,000 km²",
+"About 60 ha"
+],
+"x": "It is Europe's spaceport."
+},
+{
+"q": "Which launchers does the space centre tour show?",
+"o": [
+"Ariane 6 and Vega-C",
+"Saturn V and Atlas",
+"The Space Shuttle",
+"Long March"
+],
+"x": "The guided bus tour is free on booking, with ID."
+},
+{
+"q": "How old are the rocks of Pointe des Roches in Kourou?",
+"o": [
+"Over 2 billion years",
+"About 10,000 years",
+"About 200 years",
+"About 65 million years"
+],
+"x": "Granodiorites crossed by pegmatite veins."
+},
+{
+"q": "What role did Île Saint-Joseph have in the penal colony?",
+"o": [
+"Solitary confinement, in silence and darkness",
+"Holding political deportees",
+"Housing ordinary convicts",
+"The ships' harbour"
+],
+"x": "Political deportees went to Devil's Island, convicts to Île Royale."
+},
+{
+"q": "How many visitors did the Salvation Islands receive in 2017?",
+"o": [
+"About 50,000",
+"About 500",
+"About 5 million",
+"About 2,000"
+],
+"x": "It is French Guiana's top tourist site."
+},
+{
+"q": "What is the origin of the Salvation Islands?",
+"o": [
+"Volcanic",
+"Coral",
+"A sandbank",
+"Man-made"
+],
+"x": "Three volcanic islands about fifteen kilometres off Kourou."
+},
+{
+"q": "How did the Guiana zoo start in 1983?",
+"o": [
+"As a hummingbird breeding centre",
+"As a circus",
+"As a crocodile farm",
+"As an aquarium"
+],
+"x": "It became a zoo in 1985, closed in 2007 and reopened in 2008."
+},
+{
+"q": "Who took over the Guiana zoo for its 2008 reopening?",
+"o": [
+"The creators of the Balata garden in Martinique",
+"CNES",
+"The City of Paris",
+"The National Forestry Office"
+],
+"x": "It houses over 450 animals of Guianese and Amazonian wildlife."
+},
+{
+"q": "Which commune is the Annamites penal camp in?",
+"o": [
+"Montsinéry-Tonnegrande",
+"Saint-Laurent-du-Maroni",
+"Saül",
+"Apatou"
+],
+"x": "The Crique Anguille camp; about 5 km out and back from the road."
+},
+{
+"q": "Until when did the Crique Anguille camp operate?",
+"o": [
+"1944",
+"1890",
+"1968",
+"2001"
+],
+"x": "From 1931 to 6 December 1944; mortality was high."
+},
+{
+"q": "How large is the Grand Pripri de Yiyi?",
+"o": [
+"Nearly 15,000 ha",
+"About 15 ha",
+"About 1.5 million ha",
+"About 150 ha"
+],
+"x": "Marshes, mangroves and flooded savannahs between the Sinnamary and Iracoubo rivers."
+},
+{
+"q": "Which association, French Guiana's oldest nature group, co-manages Yiyi?",
+"o": [
+"SEPANGUY",
+"Kwata",
+"WWF",
+"SOS Faune Sauvage"
+],
+"x": "With the commune of Sinnamary, for the Coastal Conservancy."
+},
+{
+"q": "What nickname is sometimes given to Iracoubo church?",
+"o": [
+"The 'Sistine Chapel of the Amazon'",
+"'Our Lady of the Forests'",
+"The 'green cathedral'",
+"The 'Creole Versailles'"
+],
+"x": "For its 600 m² of colourful naive paintings."
+},
+{
+"q": "What did Pierre Huguet do a few weeks after the church was consecrated?",
+"o": [
+"He escaped",
+"He became a priest",
+"He was pardoned",
+"He painted the Franconie museum"
+],
+"x": "The church was consecrated on 6 January 1893; Huguet escaped on 20 February."
+},
+{
+"q": "What does the memorial outside Iracoubo commemorate?",
+"o": [
+"Kali'na and Arawak people exhibited in 'human zoos'",
+"The first rocket launch",
+"The arrival of the Hmong",
+"The gold rush"
+],
+"x": "47 people taken to Europe in 1882 and 1892."
+},
+{
+"q": "How high is the Montagne des Singes?",
+"o": [
+"161 m",
+"1,610 m",
+"16 m",
+"2,500 m"
+],
+"x": "At the top, an ONF shelter overlooks the canopy and the space centre."
+},
+{
+"q": "Which butterfly do you often see at Montagne des Singes?",
+"o": [
+"The blue morpho",
+"The monarch",
+"The swallowtail",
+"The peacock butterfly"
+],
+"x": "The monkeys, despite the name, are rare."
+},
+{
+"q": "How many lakes does Kourou have?",
+"o": [
+"Three",
+"One",
+"Ten",
+"None"
+],
+"x": "Bois Diable, Marie-Claire and Bois Chaudat."
+},
+{
+"q": "In which year was Saint-Laurent-du-Maroni officially inaugurated?",
+"o": [
+"1858",
+"1643",
+"1910",
+"1946"
+],
+"x": "On 21 January 1858, after the penal colony moved west."
+},
+{
+"q": "Which famous convict is a cell at the Transportation Camp attributed to?",
+"o": [
+"Henri Charrière, 'Papillon'",
+"Alfred Dreyfus",
+"Jean Valjean",
+"Edmond Dantès"
+],
+"x": "Jean Valjean and Edmond Dantès are novel characters."
+},
+{
+"q": "Since when has Saint-Laurent-du-Maroni been a Town of Art and History?",
+"o": [
+"2007",
+"1858",
+"1985",
+"2020"
+],
+"x": "Its heritage centre occupies several blocks of the camp."
+},
+{
+"q": "Where did the first relégués arrive in 1887?",
+"o": [
+"Saint-Jean-du-Maroni",
+"Cayenne",
+"Devil's Island",
+"Kourou"
+],
+"x": "On 20 June 1887; nothing was ready and they built their own camp."
+},
+{
+"q": "In which year was the border fixed on the Maroni's median line?",
+"o": [
+"1915",
+"1643",
+"1848",
+"1975"
+],
+"x": "It is France's fifth-longest land border."
+},
+{
+"q": "Which Surinamese town faces Saint-Laurent?",
+"o": [
+"Albina",
+"Paramaribo",
+"Oiapoque",
+"Nieuw Nickerie"
+],
+"x": "An official ferry links the two banks."
+},
+{
+"q": "In which year was the Hmong village of Javouhey founded?",
+"o": [
+"1978",
+"1828",
+"1946",
+"2003"
+],
+"x": "A year after Cacao; 1828 is when Mana was founded."
+},
+{
+"q": "What task did the government give Anne-Marie Javouhey at Mana?",
+"o": [
+"Preparing hundreds of enslaved people for freedom",
+"Building a bridge",
+"Prospecting for gold",
+"Running a penal camp"
+],
+"x": "The Mana colony was then independent of Cayenne."
+},
+{
+"q": "In which year was Anne-Marie Javouhey beatified?",
+"o": [
+"1950",
+"1828",
+"1848",
+"2005"
+],
+"x": "She had left French Guiana in 1843."
+},
+{
+"q": "Which commune is Les Hattes beach in?",
+"o": [
+"Awala-Yalimapo",
+"Kourou",
+"Rémire-Montjoly",
+"Saint-Georges"
+],
+"x": "On Kali'na land, about twenty kilometres from Mana."
+},
+{
+"q": "What is the natural hatchery on Les Hattes beach called?",
+"o": [
+"Kawana",
+"Kwata",
+"Amana",
+"Cépérou"
+],
+"x": "Run since 2023 by the Kwata association with the Amana reserve and customary chiefs."
+},
+{
+"q": "In which year was the Amana nature reserve created?",
+"o": [
+"1998",
+"1968",
+"2017",
+"1853"
+],
+"x": "To protect one of the world's largest leatherback nesting sites."
+},
+{
+"q": "Which track leads to the Voltaire Falls?",
+"o": [
+"The Paul Isnard track",
+"The Coralie track",
+"The Kaw road",
+"The Galion road"
+],
+"x": "About 70 km of laterite from Saint-Laurent. The Coralie track leads to the Molokoï."
+},
+{
+"q": "How many days does the Hmong New Year last in Cacao?",
+"o": [
+"Three to four days",
+"One hour",
+"A month",
+"A whole week in July"
+],
+"x": "It takes place in December."
+},
+{
+"q": "Which museum is in Cacao?",
+"o": [
+"Le Planeur Bleu, with thousands of insects",
+"The Franconie museum",
+"The Space Museum",
+"The Museum of Guianese Cultures"
+],
+"x": "The other three are in Cayenne and Kourou."
+},
+{
+"q": "How long does the full Molokoï crossing take?",
+"o": [
+"About ten hours",
+"Half an hour",
+"Three weeks",
+"Two hours"
+],
+"x": "Most hikers split it over two days, with a night in a shelter."
+},
+{
+"q": "Which river is the village of Roura on?",
+"o": [
+"The Oyak",
+"The Maroni",
+"The Mana",
+"The Sinnamary"
+],
+"x": "It is the gateway to the East, at the start of the Kaw road."
+},
+{
+"q": "Which botanist was behind the Trésor reserve?",
+"o": [
+"Joep Moonen",
+"Fusée Aublet",
+"Charles Darwin",
+"Alexander von Humboldt"
+],
+"x": "A Dutch botanist living in French Guiana, he started the land purchase."
+},
+{
+"q": "Which bird has its largest known breeding colony at Kaw?",
+"o": [
+"The agami heron",
+"The flamingo",
+"The penguin",
+"The pelican"
+],
+"x": "The marshes also host hoatzins, scarlet ibis and cocoi herons."
+},
+{
+"q": "How far is the Kaw landing from Roura?",
+"o": [
+"About 55 km",
+"About 5 km",
+"About 250 km",
+"About 550 km"
+],
+"x": "Via departmental road 6; the village is then reached by pirogue."
+},
+{
+"q": "Where does the cock-of-the-rock build its nest?",
+"o": [
+"In rock shelters",
+"At the top of tall trees",
+"In beach sand",
+"In the middle of marshes"
+],
+"x": "Hence its name. A nesting site lies along the Kaw road."
+},
+{
+"q": "In which year was Saint-Georges linked to Cayenne by road?",
+"o": [
+"2003",
+"1853",
+"1968",
+"2017"
+],
+"x": "2017 is when the bridge to Brazil opened."
+},
+{
+"q": "How tall are the pylons of the Oyapock bridge?",
+"o": [
+"83 m",
+"8 m",
+"830 m",
+"28 m"
+],
+"x": "A 378 m cable-stayed bridge."
+},
+{
+"q": "Which Amerindian people has about 500 members in Saint-Georges?",
+"o": [
+"The Palikur",
+"The Mapuche",
+"The Guarani",
+"The Navajo"
+],
+"x": "The town also has a strong French-Brazilian feel."
+},
+{
+"q": "How high is the top of Roche Virginie?",
+"o": [
+"138 m",
+"1,380 m",
+"13 m",
+"2,500 m"
+],
+"x": "High enough to look out over the canopy."
+},
+{
+"q": "Which plants grow on the Roche Virginie slab?",
+"o": [
+"Orchids and bromeliads",
+"Firs and larches",
+"Heather and broom",
+"Olive and cork oak trees"
+],
+"x": "A rare rock-savannah vegetation, listed as a natural area of interest."
+},
+{
+"q": "Which river is Saut Maripa on?",
+"o": [
+"The Oyapock",
+"The Maroni",
+"The Mana",
+"The Approuague"
+],
+"x": "About twenty kilometres south-west of Saint-Georges."
+},
+{
+"q": "How many people did Saül and its settlements have during the gold rushes?",
+"o": [
+"Up to 800",
+"Up to 80,000",
+"Never more than 10",
+"Up to 8,000"
+],
+"x": "About a hundred people live there today."
+},
+{
+"q": "In which year was the Amazonian Park of French Guiana created?",
+"o": [
+"2007",
+"1977",
+"1853",
+"2020"
+],
+"x": "On 27 February 2007: the largest national park in France and the EU."
+},
+{
+"q": "Which country claims about a tenth of Maripasoula's territory?",
+"o": [
+"Suriname",
+"Brazil",
+"Guyana",
+"Venezuela"
+],
+"x": "The commune lies on the upper Maroni, facing Suriname."
+},
+{
+"q": "What do you need to visit the Amerindian villages south of Élahé?",
+"o": [
+"Prefectoral authorisation",
+"A Brazilian visa",
+"A hunting licence",
+"Nothing special"
+],
+"x": "They are in a restricted-access zone."
+},
+{
+"q": "Which road are the Fourgassié falls on?",
+"o": [
+"The Kaw road",
+"The RN1 to Saint-Laurent",
+"The Montabo road",
+"The Paul Isnard track"
+],
+"x": "A few kilometres from Roura, in primary forest."
+},
+{
+"q": "Which of these products is sold at Saint-Laurent market?",
+"o": [
+"Couac (cassava flour)",
+"Maple syrup",
+"Black truffle",
+"Fresh herring"
+],
+"x": "Along with fruit, vegetables, spices and Maroni cooking."
+}
 ]

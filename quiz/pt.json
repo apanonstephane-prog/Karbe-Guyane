@@ -1,39 +1,1232 @@
 [
-{"q":"Quem a estátua no centro da Place des Palmistes representa?","o":["Félix Éboué","Victor Schœlcher","Gaston Monnerville","Henri Charrière"],"x":"Félix Éboué, nascido em Caiena, governador e figura da França Livre. O monumento é de 1957."},
-{"q":"De onde vem o nome do forte Cépérou?","o":["De um chefe kali'na","De um governador francês","De um navio holandês","De uma árvore da colina"],"x":"Cépérou era um chefe kali'na que cedeu a colina aos franceses por volta de 1643."},
-{"q":"Qual sopa é a instituição do mercado de Caiena?","o":["O phở hmong","O lámen","A sopa de missô","A harira"],"x":"No mercado coberto, os balcões de phở de famílias hmong servem desde o café da manhã."},
-{"q":"Em que ano o mercado coberto de Caiena foi inaugurado?","o":["1910","1852","1946","1968"],"x":"Decidido em 1907, o mercado foi inaugurado em 1910."},
-{"q":"Qual condenado pintou as cenas do presídio expostas no museu Franconie?","o":["Francis Lagrange","Pierre Huguet","Henri Charrière","Alfred Dreyfus"],"x":"Francis Lagrange pintou a vida no presídio. Pierre Huguet é o pintor atribuído da igreja de Iracoubo."},
-{"q":"Quem fundou a fazenda Loyola em 1668?","o":["Os jesuítas","Os dominicanos","A Companhia das Índias","Os holandeses"],"x":"Os jesuítas fizeram dela uma grande propriedade de mais de 1 000 hectares, com cerca de 500 escravizados no auge."},
-{"q":"Por que o mar é marrom em Montjoly?","o":["Por causa dos sedimentos do Amazonas","Por causa do porto de Caiena","Por causa da areia vulcânica","Por causa das chuvas da noite"],"x":"A corrente leva ao longo da costa os sedimentos arrancados pelo Amazonas."},
-{"q":"Por que não se nada nos lagos do Rorota?","o":["São reservatórios de água potável","A água é salgada","Os lagos são privados","A água é fria demais"],"x":"A trilha margeia os lagos Rorota, Lalouette e Rémire, que abastecem a região de água potável."},
-{"q":"Qual a altitude do cume do Mont Grand Matoury?","o":["254 m","114 m","35 m","851 m"],"x":"254 m. O monte Bourda tem cerca de 114 m."},
-{"q":"Em que ano o primeiro foguete decolou de Kourou?","o":["1968","1979","1957","1986"],"x":"Em 9 de abril de 1968, com o foguete de sondagem Véronique."},
-{"q":"Em qual das ilhas da Salvação o desembarque é proibido?","o":["A ilha do Diabo","A ilha Royale","A ilha Saint-Joseph","Nenhuma"],"x":"Visitam-se a ilha Royale e a ilha Saint-Joseph. A ilha do Diabo, onde ficavam os deportados políticos, é proibida ao desembarque."},
-{"q":"Quem é dono das ilhas da Salvação desde 1971?","o":["O CNES","O ONF","O Conservatório do Litoral","O município de Kourou"],"x":"A agência espacial francesa (CNES); o arquipélago também é posto de observação dos lançamentos."},
-{"q":"Que prisioneiro ficou na ilha do Diabo de 1895 a 1899?","o":["Alfred Dreyfus","Henri Charrière","Victor Hugo","Jean Genet"],"x":"O capitão Dreyfus, condenado injustamente, passou ali mais de quatro anos."},
-{"q":"O que era a torre Dreyfus, em Kourou?","o":["Um semáforo ligado às ilhas da Salvação","Um farol","Uma prisão","Uma caixa-d'água"],"x":"Inaugurada em 1856, transmitia sinais entre o presídio de Kourou e as ilhas."},
-{"q":"Quem eram os « Annamites » do presídio da Montagne des Singes?","o":["Prisioneiros indochineses","Operários brasileiros","Soldados ingleses","Garimpeiros chineses"],"x":"Presos políticos e comuns vindos da Indochina, enviados à Guiana a partir de 1931."},
-{"q":"A quem a tradição atribui as pinturas da igreja de Iracoubo?","o":["Ao condenado Pierre Huguet","A Francis Lagrange","Aos jesuítas","A um pintor brasileiro"],"x":"Pierre Huguet teria pintado cerca de 600 m² entre 1891 e 1893."},
-{"q":"Quantos condenados passaram pelo campo da Transportation?","o":["Mais de 50 000","Cerca de 5 000","Cerca de 17 000","Mais de 500 000"],"x":"Mais de 50 000. Cerca de 17 000 é o número de relegados."},
-{"q":"Quem a lei de 1885 sobre a relegação mandava para a Guiana?","o":["Os reincidentes","Os opositores políticos","Os desertores","Os jornalistas"],"x":"Reincidentes, muitas vezes pequenos infratores, internados na colônia para sempre."},
-{"q":"Com que país o Maroni faz fronteira?","o":["O Suriname","O Brasil","A Guiana","A Venezuela"],"x":"O Maroni separa a Guiana Francesa do Suriname; o Oiapoque a separa do Brasil."},
-{"q":"Quantas pirogas atravessam o Maroni por dia, segundo estimativas?","o":["Mais de 1 000","Umas dez","Umas cem","Mais de 100 000"],"x":"Mais de 1 000 travessias por dia, incluindo centenas de crianças indo à escola."},
-{"q":"Quem fundou Mana em 1828?","o":["Anne-Marie Javouhey","Victor Schœlcher","Félix Éboué","Josefina de Beauharnais"],"x":"A madre Anne-Marie Javouhey, fundadora das irmãs de São José de Cluny."},
-{"q":"Quanto diminuíram as tartarugas-de-couro na praia des Hattes?","o":["Cerca de 97 %","Cerca de 20 %","Cerca de 50 %","Aumentaram"],"x":"Segundo a Kwata. Um viveiro protege os ninhos desde 2023."},
-{"q":"Qual a altura das cachoeiras Voltaire?","o":["Cerca de 35 m","Cerca de 5 m","Cerca de 120 m","Cerca de 300 m"],"x":"Cerca de 35 m, entre as mais altas da Guiana."},
-{"q":"Em que ano os primeiros refugiados hmong chegaram a Cacao?","o":["1977","1946","1962","1995"],"x":"Em setembro de 1977, cerca de 500 pessoas."},
-{"q":"De que país os refugiados hmong de Cacao tinham fugido?","o":["Do Laos","Da Indonésia","Das Filipinas","Do Japão"],"x":"Do Laos, pela Tailândia, após a tomada do poder pelos comunistas."},
-{"q":"Qual a extensão da trilha Molokoï?","o":["Cerca de 18 km","Cerca de 3 km","Cerca de 45 km","Cerca de 70 km"],"x":"Cerca de 18 km entre Cacao e a estrada Coralie, com abrigos no meio do caminho."},
-{"q":"Qual animal dos pântanos de Kaw é o maior crocodiliano da América do Sul?","o":["O jacaré-açu","O jacaré-tinga","O aligátor","O gavial"],"x":"Kaw abriga uma das últimas populações estáveis de jacaré-açu."},
-{"q":"Qual a área da reserva dos pântanos de Kaw-Roura?","o":["Cerca de 94 700 ha","Cerca de 2 464 ha","Cerca de 500 ha","Cerca de 1 milhão de ha"],"x":"Cerca de 94 700 ha. 2 464 ha é a reserva Trésor."},
-{"q":"De que cor é o macho do galo-da-serra?","o":["Laranja vivo","Azul","Preto e branco","Verde"],"x":"Laranja vivo, com uma crista em leque. As fêmeas são mais pardas."},
-{"q":"Que cidade a ponte do Oiapoque liga a Saint-Georges?","o":["Oiapoque","Albina","Macapá","Paramaribo"],"x":"Oiapoque, no Brasil. Albina fica em frente a Saint-Laurent, no Suriname."},
-{"q":"Em que ano a ponte do Oiapoque abriu ao tráfego?","o":["2017","2003","2011","2021"],"x":"Concluída em 2011, só abriu em 20 de março de 2017."},
-{"q":"O que é um inselberg?","o":["Um domo rochoso que emerge da floresta","Uma ilha no meio de um rio","Um pântano de água doce","Um antigo vulcão"],"x":"A palavra alemã significa « montanha-ilha ». A Roche Virginie é um domo de granito."},
-{"q":"Na Guiana, o que é um pripri?","o":["Um pântano de água doce","Uma piroga","Um prato de peixe","Uma ave"],"x":"Um pântano de água doce da planície costeira, como os pripris de Yiyi em Sinnamary."},
-{"q":"Como se chega ao povoado de Saül?","o":["Só de avião","Por estrada","De trem","De balsa"],"x":"Nenhuma estrada leva a Saül, no centro da Guiana."},
-{"q":"Que recorde Maripasoula detém?","o":["Maior município da França","Município mais populoso da Guiana","Município mais antigo da Guiana","Ponto mais alto da França"],"x":"Cerca de 18 360 km², um pouco mais que o Kuwait."},
-{"q":"Que universidade está ligada à criação da reserva Trésor?","o":["Utrecht","Leiden","Sorbonne","Harvard"],"x":"A fundação Trésor, ligada à Universidade de Utrecht, comprou as terras."},
-{"q":"O que era a fazenda Vidal?","o":["Um engenho de açúcar escravista","Uma mina de ouro","Um forte","Um leprosário"],"x":"Criada no início do século XIX, abandonada por volta de 1880."}
+{
+"q": "Quem a estátua no centro da Place des Palmistes representa?",
+"o": [
+"Félix Éboué",
+"Victor Schœlcher",
+"Gaston Monnerville",
+"Henri Charrière"
+],
+"x": "Félix Éboué, nascido em Caiena, governador e figura da França Livre. O monumento é de 1957."
+},
+{
+"q": "De onde vem o nome do forte Cépérou?",
+"o": [
+"De um chefe kali'na",
+"De um governador francês",
+"De um navio holandês",
+"De uma árvore da colina"
+],
+"x": "Cépérou era um chefe kali'na que cedeu a colina aos franceses por volta de 1643."
+},
+{
+"q": "Qual sopa é a instituição do mercado de Caiena?",
+"o": [
+"O phở hmong",
+"O lámen",
+"A sopa de missô",
+"A harira"
+],
+"x": "No mercado coberto, os balcões de phở de famílias hmong servem desde o café da manhã."
+},
+{
+"q": "Em que ano o mercado coberto de Caiena foi inaugurado?",
+"o": [
+"1910",
+"1852",
+"1946",
+"1968"
+],
+"x": "Decidido em 1907, o mercado foi inaugurado em 1910."
+},
+{
+"q": "Qual condenado pintou as cenas do presídio expostas no museu Franconie?",
+"o": [
+"Francis Lagrange",
+"Pierre Huguet",
+"Henri Charrière",
+"Alfred Dreyfus"
+],
+"x": "Francis Lagrange pintou a vida no presídio. Pierre Huguet é o pintor atribuído da igreja de Iracoubo."
+},
+{
+"q": "Quem fundou a fazenda Loyola em 1668?",
+"o": [
+"Os jesuítas",
+"Os dominicanos",
+"A Companhia das Índias",
+"Os holandeses"
+],
+"x": "Os jesuítas fizeram dela uma grande propriedade de mais de 1 000 hectares, com cerca de 500 escravizados no auge."
+},
+{
+"q": "Por que o mar é marrom em Montjoly?",
+"o": [
+"Por causa dos sedimentos do Amazonas",
+"Por causa do porto de Caiena",
+"Por causa da areia vulcânica",
+"Por causa das chuvas da noite"
+],
+"x": "A corrente leva ao longo da costa os sedimentos arrancados pelo Amazonas."
+},
+{
+"q": "Por que não se nada nos lagos do Rorota?",
+"o": [
+"São reservatórios de água potável",
+"A água é salgada",
+"Os lagos são privados",
+"A água é fria demais"
+],
+"x": "A trilha margeia os lagos Rorota, Lalouette e Rémire, que abastecem a região de água potável."
+},
+{
+"q": "Qual a altitude do cume do Mont Grand Matoury?",
+"o": [
+"254 m",
+"114 m",
+"35 m",
+"851 m"
+],
+"x": "254 m. O monte Bourda tem cerca de 114 m."
+},
+{
+"q": "Em que ano o primeiro foguete decolou de Kourou?",
+"o": [
+"1968",
+"1979",
+"1957",
+"1986"
+],
+"x": "Em 9 de abril de 1968, com o foguete de sondagem Véronique."
+},
+{
+"q": "Em qual das ilhas da Salvação o desembarque é proibido?",
+"o": [
+"A ilha do Diabo",
+"A ilha Royale",
+"A ilha Saint-Joseph",
+"Nenhuma"
+],
+"x": "Visitam-se a ilha Royale e a ilha Saint-Joseph. A ilha do Diabo, onde ficavam os deportados políticos, é proibida ao desembarque."
+},
+{
+"q": "Quem é dono das ilhas da Salvação desde 1971?",
+"o": [
+"O CNES",
+"O ONF",
+"O Conservatório do Litoral",
+"O município de Kourou"
+],
+"x": "A agência espacial francesa (CNES); o arquipélago também é posto de observação dos lançamentos."
+},
+{
+"q": "Que prisioneiro ficou na ilha do Diabo de 1895 a 1899?",
+"o": [
+"Alfred Dreyfus",
+"Henri Charrière",
+"Victor Hugo",
+"Jean Genet"
+],
+"x": "O capitão Dreyfus, condenado injustamente, passou ali mais de quatro anos."
+},
+{
+"q": "O que era a torre Dreyfus, em Kourou?",
+"o": [
+"Um semáforo ligado às ilhas da Salvação",
+"Um farol",
+"Uma prisão",
+"Uma caixa-d'água"
+],
+"x": "Inaugurada em 1856, transmitia sinais entre o presídio de Kourou e as ilhas."
+},
+{
+"q": "Quem eram os « Annamites » do presídio da Montagne des Singes?",
+"o": [
+"Prisioneiros indochineses",
+"Operários brasileiros",
+"Soldados ingleses",
+"Garimpeiros chineses"
+],
+"x": "Presos políticos e comuns vindos da Indochina, enviados à Guiana a partir de 1931."
+},
+{
+"q": "A quem a tradição atribui as pinturas da igreja de Iracoubo?",
+"o": [
+"Ao condenado Pierre Huguet",
+"A Francis Lagrange",
+"Aos jesuítas",
+"A um pintor brasileiro"
+],
+"x": "Pierre Huguet teria pintado cerca de 600 m² entre 1891 e 1893."
+},
+{
+"q": "Quantos condenados passaram pelo campo da Transportation?",
+"o": [
+"Mais de 50 000",
+"Cerca de 5 000",
+"Cerca de 17 000",
+"Mais de 500 000"
+],
+"x": "Mais de 50 000. Cerca de 17 000 é o número de relegados."
+},
+{
+"q": "Quem a lei de 1885 sobre a relegação mandava para a Guiana?",
+"o": [
+"Os reincidentes",
+"Os opositores políticos",
+"Os desertores",
+"Os jornalistas"
+],
+"x": "Reincidentes, muitas vezes pequenos infratores, internados na colônia para sempre."
+},
+{
+"q": "Com que país o Maroni faz fronteira?",
+"o": [
+"O Suriname",
+"O Brasil",
+"A Guiana",
+"A Venezuela"
+],
+"x": "O Maroni separa a Guiana Francesa do Suriname; o Oiapoque a separa do Brasil."
+},
+{
+"q": "Quantas pirogas atravessam o Maroni por dia, segundo estimativas?",
+"o": [
+"Mais de 1 000",
+"Umas dez",
+"Umas cem",
+"Mais de 100 000"
+],
+"x": "Mais de 1 000 travessias por dia, incluindo centenas de crianças indo à escola."
+},
+{
+"q": "Quem fundou Mana em 1828?",
+"o": [
+"Anne-Marie Javouhey",
+"Victor Schœlcher",
+"Félix Éboué",
+"Josefina de Beauharnais"
+],
+"x": "A madre Anne-Marie Javouhey, fundadora das irmãs de São José de Cluny."
+},
+{
+"q": "Quanto diminuíram as tartarugas-de-couro na praia des Hattes?",
+"o": [
+"Cerca de 97 %",
+"Cerca de 20 %",
+"Cerca de 50 %",
+"Aumentaram"
+],
+"x": "Segundo a Kwata. Um viveiro protege os ninhos desde 2023."
+},
+{
+"q": "Qual a altura das cachoeiras Voltaire?",
+"o": [
+"Cerca de 35 m",
+"Cerca de 5 m",
+"Cerca de 120 m",
+"Cerca de 300 m"
+],
+"x": "Cerca de 35 m, entre as mais altas da Guiana."
+},
+{
+"q": "Em que ano os primeiros refugiados hmong chegaram a Cacao?",
+"o": [
+"1977",
+"1946",
+"1962",
+"1995"
+],
+"x": "Em setembro de 1977, cerca de 500 pessoas."
+},
+{
+"q": "De que país os refugiados hmong de Cacao tinham fugido?",
+"o": [
+"Do Laos",
+"Da Indonésia",
+"Das Filipinas",
+"Do Japão"
+],
+"x": "Do Laos, pela Tailândia, após a tomada do poder pelos comunistas."
+},
+{
+"q": "Qual a extensão da trilha Molokoï?",
+"o": [
+"Cerca de 18 km",
+"Cerca de 3 km",
+"Cerca de 45 km",
+"Cerca de 70 km"
+],
+"x": "Cerca de 18 km entre Cacao e a estrada Coralie, com abrigos no meio do caminho."
+},
+{
+"q": "Qual animal dos pântanos de Kaw é o maior crocodiliano da América do Sul?",
+"o": [
+"O jacaré-açu",
+"O jacaré-tinga",
+"O aligátor",
+"O gavial"
+],
+"x": "Kaw abriga uma das últimas populações estáveis de jacaré-açu."
+},
+{
+"q": "Qual a área da reserva dos pântanos de Kaw-Roura?",
+"o": [
+"Cerca de 94 700 ha",
+"Cerca de 2 464 ha",
+"Cerca de 500 ha",
+"Cerca de 1 milhão de ha"
+],
+"x": "Cerca de 94 700 ha. 2 464 ha é a reserva Trésor."
+},
+{
+"q": "De que cor é o macho do galo-da-serra?",
+"o": [
+"Laranja vivo",
+"Azul",
+"Preto e branco",
+"Verde"
+],
+"x": "Laranja vivo, com uma crista em leque. As fêmeas são mais pardas."
+},
+{
+"q": "Que cidade a ponte do Oiapoque liga a Saint-Georges?",
+"o": [
+"Oiapoque",
+"Albina",
+"Macapá",
+"Paramaribo"
+],
+"x": "Oiapoque, no Brasil. Albina fica em frente a Saint-Laurent, no Suriname."
+},
+{
+"q": "Em que ano a ponte do Oiapoque abriu ao tráfego?",
+"o": [
+"2017",
+"2003",
+"2011",
+"2021"
+],
+"x": "Concluída em 2011, só abriu em 20 de março de 2017."
+},
+{
+"q": "O que é um inselberg?",
+"o": [
+"Um domo rochoso que emerge da floresta",
+"Uma ilha no meio de um rio",
+"Um pântano de água doce",
+"Um antigo vulcão"
+],
+"x": "A palavra alemã significa « montanha-ilha ». A Roche Virginie é um domo de granito."
+},
+{
+"q": "Na Guiana, o que é um pripri?",
+"o": [
+"Um pântano de água doce",
+"Uma piroga",
+"Um prato de peixe",
+"Uma ave"
+],
+"x": "Um pântano de água doce da planície costeira, como os pripris de Yiyi em Sinnamary."
+},
+{
+"q": "Como se chega ao povoado de Saül?",
+"o": [
+"Só de avião",
+"Por estrada",
+"De trem",
+"De balsa"
+],
+"x": "Nenhuma estrada leva a Saül, no centro da Guiana."
+},
+{
+"q": "Que recorde Maripasoula detém?",
+"o": [
+"Maior município da França",
+"Município mais populoso da Guiana",
+"Município mais antigo da Guiana",
+"Ponto mais alto da França"
+],
+"x": "Cerca de 18 360 km², um pouco mais que o Kuwait."
+},
+{
+"q": "Que universidade está ligada à criação da reserva Trésor?",
+"o": [
+"Utrecht",
+"Leiden",
+"Sorbonne",
+"Harvard"
+],
+"x": "A fundação Trésor, ligada à Universidade de Utrecht, comprou as terras."
+},
+{
+"q": "O que era a fazenda Vidal?",
+"o": [
+"Um engenho de açúcar escravista",
+"Uma mina de ouro",
+"Um forte",
+"Um leprosário"
+],
+"x": "Criada no início do século XIX, abandonada por volta de 1880."
+},
+{
+"q": "Qual era o antigo nome da Place des Palmistes?",
+"o": [
+"La Savane",
+"Place du Coq",
+"Place de la Victoire",
+"Place Royale"
+],
+"x": "Por muito tempo chamada « la Savane », depois Place de l'Esplanade, foi urbanizada a partir de 1821."
+},
+{
+"q": "De onde vêm as palmeiras-imperiais da Place des Palmistes?",
+"o": [
+"Da Venezuela e do sul do Caribe",
+"Da África Ocidental",
+"Do Sudeste Asiático",
+"Da Polinésia"
+],
+"x": "São Roystonea oleacea; os replantios explicam as diferenças de altura."
+},
+{
+"q": "Onde repousa Félix Éboué?",
+"o": [
+"No Panteão",
+"Na Place des Palmistes",
+"Nos Inválidos",
+"Em Fort-de-France"
+],
+"x": "Nascido em Caiena, governador e figura da França Livre, repousa no Panteão; sua estátua está na praça desde 1957."
+},
+{
+"q": "O que a casa Thémire abriga desde 1908?",
+"o": [
+"O hotel e bar des Palmistes",
+"A prefeitura de Caiena",
+"O museu Franconie",
+"Um banco"
+],
+"x": "É uma das mais belas casas crioulas da praça."
+},
+{
+"q": "Em que ano Poncet de Brétigny adquiriu a colina de Cépérou?",
+"o": [
+"1643",
+"1492",
+"1763",
+"1852"
+],
+"x": "Um primeiro fortim de madeira foi erguido ali: o nascimento de Caiena."
+},
+{
+"q": "Que almirante holandês obteve a rendição do forte em 1676?",
+"o": [
+"Jacob Binckes",
+"Peter Stuyvesant",
+"Abel Tasman",
+"Jan van Riebeeck"
+],
+"x": "Ele desembarcou 900 homens perto do forte."
+},
+{
+"q": "A que altura acima do mar fica o alto do forte Cépérou?",
+"o": [
+"28 m",
+"254 m",
+"3 m",
+"114 m"
+],
+"x": "Alto o bastante para ver a cidade, o estuário e o oceano."
+},
+{
+"q": "Em que dias acontece o mercado de Caiena?",
+"o": [
+"Quarta, sexta e sábado de manhã",
+"Todos os dias",
+"Só no domingo",
+"Segunda e quinta à noite"
+],
+"x": "O sábado é o dia mais animado: chegue cedo."
+},
+{
+"q": "Em que praça fica o mercado de Caiena?",
+"o": [
+"Place du Coq",
+"Place des Palmistes",
+"Place de l'Esplanade",
+"Place de la Savane"
+],
+"x": "Esplanade e Savane são antigos nomes da Place des Palmistes."
+},
+{
+"q": "Em que ano foi criado o Museu das Culturas Guianenses?",
+"o": [
+"1995",
+"1901",
+"1968",
+"2015"
+],
+"x": "1901 é a abertura do museu Franconie."
+},
+{
+"q": "Quantos objetos o Museu das Culturas Guianenses guarda, aproximadamente?",
+"o": [
+"10 000",
+"500",
+"1 milhão",
+"100"
+],
+"x": "Além de acervos de arqueologia, imagens e arquivos sonoros."
+},
+{
+"q": "Em que ano o museu Franconie abriu?",
+"o": [
+"1901",
+"1995",
+"1853",
+"1968"
+],
+"x": "É uma das instituições culturais mais antigas da Guiana."
+},
+{
+"q": "Quantos exemplares tem a coleção de insetos do padre Barbotin?",
+"o": [
+"Quase 4 000",
+"Uns cinquenta",
+"Quase 400 000",
+"Uns dez"
+],
+"x": "Faz parte do gabinete de curiosidades do museu Franconie."
+},
+{
+"q": "Até que tamanho uma tartaruga-de-couro pode chegar?",
+"o": [
+"Cerca de 2 m e 400 kg",
+"Cerca de 50 cm e 10 kg",
+"Cerca de 5 m e 2 t",
+"Cerca de 1 m e 50 kg"
+],
+"x": "Uma gigante: ela desova nas praias de Rémire-Montjoly."
+},
+{
+"q": "Além da tartaruga-de-couro, qual tartaruga desova sobretudo em Montjoly?",
+"o": [
+"A tartaruga-oliva",
+"A tartaruga-de-hermann",
+"A tartaruga-gigante-de-galápagos",
+"A tartaruga-mordedora"
+],
+"x": "Mais raramente, a tartaruga-verde e a tartaruga-de-pente."
+},
+{
+"q": "Quando as tartarugas desovam em Montjoly?",
+"o": [
+"De abril a agosto",
+"De novembro a janeiro",
+"O ano todo",
+"Só em fevereiro"
+],
+"x": "Os filhotes continuam nascendo depois."
+},
+{
+"q": "A quem pertence o sítio das Salines de Montjoly?",
+"o": [
+"Ao Conservatório do Litoral",
+"Ao CNES",
+"Ao exército",
+"A um engenho de açúcar"
+],
+"x": "Primeiras parcelas compradas em 1981; a associação Kwata o administra desde 2012."
+},
+{
+"q": "Que ambiente a passarela sobre palafitas das Salines atravessa?",
+"o": [
+"Um manguezal de mangue-vermelho",
+"Uma savana-rocha",
+"Uma floresta de montanha",
+"Um recife de coral"
+],
+"x": "Um dos raros manguezais da Guiana acessíveis a pé."
+},
+{
+"q": "Qual a extensão do circuito do Rorota?",
+"o": [
+"5,6 km",
+"18 km",
+"600 m",
+"30 km"
+],
+"x": "Cerca de 150 m de desnível, 1 h 30 a 2 h."
+},
+{
+"q": "Em que montanha fica a trilha do Rorota?",
+"o": [
+"O Mahury",
+"A montanha de Kaw",
+"A Montagne des Singes",
+"Os montes Tumuc-Humac"
+],
+"x": "Combina com as trilhas de Topu e Loyola, no mesmo maciço."
+},
+{
+"q": "Que vestígio de Loyola se vê da estrada de Rémire?",
+"o": [
+"O moinho de vento de 1733",
+"Um farol",
+"Um forte em meia-lua",
+"Uma igreja pintada"
+],
+"x": "O moinho é monumento histórico; os vestígios são protegidos desde 1993."
+},
+{
+"q": "Que universidade fez escavações em Loyola?",
+"o": [
+"A Universidade Laval",
+"A Universidade de Utrecht",
+"Oxford",
+"Coimbra"
+],
+"x": "O sítio é escavado desde os anos 1990."
+},
+{
+"q": "Por que a fazenda Loyola foi abandonada após 1763?",
+"o": [
+"A Companhia de Jesus foi proibida",
+"Um furacão a destruiu",
+"Uma estrada a cortou",
+"A corrida do ouro"
+],
+"x": "Os jesuítas já tinham abandonado o açúcar por volta de 1740."
+},
+{
+"q": "Na foz de qual rio fica o forte Diamant?",
+"o": [
+"O Mahury",
+"O Maroni",
+"O Oiapoque",
+"O Kourou"
+],
+"x": "Era a porta de entrada da ilha de Caiena."
+},
+{
+"q": "Qual a espessura das muralhas do forte Diamant?",
+"o": [
+"Cerca de 2 m",
+"Cerca de 10 cm",
+"Cerca de 20 m",
+"Cerca de 50 cm"
+],
+"x": "Basalto e tijolo; um talude gramado devia escondê-lo dos navios."
+},
+{
+"q": "O que há no alto do monte Bourda?",
+"o": [
+"Um calvário",
+"Um farol",
+"Uma base de lançamento",
+"Um forte"
+],
+"x": "A vegetação fechou em parte a vista, mas o mar aparece no caminho."
+},
+{
+"q": "Que recorde a reserva do Mont Grand Matoury detém?",
+"o": [
+"Maior reserva natural periurbana da França",
+"Montanha mais alta da Guiana",
+"Única reserva marinha da França",
+"Reserva mais antiga da Guiana"
+],
+"x": "Cerca de 2 123 ha de floresta tropical no coração da ilha de Caiena."
+},
+{
+"q": "Em que ano foi criada a reserva do Mont Grand Matoury?",
+"o": [
+"2006",
+"1968",
+"1998",
+"2023"
+],
+"x": "Por decreto de 6 de setembro de 2006. 1998 é a reserva de Kaw."
+},
+{
+"q": "Atrás de qual instituição começa a trilha da colina de Montabo?",
+"o": [
+"O IRD",
+"O CNES",
+"O aeroporto",
+"O zoológico"
+],
+"x": "Na estrada de Montabo; cerca de 3,8 km sinalizados."
+},
+{
+"q": "Qual é o outro nome da fazenda Vidal?",
+"o": [
+"Mondélice",
+"Loyola",
+"Saint-Régis",
+"Thémire"
+],
+"x": "Saint-Régis é para onde os jesuítas levaram seu engenho; Thémire, uma casa de Caiena."
+},
+{
+"q": "Que aves se veem no caminho da fazenda Vidal?",
+"o": [
+"Tucanos e araçaris",
+"Pinguins",
+"Avestruzes",
+"Cisnes"
+],
+"x": "A floresta secundária é rica em aves: araçaris, tucanos-de-bico-preto, beija-flores-eremitas."
+},
+{
+"q": "Quem administra a trilha da Montagne Topu?",
+"o": [
+"A Coletividade Territorial da Guiana",
+"O CNES",
+"O Conservatório do Litoral",
+"A associação Kwata"
+],
+"x": "Um circuito sinalizado de 3,3 km nas alturas do Mahury."
+},
+{
+"q": "Quem anunciou em 1964 a instalação do centro espacial na Guiana?",
+"o": [
+"O general de Gaulle",
+"Félix Éboué",
+"Georges Pompidou",
+"François Mitterrand"
+],
+"x": "Em 21 de março de 1964, em Caiena."
+},
+{
+"q": "Por que Kourou foi escolhida para o centro espacial?",
+"o": [
+"A proximidade do equador",
+"Suas jazidas de petróleo",
+"Sua grande altitude",
+"Seu clima fresco"
+],
+"x": "Também: poucos furacões e terremotos, e baixa densidade populacional."
+},
+{
+"q": "Em que ano o Ariane 1 decolou pela primeira vez?",
+"o": [
+"1979",
+"1968",
+"1964",
+"2000"
+],
+"x": "Em 24 de dezembro de 1979. 1968 foi o foguete Véronique."
+},
+{
+"q": "Qual a área do Centro Espacial da Guiana?",
+"o": [
+"Cerca de 660 km²",
+"Cerca de 6 km²",
+"Cerca de 66 000 km²",
+"Cerca de 60 ha"
+],
+"x": "É o porto espacial da Europa."
+},
+{
+"q": "Que lançadores se veem na visita ao Centro Espacial?",
+"o": [
+"Ariane 6 e Vega-C",
+"Saturn V e Atlas",
+"O ônibus espacial",
+"Longa Marcha"
+],
+"x": "A visita guiada de ônibus é gratuita com reserva e documento."
+},
+{
+"q": "Que idade têm as rochas da Pointe des Roches, em Kourou?",
+"o": [
+"Mais de 2 bilhões de anos",
+"Cerca de 10 000 anos",
+"Cerca de 200 anos",
+"Cerca de 65 milhões de anos"
+],
+"x": "Granodioritos cortados por veios de pegmatito."
+},
+{
+"q": "Que papel tinha a ilha Saint-Joseph no tempo do presídio?",
+"o": [
+"A reclusão, em silêncio e no escuro",
+"Receber os deportados políticos",
+"Abrigar os condenados comuns",
+"O porto dos navios"
+],
+"x": "Os deportados políticos iam para a ilha do Diabo, os condenados para a ilha Royale."
+},
+{
+"q": "Quantos visitantes as ilhas da Salvação receberam em 2017?",
+"o": [
+"Cerca de 50 000",
+"Cerca de 500",
+"Cerca de 5 milhões",
+"Cerca de 2 000"
+],
+"x": "É o principal ponto turístico da Guiana."
+},
+{
+"q": "Qual a origem das ilhas da Salvação?",
+"o": [
+"Vulcânica",
+"Coralina",
+"Um banco de areia",
+"Artificial"
+],
+"x": "Três ilhas vulcânicas a uns quinze quilômetros de Kourou."
+},
+{
+"q": "Como o zoológico da Guiana começou, em 1983?",
+"o": [
+"Como criadouro de beija-flores",
+"Como circo",
+"Como fazenda de crocodilos",
+"Como aquário"
+],
+"x": "Virou zoológico em 1985, fechou em 2007 e reabriu em 2008."
+},
+{
+"q": "Quem assumiu o zoológico da Guiana na reabertura de 2008?",
+"o": [
+"Os criadores do jardim de Balata, na Martinica",
+"O CNES",
+"A Prefeitura de Paris",
+"O ONF"
+],
+"x": "Abriga mais de 450 animais da fauna guianense e amazônica."
+},
+{
+"q": "Em que município fica o presídio dos Annamites?",
+"o": [
+"Montsinéry-Tonnegrande",
+"Saint-Laurent-du-Maroni",
+"Saül",
+"Apatou"
+],
+"x": "O campo da crique Anguille; cerca de 5 km ida e volta desde a estrada."
+},
+{
+"q": "Até quando o campo da crique Anguille funcionou?",
+"o": [
+"1944",
+"1890",
+"1968",
+"2001"
+],
+"x": "De 1931 a 6 de dezembro de 1944; a mortalidade era alta."
+},
+{
+"q": "Qual a área do Grand Pripri de Yiyi?",
+"o": [
+"Quase 15 000 ha",
+"Cerca de 15 ha",
+"Cerca de 1,5 milhão de ha",
+"Cerca de 150 ha"
+],
+"x": "Pântanos, manguezais e savanas alagadas entre os rios Sinnamary e Iracoubo."
+},
+{
+"q": "Que associação, a mais antiga da Guiana na proteção da natureza, cogere Yiyi?",
+"o": [
+"A SEPANGUY",
+"Kwata",
+"O WWF",
+"SOS Faune Sauvage"
+],
+"x": "Com o município de Sinnamary, para o Conservatório do Litoral."
+},
+{
+"q": "Que apelido às vezes se dá à igreja de Iracoubo?",
+"o": [
+"A « Capela Sistina da Amazônia »",
+"A « Nossa Senhora das Florestas »",
+"A « catedral verde »",
+"O « Versalhes crioulo »"
+],
+"x": "Por seus 600 m² de pinturas naïf coloridas."
+},
+{
+"q": "O que Pierre Huguet fez semanas depois da consagração da igreja?",
+"o": [
+"Fugiu",
+"Virou padre",
+"Foi indultado",
+"Pintou o museu Franconie"
+],
+"x": "A igreja foi consagrada em 6 de janeiro de 1893; Huguet fugiu em 20 de fevereiro."
+},
+{
+"q": "O que lembra o memorial na saída de Iracoubo?",
+"o": [
+"Os Kali'na e Arawak exibidos em « zoológicos humanos »",
+"O primeiro lançamento de foguete",
+"A chegada dos hmong",
+"A corrida do ouro"
+],
+"x": "47 pessoas levadas à Europa em 1882 e 1892."
+},
+{
+"q": "Qual a altitude da Montagne des Singes?",
+"o": [
+"161 m",
+"1 610 m",
+"16 m",
+"2 500 m"
+],
+"x": "No alto, um abrigo do ONF domina a copa das árvores e o Centro Espacial."
+},
+{
+"q": "Que borboleta se vê com frequência na Montagne des Singes?",
+"o": [
+"A morpho-azul",
+"A monarca",
+"A macaão",
+"A pavão-diurno"
+],
+"x": "Os macacos, apesar do nome, são raros."
+},
+{
+"q": "Quantos lagos Kourou tem?",
+"o": [
+"Três",
+"Um",
+"Dez",
+"Nenhum"
+],
+"x": "Bois Diable, Marie-Claire e Bois Chaudat."
+},
+{
+"q": "Em que ano Saint-Laurent-du-Maroni foi oficialmente inaugurada?",
+"o": [
+"1858",
+"1643",
+"1910",
+"1946"
+],
+"x": "Em 21 de janeiro de 1858, após a transferência do presídio para o oeste."
+},
+{
+"q": "A que condenado famoso se atribui uma cela do campo da Transportation?",
+"o": [
+"Henri Charrière, o Papillon",
+"Alfred Dreyfus",
+"Jean Valjean",
+"Edmond Dantès"
+],
+"x": "Jean Valjean e Edmond Dantès são personagens de romance."
+},
+{
+"q": "Desde quando Saint-Laurent-du-Maroni é Cidade de Arte e História?",
+"o": [
+"2007",
+"1858",
+"1985",
+"2020"
+],
+"x": "Seu centro do patrimônio ocupa vários pavilhões do campo."
+},
+{
+"q": "Onde chegaram os primeiros relegados, em 1887?",
+"o": [
+"Em Saint-Jean-du-Maroni",
+"Em Caiena",
+"Na ilha do Diabo",
+"Em Kourou"
+],
+"x": "Em 20 de junho de 1887; nada estava pronto e construíram o próprio campo."
+},
+{
+"q": "Em que ano a fronteira foi fixada na linha mediana do Maroni?",
+"o": [
+"1915",
+"1643",
+"1848",
+"1975"
+],
+"x": "É a quinta maior fronteira terrestre da França."
+},
+{
+"q": "Que cidade do Suriname fica em frente a Saint-Laurent?",
+"o": [
+"Albina",
+"Paramaribo",
+"Oiapoque",
+"Nieuw Nickerie"
+],
+"x": "Uma balsa oficial liga as duas margens."
+},
+{
+"q": "Em que ano foi fundada a aldeia hmong de Javouhey?",
+"o": [
+"1978",
+"1828",
+"1946",
+"2003"
+],
+"x": "Um ano depois de Cacao; 1828 é a fundação de Mana."
+},
+{
+"q": "Que missão o governo confiou a Anne-Marie Javouhey em Mana?",
+"o": [
+"Preparar centenas de escravizados para a liberdade",
+"Construir uma ponte",
+"Procurar ouro",
+"Dirigir um presídio"
+],
+"x": "A colônia de Mana era então autônoma em relação a Caiena."
+},
+{
+"q": "Em que ano Anne-Marie Javouhey foi beatificada?",
+"o": [
+"1950",
+"1828",
+"1848",
+"2005"
+],
+"x": "Ela tinha deixado a Guiana em 1843."
+},
+{
+"q": "Em que município fica a praia des Hattes?",
+"o": [
+"Awala-Yalimapo",
+"Kourou",
+"Rémire-Montjoly",
+"Saint-Georges"
+],
+"x": "Em território kali'na, a uns vinte quilômetros de Mana."
+},
+{
+"q": "Como se chama o viveiro natural da praia des Hattes?",
+"o": [
+"Kawana",
+"Kwata",
+"Amana",
+"Cépérou"
+],
+"x": "Gerido desde 2023 pela associação Kwata com a reserva da Amana e os chefes tradicionais."
+},
+{
+"q": "Em que ano foi criada a reserva natural da Amana?",
+"o": [
+"1998",
+"1968",
+"2017",
+"1853"
+],
+"x": "Para proteger um dos maiores locais de desova de tartaruga-de-couro do mundo."
+},
+{
+"q": "Por qual estrada se chega às cachoeiras Voltaire?",
+"o": [
+"A estrada de Paul Isnard",
+"A estrada Coralie",
+"A estrada de Kaw",
+"A estrada do Galion"
+],
+"x": "Cerca de 70 km de laterita desde Saint-Laurent. A Coralie leva ao Molokoï."
+},
+{
+"q": "Quantos dias dura o Ano-Novo hmong em Cacao?",
+"o": [
+"Três a quatro dias",
+"Uma hora",
+"Um mês",
+"Uma semana inteira em julho"
+],
+"x": "Acontece em dezembro."
+},
+{
+"q": "Que museu fica em Cacao?",
+"o": [
+"O Planeur Bleu, com milhares de insetos",
+"O museu Franconie",
+"O museu do Espaço",
+"O museu das culturas guianenses"
+],
+"x": "Os outros três ficam em Caiena e Kourou."
+},
+{
+"q": "Quanto tempo leva a travessia completa do Molokoï?",
+"o": [
+"Cerca de dez horas",
+"Meia hora",
+"Três semanas",
+"Duas horas"
+],
+"x": "A maioria divide em dois dias, com uma noite em abrigo."
+},
+{
+"q": "À beira de que rio fica Roura?",
+"o": [
+"O Oyak",
+"O Maroni",
+"O Mana",
+"O Sinnamary"
+],
+"x": "É a porta de entrada do Leste, no início da estrada de Kaw."
+},
+{
+"q": "Que botânico está na origem da reserva Trésor?",
+"o": [
+"Joep Moonen",
+"Fusée Aublet",
+"Charles Darwin",
+"Alexander von Humboldt"
+],
+"x": "Botânico holandês radicado na Guiana, iniciou a compra das terras."
+},
+{
+"q": "Que ave tem em Kaw sua maior colônia reprodutora conhecida?",
+"o": [
+"A garça-da-mata",
+"O flamingo",
+"O pinguim",
+"O pelicano"
+],
+"x": "Os pântanos também abrigam a cigana, o guará e a garça-moura."
+},
+{
+"q": "Qual a distância entre Roura e o embarcadouro de Kaw?",
+"o": [
+"Cerca de 55 km",
+"Cerca de 5 km",
+"Cerca de 250 km",
+"Cerca de 550 km"
+],
+"x": "Pela estrada departamental 6; depois a aldeia se alcança de piroga."
+},
+{
+"q": "Onde o galo-da-serra faz o ninho?",
+"o": [
+"Em abrigos sob rocha",
+"No alto das grandes árvores",
+"Na areia das praias",
+"No meio dos pântanos"
+],
+"x": "Daí o nome em francês. Um local de nidificação fica na estrada de Kaw."
+},
+{
+"q": "Em que ano Saint-Georges foi ligada a Caiena por estrada?",
+"o": [
+"2003",
+"1853",
+"1968",
+"2017"
+],
+"x": "2017 é a abertura da ponte para o Brasil."
+},
+{
+"q": "Qual a altura dos pilares da ponte do Oiapoque?",
+"o": [
+"83 m",
+"8 m",
+"830 m",
+"28 m"
+],
+"x": "Uma ponte estaiada de 378 m."
+},
+{
+"q": "Que povo indígena tem cerca de 500 membros em Saint-Georges?",
+"o": [
+"Os Palikur",
+"Os Mapuche",
+"Os Guarani",
+"Os Navajo"
+],
+"x": "A cidade também tem um forte clima franco-brasileiro."
+},
+{
+"q": "Qual a altitude do alto da Roche Virginie?",
+"o": [
+"138 m",
+"1 380 m",
+"13 m",
+"2 500 m"
+],
+"x": "Alto o bastante para dominar a copa das árvores."
+},
+{
+"q": "Que plantas crescem na laje da Roche Virginie?",
+"o": [
+"Orquídeas e bromélias",
+"Abetos e lariços",
+"Urzes e giestas",
+"Oliveiras e sobreiros"
+],
+"x": "Uma vegetação rara de savana-rocha, protegida como ZNIEFF."
+},
+{
+"q": "Em que rio fica o Saut Maripa?",
+"o": [
+"O Oiapoque",
+"O Maroni",
+"O Mana",
+"O Approuague"
+],
+"x": "A uns vinte quilômetros a sudoeste de Saint-Georges."
+},
+{
+"q": "Quantos habitantes Saül e arredores tiveram na época das corridas do ouro?",
+"o": [
+"Até 800",
+"Até 80 000",
+"Nunca mais de 10",
+"Até 8 000"
+],
+"x": "Hoje vivem ali cerca de cem pessoas."
+},
+{
+"q": "Em que ano foi criado o Parque Amazônico da Guiana?",
+"o": [
+"2007",
+"1977",
+"1853",
+"2020"
+],
+"x": "Em 27 de fevereiro de 2007: o maior parque nacional da França e da UE."
+},
+{
+"q": "Que país reivindica cerca de um décimo do território de Maripasoula?",
+"o": [
+"O Suriname",
+"O Brasil",
+"A Guiana",
+"A Venezuela"
+],
+"x": "O município fica no alto Maroni, de frente para o Suriname."
+},
+{
+"q": "O que é preciso para ir às aldeias ameríndias ao sul de Élahé?",
+"o": [
+"Autorização da prefeitura",
+"Um visto brasileiro",
+"Uma licença de caça",
+"Nada especial"
+],
+"x": "Elas ficam em zona de acesso regulamentado."
+},
+{
+"q": "Em que estrada ficam as cachoeiras de Fourgassié?",
+"o": [
+"A estrada de Kaw",
+"A RN1 para Saint-Laurent",
+"A estrada de Montabo",
+"A estrada de Paul Isnard"
+],
+"x": "A poucos quilômetros de Roura, em floresta primária."
+},
+{
+"q": "Qual destes produtos se encontra no mercado de Saint-Laurent?",
+"o": [
+"O couac (farinha de mandioca)",
+"Xarope de bordo",
+"Trufa negra",
+"Arenque fresco"
+],
+"x": "Com frutas, legumes, especiarias e a cozinha do Maroni."
+}
 ]

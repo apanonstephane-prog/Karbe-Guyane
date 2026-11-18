@@ -279,7 +279,9 @@ async function quizOfDay(k = dayKey()) {
   const z = spotById[pickCycle("zone", n, zi)], zs = shuffled(Object.keys(D.zones).filter(x => x !== z.zone), k + "z").slice(0, 3);
   Q.push({ kind: "zone", s: z.id, q: t("Dans quel territoire se trouve {p} ?", { p: L(z).name }), o: [z.zone, ...zs].map(zoneLabel), x: `${L(z).name} (${zoneLabel(z.zone)}). ${L(z).desc}` });
   // 3 à 5. Questions de la banque, sans répétition sur un cycle.
-  if (bank.length >= 3) { const per = Math.floor(bank.length / 3), idx = shuffled(bank.map((_, i) => i), "bank" + Math.floor(n / per)).slice((n % per) * 3, (n % per) * 3 + 3); idx.forEach(i => Q.push({ kind: "bank", ...bank[i] })); }
+  // Les questions déjà tirées pour ce jour sont mémorisées : agrandir la banque ne change pas un quiz commencé.
+  const kept = quizLog()[k]?.b;
+  if (bank.length >= 3) { const per = Math.floor(bank.length / 3), idx = kept?.every(i => bank[i]) ? kept : shuffled(bank.map((_, i) => i), "bank" + Math.floor(n / per)).slice((n % per) * 3, (n % per) * 3 + 3); idx.forEach(i => Q.push({ kind: "bank", bi: i, ...bank[i] })); }
   return Q.map((q, i) => { const order = shuffled([0, 1, 2, 3], k + "o" + i); return { ...q, o: order.map(j => q.o[j]), ok: order.indexOf(0) }; });
 }
 const quizLog = () => store.get("quiz", {});
@@ -325,6 +327,7 @@ async function openQuiz() {
   const k = dayKey(), Q = await quizOfDay(k);
   if (Q.length < 5) { toast(t("Quiz indisponible hors-ligne pour l'instant."), "offline"); return; }
   const log = quizLog(), cur = log[k] || { a: [] };
+  cur.b = Q.filter(q => q.kind === "bank").map(q => q.bi);
   const save = () => { const L1 = quizLog(); L1[k] = cur; const keys = Object.keys(L1).sort(); keys.slice(0, Math.max(0, keys.length - 60)).forEach(x => delete L1[x]); store.set("quiz", L1); };
   const dots = () => `<div class="qdots" aria-hidden="true">${Q.map((_, i) => `<i class="${cur.a[i] == null ? (i === cur.a.length ? "cur" : "") : cur.a[i] === Q[i].ok ? "ok" : "ko"}"></i>`).join("")}</div>`;
   const head = `<button class="sheet-x" aria-label="${t("Fermer")}" style="background:var(--canopee)">${ic("close")}</button>`;
