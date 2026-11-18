@@ -5,7 +5,7 @@
 // `verif` : date de dernière vérification documentaire du contenu.
 
 window.KARBE = {
-  version: "2.0.0",
+  version: "3.0.0",
 
   // Illustrations (gouache, créées pour Karbé), hébergées sur Vercel dans /img/src/.
   // c = couleur dominante, lqip = aperçu flou. Les originaux et leur provenance sont listés dans assets.json.
@@ -73,7 +73,7 @@ window.KARBE = {
       nav: "Salines de Montjoly", dur: "1 h", access: ["voiture","pied"], free: true,
       desc: "Balade sur les zones humides arrière-littorales de Montjoly : mangrove, oiseaux limicoles, ambiance de bord de mer.",
       tips: ["Tôt le matin pour les oiseaux.", "Anti-moustiques indispensable."] },
-    { id: "rorota", img: "sentier", name: "Sentier du Rorota", zone: "cayenne", cat: ["nature"], lat: 4.9060, lon: -52.2900, prec: "zone",
+    { id: "rorota", img: "sentier", name: "Sentier du Rorota", zone: "cayenne", cat: ["nature"], lat: 4.8874, lon: -52.2625, prec: "site",
       nav: "Sentier du Rorota Rémire-Montjoly", dur: "2 h – 3 h", access: ["voiture","pied"], free: true,
       desc: "Randonnée en forêt sur le Mahury, autour des lacs du Rorota, avec points de vue sur l'océan. La forêt primaire-secondaire à 15 min de Cayenne.",
       tips: ["Partir tôt, prendre 1,5 L d'eau.", "Glissant après la pluie : chaussures à crampons."] },
@@ -190,6 +190,55 @@ window.KARBE = {
       nav: "Maripasoula", dur: "3 jours+", access: ["avion","bateau"],
       desc: "Plus grande commune de France, sur le haut Maroni. Accès par avion ou longue remontée du fleuve en pirogue ; porte d'entrée vers les villages du fleuve.",
       tips: ["Certaines zones du Parc amazonien sont soumises à autorisation."] },
+    // ——— AJOUTS 3.0 (vérifiés sur sources publiques, novembre 2026) ———
+    { id: "franconie", img: "cayenne", name: "Musée Alexandre-Franconie", zone: "cayenne", cat: ["patrimoine","culture"], lat: 4.9379, lon: -52.3315, prec: "zone",
+      nav: "Musée Alexandre-Franconie, 1 avenue du Général-de-Gaulle, Cayenne", dur: "1 h", access: ["pied","voiture"], free: false,
+      desc: "Musée départemental installé dans une maison créole du centre de Cayenne, près de la place des Palmistes : histoire de la Guyane, artisanat amérindien, bushinengé et créole, peintures du bagnard Francis Lagrange.",
+      tips: ["Horaires réduits et variables selon les jours : vérifiez avant de venir.", "À combiner avec la place des Palmistes, à deux pas."] },
+    { id: "montabo", img: "plage", name: "Sentier littoral de Montabo", zone: "cayenne", cat: ["nature","plage"], lat: 4.9480, lon: -52.3060, prec: "zone",
+      nav: "Montabo Cayenne", dur: "1 h 30", access: ["voiture","pied"], free: true,
+      desc: "Balade facile en bord de mer au nord de Cayenne, bien tracée, qui débouche sur une plage souvent déserte. Un autre sentier monte sur la colline de Montabo.",
+      tips: ["Plus agréable tôt le matin ou en fin d'après-midi.", "Baignade : suivez les consignes affichées sur les plages surveillées de Montabo."] },
+    { id: "vidal", img: "sentier", name: "Sentier de l'habitation Vidal", zone: "cayenne", cat: ["patrimoine","nature"], lat: 4.8930, lon: -52.2780, prec: "zone",
+      nav: "Lycée Léon-Gontran-Damas Rémire-Montjoly", dur: "1 h 30", access: ["voiture","pied"], free: true,
+      desc: "Chemin forestier de près de 3 km jusqu'aux vestiges de l'habitation Vidal, ancienne habitation esclavagiste. Site du Conservatoire du littoral classé, géré par l'association Kwata.",
+      tips: ["Départ peu signalé, entre le stade et le lycée Léon-Gontran-Damas.", "Toucans et aracaris souvent visibles tôt le matin."] },
+    { id: "topu", img: "sentier", name: "Sentier de la Montagne Topu", zone: "cayenne", cat: ["nature"], lat: 4.8840, lon: -52.2700, prec: "zone",
+      nav: "Sentier du Rorota Rémire-Montjoly", dur: "1 h 30", access: ["voiture","pied"], free: true,
+      desc: "Boucle balisée de 3,3 km sur les hauteurs du Mahury, entre les lacs du Rorota et le sentier de Loyola. Panneaux sur l'occupation humaine de la région depuis plus de 10 000 ans.",
+      tips: ["Deux départs : depuis le sentier du Rorota ou depuis Loyola.", "Point de vue sur les lacs, parfois masqué par la végétation."] },
+    { id: "fourgassie", img: "foret", name: "Chutes de Fourgassié", zone: "est", cat: ["nature"], lat: 4.6100, lon: -52.2900, prec: "zone",
+      nav: "Chutes de Fourgassié Roura", dur: "2 h", access: ["voiture","pied"], free: true,
+      desc: "Petites cascades et vasques d'eau claire en forêt primaire, le long de la crique Fourgassié, sur la route de Kaw à environ 40 minutes de Cayenne.",
+      tips: ["Les roches sont très glissantes : chaussures qui accrochent.", "Évitez après de fortes pluies, la crique monte vite."] },
+    { id: "coq-de-roche", img: "foret", name: "Sentier du Coq-de-roche", zone: "est", cat: ["faune","nature"], lat: 4.5600, lon: -52.2000, prec: "zone",
+      nav: "Camp Caïman route de Kaw", dur: "1 h 30", access: ["voiture","pied"], free: true,
+      desc: "Court sentier (environ 1,5 km aller-retour) dans la réserve naturelle Trésor/Kaw-Roura, vers une zone de reproduction du coq-de-roche orange, oiseau emblématique de Guyane.",
+      tips: ["Départ sur la route de Kaw, après le Camp Caïman, juste avant la scierie.", "Silence et jumelles : ne pas approcher les sites de nid.", "Le sentier peut fermer temporairement : vérifiez l'état ci-dessus."] },
+    { id: "roche-virginie", img: "foret", name: "Savane-Roche Virginie", zone: "oyapock", cat: ["nature"], lat: 4.1845, lon: -52.1354, prec: "site",
+      nav: "Sentier Savane-Roche Virginie Régina", dur: "2 h 30", access: ["voiture","pied"], free: true,
+      desc: "Inselberg de granite émergeant de la forêt entre Régina et Saint-Georges. Sentier balisé d'environ 6,5 km aller-retour en forêt primaire jusqu'à un panorama sur la canopée. Réserve gérée par l'ONF.",
+      tips: ["Parking sur la RN2, quelques kilomètres après le pont sur l'Approuague.", "Roche très glissante quand elle est mouillée.", "Saison sèche (juillet à novembre) conseillée."] },
+    { id: "maripa", img: "oyapock", name: "Saut Maripa", zone: "oyapock", cat: ["fleuve","nature"], lat: 3.8080, lon: -51.8830, prec: "zone",
+      nav: "Saut Maripa Saint-Georges", dur: "demi-journée", access: ["4x4","bateau"], free: true,
+      desc: "Succession de rapides sur l'Oyapock, à une vingtaine de kilomètres de Saint-Georges : carbet aménagé, circuit botanique en forêt, baignade et rafting.",
+      tips: ["Piste d'environ 19 km depuis la RN2 : 4x4 presque indispensable.", "Accès aussi en pirogue depuis Saint-Georges.", "Remportez vos déchets."] },
+    { id: "montagne-singes", img: "sentier", name: "Montagne des Singes", zone: "savanes", cat: ["nature","espace"], lat: 5.0716, lon: -52.6928, prec: "site",
+      nav: "Montagne des Singes Kourou", dur: "2 h", access: ["voiture","pied"], free: true,
+      desc: "Sentier en forêt sur une colline de 161 m au sud-ouest de Kourou. Au sommet, le carbet offre une vue sur la canopée, le Centre spatial, Kourou et son fleuve. Site du CNES géré par l'ONF.",
+      tips: ["Depuis la RN1, suivre « Montagne des Singes / Dégrad Saramaka », parking à environ 8 km.", "Ça grimpe et ça glisse après la pluie.", "Morphos bleus fréquents ; singes plus rares."] },
+    { id: "bois-diable", img: "plage", name: "Lac Bois Diable", zone: "savanes", cat: ["plage","nature"], lat: 5.1560, lon: -52.6450, prec: "zone",
+      nav: "Lac Bois Diable Kourou", dur: "2 h", access: ["voiture","pied"], free: true,
+      desc: "Lac en ville à Kourou, recensé comme site de baignade contrôlé : une alternative en eau douce quand la mer est agitée.",
+      tips: ["Vérifiez l'affichage sur la qualité de l'eau avant de vous baigner."] },
+    { id: "voltaire", img: "foret", name: "Chutes Voltaire", zone: "ouest", cat: ["nature","fleuve"], lat: 5.0317, lon: -54.0872, prec: "site",
+      nav: "Chutes Voltaire Saint-Laurent-du-Maroni", dur: "1 jour", access: ["4x4","pied"], free: true,
+      desc: "Cascades d'environ 35 m sur la crique Voltaire, en site protégé au sud de Saint-Laurent. Accès par la piste de Paul Isnard (environ 70 km), puis à pied. Auberge avec hamacs au bout de la piste.",
+      tips: ["4x4 recommandé, la piste se dégrade en saison des pluies.", "Prévoyez la journée, ou la nuit sur place en hamac.", "Aucun réseau : laissez votre heure de retour (Urgences)."] },
+    { id: "marche-slm", img: "maroni", name: "Marché de Saint-Laurent", zone: "ouest", cat: ["culture"], lat: 5.5000, lon: -54.0300, prec: "zone",
+      nav: "Marché Saint-Laurent-du-Maroni", dur: "1 h", access: ["voiture","pied"], free: true, when: "Mercredi et samedi matin (à confirmer)",
+      desc: "Le grand marché de l'Ouest guyanais, à quelques rues du fleuve : fruits, légumes, épices et cuisines du Maroni.",
+      tips: ["Venez tôt, avant la chaleur.", "Prévoyez des espèces."] },
   ],
 
   itineraries: [
@@ -281,6 +330,49 @@ window.KARBE = {
     { title: "Déjeuner local et pas cher", text: "Le dimanche au marché de Cacao.", spot: "cacao" },
     { title: "Voir un lancement sans billet", text: "Le front de mer de Kourou. Vérifiez la date dans l'Agenda.", spot: "kourou-plage" },
     { title: "Les tortues, gratuitement", text: "Plage de Montjoly, d'avril à août, avec les animateurs Kwata.", spot: "montjoly" },
+  ],
+
+  // Repères indicatifs par lieu : niveau (f facile, m modéré, s sportif), enfants (y/n),
+  // baignade (o site de baignade, p avec prudence / conseil local, n non). Appréciation Karbé, à confirmer sur place.
+  meta: {
+    palmistes:"f y n", ceperou:"f y n", "marche-cayenne":"f y n", "musee-cultures":"f y n", montjoly:"f y p", salines:"f y n",
+    rorota:"m y n", bourda:"m n n", loyola:"m y n", diamant:"f y n", matoury:"s n n", cacao:"f y n", molokoi:"s n n",
+    roura:"f y p", tresor:"f y n", kaw:"m y n", csg:"f y n", "kourou-plage":"f y p", salut:"f y p", zoo:"f y n",
+    annamites:"f y n", yiyi:"f y n", iracoubo:"f y n", transportation:"f y n", relegation:"f y n", maroni:"f y n",
+    javouhey:"f y n", mana:"f y n", hattes:"f y p", "saint-georges":"f y n", saul:"s n p", maripasoula:"s n p",
+    franconie:"f y n", montabo:"f y p", vidal:"f y n", topu:"f y n", fourgassie:"m y p", "coq-de-roche":"f y n",
+    "roche-virginie":"m n n", maripa:"m y p", "montagne-singes":"m y n", "bois-diable":"f y o", voltaire:"s n p", "marche-slm":"f y n",
+  },
+
+  // État des lieux signalé par les utilisateurs : liste fermée, pas de texte libre (aucune modération nécessaire).
+  // Chaque signalement expire après 48 h.
+  etats: {
+    ok:       { e: "✅", ton: "ok" },
+    monde:    { e: "👥", ton: "info" },
+    boue:     { e: "🟤", ton: "warn" },
+    crue:     { e: "🌊", ton: "warn" },
+    sargasses:{ e: "🟫", ton: "warn" },
+    mer:      { e: "🌬️", ton: "warn" },
+    moustiques:{ e: "🦟", ton: "info" },
+    tortues:  { e: "🐢", ton: "good" },
+    ferme:    { e: "⛔", ton: "bad" },
+    route:    { e: "🚧", ton: "bad" },
+  },
+
+  // Passeport : un lieu est validé quand on s'y trouve (GPS à moins de 600 m du point, 2 km si la position est approximative).
+  badges: [
+    { id: "premier", n: 1, e: "🌱" },
+    { id: "cinq", n: 5, e: "🧭" },
+    { id: "quinze", n: 15, e: "🏅" },
+    { id: "trente", n: 30, e: "👑" },
+    { id: "zones", zones: 6, e: "🗺️" },
+    { id: "bagne", cat: "patrimoine", n: 4, e: "🏛️" },
+    { id: "foret", cat: "nature", n: 5, e: "🌳" },
+    { id: "fleuve", cat: "fleuve", n: 3, e: "🛶" },
+    { id: "plages", cat: "plage", n: 3, e: "🏖️" },
+    { id: "tortues", spots: ["montjoly","hattes"], months: [3,4,5,6,7,8], e: "🐢" },
+    { id: "espace", spots: ["kourou-plage","csg","montagne-singes"], e: "🚀" },
+    { id: "marches", spots: ["marche-cayenne","cacao","javouhey","marche-slm"], n: 2, e: "🧺" },
   ],
 
   safety: {

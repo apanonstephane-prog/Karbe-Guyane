@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fréquentation et données ouvertes · Karbé</title><meta name="theme-color" content="#0F3D2E">
+<link rel="icon" href="favicon-32.png"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+body{background:var(--papier)} .wrap{max-width:980px;padding-bottom:60px}
+header.top{background:var(--canopee);color:#fff;padding:28px 0 36px}
+header.top h1{font:800 clamp(30px,6vw,46px)/1.05 var(--f-display);margin:8px 0 6px} header.top p{opacity:.8;margin:0;max-width:62ch}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:-22px}
+.kpi{background:#fff;border-radius:20px;padding:16px 18px;box-shadow:0 8px 24px #0F3D2E14}
+.kpi b{display:block;font:800 36px/1 var(--f-display);color:var(--canopee)} .kpi span{font-size:13.5px;color:var(--mute)}
+section{margin-top:34px} h2{font:800 22px var(--f-display);margin:0 0 12px}
+.bars{display:flex;flex-direction:column;gap:6px}
+.bar-r{display:grid;grid-template-columns:minmax(120px,240px) 1fr 54px;gap:10px;align-items:center;font-size:14px}
+.bar-r i{height:12px;border-radius:6px;background:var(--canopee-3);min-width:2px} .bar-r b{text-align:right}
+.days{display:flex;align-items:flex-end;gap:3px;height:120px;padding:10px;background:#fff;border-radius:18px}
+.days div{flex:1;background:var(--awara);border-radius:3px 3px 0 0;min-height:2px;position:relative}
+.files{display:flex;flex-wrap:wrap;gap:10px} .files a{padding:12px 16px;border-radius:14px;background:#fff;box-shadow:inset 0 0 0 1.5px var(--line);font-weight:700;color:var(--canopee);text-decoration:none}
+.muted{color:var(--mute);font-size:14px;max-width:70ch} select{font:600 15px var(--f-text);padding:8px 10px;border-radius:10px;border:1.5px solid var(--line);background:#fff}
+</style></head><body>
+<header class="top"><div class="wrap"><a href="/" style="color:var(--awara);font-weight:800;text-decoration:none">← Karbé</a>
+<h1>Fréquentation et données ouvertes</h1><p>Mesure d'audience anonyme et agrégée : aucun cookie, aucun identifiant, aucune adresse IP conservée. Seuls des compteurs mensuels sont enregistrés.</p></div></header>
+<main class="wrap">
+<div class="kpis" id="kpis"><div class="kpi"><b>…</b><span>Chargement</span></div></div>
+<p style="margin-top:16px"><label>Mois <select id="m"></select></label></p>
+<section><h2>Visites par jour</h2><div class="days" id="days"></div><p class="muted">Une visite = un appareil ayant ouvert Karbé ce jour-là (compté une fois par jour).</p></section>
+<section><h2>Lieux les plus consultés</h2><div class="bars" id="vues"></div></section>
+<section><h2>Lieux validés sur place (passeport GPS)</h2><div class="bars" id="checkins"></div><p class="muted">Présence physique vérifiée par le GPS du téléphone, à moins de 600 m du lieu (2 km si sa position est approximative).</p></section>
+<section><h2>Langues et provenance</h2><div class="bars" id="langs"></div><div class="bars" id="srcs" style="margin-top:14px"></div><p class="muted">Provenance = affiche QR scannée lors de la première ouverture (loueurs, aéroport, offices…).</p></section>
+<section><h2>Signalements d'état des lieux</h2><div class="bars" id="etats"></div></section>
+<section><h2>Données ouvertes</h2><p class="muted">Liste des lieux avec coordonnées, niveau, accès et conseils. Licence Ouverte 2.0 (Etalab) proposée : réutilisation libre avec mention de la source. Positions approximatives, voir le champ « precision ».</p>
+<div class="files"><a href="/opendata/lieux.csv" download>CSV (tableur)</a><a href="/opendata/lieux.json">JSON</a><a href="/opendata/lieux.geojson">GeoJSON (SIG)</a><a href="/api/stats">Statistiques (JSON)</a><a href="/affiche.html">Affiches QR</a></div></section>
+</main>
+<script>
+const $=s=>document.querySelector(s), fmt=n=>new Intl.NumberFormat("fr-FR").format(n||0);
+let names={};
+const bars=(el,obj,lab)=>{const e=Object.entries(obj).sort((a,b)=>b[1]-a[1]).slice(0,15),max=Math.max(1,...e.map(x=>x[1]));
+  $(el).innerHTML=e.length?e.map(([k,v])=>`<div class="bar-r"><span>${lab(k)}</span><i style="width:${v/max*100}%"></i><b>${fmt(v)}</b></div>`).join(""):`<p class="muted">Pas encore de données.</p>`;};
+const pick=(c,p)=>Object.fromEntries(Object.entries(c).filter(([k])=>k.startsWith(p)).map(([k,v])=>[k.slice(p.length),v]));
+async function load(m){
+  const r=await fetch("/api/stats"+(m?"?m="+m:"")).then(r=>r.json()).catch(()=>null);
+  if(!r||!r.ready){$("#kpis").innerHTML=`<div class="kpi"><b>—</b><span>Statistiques pas encore activées</span></div>`;return;}
+  const months=Object.keys(r.mois).sort().reverse(); if(!m){$("#m").innerHTML=months.map(x=>`<option>${x}</option>`).join("");}
+  const cur=r.mois[m||months[0]], c=cur.compteurs;
+  const sum=o=>Object.values(o).reduce((a,b)=>a+b,0);
+  $("#kpis").innerHTML=[[c.sessions,"visites (appareil × jour)"],[c.nouveaux,"nouveaux appareils"],[sum(pick(c,"vue:")),"fiches de lieux ouvertes"],[sum(pick(c,"checkin:")),"lieux validés sur place"],[c.sorties,"sorties sécurisées créées"],[sum(pick(c,"etat:")),"signalements d'état"]]
+    .map(([v,l])=>`<div class="kpi"><b>${fmt(v)}</b><span>${l}</span></div>`).join("");
+  const J=cur.jours, ks=Object.keys(J).sort(), max=Math.max(1,...Object.values(J));
+  $("#days").innerHTML=ks.length?ks.map(k=>`<div title="${k} : ${J[k]}" style="height:${J[k]/max*100}%"></div>`).join(""):`<p class="muted">Pas encore de données.</p>`;
+  bars("#vues",pick(c,"vue:"),k=>names[k]||k); bars("#checkins",pick(c,"checkin:"),k=>names[k]||k);
+  bars("#langs",pick(c,"lang:"),k=>({fr:"Français",en:"Anglais",pt:"Portugais (Brésil)",es:"Espagnol"}[k]||k)); bars("#srcs",pick(c,"src:"),k=>"QR « "+k+" »");
+  const E={ok:"Accessible",monde:"Beaucoup de monde",boue:"Boue",crue:"Crue",sargasses:"Sargasses",mer:"Mer agitée",moustiques:"Moustiques",tortues:"Tortues observées",ferme:"Fermé",route:"Route coupée"};
+  bars("#etats",pick(c,"etat:"),k=>E[k]||k);
+}
+fetch("/opendata/lieux.json").then(r=>r.json()).then(j=>{j.lieux.forEach(l=>names[l.id]=l.nom);}).finally(()=>load());
+$("#m").onchange=e=>load(e.target.value);
+</script></body></html>

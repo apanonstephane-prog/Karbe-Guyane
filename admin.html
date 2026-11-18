@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Modération · Karbé</title><link rel="stylesheet" href="styles.css">
+<style>body{background:var(--papier)}.wrap{max-width:760px;padding:24px 18px 60px}h1{font:800 32px var(--f-display)}
+.card{background:#fff;border-radius:18px;padding:16px;margin:10px 0;box-shadow:inset 0 0 0 1.5px var(--line)}.card small{color:var(--mute)}
+.row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}.k{display:inline-block;padding:2px 8px;border-radius:8px;background:var(--brume);font-size:12px;font-weight:700}
+input{font:16px var(--f-text);padding:12px;border-radius:12px;border:1.5px solid var(--line);width:100%;box-sizing:border-box}</style></head><body>
+<main class="wrap"><a href="/" style="font-weight:800;color:var(--canopee)">← Karbé</a><h1>Modération</h1>
+<form id="f"><input id="code" type="password" placeholder="Code de modération" autocomplete="current-password"><div class="row"><button class="btn dark">Ouvrir</button></div></form>
+<div id="out"></div></main>
+<script>
+const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const d=t=>new Date(t).toLocaleString("fr-FR",{timeZone:"America/Cayenne",dateStyle:"full",timeStyle:"short"});
+let code=sessionStorage.getItem("kc")||"";
+async function load(){
+  const r=await fetch("/api/evenements?admin="+encodeURIComponent(code)); if(!r.ok){$("#out").innerHTML=`<p class="out">Code refusé ou base indisponible (${r.status}).</p>`;return;}
+  sessionStorage.setItem("kc",code); $("#f").hidden=true; const j=await r.json();
+  const card=(e,acts)=>`<div class="card"><span class="k">${e.kind==="partenaire"?"Partenaire":"Événement"}</span> <b>${esc(e.title)}</b><br><small>${e.kind==="partenaire"?"":d(e.start)+" · "}${esc(e.town)} · ${esc(e.place)}</small><p>${esc(e.desc)}</p>
+    ${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.url)}</a><br>`:""}${e.contact?`<small>Contact (privé) : ${esc(e.contact)}</small>`:""}<div class="row">${acts(e)}</div></div>`;
+  $("#out").innerHTML=`<h2>À vérifier (${j.props.length})</h2>${j.props.map(e=>card(e,e=>`${e.kind==="partenaire"?"":`<button class="btn" data-a="ok" data-id="${e.id}">Publier</button>`}<button class="btn ghost" data-a="non" data-id="${e.id}">${e.kind==="partenaire"?"Traité, retirer":"Refuser"}</button>`)).join("")||"<p>Rien en attente.</p>"}
+    <h2>Publiés (${j.ok.length})</h2>${j.ok.map(e=>card(e,e=>`<button class="btn ghost" data-a="suppr" data-id="${e.id}">Retirer</button>`)).join("")||"<p>Aucun.</p>"}`;
+}
+$("#f").onsubmit=e=>{e.preventDefault();code=$("#code").value.trim();load();};
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-a]");if(!b)return;b.disabled=true;
+  await fetch("/api/evenements",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({admin:code,action:b.dataset.a,id:b.dataset.id})});load();});
+if(code)load();
+</script></body></html>

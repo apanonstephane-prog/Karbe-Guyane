@@ -1,0 +1,904 @@
+{
+"ui": {
+"à l'instant": "just now",
+"il y a {n} min": "{n} min ago",
+"il y a {n} h": "{n} h ago",
+"il y a {n} j": "{n} days ago",
+"Illustration": "Illustration",
+"Déjà validé le {d}": "Already stamped on {d}",
+"Recherche de votre position…": "Finding your position…",
+"Position indisponible. Autorisez la localisation.": "Position unavailable. Please allow location access.",
+"Vous êtes à {d} du lieu. Validez sur place.": "You are {d} away. Stamp it on site.",
+"Lieu validé dans votre passeport": "Place stamped in your passport",
+"Validé le {d}": "Stamped on {d}",
+"Fermer": "Close",
+"Voir mon passeport": "See my passport",
+"Lancement aujourd'hui à {h}": "Launch today at {h}",
+"Lancement dans {n} j": "Launch in {n} days",
+"Tortues signalées {a}": "Turtles reported {a}",
+"C'est dimanche : jour de marché": "It's Sunday: market day",
+"Marché du dimanche matin": "Sunday morning market",
+"Jour de marché à Saint-Laurent": "Market day in Saint-Laurent",
+"Demain dimanche : marché de Cacao": "Tomorrow is Sunday: Cacao market",
+"Saison des tortues : sortie ce soir": "Turtle season: go out tonight",
+"Saison des tortues en cours": "Turtle season is on",
+"Journée pluvieuse : une visite à l'abri": "Rainy day: a visit indoors",
+"Une visite à l'abri": "An indoor visit",
+"Visite guidée à l'abri": "Guided tour, sheltered",
+"Pas de pluie annoncée ce matin": "No rain forecast this morning",
+"Matinée sèche, idéale pour marcher": "Dry morning, perfect for a hike",
+"Coucher du soleil à {h}": "Sunset at {h}",
+"Le marché s'anime tôt le matin": "The market is busiest early",
+"Saison sèche : le marais est plus accessible": "Dry season: the marsh is easier to reach",
+"Saison sèche : roche moins glissante": "Dry season: the rock is less slippery",
+"Le grand classique, à faire au moins une fois": "The great classic, a must once",
+"Au cœur du vieux Cayenne": "In the heart of old Cayenne",
+"En saison": "In season",
+"Visité": "Visited",
+"Gratuit": "Free",
+"Favori": "Favourite",
+"Bonjour": "Good morning",
+"Bon après-midi": "Good afternoon",
+"Bonsoir": "Good evening",
+"Langue": "Language",
+"La Guyane, ce {d}.": "French Guiana, this {d}.",
+"Sortie en cours : {p}": "Trip in progress: {p}",
+"Retour prévu {d}": "Due back {d}",
+"Je suis rentré": "I'm back safe",
+"Rechercher": "Search",
+"Plage, sentier, Cacao, bagne…": "Beach, trail, Cacao, penal colony…",
+"Trier par distance": "Sort by distance",
+"À faire maintenant": "Right now",
+"Selon l'heure, la météo, la saison et les signalements.": "Based on the time, weather, season and live reports.",
+"Mon passeport": "My passport",
+"{n} lieux validés sur {t}": "{n} of {t} places stamped",
+"badges": "badges",
+"Par territoire": "By area",
+"Envies": "Interests",
+"Tout afficher": "Show all",
+"Tout": "All",
+"Avec enfants": "With kids",
+"Baignade": "Swimming",
+"Facile": "Easy",
+"Les lieux": "Places",
+"Tous les lieux": "All places",
+"Mes favoris": "My favourites",
+"Sur le terrain": "In the field",
+"Lumière rouge": "Red light",
+"Pour observer les tortues sans les déranger.": "To watch turtles without disturbing them.",
+"Urgences": "Emergency",
+"Numéros et suivi de sortie partagé avec un proche.": "Numbers and trip tracking shared with someone close.",
+"Emporter hors-ligne": "Take it offline",
+"Fiches, illustrations et cartes par territoire.": "Guides, illustrations and maps by area.",
+"Vous êtes prestataire ?": "Are you a local business?",
+"Guides, carbets, restaurants : rejoignez Karbé.": "Guides, lodges, restaurants: join Karbé.",
+"Contenus vérifiés sur sources publiques, à confirmer sur place. États des lieux signalés par les utilisateurs.": "Content checked against public sources, confirm on site. Place conditions are reported by users.",
+"Illustrations originales créées pour Karbé.": "Original illustrations made for Karbé.",
+"Météo et mer": "Weather and sea",
+"lancements": "launches",
+"carte": "map",
+"Fréquentation et données ouvertes": "Visitor figures and open data",
+"Statistiques anonymes : activées": "Anonymous statistics: on",
+"Statistiques anonymes : désactivées": "Anonymous statistics: off",
+"Touchez le cœur d'un lieu pour le retrouver ici.": "Tap a place's heart to find it here.",
+"Aucun lieu ne correspond. Essayez un autre mot ou une autre envie.": "No match. Try another word or interest.",
+"Lieux triés par distance": "Places sorted by distance",
+"Selon l'heure et la saison.": "Based on the time and season.",
+"Y aller": "Directions",
+"Partager": "Share",
+"État en direct": "Live conditions",
+"Signaler l'état du lieu": "Report conditions here",
+"Vous y êtes ou vous en revenez ? Votre signalement aide les suivants. Il disparaît après 48 h.": "Are you there or just back? Your report helps the next visitors. It disappears after 48 h.",
+"Zone": "Area",
+"Durée": "Duration",
+"Niveau": "Level",
+"Enfants": "Children",
+"Adapté": "Suitable",
+"Peu adapté": "Not ideal",
+"Accès": "Access",
+"Distance": "Distance",
+"Prix": "Price",
+"{d} à vol d'oiseau": "{d} as the crow flies",
+"Payant ou à vérifier": "Paid or to be checked",
+"Quand": "When",
+"Saison": "Season",
+"J'y suis : valider dans mon passeport": "I'm here: stamp my passport",
+"Météo à {p}": "Weather in {p}",
+"Conseils terrain": "Field tips",
+"Dans un itinéraire": "In an itinerary",
+"Sur place": "Nearby",
+"guide": "tour guide",
+"Guides et sorties à proximité": "Guides and tours nearby",
+"Où manger à proximité": "Places to eat nearby",
+"Karbé ne référence aucun prestataire non vérifié : ces liens ouvrent une recherche sur la carte.": "Karbé lists no unverified businesses: these links open a map search.",
+"Sur la carte, la position est approximative.": "The map position is approximate.",
+"Horaires, tarifs et accès à confirmer avant de partir. L'image est une illustration d'ambiance.": "Check opening hours, prices and access before you go. The image is an illustration.",
+"Ajouté aux favoris": "Added to favourites",
+"Retiré des favoris": "Removed from favourites",
+"{l} à {p}": "{l} in {p}",
+"Risque de pluie aujourd'hui : {p} %": "Chance of rain today: {p} %",
+"Météo indisponible sans réseau.": "Weather unavailable offline.",
+"hors-ligne": "offline",
+"bientôt disponible": "coming soon",
+"48 dernières heures": "last 48 hours",
+"en attente de réseau": "waiting for network",
+"{n} signalements": "{n} reports",
+"Aucun signalement récent. Soyez le premier à indiquer l'état du lieu.": "No recent reports. Be the first to share conditions.",
+"Déjà signalé, merci !": "Already reported, thank you!",
+"Merci, signalement publié": "Thanks, report published",
+"Pas de réseau : envoi au retour du réseau": "No network: will send when back online",
+"Signalement refusé": "Report rejected",
+"Lien copié": "Link copied",
+"Carte des lieux": "Map of places",
+"Me localiser": "Locate me",
+"Cartes hors-ligne": "Offline maps",
+"Chargement de la carte…": "Loading map…",
+"Carte indisponible sans réseau à la première ouverture. Ouvrez-la une fois connecté pour la garder.": "Map unavailable offline the first time. Open it once online to keep it.",
+"Certaines zones de la carte ne sont pas disponibles hors-ligne. Téléchargez-les depuis le bouton ↓.": "Some map areas are not available offline. Download them with the ↓ button.",
+"Position indisponible": "Position unavailable",
+"Le réseau disparaît dès qu'on quitte le littoral. Téléchargez avant de partir, en wifi de préférence.": "Mobile signal disappears away from the coast. Download before you go, ideally on wifi.",
+"Fiches et illustrations": "Guides and illustrations",
+"Toutes les fiches, environ 15 Mo": "All guides, about 15 MB",
+"Cartes par territoire": "Maps by area",
+"Téléchargée {a}": "Downloaded {a}",
+"Environ 10 à 30 Mo": "About 10 to 30 MB",
+"Les cartes viennent d'OpenFreeMap (données OpenStreetMap). Elles restent sur votre téléphone jusqu'à ce que vous vidiez les données du navigateur.": "Maps come from OpenFreeMap (OpenStreetMap data). They stay on your phone until you clear the browser data.",
+"Connectez-vous pour télécharger": "Connect to download",
+"{n} éléments à réessayer": "{n} items to retry",
+"Prête hors-ligne": "Ready offline",
+"Échec du téléchargement, réessayez": "Download failed, try again",
+"Ce navigateur ne permet pas le hors-ligne": "This browser doesn't support offline use",
+"Prêt : tout est disponible sans réseau.": "Ready: everything works offline.",
+"Téléchargement partiel": "Partial download",
+"Karbé est prêt pour le hors-ligne": "Karbé is ready for offline use",
+"Itinéraires": "Itineraries",
+"{n} circuits pensés pour le terrain, de la journée en ville à la forêt profonde.": "{n} routes designed for the field, from a day in town to the deep forest.",
+"Niveau {l}": "Level: {l}",
+"Départ un {d}": "Start on a {d}",
+"Les horaires sont indicatifs. En forêt et sur le fleuve, partez tôt : la chaleur et les averses arrivent l'après-midi.": "Times are indicative. In the forest and on the river, start early: heat and showers come in the afternoon.",
+"Départ": "Start",
+"Un {d}": "A {d}",
+"Quand vous voulez": "Any day",
+"Ouvrir le trajet": "Open route",
+"Courbe de marée sur 30 heures": "30-hour tide curve",
+"Prévisions locales, pluie heure par heure et marées.": "Local forecasts, hourly rain and tides.",
+"Partout en Guyane": "Across French Guiana",
+"Marées déduites du modèle Open-Meteo : indicatives, elles ne remplacent pas un annuaire officiel pour naviguer.": "Tides derived from the Open-Meteo model: indicative only, not for navigation.",
+"Météo indisponible : pas de réseau et aucune donnée enregistrée. Ouvrez cet onglet une fois connecté.": "Weather unavailable: no network and no saved data. Open this tab once online.",
+"Hors-ligne, données {a}.": "Offline, data from {a}.",
+"Mis à jour {a}.": "Updated {a}.",
+"Ressenti {n}°": "Feels like {n}°",
+"Coucher {h}": "Sunset {h}",
+"Risque de pluie heure par heure": "Hourly chance of rain",
+"Averse probable vers {h} ({p} %).": "Shower likely around {h} ({p} %).",
+"Pas d'averse probable dans les 12 prochaines heures.": "No shower likely in the next 12 hours.",
+"Auj.": "Today",
+"Marée et houle": "Tide and swell",
+"Houle {n} m": "Swell {n} m",
+"Pas de données de mer pour ce point, situé dans les terres.": "No sea data for this inland point.",
+"Ouvrez le fichier pour l'ajouter à votre agenda": "Open the file to add it to your calendar",
+"En cours ou passé": "Under way or past",
+"Dans {d} j {h} h": "In {d} d {h} h",
+"Dans {h} h {m} min": "In {h} h {m} min",
+"Agenda": "Events",
+"Lancements, événements, saisons de la faune et fêtes.": "Launches, events, wildlife seasons and festivals.",
+"Décollages à Kourou": "Lift-offs from Kourou",
+"Les dates bougent souvent jusqu'au dernier moment. Les jours de tir, certaines zones de Kourou et les Îles du Salut sont fermées.": "Dates often change until the last minute. On launch days, some areas of Kourou and the Salvation Islands are closed.",
+"Événements": "Events",
+"Proposer un événement": "Submit an event",
+"Nature et fêtes": "Nature and festivals",
+"Climat": "Climate",
+"Date à confirmer : vérifiez dans Karbé la veille.": "Date to be confirmed: check Karbé the day before.",
+"{h} heure de Guyane": "{h} Guiana time",
+"date confirmée": "date confirmed",
+"date à confirmer": "date to be confirmed",
+"Ajouter à mon agenda": "Add to my calendar",
+"Aucun lancement annoncé pour l'instant.": "No launch announced yet.",
+"Lancements indisponibles sans réseau.": "Launches unavailable offline.",
+"Site de l'organisateur": "Organiser's website",
+"Événements indisponibles sans réseau.": "Events unavailable offline.",
+"L'agenda participatif ouvre bientôt.": "Community events open soon.",
+"Aucun événement à venir pour l'instant. Organisateurs : proposez le vôtre, il sera vérifié avant publication.": "No upcoming events yet. Organisers: submit yours, it will be checked before publication.",
+"Fête, concert, marché, sortie nature ouverte au public. Chaque proposition est vérifiée avant publication.": "Festival, concert, market, nature outing open to the public. Every submission is checked before publication.",
+"Titre": "Title",
+"Date": "Date",
+"Heure de début": "Start time",
+"Durée (heures)": "Duration (hours)",
+"Commune": "Town",
+"Lieu précis": "Venue",
+"Description": "Description",
+"Lien (facultatif)": "Link (optional)",
+"Votre contact, non publié (facultatif)": "Your contact, not published (optional)",
+"Envoyer pour vérification": "Send for review",
+"Merci ! Votre événement sera publié après vérification.": "Thanks! Your event will be published after review.",
+"Trop de propositions aujourd'hui depuis ce réseau. Réessayez demain.": "Too many submissions from this network today. Try again tomorrow.",
+"Envoi impossible. Vérifiez votre connexion.": "Could not send. Check your connection.",
+"Validez chaque lieu sur place grâce au GPS. Tout reste sur votre téléphone.": "Stamp each place on site with GPS. Everything stays on your phone.",
+"Badges": "Badges",
+"Mon carnet": "My logbook",
+"Partager mon carnet": "Share my logbook",
+"Ouvrez la fiche d'un lieu une fois sur place et touchez « J'y suis ».": "Open a place's page once you're there and tap \"I'm here\".",
+"La validation demande d'être à moins de 600 m du lieu (2 km quand sa position est approximative).": "Stamping requires being within 600 m of the place (2 km when its position is approximate).",
+"Ma Guyane": "My Guiana",
+"{n} lieux · {b} badges": "{n} places · {b} badges",
+"Ma Guyane avec Karbé": "My Guiana with Karbé",
+"Baissez la luminosité au minimum. Gardez l'écran tourné vers le sol, jamais vers la tortue, et restez derrière elle.": "Turn brightness all the way down. Keep the screen facing the ground, never the turtle, and stay behind her.",
+"Quitter": "Exit",
+"Les règles qui sauvent": "Rules that save lives",
+"Je pars en sortie": "I'm heading out",
+"Votre proche reçoit un lien de suivi : destination, heure de retour, et une alarme dans son agenda. Quand vous rentrez, touchez « Je suis rentré » : il le voit aussitôt.": "Your contact gets a tracking link: destination, return time and an alarm in their calendar. When you're back, tap \"I'm back safe\": they see it right away.",
+"Votre prénom": "Your first name",
+"Destination": "Destination",
+"Nombre de personnes": "Number of people",
+"Retour prévu au plus tard": "Back by",
+"Téléphone du proche (facultatif)": "Contact's phone (optional)",
+"Créer le lien de suivi": "Create tracking link",
+"L'heure de retour doit être dans le futur": "Return time must be in the future",
+"Je pars en sortie à {n} : {p} ({z}). Retour prévu au plus tard : {d}. Suis ma sortie ici : {l}": "Heading out, {n} of us: {p} ({z}). Back by {d}. Follow my trip here: {l}",
+"Sans nouvelles 2 h après, appelle le 112 et indique : {nav}, GPS environ {gps}.": "If no news 2 h later, call 112 and give: {nav}, GPS approx. {gps}.",
+"Suivi en direct indisponible pour l'instant : le lien fonctionne, mais votre retour ne s'affichera pas automatiquement. Envoyez aussi un message en rentrant.": "Live tracking unavailable for now: the link works, but your return won't show automatically. Also send a message when you're back.",
+"Envoyer par SMS": "Send by SMS",
+"Copier": "Copy",
+"Message copié": "Message copied",
+"Bon retour ! Votre proche est prévenu.": "Welcome back! Your contact has been notified.",
+"Je suis bien rentré. {w}": "I'm back safe. {w}",
+"Lien de suivi invalide.": "Invalid tracking link.",
+"{w} est bien rentré·e {a}.": "{w} got back safely {a}.",
+"Pas de nouvelles depuis plus de 2 h après l'heure prévue.": "No news for over 2 h past the planned time.",
+"Retour prévu dépassé. Essayez d'appeler {w}.": "Planned return time passed. Try calling {w}.",
+"Sortie en cours": "Trip in progress",
+"Qui": "Who",
+"Appelez le 112 et indiquez : {nav}, GPS environ {gps}, {n} personne(s), parti(e)s le {c}.": "Call 112 and give: {nav}, GPS approx. {gps}, {n} person(s), left on {c}.",
+"Ajouter une alarme à mon agenda": "Add an alarm to my calendar",
+"Voir le lieu": "See the place",
+"Cette page se met à jour toute seule quand {w} confirme son retour.": "This page updates by itself when {w} confirms their return.",
+"Ce lien n'a pas de suivi en direct : attendez un message de {w} à son retour.": "This link has no live tracking: wait for a message from {w} on their return.",
+"Sans nouvelles de {w} ? Appeler le 112": "No news from {w}? Call 112",
+"{w} est parti·e à {p}. Retour prévu au plus tard {d}. GPS environ {gps}. Vérifiez d'abord le lien de suivi.": "{w} went to {p}. Back by {d}. GPS approx. {gps}. Check the tracking link first.",
+"Retour prévu de {w}": "{w} due back",
+"Suivi de sortie": "Trip tracking",
+"Partagé avec vous par {w} via Karbé.": "Shared with you by {w} via Karbé.",
+"Les noms propres et certains détails pratiques restent en français.": "Place names and some practical details stay in French.",
+"Rejoindre Karbé": "Join Karbé",
+"Guides agréés, carbets, restaurants, loueurs de pirogues ou de vélos, artisans : présentez votre activité aux visiteurs et aux habitants.": "Licensed guides, lodges, restaurants, canoe or bike rentals, craftspeople: present your business to visitors and residents.",
+"Nom de l'activité": "Business name",
+"Type": "Type",
+"Lieux Karbé proches (facultatif)": "Nearby Karbé places (optional)",
+"Votre offre pour les utilisateurs": "Your offer for users",
+"Site, page ou numéro professionnel": "Website, page or business number",
+"Envoyer ma demande": "Send my request",
+"Proche de": "Near",
+"Merci ! Nous vérifions chaque activité (statut, agrément) avant de la proposer dans Karbé.": "Thanks! We check every business (status, licence) before listing it in Karbé.",
+"Envoi impossible pour l'instant. Copiez votre demande et réessayez plus tard.": "Can't send right now. Copy your request and try again later.",
+"Demande copiée": "Request copied",
+"Karbé, la Guyane à portée de main": "Karbé, French Guiana in your pocket",
+"{n} lieu": "{n} place",
+"{n} lieux": "{n} places",
+"{n} jour": "{n} day",
+"{n} jours": "{n} days",
+"{n} personne": "{n} person",
+"{n} personnes": "{n} people",
+"Modéré": "Moderate",
+"Sportif": "Challenging",
+"Site de baignade": "Swimming spot",
+"Avec prudence, demandez sur place": "With care, ask locally",
+"Non": "No",
+"Accessible, rien à signaler": "Open, all fine",
+"Beaucoup de monde": "Crowded",
+"Piste ou sentier boueux": "Muddy track or trail",
+"Crique en crue, passage difficile": "Creek in flood, hard crossing",
+"Sargasses sur la plage": "Sargassum on the beach",
+"Mer agitée": "Rough sea",
+"Beaucoup de moustiques": "Lots of mosquitoes",
+"Tortues observées": "Turtles seen",
+"Fermé ou accès interdit": "Closed or no access",
+"Route ou piste coupée": "Road or track cut",
+"Premier pas": "First step",
+"Valider un premier lieu": "Stamp your first place",
+"Curieux": "Curious",
+"5 lieux validés": "5 places stamped",
+"Explorateur": "Explorer",
+"15 lieux validés": "15 places stamped",
+"Grand explorateur": "Great explorer",
+"30 lieux validés": "30 places stamped",
+"Tour de Guyane": "Grand tour",
+"Un lieu dans chacun des 6 territoires": "One place in each of the 6 areas",
+"Mémoire du bagne": "Penal colony memory",
+"4 lieux de patrimoine": "4 heritage places",
+"Coureur des bois": "Forest walker",
+"5 sentiers ou lieux de nature": "5 trails or nature spots",
+"Gens du fleuve": "River people",
+"3 lieux sur les fleuves et les îles": "3 river and island places",
+"Bain de mer": "Sea dip",
+"3 plages": "3 beaches",
+"Gardien des tortues": "Turtle guardian",
+"Montjoly ou Les Hattes en saison de ponte": "Montjoly or Les Hattes in nesting season",
+"Vers l'espace": "To space",
+"Un lieu du spatial à Kourou": "A space site in Kourou",
+"Au marché": "Market goer",
+"2 marchés différents": "2 different markets",
+"Grand soleil": "Sunny",
+"Éclaircies": "Sunny spells",
+"Couvert": "Overcast",
+"Brume": "Mist",
+"Bruine": "Drizzle",
+"Pluie": "Rain",
+"Averses": "Showers",
+"Orages": "Thunderstorms",
+"Voiture": "Car",
+"Bateau": "Boat",
+"Avion": "Plane",
+"À pied": "On foot",
+"Explorer": "Explore",
+"Carte": "Map",
+"Météo": "Weather",
+"Guide ou excursion": "Guide or tour",
+"Hébergement ou carbet": "Lodging or carbet",
+"Restauration": "Food",
+"Location": "Rental",
+"Artisanat ou boutique": "Crafts or shop",
+"Autre": "Other",
+"Pleine mer": "High tide",
+"Basse mer": "Low tide",
+"facile": "easy",
+"modéré": "moderate",
+"sportif": "challenging",
+"dimanche": "Sunday",
+"samedi": "Saturday",
+"Aujourd'hui": "Today"
+},
+"zones": {
+"cayenne": "Cayenne island",
+"est": "Roura, Cacao, Kaw",
+"savanes": "Kourou and savannahs",
+"ouest": "West and Maroni",
+"oyapock": "East and Oyapock",
+"sud": "Interior and South"
+},
+"cats": {
+"plage": "Beaches",
+"nature": "Nature & hiking",
+"faune": "Wildlife",
+"patrimoine": "Heritage & penal colony",
+"culture": "Cultures & markets",
+"espace": "Space",
+"fleuve": "Rivers & islands"
+},
+"seasons": {
+"tortues-luth-ouest": "Leatherback nesting at Awala-Yalimapo",
+"tortues-cayenne": "Turtle nesting in Cayenne and Rémire-Montjoly",
+"emergences": "Hatchlings emerge (~2 months after nesting)",
+"carnaval": "Guiana Carnival (Epiphany to Ash Wednesday)",
+"nouvel-an-hmong": "Hmong New Year in Cacao (3–4 days)"
+},
+"climate": [
+{
+"label": "Long dry season",
+"note": "The best time: September and October are the sunniest months."
+},
+{
+"label": "Short rainy season",
+"note": "Sun and showers alternate, often late in the day."
+},
+{
+"label": "Little summer of March",
+"note": "A 1 to 3 week lull, varying from year to year."
+},
+{
+"label": "Long rainy season",
+"note": "May and June are the wettest. Superb forest, tracks sometimes difficult."
+}
+],
+"safety": {
+"rules": [
+"Never go into the forest alone and always leave your route and return time with someone.",
+"Stay on marked trails: you get lost very fast in the forest, even 50 m from a path.",
+"Carry at least 1.5 L of water per person, a torch, a whistle, a charged phone and a power bank.",
+"Mobile signal disappears away from the coast: download your guides before you go.",
+"Swimming: the sea can be rough with currents. No river swimming without local advice.",
+"Mosquitoes: repellent, long sleeves in the evening. Dengue is present in French Guiana.",
+"Wildlife: don't touch frogs, snakes or caterpillars; shake out your shoes in the morning at a carbet.",
+"Turtles: no white light or flash, never touch or block the animal."
+],
+"numbers": [
+"Emergency (European number)",
+"Ambulance (SAMU)",
+"Police / Gendarmerie",
+"Fire brigade"
+]
+},
+"its": {
+"cayenne-1j": {
+"title": "Cayenne in a day",
+"pitch": "The old town, the market, culture, and sunset on the beach.",
+"access": "on foot + car",
+"times": [
+"8 am",
+"9:30 am",
+"10:30 am",
+"5 pm",
+"6 pm"
+],
+"notes": [
+"Phở breakfast in the market hall.",
+"Stroll the Creole streets.",
+"Understand the peoples of French Guiana.",
+"View over the city.",
+"Sunset; turtles from April to August."
+]
+},
+"ile-nature": {
+"title": "Cayenne island, forest side",
+"pitch": "Forest, Jesuit ruins and mangrove without leaving town.",
+"access": "car + walking",
+"times": [
+"7 am",
+"10 am",
+"3 pm",
+"5 pm"
+],
+"notes": [
+"Start early, before the heat.",
+"Ruins of the plantation.",
+"Late-afternoon birds.",
+"Golden light on the estuary."
+]
+},
+"kourou-salut": {
+"title": "Kourou & Salvation Islands",
+"pitch": "Space and the penal colony, two sides of Kourou.",
+"access": "car + boat",
+"times": [
+"Day 1 morning",
+"Day 1 afternoon",
+"Day 1 evening",
+"Day 2"
+],
+"notes": [
+"On the way from Cayenne.",
+"Tour booked in advance.",
+"Seafront and Pointe des Roches.",
+"Full day on the islands."
+]
+},
+"cacao-kaw": {
+"title": "Cacao & Kaw marsh",
+"pitch": "A Hmong Sunday, then a night in France's largest marsh.",
+"access": "car + canoe (guide)",
+"times": [
+"Day 1 morning (Sunday)",
+"Day 1 afternoon",
+"Day 1 late afternoon",
+"Day 1 night → Day 2"
+],
+"notes": [
+"Hmong market and lunch.",
+"Break by the Oyak river.",
+"Botanical trail on the Kaw road.",
+"Night caiman outing with a licensed guide."
+]
+},
+"ouest-3j": {
+"title": "The West: penal colony, river and turtles",
+"pitch": "The western road to the Maroni and the leatherback beach.",
+"access": "car",
+"times": [
+"Day 1 (Saturday)",
+"Day 1 afternoon",
+"Day 1 evening",
+"Day 2 morning (Sunday)",
+"Day 2 afternoon",
+"Day 2 night",
+"Day 3"
+],
+"notes": [
+"Break on the road.",
+"Guided tour.",
+"Sunset over the river.",
+"Hmong market.",
+"Historic village.",
+"Turtles in season (March → July).",
+"By appointment, before heading back."
+]
+},
+"grand-sud": {
+"title": "Deep South: Saül",
+"pitch": "Primary forest at the heart of the Amazonian Park, no roads.",
+"access": "plane + walking",
+"times": [
+"Day 1",
+"Days 2–3",
+"Day 4"
+],
+"notes": [
+"Flight from Cayenne, settle in.",
+"Marked loops in primary forest.",
+"Flight back."
+]
+}
+},
+"spots": {
+"palmistes": {
+"desc": "Historic heart of Cayenne: a large square planted with royal palms, lined with Creole houses and government buildings.",
+"tips": [
+"Ideal starting point for a walk around the old town.",
+"Nicer late in the afternoon, when the heat drops."
+],
+"dur": "30 min"
+},
+"ceperou": {
+"desc": "Hill with the remains of the fort where Cayenne was founded. Views over the city, the estuary and the ocean.",
+"tips": [
+"Short climb from Place Grenoble.",
+"The best free view of Cayenne at sunset."
+],
+"dur": "30 min"
+},
+"marche-cayenne": {
+"name": "Cayenne Market",
+"desc": "Large covered market: fruit, spices, crafts and, under the hall, the famous morning Vietnamese soups (phở).",
+"tips": [
+"Come in the morning: that's when it all happens.",
+"Days and hours vary, check on site."
+],
+"dur": "1 h"
+},
+"musee-cultures": {
+"desc": "Collections on the peoples of French Guiana: Amerindian, Bushinengue, Creole, Hmong. The best introduction to the territory's diversity.",
+"tips": [
+"Visit early in your stay to understand the rest."
+],
+"dur": "1 h 30"
+},
+"montjoly": {
+"name": "Montjoly Beach",
+"desc": "Long sandy beach in Rémire-Montjoly. In season, a major nesting site for leatherback and olive ridley turtles, with guides from the Kwata association.",
+"tips": [
+"At night: no white light, no flash, keep your distance.",
+"Brown sea: that's normal, it's sediment from the Amazon."
+],
+"dur": "2 h+",
+"season": "Sea turtle nesting: April → August; hatchlings until about October."
+},
+"salines": {
+"name": "Salines Trail",
+"desc": "Walk through the wetlands behind Montjoly beach: mangrove, shorebirds, seaside atmosphere.",
+"tips": [
+"Early morning for birds.",
+"Mosquito repellent is a must."
+],
+"dur": "1 h"
+},
+"rorota": {
+"name": "Rorota Trail",
+"desc": "Forest hike on the Mahury hills around the Rorota lakes, with ocean views. Real forest 15 min from Cayenne.",
+"tips": [
+"Start early, take 1.5 L of water.",
+"Slippery after rain: wear shoes with grip."
+],
+"dur": "2 h – 3 h"
+},
+"bourda": {
+"desc": "Forest hill trail with views over the coast. Popular with locals in the late afternoon.",
+"tips": [
+"Busy in the evening: go in a group."
+],
+"dur": "1 h 30"
+},
+"loyola": {
+"name": "Loyola Plantation",
+"desc": "Ruins of a 17th–18th-century Jesuit plantation (sugar mill, chapel, pottery) in the woods, linked to the Mahury trail network.",
+"tips": [
+"Combine it with Rorota in the same morning."
+],
+"dur": "1 h"
+},
+"diamant": {
+"desc": "19th-century coastal battery at the mouth of the Mahury, at the end of the beach road.",
+"tips": [
+"Lovely light in the late afternoon."
+],
+"dur": "45 min"
+},
+"matoury": {
+"desc": "Forest nature reserve on the edge of town: marked trails, rich biodiversity, a real forest feel.",
+"tips": [
+"Stay on the marked trails."
+],
+"dur": "2 h – 3 h"
+},
+"cacao": {
+"name": "Cacao, Hmong village",
+"desc": "Village founded by Hmong refugees from Laos in the late 1970s, about 1 h from Cayenne. Sunday market: fruit, vegetables, Hmong embroidery and Asian food under the halls.",
+"tips": [
+"Sunday is the only market day: THE day to go.",
+"Insect museum in the village.",
+"Hmong New Year in December (3–4 days)."
+],
+"dur": "half a day",
+"when": "Sunday (market day)"
+},
+"molokoi": {
+"name": "Molokoï Trail",
+"desc": "Long forest hike linking Cacao to the Kaw mountain, with bivouac shelters. Short out-and-back version from Cacao.",
+"tips": [
+"Full version: fit adults, hammock and supplies.",
+"Start: in Cacao, road on the left just after the market, then 600 m.",
+"Tell someone your route (see Emergency)."
+],
+"dur": "2 days (or half-day out-and-back)"
+},
+"roura": {
+"name": "Roura village",
+"desc": "Village on the Oyak river, gateway to the Kaw road and Cacao. Church, riverbanks, riverside atmosphere.",
+"tips": [
+"A natural stop on the Kaw road."
+],
+"dur": "1 h"
+},
+"tresor": {
+"name": "Trésor Reserve",
+"desc": "Regional nature reserve on the road to the Kaw mountain: botanical trail in rainforest, accessible to all.",
+"tips": [
+"A great first forest experience for families."
+],
+"dur": "1 h 30"
+},
+"kaw": {
+"name": "Kaw Marsh",
+"desc": "France's largest wetland (~94,700 ha), a nature reserve. Black caimans, scarlet ibis, herons, hoatzins. Explore by canoe, day or night.",
+"tips": [
+"The night caiman outing is the highlight.",
+"Easier access in the dry season.",
+"Go with a licensed guide: you don't venture into the marsh alone."
+],
+"dur": "1 day (ideally 1 night)"
+},
+"csg": {
+"name": "Guiana Space Centre & Space Museum",
+"desc": "Europe's spaceport (Ariane 6, Vega-C). Guided tours of the site by booking, and the Space Museum.",
+"tips": [
+"Book the tour in advance, ID required.",
+"See the Events tab for upcoming launches."
+],
+"dur": "2 h – half a day"
+},
+"kourou-plage": {
+"name": "Kourou seafront",
+"desc": "Beaches, Pointe des Roches and the Dreyfus tower. One of the public spots to watch a rocket lift off.",
+"tips": [
+"On launch days, some areas of Kourou and the islands are closed.",
+"Arrive early: launches draw crowds."
+],
+"dur": "1 h+"
+},
+"salut": {
+"name": "Salvation Islands",
+"desc": "Archipelago off Kourou (Île Royale, Saint-Joseph, Devil's Island): penal colony ruins, forest, clear water, free-roaming monkeys and agoutis.",
+"tips": [
+"Shuttle or catamaran from Kourou: about €50 return (indicative, check).",
+"Devil's Island can't be visited (landing forbidden).",
+"Closed on some launch days: check Events."
+],
+"dur": "1 day"
+},
+"zoo": {
+"name": "Guiana Zoo",
+"desc": "Zoological park in Macouria, deep in the forest: about 450 animals, mostly Guianese wildlife (jaguar, tapir, harpy eagle…). Shaded walking circuit.",
+"tips": [
+"The surest way to see large animals you almost never meet in the forest."
+],
+"dur": "2 h"
+},
+"annamites": {
+"name": "Annamite penal camp",
+"desc": "Ruins of a 1930s penal camp where Indochinese prisoners were held, swallowed by the forest.",
+"tips": [
+"A place of memory: respect the ruins."
+],
+"dur": "1 h"
+},
+"yiyi": {
+"name": "Yiyi marshes",
+"desc": "Marshes (pripris) near Sinnamary with trails and hides: waterbirds, spectacled caimans.",
+"tips": [
+"Early morning or late afternoon."
+],
+"dur": "1 h 30"
+},
+"iracoubo": {
+"name": "Painted church of Iracoubo",
+"desc": "Church entirely hand-painted by a convict in the late 19th century. A surprising stop on the road west.",
+"tips": [
+"The perfect break on the Cayenne → Saint-Laurent drive."
+],
+"dur": "30 min"
+},
+"transportation": {
+"desc": "Arrival camp for all convicts sent to French Guiana, now a historic monument. Guided tour of the cells (including the one attributed to Papillon) and interpretation centre.",
+"tips": [
+"Take the guided tour: it gives the place its full meaning.",
+"Saint-Laurent is also nice by bike."
+],
+"dur": "1 h 30"
+},
+"relegation": {
+"desc": "Former camp for 'relégués' (repeat offenders) at Saint-Jean-du-Maroni, a few kilometres from Saint-Laurent.",
+"tips": [
+"Guided tours by appointment, only on some days: ask at the Saint-Laurent tourist office."
+],
+"dur": "1 h"
+},
+"maroni": {
+"name": "Maroni riverbanks",
+"desc": "The border river with Suriname, its canoes and constant comings and goings. Starting point for trips up the Maroni.",
+"tips": [
+"Sunset over the river.",
+"Crossings to Albina: ID needed, check the rules."
+],
+"dur": "1 h"
+},
+"javouhey": {
+"name": "Javouhey, Hmong market",
+"desc": "French Guiana's second Hmong village (Mana), more traditional than Cacao. Sunday morning market: farm produce, embroidery, Hmong soup, sticky rice.",
+"tips": [
+"Combine with Mana and Les Hattes on the same weekend."
+],
+"dur": "1 h 30",
+"when": "Sunday morning"
+},
+"mana": {
+"name": "Mana village",
+"desc": "Village founded in 1828 by Anne-Marie Javouhey on the Mana river: church, old houses, convent.",
+"tips": [
+"On the way to Awala-Yalimapo."
+],
+"dur": "1 h"
+},
+"hattes": {
+"name": "Les Hattes Beach (Awala-Yalimapo)",
+"desc": "Historic leatherback nesting beach in the Amana Nature Reserve, on Kali'na land. Populations have dropped sharply: a hatchery now protects the nests.",
+"tips": [
+"Follow reserve rules strictly: no light, no flash, keep your distance.",
+"Kali'na Amerindian village: you are a guest, respect the place."
+],
+"dur": "evening + night",
+"season": "Leatherbacks: ~March → July; green turtles too. Season ends late August."
+},
+"saint-georges": {
+"desc": "Border town with Brazil (Oiapoque), linked by the Oyapock bridge. River, canoes, Franco-Brazilian atmosphere.",
+"tips": [
+"Long highway (~190 km from Cayenne): leave with a full tank.",
+"Crossing into Brazil: check documents and rules first."
+],
+"dur": "1 day+"
+},
+"saul": {
+"name": "Saül, heart of the Amazonian Park",
+"desc": "Village in the centre of French Guiana, reachable only by air, at the heart of the Amazonian Park. Network of marked trails in primary forest.",
+"tips": [
+"No road: flights from Cayenne, limited seats.",
+"Check with the Guiana Amazonian Park before you go."
+],
+"dur": "3 days+"
+},
+"maripasoula": {
+"name": "Maripasoula & upper Maroni",
+"desc": "France's largest municipality, on the upper Maroni. Reached by plane or a long canoe trip upriver; gateway to the river villages.",
+"tips": [
+"Some areas of the Amazonian Park require a permit."
+],
+"dur": "3 days+"
+},
+"franconie": {
+"desc": "Departmental museum in a Creole house in central Cayenne, near Place des Palmistes: history of French Guiana, Amerindian, Bushinengue and Creole crafts, paintings by the convict Francis Lagrange.",
+"tips": [
+"Limited hours that vary by day: check before you go.",
+"Combine with Place des Palmistes, a short walk away."
+],
+"dur": "1 h"
+},
+"montabo": {
+"name": "Montabo coastal trail",
+"desc": "Easy, well-marked seaside walk north of Cayenne, ending on an often deserted beach. Another trail climbs Montabo hill.",
+"tips": [
+"Best early morning or late afternoon.",
+"Swimming: follow the signs at Montabo's lifeguarded beaches."
+],
+"dur": "1 h 30"
+},
+"vidal": {
+"name": "Vidal plantation trail",
+"desc": "Forest path of nearly 3 km to the ruins of the Vidal plantation, a former slave plantation. Protected Conservatoire du littoral site, managed by the Kwata association.",
+"tips": [
+"Poorly signposted start, between the stadium and the Léon-Gontran-Damas high school.",
+"Toucans and aracaris often seen early in the morning."
+],
+"dur": "1 h 30"
+},
+"topu": {
+"name": "Montagne Topu trail",
+"desc": "3.3 km marked loop on the Mahury heights, between the Rorota lakes and the Loyola trail. Panels on over 10,000 years of human presence in the area.",
+"tips": [
+"Two starts: from the Rorota trail or from Loyola.",
+"Viewpoint over the lakes, sometimes hidden by vegetation."
+],
+"dur": "1 h 30"
+},
+"fourgassie": {
+"name": "Fourgassié Falls",
+"desc": "Small waterfalls and clear pools in primary forest along the Fourgassié creek, on the Kaw road about 40 minutes from Cayenne.",
+"tips": [
+"The rocks are very slippery: wear shoes with grip.",
+"Avoid after heavy rain, the creek rises fast."
+],
+"dur": "2 h"
+},
+"coq-de-roche": {
+"name": "Cock-of-the-rock Trail",
+"desc": "Short trail (about 1.5 km out and back) in the Trésor/Kaw-Roura nature reserve, to a breeding area of the Guianan cock-of-the-rock, an iconic orange bird.",
+"tips": [
+"Start on the Kaw road, after Camp Caïman, just before the sawmill.",
+"Silence and binoculars: don't approach nesting sites.",
+"The trail may close temporarily: check live conditions above."
+],
+"dur": "1 h 30"
+},
+"roche-virginie": {
+"desc": "Granite inselberg rising from the forest between Régina and Saint-Georges. Marked trail of about 6.5 km out and back through primary forest to a view over the canopy. Reserve managed by the ONF.",
+"tips": [
+"Park on the RN2, a few kilometres after the Approuague bridge.",
+"The rock is very slippery when wet.",
+"Dry season (July to November) recommended."
+],
+"dur": "2 h 30"
+},
+"maripa": {
+"desc": "A series of rapids on the Oyapock, about twenty kilometres from Saint-Georges: shelter, forest botanical trail, swimming and rafting.",
+"tips": [
+"About 19 km of track from the RN2: 4x4 almost essential.",
+"Also reachable by canoe from Saint-Georges.",
+"Take your rubbish back with you."
+],
+"dur": "half a day"
+},
+"montagne-singes": {
+"name": "Monkey Mountain",
+"desc": "Forest trail on a 161 m hill south-west of Kourou. At the top, the shelter overlooks the canopy, the Space Centre, Kourou and its river. CNES land managed by the ONF.",
+"tips": [
+"From the RN1, follow \"Montagne des Singes / Dégrad Saramaka\", parking after about 8 km.",
+"Steep and slippery after rain.",
+"Blue morphos common; monkeys rarer."
+],
+"dur": "2 h"
+},
+"bois-diable": {
+"name": "Bois Diable Lake",
+"desc": "Lake in town in Kourou, listed as a monitored bathing site: a freshwater alternative when the sea is rough.",
+"tips": [
+"Check the water quality notice before swimming."
+],
+"dur": "2 h"
+},
+"voltaire": {
+"name": "Voltaire Falls",
+"desc": "Falls of about 35 m on the Voltaire creek, a protected site south of Saint-Laurent. Reached via the Paul Isnard track (about 70 km), then on foot. Inn with hammocks at the end of the track.",
+"tips": [
+"4x4 recommended, the track deteriorates in the rainy season.",
+"Plan the whole day, or a night there in a hammock.",
+"No signal: leave your return time (Emergency)."
+],
+"dur": "1 day"
+},
+"marche-slm": {
+"name": "Saint-Laurent Market",
+"desc": "The big market of western French Guiana, a few streets from the river: fruit, vegetables, spices and Maroni cooking.",
+"tips": [
+"Come early, before the heat.",
+"Bring cash."
+],
+"dur": "1 h",
+"when": "Wednesday and Saturday mornings (to be confirmed)"
+}
+}
+}
