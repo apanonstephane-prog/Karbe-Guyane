@@ -5,7 +5,7 @@
 // `verif` : date de dernière vérification documentaire du contenu.
 
 window.KARBE = {
-  version: "3.4.2",
+  version: "3.4.3",
 
   // Illustrations (gouache, créées pour Karbé), hébergées sur Vercel dans /img/src/.
   // c = couleur dominante, lqip = aperçu flou. Les originaux et leur provenance sont listés dans assets.json.

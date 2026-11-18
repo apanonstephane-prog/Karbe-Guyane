@@ -1149,5 +1149,437 @@
     "a": "Yes, it is better for small stalls."
    }
   ]
+ },
+ "cacao": {
+  "sections": [
+   {
+    "h": "History",
+    "p": [
+     "Cacao takes its name from a former plantation; in the mid-19th century it briefly hosted a small penitentiary, soon abandoned because of epidemics. In September 1977 the State settled about 500 Hmong refugees here, who had fled Laos via Thailand after the communist takeover. They cleared the land, built roads, schools and houses, and made the village one of French Guiana's leading vegetable producers. Javouhey, near Mana, took in a second group the following year."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "The Sunday morning market: fruit and vegetables from the fields, Hmong embroidery and weaving, soups, spring rolls and sticky rice under the market halls. The Planeur Bleu museum displays thousands of insects and other natural history collections. In December, the Hmong New Year lasts three to four days."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Cacao is about an hour from Cayenne, via the RN2 then the Cacao road. Arrive early on Sunday; the market empties around noon. The Molokoï trail starts from the village."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "When was the Hmong village of Cacao founded?",
+    "a": "The first Hmong refugees settled there in September 1977."
+   },
+   {
+    "q": "Which day is the market?",
+    "a": "Sunday morning."
+   },
+   {
+    "q": "How long from Cayenne?",
+    "a": "About an hour's drive."
+   }
+  ]
+ },
+ "molokoi": {
+  "sections": [
+   {
+    "h": "The trail",
+    "p": [
+     "The Molokoï is one of the longest marked and maintained trails in French Guiana: about 18 km through primary forest, between the village of Cacao and the Coralie track on the RN2. It alternates swampy lowlands, creeks and rocky plateaus, with two steep climbs and nearly 1,000 m of cumulative ascent."
+    ]
+   },
+   {
+    "h": "Bivouac",
+    "p": [
+     "Halfway, about 7 km from Cacao, free shelters (carbets) with no booking let you hang your hammock, with a cooking shelter. A clear creek runs a few metres away. Most hikers split the route over two days."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Allow around ten hours for the full crossing at a normal pace. To do it in one go, leave cars at both ends. With children, do a half-day out-and-back from Cacao. Bring water, a headlamp, hammock and mosquito net, and leave your route with someone."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "How long is the Molokoï trail?",
+    "a": "About 18 km, between Cacao and the Coralie track."
+   },
+   {
+    "q": "Can I sleep on the trail?",
+    "a": "Yes, free shelters stand halfway, about 7 km from Cacao."
+   },
+   {
+    "q": "Is it doable with children?",
+    "a": "Yes as a short out-and-back from Cacao; the full crossing is for fit hikers."
+   }
+  ]
+ },
+ "roura": {
+  "sections": [
+   {
+    "h": "The village",
+    "p": [
+     "Roura stretches along the bank of the Oyak, about thirty minutes from Cayenne. It is the gateway to the East: the Kaw road starts here, and the commune also includes Cacao, the Trésor reserve and the Fourgassié falls."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "Saint-Dominique church, by the river, was listed as a historic monument by order of 25 May 2023. The national heritage database dates it to the second quarter of the 19th century. Around it, a few Creole houses and the riverbanks where pirogues land."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "An hour's stop is enough, ideally on the way to Kaw or Cacao. The church is not always open."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Is Roura church protected?",
+    "a": "Yes, listed as a historic monument since 2023."
+   },
+   {
+    "q": "Where is Roura?",
+    "a": "On the Oyak, about thirty minutes from Cayenne, at the start of the Kaw road."
+   },
+   {
+    "q": "What can I visit in the commune?",
+    "a": "The village, Cacao, the Trésor reserve, the Fourgassié falls and the Kaw road."
+   }
+  ]
+ },
+ "tresor": {
+  "sections": [
+   {
+    "h": "The reserve",
+    "p": [
+     "The Trésor reserve covers 2,464 ha on the Kaw mountain, between the Orapu river and the Kaw road. The land was bought by the Trésor foundation, linked to Utrecht University, at the initiative of Dutch botanist Joep Moonen. A voluntary nature reserve in 1997, it became a regional nature reserve in 2010 by decision of the regional council."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "A 1,750 m botanical trail through rainforest, with information panels, starts from the reserve's visitor centre by the road. Relief, soils and water have shaped remarkable biodiversity here, including wet savannahs listed as a natural area of ecological interest."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "It is an excellent first contact with the forest for families. Stay on the trail: the reserve's rules ban or restrict many activities."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "How big is the Trésor reserve?",
+    "a": "2,464 hectares."
+   },
+   {
+    "q": "How long is the botanical trail?",
+    "a": "1,750 metres."
+   },
+   {
+    "q": "Who manages the reserve?",
+    "a": "The Trésor Nature Reserve association, on behalf of the French Guiana territorial authority."
+   }
+  ]
+ },
+ "kaw": {
+  "sections": [
+   {
+    "h": "The reserve",
+    "p": [
+     "The Kaw-Roura marshes national nature reserve was created by decree on 13 March 1998. It covers about 94,700 ha in the communes of Régina and Roura, between a vast marshy plain and the Kaw mountain. The site is also a Ramsar wetland of international importance."
+    ]
+   },
+   {
+    "h": "Wildlife",
+    "p": [
+     "The marshes shelter one of the last stable populations of black caiman, South America's largest crocodilian. You can also see hoatzins, scarlet ibis and cocoi herons, and the plain hosts the largest known breeding colony of agami herons. At night, caiman eyes shine in the torchlight."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Departmental road 6 leaves Roura and reaches the Kaw landing after about 55 km; the village is reached by pirogue. Trips into the marsh require prefectoral authorisation: go with an approved operator. Staying overnight gives the richest experience."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "How big are the Kaw marshes?",
+    "a": "About 94,700 hectares of national nature reserve."
+   },
+   {
+    "q": "Can I go alone?",
+    "a": "No, boat trips are run by authorised operators."
+   },
+   {
+    "q": "When can I see caimans?",
+    "a": "At night, on guided pirogue trips."
+   }
+  ]
+ },
+ "fourgassie": {
+  "sections": [
+   {
+    "h": "The site",
+    "p": [
+     "The Fourgassié falls, often spelled Fourgassier, are a series of small cascades and clear pools along the creek of the same name, in primary forest. They lie on the Kaw road, a few kilometres from Roura."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "The pools at the foot of the cascades, and the paths along the creek, where you can watch understorey birds."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "The last stretch is a laterite track, tricky after heavy rain. The rocks are very slippery: wear shoes with good grip. Avoid swimming when the creek rises. No official water-quality data is published for this site."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Where are the Fourgassié falls?",
+    "a": "On the Kaw road, a few kilometres from Roura."
+   },
+   {
+    "q": "Can I swim?",
+    "a": "Many people do in the pools, but no water quality is published; avoid after heavy rain."
+   },
+   {
+    "q": "Do I need a 4x4?",
+    "a": "Not usually, but the final track gets tricky after rain."
+   }
+  ]
+ },
+ "coq-de-roche": {
+  "sections": [
+   {
+    "h": "The trail",
+    "p": [
+     "This short out-and-back trail, in the Kaw-Roura marshes nature reserve, leads to one of the known breeding areas of the Guianan cock-of-the-rock. The bright orange male, with its fan-shaped crest, is one of French Guiana's emblematic birds; it nests in rock shelters."
+    ]
+   },
+   {
+    "h": "Access",
+    "p": [
+     "On the Kaw road, after Camp Caïman, the start is on the left about a hundred metres before the sawmill. The sign stands a few metres inside the forest. The trail drops quite quickly, then climbs back on the return. Allow 1 to 2 hours."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Silence and binoculars: a viewpoint overlooks the nesting site, and that is also where you see the browner females. Do not approach the nests. The trail may close temporarily to protect breeding: check before you go."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Where does the Cock-of-the-rock trail start?",
+    "a": "On the Kaw road, just before the sawmill, after Camp Caïman."
+   },
+   {
+    "q": "Am I sure to see cocks-of-the-rock?",
+    "a": "No, but with patience and silence your chances are good."
+   },
+   {
+    "q": "How long does it take?",
+    "a": "Between 1 and 2 hours out and back."
+   }
+  ]
+ },
+ "saint-georges": {
+  "sections": [
+   {
+    "h": "History",
+    "p": [
+     "Saint-Georges was founded on 23 April 1853 as a penitentiary; it is named after a Dutch coin bearing Saint George found on the site. The penal camp closed as early as 1863. Long isolated, the commune was only linked to Cayenne by road in 2003. It has been a sub-prefecture since October 2022."
+    ]
+   },
+   {
+    "h": "The bridge",
+    "p": [
+     "The Oyapock bridge links Saint-Georges with Oiapoque, in Brazil. A 378 m cable-stayed bridge with two 83 m pylons, it was finished in 2011 but only inaugurated on 18 March 2017 and opened to traffic on 20 March. Pirogues still cross the river every day."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "It is about 190 km from Cayenne on the RN2: set off with a full tank. To enter Brazil you need a valid passport, and the bridge has opening hours. About 500 Palikur live in the commune; the town has a genuine French-Brazilian feel."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "When did the Oyapock bridge open?",
+    "a": "It was inaugurated on 18 March 2017 and opened to traffic on 20 March 2017."
+   },
+   {
+    "q": "What documents do I need for Oiapoque?",
+    "a": "A valid passport for French citizens; check current rules before you go."
+   },
+   {
+    "q": "Where does the name Saint-Georges come from?",
+    "a": "From a Dutch coin bearing Saint George found on the site in 1853."
+   }
+  ]
+ },
+ "roche-virginie": {
+  "sections": [
+   {
+    "h": "The site",
+    "p": [
+     "Savane-Roche Virginie is an inselberg: a granite dome rising from the forest like an island, between Régina and Saint-Georges. The rock, about two billion years old, was exposed by erosion. A rare rock-savannah vegetation grows on the slab, rich in orchids, bromeliads and aroids; the area is listed over 758 ha as a natural area of ecological interest."
+    ]
+   },
+   {
+    "h": "The trail",
+    "p": [
+     "The marked trail starts from the RN2 and crosses primary forest, creeks, wet lowlands and boulder fields. It is about 6 km out and back; the summit, at 138 m, gives a view over the canopy. Allow about an hour's walk to reach the rock."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "The site is in a biological reserve managed by the National Forestry Office (ONF): stay on the marked route, no fires and no cutting vegetation. When wet, the rock is very slippery. The dry season, July to November, is best. The cock-of-the-rock is among the species recorded."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is an inselberg?",
+    "a": "An isolated rock outcrop rising from the forest, here a granite dome."
+   },
+   {
+    "q": "How long is the hike?",
+    "a": "About 6 km out and back, so 2 to 2 h 30."
+   },
+   {
+    "q": "Where do I park?",
+    "a": "On the RN2, a few kilometres after the bridge over the Approuague coming from Régina."
+   }
+  ]
+ },
+ "maripa": {
+  "sections": [
+   {
+    "h": "The site",
+    "p": [
+     "Saut Maripa is a series of rapids and rock outcrops on the Oyapock, stretching over several kilometres between Saut Maripa itself upstream and Saut Cafésoca downstream, about twenty kilometres south-west of Saint-Georges. The very wide river exposes migmatites and greenstones of interest to geologists."
+    ]
+   },
+   {
+    "h": "Access",
+    "p": [
+     "From Saint-Georges, take the RN2 towards Cayenne for about 2 km, then a forest track of around twenty kilometres. It ends at a large shelter (carbet) and a rocky landing on the riverbank. You can also come by pirogue from Saint-Georges."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "The track is often rough: a 4x4 is almost essential in the rainy season. The current is strong between the rocks; only swim in calm spots. Take your rubbish home."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Where is Saut Maripa?",
+    "a": "On the Oyapock, about 20 km south-west of Saint-Georges."
+   },
+   {
+    "q": "How do I get there?",
+    "a": "By a forest track of about twenty kilometres from the RN2, or by pirogue from Saint-Georges."
+   },
+   {
+    "q": "Is there a shelter?",
+    "a": "Yes, a large shelter at the end of the track."
+   }
+  ]
+ },
+ "saul": {
+  "sections": [
+   {
+    "h": "The village",
+    "p": [
+     "Saül lies in the centre of French Guiana, about 180 km south of Cayenne, with no road at all: you arrive by plane. The village was born of gold prospecting; during the gold rushes, it and its outlying settlements had up to 800 inhabitants. Today about a hundred people live here, in the heart of the Amazonian Park of French Guiana."
+    ]
+   },
+   {
+    "h": "The trails",
+    "p": [
+     "Saül has French Guiana's first network of developed trails: about 45 km of marked paths in five circuits of varying length, open without a guide. They lead to viewpoints over the valley and the Galbao mountains, to waterfalls and to traces of gold mining. Other paths, unmarked and unmaintained, should only be walked with a guide."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Plane seats and accommodation are limited: book early. Stop at the Park house in the village for the waterproof trail map and advice. The Amazonian Park, created on 27 February 2007, is the largest national park in France and the European Union."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "How do I get to Saül?",
+    "a": "Only by plane from Cayenne; there is no road."
+   },
+   {
+    "q": "Do I need a guide to hike?",
+    "a": "Not on the 45 km of marked trails; yes on unmarked paths."
+   },
+   {
+    "q": "How many people live in Saül?",
+    "a": "About a hundred in the village."
+   }
+  ]
+ },
+ "maripasoula": {
+  "sections": [
+   {
+    "h": "The commune",
+    "p": [
+     "At about 18,360 km², Maripasoula is the largest commune in France, slightly bigger than Kuwait. It covers the upper Maroni, facing Suriname, which claims about a tenth of its territory. It can only be reached by plane or by river."
+    ]
+   },
+   {
+    "h": "The river",
+    "p": [
+     "Maripasoula is the gateway to the upper Maroni villages and the Amazonian Park of French Guiana. Life follows the river: pirogues, landings, and Bushinengue and Amerindian villages upstream."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "The Amerindian villages south of Élahé are in a restricted-access zone: you need prefectoral authorisation to go there. The Amazonian Park publishes a code of conduct: always ask before photographing someone. Bring cash and book flights and accommodation in advance."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Is Maripasoula really the largest commune in France?",
+    "a": "Yes, at about 18,360 km²."
+   },
+   {
+    "q": "How do I get there?",
+    "a": "By plane from Cayenne, or by pirogue on the Maroni."
+   },
+   {
+    "q": "Can I visit Amerindian villages?",
+    "a": "Those south of Élahé require prefectoral authorisation."
+   }
+  ]
  }
 }

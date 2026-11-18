@@ -1149,5 +1149,437 @@
     "a": "Sí, es mejor para los puestos pequeños."
    }
   ]
+ },
+ "cacao": {
+  "sections": [
+   {
+    "h": "Historia",
+    "p": [
+     "Cacao debe su nombre a una antigua plantación; a mediados del siglo XIX acogió un pequeño presidio, pronto abandonado por las epidemias. En septiembre de 1977, el Estado instaló allí a unos 500 refugiados hmong que habían huido de Laos a través de Tailandia tras la llegada de los comunistas al poder. Desbrozaron, construyeron caminos, escuelas y casas, e hicieron del pueblo uno de los principales productores hortícolas de Guayana. Javouhey, cerca de Mana, acogió a un segundo grupo al año siguiente."
+    ]
+   },
+   {
+    "h": "Qué ver",
+    "p": [
+     "El mercado del domingo por la mañana: frutas y verduras de las chacras, bordados y tejidos hmong, sopas, rollitos y arroz glutinoso bajo el mercado cubierto. El museo del Planeur Bleu expone miles de insectos y otras colecciones naturalistas. En diciembre, el Año Nuevo hmong dura de tres a cuatro días."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Cacao está a una hora de Cayena, por la RN2 y luego la carretera de Cacao. Llega temprano el domingo, el mercado se vacía hacia mediodía. El sendero Molokoï sale del pueblo."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Cuándo se fundó el pueblo hmong de Cacao?",
+    "a": "Los primeros refugiados hmong se instalaron allí en septiembre de 1977."
+   },
+   {
+    "q": "¿Qué día es el mercado?",
+    "a": "El domingo por la mañana."
+   },
+   {
+    "q": "¿Cuánto se tarda desde Cayena?",
+    "a": "Alrededor de una hora en coche."
+   }
+  ]
+ },
+ "molokoi": {
+  "sections": [
+   {
+    "h": "El sendero",
+    "p": [
+     "El Molokoï es uno de los senderos señalizados y mantenidos más largos de Guayana: unos 18 km en selva primaria, entre el pueblo de Cacao y la pista Coralie, en la RN2. Alterna hondonadas pantanosas, quebradas y mesetas rocosas, con dos subidas fuertes y casi 1 000 m de desnivel positivo acumulado."
+    ]
+   },
+   {
+    "h": "Vivac",
+    "p": [
+     "A mitad de camino, a unos 7 km de Cacao, refugios (carbets) gratuitos y sin reserva permiten colgar la hamaca, con un carbet cocina. Una quebrada de agua clara corre a pocos metros. La mayoría de los senderistas reparte el recorrido en dos días."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Calcula unas diez horas para la travesía completa a ritmo normal. Para hacerla de una vez, deja coches en ambos extremos. Con niños, haz una ida y vuelta de media jornada desde Cacao. Lleva agua, frontal, hamaca y mosquitera, y deja tu itinerario a alguien."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Cuánto mide el sendero Molokoï?",
+    "a": "Unos 18 km, entre Cacao y la pista Coralie."
+   },
+   {
+    "q": "¿Se puede dormir en el sendero?",
+    "a": "Sí, hay refugios gratuitos a mitad de camino, a unos 7 km de Cacao."
+   },
+   {
+    "q": "¿Es factible con niños?",
+    "a": "Sí, en una ida y vuelta corta desde Cacao; la travesía completa es para senderistas en buena forma."
+   }
+  ]
+ },
+ "roura": {
+  "sections": [
+   {
+    "h": "El pueblo",
+    "p": [
+     "Roura se extiende a orillas del Oyak, a unos treinta minutos de Cayena. Es la puerta de entrada al Este: la carretera de Kaw sale del pueblo, y el municipio incluye también Cacao, la reserva Trésor y las cascadas de Fourgassié."
+    ]
+   },
+   {
+    "h": "Qué ver",
+    "p": [
+     "La iglesia Saint-Dominique, junto al río, fue inscrita como monumento histórico por orden del 25 de mayo de 2023. La base nacional del patrimonio la data del segundo cuarto del siglo XIX. Alrededor, algunas casas criollas y las orillas donde atracan las piraguas."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Basta con una parada de una hora, idealmente de camino a Kaw o a Cacao. La iglesia no siempre está abierta."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Está protegida la iglesia de Roura?",
+    "a": "Sí, inscrita como monumento histórico desde 2023."
+   },
+   {
+    "q": "¿Dónde está Roura?",
+    "a": "A orillas del Oyak, a unos treinta minutos de Cayena, al inicio de la carretera de Kaw."
+   },
+   {
+    "q": "¿Qué visitar en el municipio?",
+    "a": "El pueblo, Cacao, la reserva Trésor, las cascadas de Fourgassié y la carretera de Kaw."
+   }
+  ]
+ },
+ "tresor": {
+  "sections": [
+   {
+    "h": "La reserva",
+    "p": [
+     "La reserva Trésor cubre 2 464 ha en la montaña de Kaw, entre el río Orapu y la carretera de Kaw. Los terrenos los compró la fundación Trésor, vinculada a la Universidad de Utrecht, por iniciativa del botánico neerlandés Joep Moonen. Reserva natural voluntaria en 1997, pasó a ser reserva natural regional en 2010 por decisión del consejo regional."
+    ]
+   },
+   {
+    "h": "Qué ver",
+    "p": [
+     "Un sendero botánico de 1 750 m en selva húmeda, con paneles explicativos, sale de la casa de la reserva, junto a la carretera. El relieve, los suelos y el agua han formado allí una biodiversidad notable, con sabanas húmedas inventariadas como ZNIEFF."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Es un excelente primer contacto con la selva para familias. No salgas del sendero: el reglamento de la reserva prohíbe o limita muchas actividades."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Qué tamaño tiene la reserva Trésor?",
+    "a": "2 464 hectáreas."
+   },
+   {
+    "q": "¿Cuánto mide el sendero botánico?",
+    "a": "1 750 metros."
+   },
+   {
+    "q": "¿Quién gestiona la reserva?",
+    "a": "La asociación Reserva Natural Trésor, por cuenta de la Colectividad Territorial de Guayana."
+   }
+  ]
+ },
+ "kaw": {
+  "sections": [
+   {
+    "h": "La reserva",
+    "p": [
+     "La reserva natural nacional de los pantanos de Kaw-Roura se creó por decreto el 13 de marzo de 1998. Cubre unas 94 700 ha en los municipios de Régina y Roura, entre una inmensa llanura pantanosa y la montaña de Kaw. El lugar también es sitio Ramsar, humedal de importancia internacional."
+    ]
+   },
+   {
+    "h": "La fauna",
+    "p": [
+     "Los pantanos albergan una de las últimas poblaciones estables de caimán negro, el mayor cocodrilo de Sudamérica. También se ven hoacines, corocoros rojos y garzas cocoi, y la llanura acoge la mayor colonia reproductora conocida de garza agamí. De noche, los ojos de los caimanes brillan a la luz de las linternas."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "La carretera departamental 6 sale de Roura y llega, tras unos 55 km, al embarcadero de Kaw; al pueblo se llega en piragua. Las salidas al pantano requieren autorización de la prefectura: ve con un operador autorizado. La fórmula con noche en el lugar es la más completa."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Qué superficie tienen los pantanos de Kaw?",
+    "a": "Unas 94 700 hectáreas de reserva natural nacional."
+   },
+   {
+    "q": "¿Puedo ir solo?",
+    "a": "No, las salidas en barca las hacen operadores autorizados."
+   },
+   {
+    "q": "¿Cuándo ver caimanes?",
+    "a": "De noche, en las salidas guiadas en piragua."
+   }
+  ]
+ },
+ "fourgassie": {
+  "sections": [
+   {
+    "h": "El sitio",
+    "p": [
+     "Las cascadas de Fourgassié, a menudo escritas Fourgassier, son una serie de pequeños saltos y pozas de agua clara a lo largo de la quebrada del mismo nombre, en selva primaria. Están en la carretera de Kaw, a pocos kilómetros de Roura."
+    ]
+   },
+   {
+    "h": "Qué ver",
+    "p": [
+     "Las pozas al pie de las cascadas, y los caminos paralelos a la quebrada, donde se observan las aves del sotobosque."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "El último tramo es una pista de laterita, complicada tras lluvias fuertes. Las rocas resbalan mucho: lleva calzado con buen agarre. Evita bañarte cuando sube la quebrada. No se publica ningún dato oficial de calidad del agua para este sitio."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Dónde están las cascadas de Fourgassié?",
+    "a": "En la carretera de Kaw, a pocos kilómetros de Roura."
+   },
+   {
+    "q": "¿Se puede nadar?",
+    "a": "Mucha gente se baña en las pozas, pero no hay datos de calidad del agua; evítalo tras lluvias fuertes."
+   },
+   {
+    "q": "¿Hace falta un 4x4?",
+    "a": "En general no, pero la pista final se complica tras la lluvia."
+   }
+  ]
+ },
+ "coq-de-roche": {
+  "sections": [
+   {
+    "h": "El sendero",
+    "p": [
+     "Este corto sendero de ida y vuelta, en la reserva natural de los pantanos de Kaw-Roura, lleva a una de las zonas de reproducción conocidas del gallito de las rocas guayanés. El macho, naranja intenso con su cresta en abanico, es una de las aves emblemáticas de Guayana; anida en abrigos rocosos."
+    ]
+   },
+   {
+    "h": "Acceso",
+    "p": [
+     "En la carretera de Kaw, pasado el Camp Caïman, el inicio está a la izquierda, unos cien metros antes del aserradero. El cartel está unos metros dentro del bosque. El sendero baja bastante rápido y vuelve a subir al regreso. Calcula de 1 h a 2 h."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Silencio y prismáticos: un mirador domina el sitio de anidación, y es allí donde se ven también las hembras, más pardas. No te acerques a los nidos. El sendero puede cerrar temporalmente para proteger la reproducción: compruébalo antes de ir."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Dónde empieza el sendero del gallito de las rocas?",
+    "a": "En la carretera de Kaw, justo antes del aserradero, pasado el Camp Caïman."
+   },
+   {
+    "q": "¿Es seguro ver gallitos de las rocas?",
+    "a": "No, pero con paciencia y silencio las probabilidades son buenas."
+   },
+   {
+    "q": "¿Cuánto tiempo hace falta?",
+    "a": "Entre 1 h y 2 h ida y vuelta."
+   }
+  ]
+ },
+ "saint-georges": {
+  "sections": [
+   {
+    "h": "Historia",
+    "p": [
+     "Saint-Georges se fundó el 23 de abril de 1853 como presidio; su nombre viene de una moneda holandesa con la efigie de san Jorge hallada en el lugar. El presidio cerró ya en 1863. Aislado durante mucho tiempo, el municipio no se unió a Cayena por carretera hasta 2003. Es subprefectura desde octubre de 2022."
+    ]
+   },
+   {
+    "h": "El puente",
+    "p": [
+     "El puente del Oyapock une Saint-Georges con Oiapoque, en Brasil. Atirantado, de 378 m y con dos pilones de 83 m, se terminó en 2011 pero no se inauguró hasta el 18 de marzo de 2017, abriéndose al tráfico el 20 de marzo. Aun así, las piraguas siguen cruzando el río cada día."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Son unos 190 km desde Cayena por la RN2: sal con el depósito lleno. Para entrar en Brasil hace falta pasaporte válido, y el puente tiene horario. Unos 500 palikur viven en el municipio; la ciudad tiene un verdadero ambiente franco-brasileño."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Cuándo abrió el puente del Oyapock?",
+    "a": "Se inauguró el 18 de marzo de 2017 y se abrió al tráfico el 20 de marzo de 2017."
+   },
+   {
+    "q": "¿Qué documentos hacen falta para ir a Oiapoque?",
+    "a": "Pasaporte válido para los franceses; comprueba las normas vigentes antes de ir."
+   },
+   {
+    "q": "¿De dónde viene el nombre de Saint-Georges?",
+    "a": "De una moneda holandesa con la efigie de san Jorge hallada en el lugar en 1853."
+   }
+  ]
+ },
+ "roche-virginie": {
+  "sections": [
+   {
+    "h": "El sitio",
+    "p": [
+     "La Savane-Roche Virginie es un inselberg: una cúpula de granito que emerge de la selva como una isla, entre Régina y Saint-Georges. La roca, de unos dos mil millones de años, quedó al descubierto por la erosión. Sobre la losa crece una vegetación rara de sabana-roca, rica en orquídeas, bromelias y aráceas; la zona está inventariada como ZNIEFF en 758 ha."
+    ]
+   },
+   {
+    "h": "El sendero",
+    "p": [
+     "El sendero señalizado sale de la RN2 y atraviesa selva primaria, quebradas, hondonadas húmedas y caos de rocas. Son unos 6 km ida y vuelta; la cima, a 138 m, ofrece vistas sobre el dosel. Calcula una hora de marcha hasta la roca."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "El sitio está en una reserva biológica gestionada por la ONF: no salgas del trazado señalizado, ni fuego ni corte de vegetación. Mojada, la roca resbala mucho. Mejor en la estación seca, de julio a noviembre. El gallito de las rocas figura entre las especies registradas."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Qué es un inselberg?",
+    "a": "Un relieve rocoso aislado que emerge de la selva, aquí una cúpula de granito."
+   },
+   {
+    "q": "¿Cuánto dura la caminata?",
+    "a": "Unos 6 km ida y vuelta, es decir de 2 h a 2 h 30."
+   },
+   {
+    "q": "¿Dónde se aparca?",
+    "a": "En la RN2, unos kilómetros después del puente sobre el Approuague viniendo de Régina."
+   }
+  ]
+ },
+ "maripa": {
+  "sections": [
+   {
+    "h": "El sitio",
+    "p": [
+     "El Saut Maripa es una sucesión de rápidos y afloramientos rocosos en el Oyapock, a lo largo de varios kilómetros, entre el Saut Maripa propiamente dicho río arriba y el Saut Cafésoca río abajo, a unos veinte kilómetros al suroeste de Saint-Georges. El río, muy ancho, deja ver migmatitas y rocas verdes que interesan a los geólogos."
+    ]
+   },
+   {
+    "h": "Acceso",
+    "p": [
+     "Desde Saint-Georges, toma la RN2 hacia Cayena unos 2 km y luego una pista forestal de unos veinte kilómetros. Termina en un gran refugio (carbet) y un embarcadero rocoso a orillas del río. También se puede llegar en piragua desde Saint-Georges."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "La pista suele ser difícil: un 4x4 es casi imprescindible en la temporada de lluvias. La corriente es fuerte entre las rocas; báñate solo en zonas tranquilas. Llévate tu basura."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Dónde está el Saut Maripa?",
+    "a": "En el Oyapock, a unos 20 km al suroeste de Saint-Georges."
+   },
+   {
+    "q": "¿Cómo se llega?",
+    "a": "Por una pista forestal de unos veinte kilómetros desde la RN2, o en piragua desde Saint-Georges."
+   },
+   {
+    "q": "¿Hay refugio?",
+    "a": "Sí, un gran refugio al final de la pista."
+   }
+  ]
+ },
+ "saul": {
+  "sections": [
+   {
+    "h": "El pueblo",
+    "p": [
+     "Saül está en el centro de Guayana, a unos 180 km al sur de Cayena, sin ninguna carretera: se llega en avión. El pueblo nació del oro; en la época de las fiebres del oro, él y sus caseríos llegaron a 800 habitantes. Hoy viven allí un centenar de personas, en el corazón del Parque Amazónico de Guayana."
+    ]
+   },
+   {
+    "h": "Los senderos",
+    "p": [
+     "Saül tiene la primera red de senderos acondicionados de Guayana: unos 45 km señalizados, en cinco circuitos de duración variable, accesibles sin guía. Llevan a miradores sobre el valle y los montes Galbao, a cascadas y a vestigios de la minería de oro. Otras trochas, sin señalizar ni mantener, solo deben recorrerse con guía."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Las plazas de avión y los alojamientos son limitados: reserva pronto. Pasa por la casa del Parque, en el pueblo, para el mapa impermeable de senderos y consejos. El Parque Amazónico, creado el 27 de febrero de 2007, es el mayor parque nacional de Francia y de la Unión Europea."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Cómo ir a Saül?",
+    "a": "Solo en avión desde Cayena; no hay carretera."
+   },
+   {
+    "q": "¿Hace falta guía para caminar?",
+    "a": "No en los 45 km de senderos señalizados; sí en las trochas sin señalizar."
+   },
+   {
+    "q": "¿Cuántos habitantes tiene Saül?",
+    "a": "Un centenar en el pueblo."
+   }
+  ]
+ },
+ "maripasoula": {
+  "sections": [
+   {
+    "h": "El municipio",
+    "p": [
+     "Con unos 18 360 km², Maripasoula es el municipio más extenso de Francia, algo mayor que Kuwait. Se extiende por el alto Maroni, frente a Surinam, que reivindica alrededor de una décima parte de su territorio. Solo se llega en avión o por el río."
+    ]
+   },
+   {
+    "h": "El río",
+    "p": [
+     "Maripasoula es la puerta de entrada a los pueblos del alto Maroni y al Parque Amazónico de Guayana. La vida sigue al río: piraguas, embarcaderos, pueblos bushinengué y amerindios río arriba."
+    ]
+   },
+   {
+    "h": "Bueno saber",
+    "p": [
+     "Los pueblos amerindios al sur de Élahé están en zona de acceso regulado: hace falta autorización de la prefectura para ir. El Parque Amazónico publica una guía de buena conducta: pide siempre permiso antes de fotografiar a alguien. Lleva efectivo y reserva vuelos y alojamiento con antelación."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Es Maripasoula de verdad el municipio más grande de Francia?",
+    "a": "Sí, con unos 18 360 km²."
+   },
+   {
+    "q": "¿Cómo se llega?",
+    "a": "En avión desde Cayena, o en piragua por el Maroni."
+   },
+   {
+    "q": "¿Se pueden visitar pueblos amerindios?",
+    "a": "Los situados al sur de Élahé requieren autorización de la prefectura."
+   }
+  ]
  }
 }
