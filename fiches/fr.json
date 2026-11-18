@@ -1260,5 +1260,411 @@
     "u": "https://www.france-voyage.com/VILLES-VILLAGES/kourou-36636.htm"
    }
   ]
+ },
+ "transportation": {
+  "sections": [
+   {
+    "h": "Histoire",
+    "p": [
+     "La Guyane est terre de bagne de 1852 à 1953. Après la forte mortalité des premiers camps de l'Est, le bagne est transféré dans l'Ouest en 1857, et Saint-Laurent-du-Maroni est officiellement inaugurée le 21 janvier 1858. Le camp de la Transportation devient la porte d'entrée de tous les condamnés venus de métropole : plus de 50 000 transportés franchissent son portail. Il ferme en 1948, puis la commune l'acquiert."
+    ]
+   },
+   {
+    "h": "À voir",
+    "p": [
+     "Le portail d'entrée, la cour, les cases et le quartier de réclusion, dont la cellule attribuée à Henri Charrière, dit Papillon. Saint-Laurent est Ville d'art et d'histoire depuis 2007 ; son Centre d'interprétation de l'architecture et du patrimoine (CIAP) occupe plusieurs cases du camp, avec une exposition permanente sur le bagne et sur la naissance de la ville."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "Prenez la visite guidée : elle ouvre des bâtiments fermés en visite libre et donne tout son sens au lieu. Comptez 1 h à 1 h 30. Les horaires varient : renseignez-vous à l'office de tourisme ou au CIAP."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Combien de bagnards sont passés par le camp ?",
+    "a": "Plus de 50 000 transportés."
+   },
+   {
+    "q": "La visite guidée vaut-elle le coup ?",
+    "a": "Oui : elle donne accès à des bâtiments supplémentaires, dont le quartier de réclusion."
+   },
+   {
+    "q": "Quand le camp a-t-il fermé ?",
+    "a": "En 1948 ; le bagne de Guyane disparaît définitivement en 1953."
+   }
+  ],
+  "sources": [
+   {
+    "t": "Académie de Guyane / CIAP, visite-découverte du camp de la Transportation",
+    "u": "https://hist-geographie.dis.ac-guyane.fr/IMG/pdf/presentation_visiteducamp.pdf"
+   },
+   {
+    "t": "Académie de Guyane, chronologie de Saint-Laurent-du-Maroni",
+    "u": "https://hist-geographie.dis.ac-guyane.fr/IMG/pdf/chronologiesommaire_histoireslm.pdf"
+   },
+   {
+    "t": "Académie de Guyane, service éducatif du CIAP",
+    "u": "https://doc.dis.ac-guyane.fr/IMG/pdf/information_ciap_slm_prof-doc_2018.pdf"
+   }
+  ]
+ },
+ "relegation": {
+  "sections": [
+   {
+    "h": "Histoire",
+    "p": [
+     "La loi du 27 mai 1885 sur la relégation des récidivistes impose l'internement à perpétuité, dans une colonie, des délinquants multirécidivistes, souvent auteurs de petits délits. Les premiers relégués arrivent à Saint-Jean-du-Maroni le 20 juin 1887 : rien n'est prêt, ils doivent construire eux-mêmes leur camp. Près de 17 000 relégués sont envoyés en Guyane jusqu'en 1953, soumis au travail forcé dans le pénitencier de Saint-Jean et ses camps annexes."
+    ]
+   },
+   {
+    "h": "À voir",
+    "p": [
+     "Les bâtiments du pénitencier, en bord de Maroni, à quelques kilomètres en amont de Saint-Laurent. Le site est moins connu que le camp de la Transportation, et plus silencieux."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "Les visites se font sur rendez-vous, certains jours seulement : renseignez-vous à l'office de tourisme de Saint-Laurent. Lors des Journées du patrimoine, des visites combinées des deux camps incluent parfois un trajet en pirogue."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Qu'est-ce qu'un relégué ?",
+    "a": "Un récidiviste condamné, en plus de sa peine, à l'internement à perpétuité dans une colonie, en vertu de la loi de 1885."
+   },
+   {
+    "q": "Combien de relégués en Guyane ?",
+    "a": "Près de 17 000, entre 1887 et 1953."
+   },
+   {
+    "q": "Peut-on visiter librement ?",
+    "a": "Non, sur rendez-vous via l'office de tourisme de Saint-Laurent."
+   }
+  ],
+  "sources": [
+   {
+    "t": "J.-L. Sanchez, les relégués en Guyane (HAL)",
+    "u": "https://halshs.archives-ouvertes.fr/halshs-01409155v1/file/Catalogue%20Fich%C3%A9s%20Les%20rel%C3%A9gu%C3%A9s%20en%20Guyane.pdf"
+   },
+   {
+    "t": "Criminocorpus, camp de la relégation de Saint-Jean-du-Maroni",
+    "u": "https://hugo.criminocorpus.org/es/lieu/camp-de-la-relegation-de-saint-jean-du-maroni/"
+   },
+   {
+    "t": "Wikipedia (en) : Saint-Jean-du-Maroni",
+    "u": "https://en.wikipedia.org/wiki/Saint-Jean-du-Maroni"
+   },
+   {
+    "t": "Manioc, thèse de J.-L. Sanchez sur la relégation",
+    "u": "https://www.manioc.org/notice-download/1346"
+   }
+  ]
+ },
+ "maroni": {
+  "sections": [
+   {
+    "h": "Le fleuve",
+    "p": [
+     "Le Maroni s'étire sur plus de 520 km, des monts Tumuc-Humac à l'Atlantique, et sépare la Guyane du Suriname. C'est la cinquième plus longue frontière terrestre de la France, délimitée en 1915 selon la ligne médiane du fleuve. Mais le Maroni est d'abord un bassin de vie : en face de Saint-Laurent, la ville surinamaise d'Albina vit au même rythme."
+    ]
+   },
+   {
+    "h": "À voir",
+    "p": [
+     "Le ballet des pirogues : plus de 1 000 traversées par jour entre les deux rives, et des centaines d'enfants qui vont chaque matin à l'école à Saint-Laurent par le fleuve. Des pirogues proposent aussi des excursions vers l'amont, porte d'entrée des villages du Maroni."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "Le bac officiel relie Saint-Laurent à Albina. Avant de traverser au Suriname, vérifiez les formalités et les règles de passage en vigueur. Le coucher de soleil sur le fleuve vaut le détour."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quelle est la longueur du Maroni ?",
+    "a": "Plus de 520 km, des monts Tumuc-Humac à l'océan."
+   },
+   {
+    "q": "Peut-on aller à Albina ?",
+    "a": "Oui, en bac ou en pirogue ; renseignez-vous avant sur les documents demandés."
+   },
+   {
+    "q": "Combien de pirogues traversent ?",
+    "a": "Plus de 1 000 par jour selon les estimations."
+   }
+  ],
+  "sources": [
+   {
+    "t": "Sénat, France-Suriname : un partenariat en construction",
+    "u": "https://www.senat.fr/rap/l24-750/l24-7505.html"
+   },
+   {
+    "t": "Le Routard, fleuve Maroni",
+    "u": "https://www.routard.com/fr/guide/ameriques/guyane/fleuve-maroni"
+   },
+   {
+    "t": "IEDOM, rapport annuel Guyane 2021",
+    "u": "https://www.iedom.fr/IMG/rapport_annuel_iedom_guyane_2021/index-128.html"
+   }
+  ]
+ },
+ "javouhey": {
+  "sections": [
+   {
+    "h": "Histoire",
+    "p": [
+     "Javouhey est fondé en 1978 comme deuxième village d'accueil des réfugiés hmong du Laos en Guyane, après Cacao. Il s'installe sur une ancienne colonie agricole d'Anne-Marie Javouhey, dont il porte le nom, dans la commune de Mana. Il compte environ un millier d'habitants et vit de l'agriculture."
+    ]
+   },
+   {
+    "h": "À voir",
+    "p": [
+     "Le marché du dimanche matin anime la place centrale : légumes et fruits des abattis, broderies, soupe hmong, nems et riz gluant. Le village a la réputation d'être plus traditionnel que Cacao."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "Venez le dimanche matin, tôt. À combiner avec le bourg de Mana et la plage des Hattes sur le même week-end."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quand a lieu le marché de Javouhey ?",
+    "a": "Le dimanche matin."
+   },
+   {
+    "q": "Quelle différence avec Cacao ?",
+    "a": "Javouhey, fondé en 1978, est réputé plus traditionnel ; Cacao est plus touristique."
+   },
+   {
+    "q": "Où se trouve Javouhey ?",
+    "a": "Dans la commune de Mana, dans l'Ouest guyanais."
+   }
+  ],
+  "sources": [
+   {
+    "t": "Wikipedia (en) : Javouhey",
+    "u": "https://en.wikipedia.org/wiki/Javouhey"
+   },
+   {
+    "t": "Le Routard, Javouhey",
+    "u": "https://www.routard.com/fr/guide/ameriques/guyane/fleuve-maroni/javouhey"
+   }
+  ]
+ },
+ "mana": {
+  "sections": [
+   {
+    "h": "Histoire",
+    "p": [
+     "Mana est fondée le 16 août 1828 par la mère Anne-Marie Javouhey, fondatrice des sœurs de Saint-Joseph de Cluny, qui en dessine elle-même les plans. La colonie jouit alors d'une autonomie vis-à-vis de Cayenne, qui lui permet d'instruire et de former des esclaves ; le gouvernement lui confie la préparation à la liberté de plusieurs centaines d'entre eux. Elle quitte la Guyane en 1843 ; elle est béatifiée en 1950."
+    ]
+   },
+   {
+    "h": "À voir",
+    "p": [
+     "L'église Saint-Joseph et son presbytère, classés monuments historiques, la maison de la sœur Javouhey, labellisée « Maison des Illustres », et les maisons anciennes au bord du fleuve Mana."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "Mana est sur la route d'Awala-Yalimapo, à une vingtaine de kilomètres de la plage des Hattes, et à côté du village hmong de Javouhey."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Qui a fondé Mana ?",
+    "a": "La mère Anne-Marie Javouhey, en 1828."
+   },
+   {
+    "q": "Que voir dans le bourg ?",
+    "a": "L'église Saint-Joseph, la maison de la sœur Javouhey et les berges du fleuve Mana."
+   },
+   {
+    "q": "Est-ce loin des Hattes ?",
+    "a": "Une vingtaine de kilomètres."
+   }
+  ],
+  "sources": [
+   {
+    "t": "Ministère de la Culture, POP : église Saint-Joseph de Mana",
+    "u": "https://www.pop.culture.gouv.fr/notice/merimee/PA00105907"
+   },
+   {
+    "t": "Monumentum, maison de la sœur Anne-Marie Javouhey",
+    "u": "https://monumentum.fr/maisons-des-illustres/mi166/mana-maison-de-la-soeur-anne-marie-javouhey"
+   },
+   {
+    "t": "Sœurs de Saint-Joseph de Cluny, histoire d'Anne-Marie Javouhey",
+    "u": "https://sj-cluny.org/History-of-Anne-Marie-Javouhey"
+   },
+   {
+    "t": "Wikipedia (en) : Mana",
+    "u": "https://en.wikipedia.org/wiki/Mana,_French_Guiana"
+   }
+  ]
+ },
+ "hattes": {
+  "sections": [
+   {
+    "h": "Le site",
+    "p": [
+     "La plage des Hattes, à Awala-Yalimapo, en territoire kali'na, est historiquement l'un des plus grands sites de ponte de tortues luths au monde. La réserve naturelle nationale de l'Amana a été créée en 1998 pour les protéger. On y voit aussi la tortue verte, avec plus de mille pontes par an."
+    ]
+   },
+   {
+    "h": "Une espèce en danger",
+    "p": [
+     "Les luths ont reculé d'environ 97 % sur cette plage, selon l'association Kwata. Braconnage des œufs, chiens et érosion menacent les nids. Depuis 2023, une écloserie naturelle, Kawana, gérée par Kwata avec la réserve et les chefs coutumiers, accueille les nids déplacés à l'extrémité est de la plage."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "La ponte a lieu surtout de mars à juillet. Respect absolu des consignes : pas de lumière blanche, pas de flash, distance avec l'animal. Le village kali'na vous accueille : respectez les lieux. La Maison de la réserve présente une exposition sur les tortues."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quand voir les tortues aux Hattes ?",
+    "a": "Surtout de mars à juillet pour les pontes."
+   },
+   {
+    "q": "Les luths sont-elles encore nombreuses ?",
+    "a": "Non : leur nombre a chuté d'environ 97 % sur cette plage. Une écloserie protège les nids depuis 2023."
+   },
+   {
+    "q": "Peut-on visiter l'écloserie ?",
+    "a": "Des visites et des accueils de groupes sont organisés par Kwata et la réserve."
+   }
+  ],
+  "sources": [
+   {
+    "t": "Kwata, écloserie Kawana, bilan 2025",
+    "u": "https://kwata.net/wp-content/uploads/2026/02/Kawana_rapport-4_2025_Kwata.pdf"
+   },
+   {
+    "t": "Outremers 360, inauguration de l'écloserie",
+    "u": "https://outremers360.com/bassin-atlantique-appli/guyane-inauguration-dune-ecloserie-pour-les-tortues-luth-menacees"
+   },
+   {
+    "t": "DEAL Guyane, ZNIEFF plages de l'Amana",
+    "u": "https://www.guyane.developpement-durable.gouv.fr/IMG/pdf/00010001_Plages_de_l_Amana.pdf"
+   },
+   {
+    "t": "Air Caraïbes, voir la ponte des tortues",
+    "u": "https://www.aircaraibes.com/pontes-tortues-guyane"
+   },
+   {
+    "t": "Kwata, plaquette tortues marines",
+    "u": "https://kwata.net/wp-content/uploads/2024/04/Plaquette-TM2019_site.pdf"
+   }
+  ]
+ },
+ "voltaire": {
+  "sections": [
+   {
+    "h": "Le site",
+    "p": [
+     "Les chutes Voltaire, sur la crique du même nom, affluent de la Sparouine, sont parmi les plus hautes de Guyane : environ 35 mètres de dénivelé. Le bassin versant et les chutes sont protégés au titre des paysages, et la zone est inventoriée comme ZNIEFF. Les roches, des orthogneiss traversés de filons de pegmatite, intéressent aussi les géologues."
+    ]
+   },
+   {
+    "h": "Y aller",
+    "p": [
+     "Depuis Saint-Laurent, la piste de Paul Isnard, en latérite, file vers le sud sur environ 70 km jusqu'au carbet Voltaire ; de là, comptez 1 h à 1 h 30 de marche. Le site a fait l'objet d'un programme de remise en valeur par la Collectivité territoriale, avec une signalétique depuis Saint-Laurent."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "Un 4x4 est recommandé, la piste se dégrade en saison des pluies. Prévoyez la journée, ou la nuit en hamac sur place. Aucun réseau : laissez votre itinéraire et votre heure de retour à un proche."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quelle est la hauteur des chutes Voltaire ?",
+    "a": "Environ 35 mètres."
+   },
+   {
+    "q": "Comment y accéder ?",
+    "a": "Par la piste de Paul Isnard (environ 70 km depuis Saint-Laurent), puis à pied."
+   },
+   {
+    "q": "Faut-il un 4x4 ?",
+    "a": "C'est recommandé, surtout en saison des pluies."
+   }
+  ],
+  "sources": [
+   {
+    "t": "DEAL Guyane, ZNIEFF cascades et crique Voltaire",
+    "u": "https://www.guyane.developpement-durable.gouv.fr/IMG/pdf/00330000_Cascades_et_crique_Voltaire.pdf"
+   },
+   {
+    "t": "DEAL Guyane, site géologique des chutes Voltaire",
+    "u": "https://www.guyane.developpement-durable.gouv.fr/IMG/pdf/38-Chutes_Voltaire.pdf"
+   },
+   {
+    "t": "Wikipedia (en) : Voltaire Falls",
+    "u": "https://en.wikipedia.org/wiki/Voltaire_Falls"
+   },
+   {
+    "t": "Riches Karayib, les chutes Voltaire",
+    "u": "https://richeskarayib.com/?p=78887"
+   }
+  ]
+ },
+ "marche-slm": {
+  "sections": [
+   {
+    "h": "Le marché",
+    "p": [
+     "Le marché central de Saint-Laurent, à quelques rues du fleuve, est le grand marché de l'Ouest guyanais. Les jours de marché, les étals de fruits, légumes, couac et épices se montent dès le petit matin, à côté des cuisines du Maroni."
+    ]
+   },
+   {
+    "h": "Bon à savoir",
+    "p": [
+     "Les jours principaux sont le mercredi et le samedi matin, à confirmer sur place. Venez tôt, avant la chaleur, et prévoyez des espèces. C'est une bonne étape avant ou après la visite du camp de la Transportation."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quels jours se tient le marché de Saint-Laurent ?",
+    "a": "Surtout le mercredi et le samedi matin ; vérifiez sur place."
+   },
+   {
+    "q": "Que trouve-t-on ?",
+    "a": "Fruits, légumes, couac, épices et cuisines du Maroni."
+   },
+   {
+    "q": "Faut-il des espèces ?",
+    "a": "Oui, c'est préférable pour les petits étals."
+   }
+  ],
+  "sources": [
+   {
+    "t": "DAAF Guyane, mercuriale du marché central de Saint-Laurent",
+    "u": "https://daaf.guyane.agriculture.gouv.fr/IMG/pdf/slm_leg.pdf"
+   },
+   {
+    "t": "Just a Little Further, jour de marché à Saint-Laurent",
+    "u": "https://justalittlefurther.com/just-a-little-further/tag/Saint-Laurent+du+Maroni"
+   }
+  ]
  }
 }

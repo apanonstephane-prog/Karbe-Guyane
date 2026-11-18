@@ -867,5 +867,287 @@
     "a": "Yes: Marie-Claire and Bois Chaudat."
    }
   ]
+ },
+ "transportation": {
+  "sections": [
+   {
+    "h": "History",
+    "p": [
+     "French Guiana was a penal colony from 1852 to 1953. After heavy mortality in the first camps in the east, the penal colony moved west in 1857, and Saint-Laurent-du-Maroni was officially inaugurated on 21 January 1858. The Transportation Camp became the entry point for every convict sent from mainland France: more than 50,000 passed through its gate. It closed in 1948, and the town later acquired it."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "The entrance gate, the yard, the cell blocks and the solitary confinement wing, including the cell attributed to Henri Charrière, known as Papillon. Saint-Laurent has been a Town of Art and History since 2007; its heritage interpretation centre (CIAP) occupies several blocks of the camp, with a permanent exhibition on the penal colony and the birth of the town."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Take the guided tour: it opens buildings closed to free visitors and gives the place its full meaning. Allow 1 to 1 h 30. Hours vary: ask at the tourist office or the CIAP."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "How many convicts passed through the camp?",
+    "a": "More than 50,000."
+   },
+   {
+    "q": "Is the guided tour worth it?",
+    "a": "Yes: it gives access to extra buildings, including the solitary confinement wing."
+   },
+   {
+    "q": "When did the camp close?",
+    "a": "In 1948; the Guianese penal colony ended for good in 1953."
+   }
+  ]
+ },
+ "relegation": {
+  "sections": [
+   {
+    "h": "History",
+    "p": [
+     "The law of 27 May 1885 on the relegation of repeat offenders imposed life internment in a colony on habitual offenders, often guilty of petty crimes. The first relégués arrived in Saint-Jean-du-Maroni on 20 June 1887: nothing was ready, and they had to build the camp themselves. Nearly 17,000 relégués were sent to French Guiana until 1953, put to forced labour in the Saint-Jean penitentiary and its sub-camps."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "The penitentiary buildings, on the bank of the Maroni, a few kilometres upstream from Saint-Laurent. The site is less known than the Transportation Camp, and quieter."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Visits are by appointment, on certain days only: ask at the Saint-Laurent tourist office. During European Heritage Days, combined tours of both camps sometimes include a pirogue ride."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is a relégué?",
+    "a": "A repeat offender sentenced, on top of their sentence, to life internment in a colony under the 1885 law."
+   },
+   {
+    "q": "How many relégués were there in French Guiana?",
+    "a": "Nearly 17,000, between 1887 and 1953."
+   },
+   {
+    "q": "Can I visit freely?",
+    "a": "No, by appointment through the Saint-Laurent tourist office."
+   }
+  ]
+ },
+ "maroni": {
+  "sections": [
+   {
+    "h": "The river",
+    "p": [
+     "The Maroni runs more than 520 km from the Tumuc-Humac mountains to the Atlantic and separates French Guiana from Suriname. It is France's fifth-longest land border, drawn in 1915 along the river's median line. But the Maroni is above all a living basin: opposite Saint-Laurent, the Surinamese town of Albina lives to the same rhythm."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "The constant dance of pirogues: more than 1,000 crossings a day between the banks, and hundreds of children who travel to school in Saint-Laurent by river every morning. Pirogues also offer trips upstream, the gateway to the Maroni villages."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "The official ferry links Saint-Laurent and Albina. Before crossing into Suriname, check the current formalities and border rules. Sunset over the river is worth the stop."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "How long is the Maroni?",
+    "a": "More than 520 km, from the Tumuc-Humac mountains to the ocean."
+   },
+   {
+    "q": "Can I go to Albina?",
+    "a": "Yes, by ferry or pirogue; check the required documents first."
+   },
+   {
+    "q": "How many pirogues cross?",
+    "a": "More than 1,000 a day, according to estimates."
+   }
+  ]
+ },
+ "javouhey": {
+  "sections": [
+   {
+    "h": "History",
+    "p": [
+     "Javouhey was founded in 1978 as the second settlement for Hmong refugees from Laos in French Guiana, after Cacao. It stands on a former agricultural colony of Anne-Marie Javouhey, whose name it bears, in the commune of Mana. It has about a thousand inhabitants and lives from farming."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "The Sunday morning market fills the central square: fruit and vegetables from the fields, embroidery, Hmong soup, spring rolls and sticky rice. The village is said to be more traditional than Cacao."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Come early on Sunday morning. Combine it with Mana and Les Hattes beach on the same weekend."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "When is Javouhey market?",
+    "a": "Sunday morning."
+   },
+   {
+    "q": "How does it differ from Cacao?",
+    "a": "Javouhey, founded in 1978, is said to be more traditional; Cacao is more touristy."
+   },
+   {
+    "q": "Where is Javouhey?",
+    "a": "In the commune of Mana, in western French Guiana."
+   }
+  ]
+ },
+ "mana": {
+  "sections": [
+   {
+    "h": "History",
+    "p": [
+     "Mana was founded on 16 August 1828 by Mother Anne-Marie Javouhey, founder of the Sisters of Saint Joseph of Cluny, who drew the town's plans herself. The colony was then independent of Cayenne, which allowed her to educate and train enslaved people; the government entrusted her with preparing several hundred of them for freedom. She left French Guiana in 1843 and was beatified in 1950."
+    ]
+   },
+   {
+    "h": "What to see",
+    "p": [
+     "The Saint-Joseph church and its presbytery, listed historic monuments, Sister Javouhey's house, labelled \"Maison des Illustres\", and the old houses along the Mana River."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Mana is on the road to Awala-Yalimapo, about twenty kilometres from Les Hattes beach, and next to the Hmong village of Javouhey."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Who founded Mana?",
+    "a": "Mother Anne-Marie Javouhey, in 1828."
+   },
+   {
+    "q": "What is there to see?",
+    "a": "The Saint-Joseph church, Sister Javouhey's house and the banks of the Mana River."
+   },
+   {
+    "q": "Is it far from Les Hattes?",
+    "a": "About twenty kilometres."
+   }
+  ]
+ },
+ "hattes": {
+  "sections": [
+   {
+    "h": "The site",
+    "p": [
+     "Les Hattes beach, in Awala-Yalimapo, on Kali'na land, has historically been one of the world's largest leatherback nesting sites. The Amana national nature reserve was created in 1998 to protect them. Green turtles nest here too, with more than a thousand nests a year."
+    ]
+   },
+   {
+    "h": "A species in danger",
+    "p": [
+     "Leatherbacks have declined by about 97% on this beach, according to the Kwata association. Egg poaching, dogs and erosion threaten the nests. Since 2023, a natural hatchery, Kawana, run by Kwata with the reserve and customary chiefs, receives relocated nests at the eastern end of the beach."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "Nesting is mainly from March to July. Follow the rules strictly: no white light, no flash, keep your distance. The Kali'na village welcomes you: respect the place. The reserve's visitor centre has an exhibition on turtles."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "When can I see turtles at Les Hattes?",
+    "a": "Mainly from March to July for nesting."
+   },
+   {
+    "q": "Are leatherbacks still numerous?",
+    "a": "No: their numbers have fallen by about 97% on this beach. A hatchery has protected nests since 2023."
+   },
+   {
+    "q": "Can I visit the hatchery?",
+    "a": "Kwata and the reserve organise visits and group sessions."
+   }
+  ]
+ },
+ "voltaire": {
+  "sections": [
+   {
+    "h": "The site",
+    "p": [
+     "The Voltaire Falls, on the creek of the same name, a tributary of the Sparouine, are among the highest in French Guiana: a drop of about 35 metres. The catchment and the falls are protected as a landscape, and the area is listed as a natural area of ecological interest (ZNIEFF). The rocks, orthogneiss crossed by pegmatite veins, also interest geologists."
+    ]
+   },
+   {
+    "h": "Getting there",
+    "p": [
+     "From Saint-Laurent, the laterite Paul Isnard track runs south for about 70 km to the Voltaire lodge; from there, allow 1 to 1 h 30 on foot. The territorial authority has run a programme to restore the site, with signposting from Saint-Laurent."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "A 4x4 is recommended, as the track deteriorates in the rainy season. Plan the whole day, or a night in a hammock on site. No phone signal: leave your route and return time with someone."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "How high are the Voltaire Falls?",
+    "a": "About 35 metres."
+   },
+   {
+    "q": "How do I get there?",
+    "a": "Via the Paul Isnard track (about 70 km from Saint-Laurent), then on foot."
+   },
+   {
+    "q": "Do I need a 4x4?",
+    "a": "It is recommended, especially in the rainy season."
+   }
+  ]
+ },
+ "marche-slm": {
+  "sections": [
+   {
+    "h": "The market",
+    "p": [
+     "Saint-Laurent's central market, a few streets from the river, is the big market of western French Guiana. On market days, stalls of fruit, vegetables, couac and spices go up at dawn, next to food from the Maroni kitchens."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "p": [
+     "The main days are Wednesday and Saturday mornings, to be confirmed locally. Come early, before the heat, and bring cash. It is a good stop before or after visiting the Transportation Camp."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Which days is Saint-Laurent market held?",
+    "a": "Mainly Wednesday and Saturday mornings; check locally."
+   },
+   {
+    "q": "What can I find?",
+    "a": "Fruit, vegetables, couac, spices and Maroni cooking."
+   },
+   {
+    "q": "Do I need cash?",
+    "a": "Yes, it is better for small stalls."
+   }
+  ]
  }
 }
