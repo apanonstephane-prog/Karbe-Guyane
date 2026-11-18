@@ -91,6 +91,374 @@
    "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_142809_4772457d-3066-4eec-b78b-9c78586be2f7.webp",
    "sha256": "5e94ca2df6377dd6bd00e3691d997d5483c51fad90c34d2200c06711a44d99c0",
    "bytes": 1471540
+  },
+  {
+   "key": "ceperou",
+   "file": "img/src/ceperou.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_ec3f8d5b-7bb7-4df0-9a1b-77ad4445a0c1.png",
+   "sha256": "5d30d95779afd5864ab22d2e5c483b7e976a2faae3bfac8c4fce6e37211f6a49",
+   "bytes": 303982,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "marche-cayenne",
+   "file": "img/src/marche-cayenne.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172851_fe9f87b6-b3ba-43bf-80c7-1a3aff31c06b.png",
+   "sha256": "c3761142265ae545558778b53425e008b72a2c4e9ef4a8a131ea7e3f1db7ab83",
+   "bytes": 324176,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "musee-cultures",
+   "file": "img/src/musee-cultures.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172851_ff264132-4c9d-4f59-9dda-778dc638db39.png",
+   "sha256": "534d28aae7c0409a34fdc40f737c8770859c6dfae2e1f65616cd546af86d4e4f",
+   "bytes": 305942,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "salines",
+   "file": "img/src/salines.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_8c4cc290-56e3-4d25-9006-70149cc08c23.png",
+   "sha256": "3c8a74447306540a2bacb725eea4975705f4585fa15ceb528dffa412754ff6c1",
+   "bytes": 320368,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "bourda",
+   "file": "img/src/bourda.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172853_a9d23265-c55f-4957-8b2b-a4f950d75ccc.png",
+   "sha256": "7a9a1de9693ca3dccb7ce304ffa069bfaff63e5033d88d13a7f7ac506aab3ec5",
+   "bytes": 312600,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "loyola",
+   "file": "img/src/loyola.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172853_8532c1cc-9ca0-409c-947e-bb2c36ffcad6.png",
+   "sha256": "123bb5580b34be2f09e95e079222d4f1f15bc31cc4466d0603de530ddddf90e8",
+   "bytes": 382236,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "diamant",
+   "file": "img/src/diamant.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172855_ed22c865-2930-4368-a5ef-7bb1b90e2ede.png",
+   "sha256": "7d1c92fdab9e37c36b379d7bc7060d422060ce6e168389ac941aae39b4eef4e6",
+   "bytes": 307356,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "matoury",
+   "file": "img/src/matoury.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_6bf19b09-86c3-4044-9f64-5bc99f678f39.png",
+   "sha256": "ab451d39d4eedeeac3080881cf066cf09999fb2ab873fd7d8aa32be40b597f40",
+   "bytes": 330272,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "molokoi",
+   "file": "img/src/molokoi.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172854_60fb7723-56c4-4b5c-8e6c-8b52b78ece3c.png",
+   "sha256": "bddcf794515f1d0f222a67b1c3e105bc1604a0f6acbbc157b7489a3006b031d2",
+   "bytes": 338258,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "roura",
+   "file": "img/src/roura.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172852_4892db4d-4cca-4c08-9e9c-44c3d0b81398.png",
+   "sha256": "2db05acdfc90611b56092edf34315e03ef4c8852e3d46fec2a7fd863eb2b8e65",
+   "bytes": 277782,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "tresor",
+   "file": "img/src/tresor.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172852_786e126a-a571-4a55-b199-9227e6391699.png",
+   "sha256": "6bfa888a3f28c7a7b0718cccf5f2a1c398668090b0cb8bc3aa808b1d5ca8b3b7",
+   "bytes": 318874,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "csg",
+   "file": "img/src/csg.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172853_6c4f236b-0bf2-4fe4-bac7-275bf2e518c4.png",
+   "sha256": "c9b5a9c58bf26201f75d0e091b7c7109eb39436e137cac42832591b06e2c8e8b",
+   "bytes": 269334,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "kourou-plage",
+   "file": "img/src/kourou-plage.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172919_80de4b00-c50c-436d-a38a-a4139cd60da9.png",
+   "sha256": "eeb0e8409ed7819d4164afeff60ecdfcf9cf62ad2be502b28dc7dbf8fd588d9a",
+   "bytes": 276140,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "zoo",
+   "file": "img/src/zoo.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172920_2ca6ccff-cb7b-4fa5-97d8-98a043e3a132.png",
+   "sha256": "01802810f1f15eb4ff6cf0da7bfa5169546cc8ccb4be83dbae6ee8856dad1111",
+   "bytes": 352924,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "annamites",
+   "file": "img/src/annamites.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172921_ccad2c34-cbad-48f6-8211-cc6d50da8d5a.png",
+   "sha256": "dcb27acb5547df1b322bee270b09d0554814ea92fee059f11e76bb069e7f6e84",
+   "bytes": 374750,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "yiyi",
+   "file": "img/src/yiyi.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_6478896b-a2b7-4252-84dc-921b0cd3b8c6.png",
+   "sha256": "b5737ed5057da62cf2eb1cafb39120d0b9d78443d5cf6f9aa7840cc782fe2762",
+   "bytes": 288614,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "iracoubo",
+   "file": "img/src/iracoubo.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_d18686dc-eea7-484f-a13b-c4f6357e0b76.png",
+   "sha256": "5c852e38e3d0e4d0ac4d45903ae82b19d6b18ff58cbb9becdcdd8700f77ac395",
+   "bytes": 312184,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "transportation",
+   "file": "img/src/transportation.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172920_3175260d-e84f-48ee-a38f-685ef0a01599.png",
+   "sha256": "3f6a2346139eb886293f28103908eadf0b433793d93b0f85f488f86f9a5473bf",
+   "bytes": 314910,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "relegation",
+   "file": "img/src/relegation.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_403c76a7-10ab-4c8a-9c3a-9ff6c78a1f69.png",
+   "sha256": "fe8244c0213ca1f342e57d301d505af96641db5c6ebaa59d6bf6922d197df9d9",
+   "bytes": 346976,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "javouhey",
+   "file": "img/src/javouhey.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172921_76204d23-7e7a-4479-aa68-be3c0ae2d91a.png",
+   "sha256": "96ea007aaf9e66aa6b3d397ecdb79b7371480916b765876464858991d94a7f68",
+   "bytes": 357214,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "mana",
+   "file": "img/src/mana.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172919_93f66806-5e91-4bab-bb57-c876c6b2d8ad.png",
+   "sha256": "e7b05c306d2d1f6af8c7e070f7aacd699101bde1d7eb2828b628a436b47c2d66",
+   "bytes": 333346,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "maripasoula",
+   "file": "img/src/maripasoula.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172920_c8ed548c-840e-4b1c-b766-7bffff1c3117.png",
+   "sha256": "df24a6c28e1cc9b7efe89eb089a930e5fbf8ccdc0d5e264fe5ee3b7e47c7261c",
+   "bytes": 355638,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "franconie",
+   "file": "img/src/franconie.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172918_424712e8-fa9d-4642-b596-c8cfbf69c21e.png",
+   "sha256": "c9ebd13f43260e09c50bc2860bf6b5dc7a278c3f50430002979c5407c237a101",
+   "bytes": 320780,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "montabo",
+   "file": "img/src/montabo.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172919_7baf5a91-2412-4014-b045-d7bb3ab9e7df.png",
+   "sha256": "ce46181da33d354c55a21297a73f7a0912630f293f3e08a004cb3b0e673f9002",
+   "bytes": 296944,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "vidal",
+   "file": "img/src/vidal.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172949_a0407d26-0b54-448f-b5f8-a312101ef288.png",
+   "sha256": "afc9c0e6da63259b67bf3caf13ad68d8a61235a0fd8fa1f0676cfce43f38c1d5",
+   "bytes": 353480,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "topu",
+   "file": "img/src/topu.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172946_2fd471a2-5ef6-4332-8de6-2175c4fca76b.png",
+   "sha256": "1e056379ab4aa1d57b2f44919230503d4904a8f1a3554f2eb0a778b6464dd0bb",
+   "bytes": 313696,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "fourgassie",
+   "file": "img/src/fourgassie.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172945_58a4bc20-bca6-4509-a5ea-bc5fda550461.png",
+   "sha256": "5a68b318c815c0d5fbe0edd1d4791d4fa73af1a68adae1872c729450ad449d4c",
+   "bytes": 324980,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "coq-de-roche",
+   "file": "img/src/coq-de-roche.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172948_9dc93533-56eb-4290-846c-6e1b1d133049.png",
+   "sha256": "76bed0fd401dffe3f99b64fb5d39b415a57e33b3662b81f4158df317937e7758",
+   "bytes": 264606,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "roche-virginie",
+   "file": "img/src/roche-virginie.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172946_dec8f376-4998-464e-8fbf-70ec10b0362e.png",
+   "sha256": "f714db0ffaaea7a933cb2127d6fcd5aac94a83812e3651ff0d84b847b274e7bc",
+   "bytes": 260814,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "maripa",
+   "file": "img/src/maripa.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172945_3d51d320-9f65-460f-95aa-a8d959a10a03.png",
+   "sha256": "61613fe954bd95c31e969bb3d8e0f25d347b5d5cb534ef5fb3aee35bb3ef898c",
+   "bytes": 367436,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "montagne-singes",
+   "file": "img/src/montagne-singes.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172948_a3e5758d-f40f-4d2c-bca5-45b8a42f9be0.png",
+   "sha256": "4dba5fa6df26b4e0ed77ec2e13a655c58def00d4daec085ad8cd5b1242896597",
+   "bytes": 310384,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "bois-diable",
+   "file": "img/src/bois-diable.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172948_577dfc45-5811-4d22-9840-7d223670e0f5.png",
+   "sha256": "2900c5ef9b83c80affcd23ee51bf3ae0efe00bf373335d1edbd6ea1d8ce05f6a",
+   "bytes": 314460,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "voltaire",
+   "file": "img/src/voltaire.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172946_92580635-491b-44c9-9f77-eba47357c734.png",
+   "sha256": "c190c3d0c28623efa6241921502ea237e36ac01d9b6aef5b293e9778d1e01419",
+   "bytes": 323776,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "marche-slm",
+   "file": "img/src/marche-slm.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172949_673d3e4e-1caa-406c-bc2b-1298ecd676a9.png",
+   "sha256": "0d7dede950100a4c4220e81007acea620125bccbc9a4c3eb13c63d52e1db004d",
+   "bytes": 350284,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "z-cayenne",
+   "file": "img/src/z-cayenne.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172947_a9e702fe-55be-44ab-9d93-4ce45732001f.png",
+   "sha256": "ff6a6b37bd62b84412b9b773650dfa44bb9c61b9a3a6aec535aa00e023cf2786",
+   "bytes": 279282,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "z-est",
+   "file": "img/src/z-est.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_172947_0dcad293-b149-48a8-b724-0e84378478c2.png",
+   "sha256": "711061fc338ddddb0999ea74ac9f4c6d589247e1e167766077149d10637654c7",
+   "bytes": 327146,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "z-savanes",
+   "file": "img/src/z-savanes.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173002_8ff65dae-14e2-45fb-8f97-8e0e926fae1b.png",
+   "sha256": "a32958ebcf46ab8c54115854fc0382c70df6dcae97a8b0343aff6f779d162004",
+   "bytes": 295198,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "z-ouest",
+   "file": "img/src/z-ouest.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173002_4728f45d-d26e-42ba-ab27-8de0ab64ba9c.png",
+   "sha256": "dddaadd39cfed5fe3cdaaa2a5836ae85b3288c19b183909868f90abb9891f110",
+   "bytes": 308088,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "z-oyapock",
+   "file": "img/src/z-oyapock.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_c57fc360-114a-43bd-97ca-e4433ea85d86.png",
+   "sha256": "236f9608a22414b8869222e7c00f766b5fe3dfdae8b664d55d16062d90ca3867",
+   "bytes": 312356,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "z-sud",
+   "file": "img/src/z-sud.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_8467c848-5c49-4103-8c84-1c71ed4edb39.png",
+   "sha256": "a3e4ac3de163528a1fc31367ccc718fbc9b6e65a814b9f7376717a0ee7a40b2a",
+   "bytes": 280922,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "it-cayenne-1j",
+   "file": "img/src/it-cayenne-1j.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173002_6deca73c-1401-4ddc-99c5-b9afd9e9bcb8.png",
+   "sha256": "772afe8ab83926697707051ac642329eb1e50581fe097039127c97b05936e936",
+   "bytes": 331860,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "it-ile-nature",
+   "file": "img/src/it-ile-nature.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173000_b85aadc9-a647-4786-830f-44154e0d558c.png",
+   "sha256": "8931d3055ef2ef63000b082429371645866848fc3371db42eadb201b0dfdb3ff",
+   "bytes": 350936,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "it-kourou-salut",
+   "file": "img/src/it-kourou-salut.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_2e30e32a-862c-4589-ae3f-262309ba5d85.png",
+   "sha256": "3753877d70d1a7b5e79f3837976d0312783b5bbebab3431a481f0f83392532ce",
+   "bytes": 245204,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "it-cacao-kaw",
+   "file": "img/src/it-cacao-kaw.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173000_1c034072-6cc8-439a-99c4-3f68f07e442f.png",
+   "sha256": "f7a897f2df2d39f0ddebc4a7d04ead0a6f7a55fd2f58de7ac46fc4068fc63d74",
+   "bytes": 280028,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "it-ouest-3j",
+   "file": "img/src/it-ouest-3j.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173003_ff5efd5d-7d11-445b-b1b1-788957b24251.png",
+   "sha256": "e9a19db6e627b4c3d015b99aefb5a0c1fe4a782c92ec40c81575eae1bc58dc9e",
+   "bytes": 289834,
+   "note": "converti en WebP q86 depuis l’origine PNG"
+  },
+  {
+   "key": "it-grand-sud",
+   "file": "img/src/it-grand-sud.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261118_173001_aff31fd2-fccd-4ed8-be46-a29f4c74f317.png",
+   "sha256": "ed232ebe161e24a2a6c93dc4f2ef9be061abe42f5fcb5da4bbe5845f361c3902",
+   "bytes": 313664,
+   "note": "converti en WebP q86 depuis l’origine PNG"
   }
  ],
  "icon": {

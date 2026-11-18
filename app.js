@@ -954,7 +954,9 @@ function routeTo(r, arg) {
     if (map) { map.remove(); map = null; }
     clearInterval(cdTimer); clearInterval(suiviTimer);
     const fresh = view.cloneNode(false); view.replaceWith(fresh); view = fresh;
-    $$(".tabs a").forEach(a => { const on = a.dataset.tab === r; a.classList.toggle("on", on); on ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"); });
+    const tabs = $$(".tabs a"), ti = tabs.findIndex(a => a.dataset.tab === r);
+    $(".tabs").style.setProperty("--i", Math.max(ti, 0)); $(".tab-galet").style.opacity = ti < 0 ? 0 : 1;
+    tabs.forEach(a => { const on = a.dataset.tab === r; a.classList.toggle("on", on); on ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"); });
     const names = { explorer: "", carte: "Carte", itineraires: "Itinéraires", meteo: "Météo", agenda: "Agenda", passeport: "Mon passeport", suivi: "Suivi de sortie" };
     document.title = r === "explorer" ? t("Karbé, la Guyane à portée de main") : `${t(names[r])}, Karbé`;
     routes[r](arg || ""); scrollTo(0, 0);
