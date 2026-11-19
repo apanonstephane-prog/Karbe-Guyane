@@ -980,6 +980,150 @@
    ],
    "dur": "1 h",
    "when": "Wednesday and Saturday mornings (to be confirmed)"
+  },
+  "cathedrale": {
+   "name": "Saint-Sauveur Cathedral",
+   "desc": "Cayenne church built from 1825 to 1833, made a cathedral in 1933. The whole building has been a listed historic monument since 2012.",
+   "tips": [
+    "The high altar and pulpit came from the penal chapel on Îlet la Mère.",
+    "Free to visit outside services; dress respectfully."
+   ],
+   "dur": "30 min"
+  },
+  "jardin-botanique": {
+   "name": "Cayenne Botanical Garden",
+   "desc": "A 3-hectare garden created in 1879 in central Cayenne. It holds the Memorial of the Free Citizens: 42 totems bearing the names of the 13,043 enslaved people freed in 1848.",
+   "tips": [
+    "A ceremony marks the abolition of slavery here every 10 June.",
+    "A shady break between visits in the town centre."
+   ],
+   "dur": "45 min"
+  },
+  "pointe-buzare": {
+   "name": "Pointe Buzaré",
+   "desc": "A volcanic rocky point between Anse Méret and Anse Nadau, in Cayenne. A rare outcrop of the ancient Guiana Shield bedrock, facing the sea.",
+   "tips": [
+    "Lovely light late in the day.",
+    "The rocks are slippery when wet."
+   ],
+   "dur": "30 min"
+  },
+  "ilets-remire": {
+   "name": "Rémire islets",
+   "desc": "Five islets off Rémire-Montjoly. Îlet la Mère, open to the public since 2007, keeps the remains of a farm and then a penal camp: wells, quays, a bell tower.",
+   "tips": [
+    "Reached by boat with an operator.",
+    "A lighthouse stands on Enfant Perdu islet, further out."
+   ],
+   "dur": "half day"
+  },
+  "montsinery": {
+   "name": "Montsinéry river",
+   "desc": "A village on the Montsinéry river, among mangroves. River trips reveal French Guiana's only mangrove-oyster farm, the commune's emblem.",
+   "tips": [
+    "The Annamites penal camp is in the same commune.",
+    "River trips with local operators."
+   ],
+   "dur": "half day"
+  },
+  "petit-saut": {
+   "name": "Petit-Saut lake and dam",
+   "desc": "A dam completed in 1994 on the Sinnamary, supplying about two thirds of French Guiana's electricity. Its lake, over 300 km² bristling with dead trees, is the largest in France.",
+   "tips": [
+    "The drowned-forest landscape is unique.",
+    "Road from Sinnamary: leave with a full tank and water."
+   ],
+   "dur": "half day"
+  },
+  "sinnamary": {
+   "name": "Sinnamary village",
+   "desc": "A village on the Sinnamary river, 63 km from Kourou. Gateway to the Grand Pripri de Yiyi and to the Petit-Saut dam road.",
+   "tips": [
+    "A natural stop on the Kourou – Saint-Laurent road.",
+    "The Yiyi Nature House is about twelve kilometres away."
+   ],
+   "dur": "1 h"
+  },
+  "awala": {
+   "name": "Awala-Yalimapo",
+   "desc": "A Kali'na commune created in 1988 in the far north-west of French Guiana. Its beaches, including Les Hattes, are protected by the Amana nature reserve.",
+   "tips": [
+    "You are on Kali'na land: respect the place and its people.",
+    "The reserve's visitor centre presents the sea turtles."
+   ],
+   "dur": "1 day"
+  },
+  "apatou": {
+   "name": "Apatou",
+   "desc": "A Maroni commune created in 1976, upstream from Saint-Laurent, facing Suriname. Life follows the river and its pirogue taxis.",
+   "tips": [
+    "Check access before you go, by road or pirogue.",
+    "Ask before photographing anyone."
+   ],
+   "dur": "1 day"
+  },
+  "grand-santi": {
+   "name": "Grand-Santi",
+   "desc": "A Ndyuka village on the Lawa, upstream of the Maroni. Long reachable only by river, it has had flights since 2010.",
+   "tips": [
+    "Flights to Saint-Laurent, Maripasoula and Cayenne: book early.",
+    "Ask before photographing anyone."
+   ],
+   "dur": "2 days+"
+  },
+  "papaichton": {
+   "name": "Papaïchton",
+   "desc": "Capital of the Boni people, on the Maroni, home of the Gran Man, the customary chief. Reached by river or by a 31 km track from Maripasoula.",
+   "tips": [
+    "Combine with a stay in Maripasoula.",
+    "Respect customary places; ask before taking photos."
+   ],
+   "dur": "1 day"
+  },
+  "regina": {
+   "name": "Régina village",
+   "desc": "A village on the Approuague, seat since 1936 of France's second-largest commune. A stop on the RN2 towards Saint-Georges.",
+   "tips": [
+    "Savane-Roche Virginie is a few kilometres away.",
+    "The village of Kaw belongs to the commune."
+   ],
+   "dur": "1 h"
+  },
+  "kaw-village": {
+   "name": "Kaw village",
+   "desc": "A fishing hamlet in the heart of the marshes, reachable only by pirogue. About fifty people live here, around the church of Saint-André.",
+   "tips": [
+    "Try smoked atipa fish, the village speciality.",
+    "Marsh trips go through an approved operator."
+   ],
+   "dur": "half day"
+  },
+  "montagne-argent": {
+   "name": "Montagne d'Argent",
+   "desc": "A hill on the Oyapock estuary, protected by the Coastal Conservancy since 1998. It held one of French Guiana's first penal camps in the mid-19th century, whose ruins are lost in the forest.",
+   "tips": [
+    "Reached only by boat, with an operator.",
+    "Its name is said to come from the silvery leaves of trumpet trees."
+   ],
+   "dur": "1 day"
+  },
+  "camopi": {
+   "name": "Camopi",
+   "desc": "A Teko and Wayampi village where the Camopi meets the Oyapock, facing Brazil. Reached by pirogue from Saint-Georges.",
+   "tips": [
+    "The village left the restricted-access zone in 2013; surrounding villages and Trois-Sauts still require authorisation.",
+    "Follow the Amazonian Park's code of conduct."
+   ],
+   "dur": "3 days+"
+  },
+  "grand-connetable": {
+   "name": "Grand Connétable island",
+   "desc": "A sugarloaf rock 18 km off the Approuague, whitened by seabirds. A national nature reserve with Petit Connétable: you watch it from a boat.",
+   "tips": [
+    "Sea trips with operators from the Cayenne area.",
+    "Bring binoculars for the seabirds."
+   ],
+   "dur": "1 day"
   }
  }
 }

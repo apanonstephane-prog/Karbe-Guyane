@@ -980,6 +980,150 @@
    ],
    "dur": "1 h",
    "when": "Miércoles y sábado por la mañana (por confirmar)"
+  },
+  "cathedrale": {
+   "name": "Catedral Saint-Sauveur",
+   "desc": "Iglesia de Cayena construida de 1825 a 1833, convertida en catedral en 1933. Es monumento histórico en su totalidad desde 2012.",
+   "tips": [
+    "El altar mayor y el púlpito vienen de la capilla del presidio del islote la Mère.",
+    "Visita libre fuera de los oficios, con ropa adecuada."
+   ],
+   "dur": "30 min"
+  },
+  "jardin-botanique": {
+   "name": "Jardín botánico de Cayena",
+   "desc": "Jardín de 3 hectáreas creado en 1879 en el centro de Cayena. Alberga el Memorial de los Libres y Ciudadanos: 42 tótems con los nombres de las 13 043 personas esclavizadas liberadas en 1848.",
+   "tips": [
+    "Cada 10 de junio se conmemora allí la abolición.",
+    "Una pausa a la sombra entre visitas del centro."
+   ],
+   "dur": "45 min"
+  },
+  "pointe-buzare": {
+   "name": "Pointe Buzaré",
+   "desc": "Punta rocosa de origen volcánico entre la ensenada Méret y la ensenada Nadau, en Cayena. Un afloramiento raro del antiquísimo zócalo del escudo guayanés, frente al mar.",
+   "tips": [
+    "Bonita luz al final del día.",
+    "Las rocas resbalan cuando están mojadas."
+   ],
+   "dur": "30 min"
+  },
+  "ilets-remire": {
+   "name": "Islotes de Rémire",
+   "desc": "Cinco islotes frente a Rémire-Montjoly. El islote la Mère, abierto al público desde 2007, conserva vestigios de una granja y luego de un presidio: pozos, muelles, campanario.",
+   "tips": [
+    "Acceso en barco con un operador.",
+    "Un faro se alza en el islote del Enfant Perdu, más mar adentro."
+   ],
+   "dur": "media jornada"
+  },
+  "montsinery": {
+   "name": "Río de Montsinéry",
+   "desc": "Pueblo a orillas del río de Montsinéry, entre manglares. En paseo fluvial se descubre el único criadero de ostras de manglar de Guayana, emblema del municipio.",
+   "tips": [
+    "El presidio de los Annamites está en el mismo municipio.",
+    "Paseos por el río con operadores locales."
+   ],
+   "dur": "media jornada"
+  },
+  "petit-saut": {
+   "name": "Lago y presa de Petit-Saut",
+   "desc": "Presa terminada en 1994 en el Sinnamary, que suministra unos dos tercios de la electricidad de Guayana. Su lago, más de 300 km² erizados de árboles muertos, es el mayor de Francia.",
+   "tips": [
+    "El paisaje de árboles ahogados es único.",
+    "Carretera desde Sinnamary: sal con el depósito lleno y agua."
+   ],
+   "dur": "media jornada"
+  },
+  "sinnamary": {
+   "name": "Pueblo de Sinnamary",
+   "desc": "Pueblo a orillas del río Sinnamary, a 63 km de Kourou. Puerta de entrada al Grand Pripri de Yiyi y a la carretera de la presa de Petit-Saut.",
+   "tips": [
+    "Parada natural en la carretera Kourou – Saint-Laurent.",
+    "La Casa de la Naturaleza de Yiyi está a unos doce kilómetros."
+   ],
+   "dur": "1 h"
+  },
+  "awala": {
+   "name": "Awala-Yalimapo",
+   "desc": "Municipio kali'na creado en 1988 en el extremo noroeste de Guayana. Sus playas, como la des Hattes, están protegidas por la reserva natural del Amana.",
+   "tips": [
+    "Estás en territorio kali'na: respeta el lugar y a sus habitantes.",
+    "La casa de la reserva presenta las tortugas marinas."
+   ],
+   "dur": "1 día"
+  },
+  "apatou": {
+   "name": "Apatou",
+   "desc": "Municipio del Maroni creado en 1976, río arriba de Saint-Laurent, frente a Surinam. La vida sigue al río y a sus taxis-piragua.",
+   "tips": [
+    "Infórmate antes sobre los accesos, por carretera o en piragua.",
+    "Pide permiso antes de fotografiar a alguien."
+   ],
+   "dur": "1 día"
+  },
+  "grand-santi": {
+   "name": "Grand-Santi",
+   "desc": "Pueblo ndyuka en el río Lawa, aguas arriba del Maroni. Durante mucho tiempo accesible solo por el río, tiene vuelos desde 2010.",
+   "tips": [
+    "Vuelos a Saint-Laurent, Maripasoula y Cayena: reserva pronto.",
+    "Pide permiso antes de fotografiar a alguien."
+   ],
+   "dur": "2 días+"
+  },
+  "papaichton": {
+   "name": "Papaïchton",
+   "desc": "Capital del pueblo boni, en el Maroni, donde reside el Gran Man, jefe tradicional. Se llega por el río o por una pista de 31 km desde Maripasoula.",
+   "tips": [
+    "Combínalo con una estancia en Maripasoula.",
+    "Respeta los lugares tradicionales; pide permiso antes de fotografiar."
+   ],
+   "dur": "1 día"
+  },
+  "regina": {
+   "name": "Pueblo de Régina",
+   "desc": "Pueblo a orillas del Approuague, cabecera desde 1936 del segundo municipio más extenso de Francia. Una parada en la RN2 hacia Saint-Georges.",
+   "tips": [
+    "La Savane-Roche Virginie está a pocos kilómetros.",
+    "El pueblo de Kaw depende del municipio."
+   ],
+   "dur": "1 h"
+  },
+  "kaw-village": {
+   "name": "Pueblo de Kaw",
+   "desc": "Aldea de pescadores en el corazón de los pantanos, accesible solo en piragua. Unas cincuenta personas viven allí, en torno a la iglesia Saint-André.",
+   "tips": [
+    "Prueba el atipa ahumado, especialidad del pueblo.",
+    "Las salidas al pantano se hacen con un operador autorizado."
+   ],
+   "dur": "media jornada"
+  },
+  "montagne-argent": {
+   "name": "Montagne d'Argent",
+   "desc": "Colina del estuario del Oyapock, protegida por el Conservatorio del Litoral desde 1998. Albergó uno de los primeros presidios de Guayana, a mediados del siglo XIX, cuyas ruinas se pierden en la selva.",
+   "tips": [
+    "Acceso solo en barco, con un operador.",
+    "Su nombre vendría de las hojas plateadas de los yarumos."
+   ],
+   "dur": "1 día"
+  },
+  "camopi": {
+   "name": "Camopi",
+   "desc": "Pueblo teko y wayampi en la confluencia del Oyapock y el Camopi, frente a Brasil. Se sube en piragua desde Saint-Georges.",
+   "tips": [
+    "El pueblo salió de la zona de acceso regulado en 2013; los pueblos de alrededor y Trois-Sauts siguen requiriendo autorización.",
+    "Sigue la guía de buena conducta del Parque Amazónico."
+   ],
+   "dur": "3 días+"
+  },
+  "grand-connetable": {
+   "name": "Isla del Grand Connétable",
+   "desc": "Peñón en forma de pan de azúcar a 18 km de la desembocadura del Approuague, blanqueado por las aves marinas. Reserva natural nacional con el Petit Connétable: se observa desde un barco.",
+   "tips": [
+    "Salidas al mar con operadores desde la zona de Cayena.",
+    "Lleva prismáticos para las aves marinas."
+   ],
+   "dur": "1 día"
   }
  }
 }

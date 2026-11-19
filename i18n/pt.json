@@ -980,6 +980,150 @@
    ],
    "dur": "1 h",
    "when": "Quarta e sábado de manhã (a confirmar)"
+  },
+  "cathedrale": {
+   "name": "Catedral Saint-Sauveur",
+   "desc": "Igreja de Caiena construída de 1825 a 1833, elevada a catedral em 1933. É monumento histórico tombado na íntegra desde 2012.",
+   "tips": [
+    "O altar-mor e o púlpito vieram da capela do presídio da Îlet la Mère.",
+    "Visita livre fora das missas, com roupa adequada."
+   ],
+   "dur": "30 min"
+  },
+  "jardin-botanique": {
+   "name": "Jardim botânico de Caiena",
+   "desc": "Jardim de 3 hectares criado em 1879 no centro de Caiena. Abriga o Memorial dos Livres e Cidadãos: 42 totens com os nomes dos 13 043 escravizados libertados em 1848.",
+   "tips": [
+    "Uma cerimônia lembra a abolição ali todo 10 de junho.",
+    "Uma pausa à sombra entre as visitas do centro."
+   ],
+   "dur": "45 min"
+  },
+  "pointe-buzare": {
+   "name": "Pointe Buzaré",
+   "desc": "Ponta rochosa de origem vulcânica entre a Anse Méret e a Anse Nadau, em Caiena. Um afloramento raro do antiquíssimo embasamento do escudo das Guianas, de frente para o mar.",
+   "tips": [
+    "Bela luz no fim do dia.",
+    "As rochas escorregam quando molhadas."
+   ],
+   "dur": "30 min"
+  },
+  "ilets-remire": {
+   "name": "Ilhotas de Rémire",
+   "desc": "Cinco ilhotas ao largo de Rémire-Montjoly. A Îlet la Mère, aberta ao público desde 2007, guarda vestígios de uma fazenda e depois de um presídio: poços, cais, campanário.",
+   "tips": [
+    "Acesso de barco com um operador.",
+    "Um farol fica na ilhota do Enfant Perdu, mais ao largo."
+   ],
+   "dur": "meio dia"
+  },
+  "montsinery": {
+   "name": "Rio de Montsinéry",
+   "desc": "Vilarejo à beira do rio de Montsinéry, entre manguezais. Em passeio fluvial, descobre-se o único viveiro de ostras-do-mangue da Guiana, emblema do município.",
+   "tips": [
+    "O presídio dos Annamites fica no mesmo município.",
+    "Passeios no rio com operadores locais."
+   ],
+   "dur": "meio dia"
+  },
+  "petit-saut": {
+   "name": "Lago e barragem de Petit-Saut",
+   "desc": "Barragem concluída em 1994 no Sinnamary, que fornece cerca de dois terços da eletricidade da Guiana. Seu lago, mais de 300 km² eriçados de árvores mortas, é o maior da França.",
+   "tips": [
+    "A paisagem de árvores submersas é única.",
+    "Estrada a partir de Sinnamary: saia com tanque cheio e água."
+   ],
+   "dur": "meio dia"
+  },
+  "sinnamary": {
+   "name": "Vila de Sinnamary",
+   "desc": "Vila à beira do rio Sinnamary, a 63 km de Kourou. Porta de entrada do Grand Pripri de Yiyi e da estrada da barragem de Petit-Saut.",
+   "tips": [
+    "Parada natural na estrada Kourou – Saint-Laurent.",
+    "A Casa da Natureza de Yiyi fica a uns doze quilômetros."
+   ],
+   "dur": "1 h"
+  },
+  "awala": {
+   "name": "Awala-Yalimapo",
+   "desc": "Município kali'na criado em 1988 no extremo noroeste da Guiana. Suas praias, como a des Hattes, são protegidas pela reserva natural da Amana.",
+   "tips": [
+    "Você está em território kali'na: respeite o lugar e os moradores.",
+    "A casa da reserva apresenta as tartarugas marinhas."
+   ],
+   "dur": "1 dia"
+  },
+  "apatou": {
+   "name": "Apatou",
+   "desc": "Município do Maroni criado em 1976, rio acima de Saint-Laurent, de frente para o Suriname. A vida segue o rio e seus táxis-piroga.",
+   "tips": [
+    "Informe-se antes sobre os acessos, por estrada ou de piroga.",
+    "Peça antes de fotografar alguém."
+   ],
+   "dur": "1 dia"
+  },
+  "grand-santi": {
+   "name": "Grand-Santi",
+   "desc": "Aldeia ndyuka no rio Lawa, acima do Maroni. Por muito tempo acessível só pelo rio, tem voos desde 2010.",
+   "tips": [
+    "Voos para Saint-Laurent, Maripasoula e Caiena: reserve cedo.",
+    "Peça antes de fotografar alguém."
+   ],
+   "dur": "2 dias+"
+  },
+  "papaichton": {
+   "name": "Papaïchton",
+   "desc": "Capital do povo boni, no Maroni, onde vive o Gran Man, chefe tradicional. Chega-se pelo rio ou por uma estrada de terra de 31 km desde Maripasoula.",
+   "tips": [
+    "Combine com uma estadia em Maripasoula.",
+    "Respeite os lugares tradicionais; peça antes de fotografar."
+   ],
+   "dur": "1 dia"
+  },
+  "regina": {
+   "name": "Vila de Régina",
+   "desc": "Vila à beira do Approuague, sede desde 1936 do segundo maior município da França. Uma parada na RN2 rumo a Saint-Georges.",
+   "tips": [
+    "A Savane-Roche Virginie fica a poucos quilômetros.",
+    "A aldeia de Kaw pertence ao município."
+   ],
+   "dur": "1 h"
+  },
+  "kaw-village": {
+   "name": "Aldeia de Kaw",
+   "desc": "Povoado de pescadores no coração dos pântanos, acessível só de piroga. Cerca de cinquenta pessoas vivem ali, em torno da igreja Saint-André.",
+   "tips": [
+    "Prove o atipa defumado, especialidade da aldeia.",
+    "Os passeios no pântano são feitos com operador credenciado."
+   ],
+   "dur": "meio dia"
+  },
+  "montagne-argent": {
+   "name": "Montagne d'Argent",
+   "desc": "Colina do estuário do Oiapoque, protegida pelo Conservatório do Litoral desde 1998. Abrigou um dos primeiros presídios da Guiana, em meados do século XIX, cujas ruínas se perdem na floresta.",
+   "tips": [
+    "Acesso só de barco, com um operador.",
+    "O nome viria das folhas prateadas das embaúbas."
+   ],
+   "dur": "1 dia"
+  },
+  "camopi": {
+   "name": "Camopi",
+   "desc": "Vila teko e wayãpi na confluência do Oiapoque com o Camopi, de frente para o Brasil. Sobe-se de piroga desde Saint-Georges.",
+   "tips": [
+    "A vila saiu da zona de acesso regulamentado em 2013; as aldeias vizinhas e Trois-Sauts seguem sujeitas a autorização.",
+    "Siga o guia de boa conduta do Parque Amazônico."
+   ],
+   "dur": "3 dias+"
+  },
+  "grand-connetable": {
+   "name": "Ilha do Grand Connétable",
+   "desc": "Rochedo em forma de pão de açúcar a 18 km da foz do Approuague, branqueado pelas aves marinhas. Reserva natural nacional com o Petit Connétable: observa-se do barco.",
+   "tips": [
+    "Passeios no mar com operadores da região de Caiena.",
+    "Leve binóculos para as aves marinhas."
+   ],
+   "dur": "1 dia"
   }
  }
 }
