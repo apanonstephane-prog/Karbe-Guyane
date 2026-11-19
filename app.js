@@ -37,6 +37,15 @@ const TR = () => (lang !== "fr" && window.KARBE_TR) || {};
 const t = (s, v) => { let r = TR().ui?.[s] || s; if (v) r = r.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? ""); return r; };
 const LOC = () => LANGS[lang][1];
 const L = s => s && lang !== "fr" ? { ...s, ...(TR().spots?.[s.id] || {}) } : s;            // lieu traduit
+const PRO_KIND = { sortie: "Sortie guidée", transport: "Transport", hebergement: "Hébergement", info: "Information", association: "Association" };
+/* Prestataires repérés : deux sources publiques au moins, sans partenariat ni avis. */
+function prosHTML(id) {
+  const P = (D.pros || []).filter(p => p.spots.includes(id));
+  if (!P.length) return "";
+  return `<h2 class="h3m">${t("Prestataires repérés")}</h2><ul class="pros">${P.map(p => `<li><div><b>${esc(p.name)}</b><small>${t(PRO_KIND[p.kind])} · ${esc(p.town)}</small></div>
+    <p>${esc(TR().pros?.[p.id] || p.note)}</p><span class="pro-l">${p.web ? `<a target="_blank" rel="noopener" href="${esc(p.web)}">${t("Site")}</a>` : ""}${p.src.map((x, i) => `<a target="_blank" rel="noopener" href="${esc(x.u)}" title="${esc(x.t)}">${t("Source {n}", { n: i + 1 })}</a>`).join("")}</span></li>`).join("")}</ul>
+    <p class="note">${t("Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.", { d: dday(Date.parse(D.prosChecked + "T12:00:00-03:00")) })}</p>`;
+}
 const LI = it => { if (lang === "fr") return it; const x = TR().its?.[it.id] || {}; return { ...it, ...x, steps: it.steps.map((st, i) => ({ ...st, note: x.notes?.[i] ?? st.note, t: x.times?.[i] ?? st.t })) }; };
 const zoneLabel = k => TR().zones?.[k] || D.zones[k].label;
 const catLabel = k => TR().cats?.[k] || D.categories[k].label;
@@ -684,6 +693,7 @@ function openSpot(id) {
       <ul class="tips">${s.tips.map(x => `<li>${ic("check")}<span>${esc(x)}</span></li>`).join("")}</ul>
       <div id="fiche"></div>
       ${its.length ? `<h2 class="h3m">${t("Dans un itinéraire")}</h2><div class="btns" style="margin-top:12px">${its.map(i => `<button class="chip" data-it="${i.id}">${ic("route")}${esc(LI(i).title)}</button>`).join("")}</div>` : ""}
+      ${prosHTML(id)}
       <h2 class="h3m">${t("Sur place")}</h2>
       <div class="btns" style="margin-top:10px"><a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t("guide") + " " + s0.nav + " Guyane")}">${ic("walk")}${t("Guides et sorties à proximité")}</a>
         <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("restaurant " + s0.nav + " Guyane")}">${ic("culture")}${t("Où manger à proximité")}</a></div>

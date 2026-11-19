@@ -101,6 +101,9 @@ export async function buildPages({ D, OUT, root = "." }) {
       if (F?.faq?.length) ld["@graph"].push({ "@type": "FAQPage", mainEntity: F.faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) });
       const longHtml = F ? F.sections.map(x => `<h2>${esc(x.h)}</h2>${x.p.map(p => `<p>${esc(p)}</p>`).join("")}`).join("") : "";
       const faqHtml = F?.faq?.length ? `<h2>${esc(t(lg, "Questions fréquentes"))}</h2><div class="faq">${F.faq.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("")}</div>` : "";
+      const KIND = { sortie: "Sortie guidée", transport: "Transport", hebergement: "Hébergement", info: "Information", association: "Association" };
+      const PR = (D.pros || []).filter(p => p.spots.includes(s0.id));
+      const proHtml = PR.length ? `<h2>${esc(t(lg, "Prestataires repérés"))}</h2><ul class="src">${PR.map(p => `<li><b>${esc(p.name)}</b> (${esc(t(lg, KIND[p.kind]))}, ${esc(p.town)}) : ${esc(lg === "fr" ? p.note : TR[lg].pros?.[p.id] || p.note)} ${p.src.map((x, i) => `<a href="${esc(x.u)}" rel="noopener">${esc(t(lg, "Source {n}", { n: i + 1 }))}</a>`).join(" ")}</li>`).join("")}</ul><p class="note">${esc(t(lg, "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.", { d: D.prosChecked }))}</p>` : "";
       const srcHtml = F && src.length ? `<h2>${esc(t(lg, "Sources"))}</h2><ul class="src">${src.map(x => `<li><a href="${esc(x.u)}" rel="noopener">${esc(x.t)}</a></li>`).join("")}</ul>` : "";
       const body = `<article class="wrap">
 <nav class="bc"><a href="${hubUrl(lg)}">${esc(t(lg, "Tous les lieux"))}</a> / <a href="${hubUrl(lg)}#${s0.zone}">${esc(zoneL(lg, s0.zone))}</a></nav>
@@ -113,6 +116,7 @@ export async function buildPages({ D, OUT, root = "." }) {
 ${longHtml}
 <h2>${esc(t(lg, "Conseils terrain"))}</h2><ul class="tips">${s.tips.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
 ${faqHtml}
+${proHtml}
 ${its.length ? `<h2>${esc(t(lg, "Dans un itinéraire"))}</h2><ul class="links">${its.map(i => `<li><a href="${itUrl(lg, i.id)}">${esc(LI(lg, i).title)}</a></li>`).join("")}</ul>` : ""}
 <h2>${esc(t(lg, "À proximité"))}</h2><ul class="near">${near.map(([x, d]) => `<li><a href="${spotUrl(lg, x.id)}">${picture(x.img, "", false)}<b>${esc(L(lg, x).name)}</b><span>${esc(t(lg, "à {d}", { d: d < 10 ? d.toFixed(1).replace(".", lg === "en" ? "." : ",") + " km" : Math.round(d) + " km" }))}</span></a></li>`).join("")}</ul>
 <p class="note">${esc(t(lg, "Horaires, tarifs et accès à confirmer avant de partir."))} ${s0.prec === "zone" ? esc(t(lg, "Sur la carte, la position est approximative.")) : ""}</p>

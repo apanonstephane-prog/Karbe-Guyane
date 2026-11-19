@@ -426,7 +426,16 @@
   "Nouveaux défis dans {n} jours": "New challenges in {n} days",
   "{n} jour de suite": "{n} day in a row",
   "{n} jours de suite": "{n} days in a row",
-  "{p} % des joueurs ont trouvé": "{p}% of players got it right"
+  "{p} % des joueurs ont trouvé": "{p}% of players got it right",
+  "Prestataires repérés": "Operators we found",
+  "Sortie guidée": "Guided trip",
+  "Transport": "Transport",
+  "Hébergement": "Lodging",
+  "Information": "Information",
+  "Association": "Association",
+  "Site": "Website",
+  "Source {n}": "Source {n}",
+  "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.": "Found in at least two public sources on {d}. No partnership, rating or ranking: check hours, prices and permits before booking."
  },
  "zones": {
   "cayenne": "Cayenne island",
@@ -1170,5 +1179,18 @@
    ],
    "dur": "1 day"
   }
+ },
+ "pros": {
+  "tropic-alizes": "Catamaran trips to the Salvation Islands from Kourou harbour.",
+  "la-hulotte": "Catamaran crossings to the Salvation Islands from Kourou.",
+  "albatros": "Catamaran outings to the Salvation Islands from Kourou.",
+  "promaritime": "Daily catamaran shuttle between Kourou and Île Royale, the cheapest option.",
+  "guyane-evasion": "Trips to the Salvation Islands; also offers stays in Saül.",
+  "auberge-salut": "Lodging and restaurant on Île Royale, in the former penal-colony director's house.",
+  "amazone-nature-lodge": "Lodge on the heights of the Kaw mountain, on departmental road 6.",
+  "relais-fromager": "A carbet at the foot of a giant kapok tree, with breakfast and table d'hôtes. Esprit parc national brand.",
+  "ot-slm": "Guided tours of the Transportation Camp (1 h 15) and of the town, on foot or by bike.",
+  "kwata": "Wildlife conservation association: manages the Montjoly Salines and monitors sea turtles. Visits and group sessions.",
+  "maison-parc-saul": "The Park's office in the village: trail map, advice and information before you set off."
  }
 }

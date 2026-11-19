@@ -426,7 +426,16 @@
   "Nouveaux défis dans {n} jours": "Novos desafios em {n} dias",
   "{n} jour de suite": "{n} dia seguido",
   "{n} jours de suite": "{n} dias seguidos",
-  "{p} % des joueurs ont trouvé": "{p} % dos jogadores acertaram"
+  "{p} % des joueurs ont trouvé": "{p} % dos jogadores acertaram",
+  "Prestataires repérés": "Prestadores identificados",
+  "Sortie guidée": "Passeio guiado",
+  "Transport": "Transporte",
+  "Hébergement": "Hospedagem",
+  "Information": "Informação",
+  "Association": "Associação",
+  "Site": "Site",
+  "Source {n}": "Fonte {n}",
+  "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.": "Identificados em pelo menos duas fontes públicas em {d}. Sem parceria, nota ou ranking: confira horários, preços e autorizações antes de reservar."
  },
  "zones": {
   "cayenne": "Ilha de Caiena",
@@ -1170,5 +1179,18 @@
    ],
    "dur": "1 dia"
   }
+ },
+ "pros": {
+  "tropic-alizes": "Passeios de catamarã às ilhas da Salvação, saindo do porto de Kourou.",
+  "la-hulotte": "Travessias de catamarã às ilhas da Salvação, saindo de Kourou.",
+  "albatros": "Saídas de catamarã às ilhas da Salvação, a partir de Kourou.",
+  "promaritime": "Lançadeira diária de catamarã entre Kourou e a ilha Royale, a opção mais econômica.",
+  "guyane-evasion": "Passeios às ilhas da Salvação; também oferece estadias em Saül.",
+  "auberge-salut": "Hospedagem e restaurante na ilha Royale, na antiga casa do diretor do presídio.",
+  "amazone-nature-lodge": "Pousada no alto da montanha de Kaw, à beira da estrada departamental 6.",
+  "relais-fromager": "Carbet ao pé de uma grande sumaúma, com café da manhã e refeições. Marca Esprit parc national.",
+  "ot-slm": "Visitas guiadas ao campo da Transportation (1 h 15) e à cidade, a pé ou de bicicleta.",
+  "kwata": "Associação de proteção da fauna: gere as Salines de Montjoly e acompanha as tartarugas marinhas. Visitas e grupos.",
+  "maison-parc-saul": "Delegação do Parque no povoado: mapa das trilhas, conselhos e informações antes de sair."
  }
 }

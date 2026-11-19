@@ -426,7 +426,16 @@
   "Nouveaux défis dans {n} jours": "Nuevos retos en {n} días",
   "{n} jour de suite": "{n} día seguido",
   "{n} jours de suite": "{n} días seguidos",
-  "{p} % des joueurs ont trouvé": "{p} % de los jugadores acertaron"
+  "{p} % des joueurs ont trouvé": "{p} % de los jugadores acertaron",
+  "Prestataires repérés": "Proveedores identificados",
+  "Sortie guidée": "Salida guiada",
+  "Transport": "Transporte",
+  "Hébergement": "Alojamiento",
+  "Information": "Información",
+  "Association": "Asociación",
+  "Site": "Web",
+  "Source {n}": "Fuente {n}",
+  "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.": "Identificados en al menos dos fuentes públicas el {d}. Sin colaboración, nota ni clasificación: comprueba horarios, precios y autorizaciones antes de reservar."
  },
  "zones": {
   "cayenne": "Isla de Cayena",
@@ -1170,5 +1179,18 @@
    ],
    "dur": "1 día"
   }
+ },
+ "pros": {
+  "tropic-alizes": "Excursiones en catamarán a las islas de la Salvación desde el puerto de Kourou.",
+  "la-hulotte": "Travesías en catamarán a las islas de la Salvación desde Kourou.",
+  "albatros": "Salidas en catamarán a las islas de la Salvación desde Kourou.",
+  "promaritime": "Lanzadera diaria en catamarán entre Kourou y la isla Royale, la opción más económica.",
+  "guyane-evasion": "Excursiones a las islas de la Salvación; también ofrece estancias en Saül.",
+  "auberge-salut": "Alojamiento y restaurante en la isla Royale, en la antigua casa del director del presidio.",
+  "amazone-nature-lodge": "Alojamiento en lo alto de la montaña de Kaw, junto a la carretera departamental 6.",
+  "relais-fromager": "Carbet al pie de una gran ceiba, con desayuno y comidas caseras. Marca Esprit parc national.",
+  "ot-slm": "Visitas guiadas al campo de la Transportation (1 h 15) y a la ciudad, a pie o en bicicleta.",
+  "kwata": "Asociación de protección de la fauna: gestiona las Salines de Montjoly y sigue a las tortugas marinas. Visitas y grupos.",
+  "maison-parc-saul": "Delegación del Parque en el pueblo: mapa de senderos, consejos e información antes de salir."
  }
 }
