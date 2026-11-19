@@ -1090,6 +1090,118 @@
    "bytes": 280688,
    "note": "converti en WebP q86 depuis l’origine PNG",
    "nature": "illustration"
+  },
+  {
+   "key": "it-cayenne-patrimoine",
+   "file": "img/src/it-cayenne-patrimoine.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081502_9d43e659-d98e-4ce8-a309-3143c10c1cbf.png",
+   "sha256": "5f9d47908baad13469e9fb84d42adb1cd89fa5887919d4fef475099a96d9934a",
+   "bytes": 315622,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Cayenne maison créole rue Schoelcher 2013.jpg",
+    "auteur": "Cayambe",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACayenne_maison_cr%C3%A9ole_rue_Schoelcher_2013.jpg"
+   }
+  },
+  {
+   "key": "it-remire-mer",
+   "file": "img/src/it-remire-mer.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081502_c8071c93-fbfa-4e4d-aece-9bbaba4f6ce2.png",
+   "sha256": "b05134deedc2c26d524770076c3805a5c9a9432ae94abad8fcac48373a521309",
+   "bytes": 371198,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Vue aérienne de Rémire-Montjoly 1.jpg",
+    "auteur": "Don-vip",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVue_a%C3%A9rienne_de_R%C3%A9mire-Montjoly_1.jpg"
+   }
+  },
+  {
+   "key": "it-savanes-1j",
+   "file": "img/src/it-savanes-1j.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081503_ab11acde-c902-4c5e-bf17-a8505de9fe1d.png",
+   "sha256": "99426798fdc77983ae02b85cffe50ede25f5df685c771002fad47c3c47e38679",
+   "bytes": 342930,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Village de Montsinéry-Tonnegrande sur la rivière de Montsinéry (Guyane) (Ifremer 00805-91661 - 52601).jpg",
+    "auteur": "Stephane Lesbats (IFREMER)",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVillage_de_Montsin%C3%A9ry-Tonnegrande_sur_la_rivi%C3%A8re_de_Montsin%C3%A9ry_%28Guyane%29_%28Ifremer_00805-91661_-_52601%29.jpg"
+   }
+  },
+  {
+   "key": "it-sinnamary-2j",
+   "file": "img/src/it-sinnamary-2j.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081503_04f60ff5-812b-4a05-9d48-1db777e65dbd.png",
+   "sha256": "4ad5b9dd12550bb135320a152778407735baf9ebbde9d59fe67fb0a976511929",
+   "bytes": 295090,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Barrage de Petit-Saut (Guyane).jpg",
+    "auteur": "Riri97",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABarrage_de_Petit-Saut_%28Guyane%29.jpg"
+   }
+  },
+  {
+   "key": "it-route-kaw",
+   "file": "img/src/it-route-kaw.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081503_c7d282c2-c468-42a4-a998-9a6e7f9307d4.png",
+   "sha256": "2b0085824e0f0f777451c1f99741d32591bc708f8a3030e3f2877b973fcefb4f",
+   "bytes": 337206,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Guyane route de Kaw D 6.jpg",
+    "auteur": "Cayambe",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGuyane_route_de_Kaw_D_6.jpg"
+   }
+  },
+  {
+   "key": "it-ouest-fleuve",
+   "file": "img/src/it-ouest-fleuve.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081502_d33f7644-aeea-4f19-99ca-ac118be48f0c.png",
+   "sha256": "943e3066a1c779357aa83ff1571e71e2f35b0a4f5396130caaf7a227af60dd69",
+   "bytes": 293564,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Ferry entre Albina (Suriname) et Saint-Laurent-du-Maroni.jpg",
+    "auteur": "rockcohen",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFerry_entre_Albina_%28Suriname%29_et_Saint-Laurent-du-Maroni.jpg"
+   }
+  },
+  {
+   "key": "it-oyapock-3j",
+   "file": "img/src/it-oyapock-3j.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081503_2b46b0ce-5f1a-4aa6-ab42-a2210a0be3b7.png",
+   "sha256": "f29cfc49a9267de42c93c09e1de2111adc1765407c7d03f9956f0d5588a1d038",
+   "bytes": 320862,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Pont depuis l' Oyapock.jpg",
+    "auteur": "Loljules",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APont_depuis_l%27_Oyapock.jpg"
+   }
+  },
+  {
+   "key": "it-haut-maroni",
+   "file": "img/src/it-haut-maroni.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_081502_06fbda69-bc68-4387-8c2a-57d82a18c5ad.png",
+   "sha256": "c8373c98b9c4c56173cd2db4594f8929d80178190add4c417d89f1a1699f89e2",
+   "bytes": 290958,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Maripasoula agglomération.JPG",
+    "auteur": "AlexCad",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMaripasoula_agglom%C3%A9ration.JPG"
+   }
   }
  ],
  "icon": {

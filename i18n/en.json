@@ -606,6 +606,144 @@
     "Marked loops in primary forest.",
     "Flight back."
    ]
+  },
+  "cayenne-patrimoine": {
+   "title": "Cayenne: memory and Creole houses",
+   "pitch": "A day on foot in the old centre: cathedral, museum, Éboué's house, the abolition memorial, then the sea.",
+   "access": "on foot",
+   "times": [
+    "9 am",
+    "10 am",
+    "11:30 am",
+    "3 pm",
+    "5:30 pm"
+   ],
+   "notes": [
+    "Free visit outside services.",
+    "Opening hours vary: check first.",
+    "Check visiting conditions first.",
+    "The Free Citizens Memorial.",
+    "Sunset over the rocks."
+   ]
+  },
+  "remire-mer": {
+   "title": "Rémire-Montjoly by the sea",
+   "pitch": "Forest and ruins at dawn, a former penal islet by boat, then coves and beaches.",
+   "access": "car + boat (operator)",
+   "times": [
+    "7 am",
+    "Late morning",
+    "Afternoon",
+    "Late afternoon"
+   ],
+   "notes": [
+    "Toucans and aracaris early in the morning.",
+    "Îlet la Mère by boat: book times with an operator.",
+    "Cove and Amerindian grinding stones; don't walk on them.",
+    "Swim depending on the swell."
+   ]
+  },
+  "savanes-1j": {
+   "title": "From Montsinéry to Kourou",
+   "pitch": "The river, a penal camp swallowed by forest, the view over the space centre, then fresh water and the sea.",
+   "access": "car + walking",
+   "times": [
+    "8 am",
+    "9:30 am",
+    "11 am",
+    "3 pm",
+    "5 pm"
+   ],
+   "notes": [
+    "The village on the riverbank.",
+    "A place of memory: respect the ruins.",
+    "Forest climb to the viewpoint shelter.",
+    "Swim according to the water-quality notice.",
+    "End the day on the big beach."
+   ]
+  },
+  "sinnamary-2j": {
+   "title": "Sinnamary, marshes and Petit-Saut lake",
+   "pitch": "Marsh birds at sunset, then the drowned forest of France's largest lake.",
+   "access": "car",
+   "times": [
+    "Day 1 afternoon",
+    "Day 1 late afternoon",
+    "Day 2"
+   ],
+   "notes": [
+    "The village on the river.",
+    "Hides: water birds and caimans.",
+    "Road from Sinnamary: fill up and bring water."
+   ]
+  },
+  "route-kaw": {
+   "title": "The Kaw road in a day",
+   "pitch": "Forest falls, French Guiana's emblem bird, then the marsh hamlet by pirogue.",
+   "access": "car + pirogue (operator)",
+   "times": [
+    "8 am",
+    "10:30 am",
+    "Afternoon"
+   ],
+   "notes": [
+    "Slippery rocks; avoid after heavy rain.",
+    "Quiet and binoculars; check the trail is open.",
+    "By pirogue with an approved operator, booked ahead."
+   ]
+  },
+  "ouest-fleuve": {
+   "title": "The West: river and forest",
+   "pitch": "The Maroni market, Apatou facing Suriname, a night in a hammock at Voltaire Falls, then Kali'na country.",
+   "access": "car + 4x4",
+   "times": [
+    "Day 1 morning (Saturday)",
+    "Day 1 afternoon",
+    "Day 2",
+    "Day 3"
+   ],
+   "notes": [
+    "Market day to be confirmed; bring cash.",
+    "Check access before leaving.",
+    "Paul Isnard track by 4x4, night at the inn (book ahead).",
+    "Back via the coast; turtles in season."
+   ]
+  },
+  "oyapock-3j": {
+   "title": "The Oyapock, to the border",
+   "pitch": "The RN2 through the forest, an inselberg, Saint-Georges facing Brazil and the Oyapock rapids.",
+   "access": "car + pirogue",
+   "times": [
+    "Day 1 morning",
+    "Day 1 midday",
+    "Day 1 evening",
+    "Day 2",
+    "Day 3 (optional)"
+   ],
+   "notes": [
+    "Break by the Approuague.",
+    "About 6.5 km return; dry season advised.",
+    "Overnight here; fill up before leaving Cayenne.",
+    "By pirogue from Saint-Georges or 4x4 on the track.",
+    "By boat only, if an operator is available; otherwise head back."
+   ]
+  },
+  "haut-maroni": {
+   "title": "The upper Maroni by plane",
+   "pitch": "Three river towns with no road from the coast: Maripasoula, Boni country at Papaïchton, Grand-Santi.",
+   "access": "plane + 4x4 + walking",
+   "times": [
+    "Day 1",
+    "Day 2",
+    "Day 3",
+    "Day 4"
+   ],
+   "notes": [
+    "Flight from Cayenne (about 55 min); book early.",
+    "4x4 taxi along the track; respect customary sites.",
+    "Flight from Maripasoula, depending on schedules.",
+    "Return flight to Saint-Laurent or Cayenne."
+   ]
   }
  },
  "spots": {

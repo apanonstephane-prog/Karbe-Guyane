@@ -606,6 +606,144 @@
     "Circuitos sinalizados na floresta primária.",
     "Voo de volta."
    ]
+  },
+  "cayenne-patrimoine": {
+   "title": "Caiena: memória e casas crioulas",
+   "pitch": "Um dia a pé no centro antigo: catedral, museu, casa de Éboué, memorial da abolição e depois o mar.",
+   "access": "a pé",
+   "times": [
+    "9h",
+    "10h",
+    "11h30",
+    "15h",
+    "17h30"
+   ],
+   "notes": [
+    "Visita livre fora das missas.",
+    "Horários variáveis: confirme antes.",
+    "Confirme as condições de visita.",
+    "O Memorial dos Livres e Cidadãos.",
+    "Pôr do sol sobre as rochas."
+   ]
+  },
+  "remire-mer": {
+   "title": "Rémire-Montjoly à beira-mar",
+   "pitch": "Floresta e ruínas ao amanhecer, uma ilhota-presídio de barco, depois enseadas e praias.",
+   "access": "carro + barco (operador)",
+   "times": [
+    "7h",
+    "Fim da manhã",
+    "Tarde",
+    "Fim de tarde"
+   ],
+   "notes": [
+    "Tucanos e araçaris de manhã cedo.",
+    "Ilhota la Mère de barco: reserve horários com um operador.",
+    "Enseada e polidores ameríndios; não pise neles.",
+    "Banho conforme a ondulação."
+   ]
+  },
+  "savanes-1j": {
+   "title": "De Montsinéry a Kourou",
+   "pitch": "O rio, um presídio engolido pela floresta, a vista do Centro Espacial, depois água doce e mar.",
+   "access": "carro + caminhada",
+   "times": [
+    "8h",
+    "9h30",
+    "11h",
+    "15h",
+    "17h"
+   ],
+   "notes": [
+    "O povoado à beira do rio.",
+    "Lugar de memória: respeite as ruínas.",
+    "Subida na floresta até o carbet panorâmico.",
+    "Banho conforme o aviso sobre a água.",
+    "Fim do dia na grande praia."
+   ]
+  },
+  "sinnamary-2j": {
+   "title": "Sinnamary, pântanos e lago de Petit-Saut",
+   "pitch": "As aves dos pântanos ao pôr do sol, depois a floresta afogada do maior lago da França.",
+   "access": "carro",
+   "times": [
+    "Dia 1 tarde",
+    "Dia 1 fim de tarde",
+    "Dia 2"
+   ],
+   "notes": [
+    "O povoado à beira do rio.",
+    "Observatórios: aves aquáticas e jacarés.",
+    "Estrada desde Sinnamary: tanque cheio e água."
+   ]
+  },
+  "route-kaw": {
+   "title": "A estrada de Kaw num dia",
+   "pitch": "Cachoeiras na floresta, a ave emblema da Guiana e depois o vilarejo dos pântanos de piroga.",
+   "access": "carro + piroga (operador)",
+   "times": [
+    "8h",
+    "10h30",
+    "Tarde"
+   ],
+   "notes": [
+    "Rochas escorregadias; evite após chuvas fortes.",
+    "Silêncio e binóculos; confirme se a trilha está aberta.",
+    "De piroga com um operador credenciado, reservado antes."
+   ]
+  },
+  "ouest-fleuve": {
+   "title": "O Oeste: rio e floresta",
+   "pitch": "O mercado do Maroni, Apatou diante do Suriname, uma noite de rede nas cachoeiras Voltaire e depois a terra kali'na.",
+   "access": "carro + 4x4",
+   "times": [
+    "Dia 1 manhã (sábado)",
+    "Dia 1 tarde",
+    "Dia 2",
+    "Dia 3"
+   ],
+   "notes": [
+    "Dia de feira a confirmar; dinheiro em espécie.",
+    "Confirme o acesso antes de sair.",
+    "Pista Paul Isnard de 4x4, noite na pousada com reserva.",
+    "Volta pela costa; tartarugas na temporada."
+   ]
+  },
+  "oyapock-3j": {
+   "title": "O Oiapoque, até a fronteira",
+   "pitch": "A RN2 pela floresta, um inselberg, Saint-Georges diante do Brasil e as corredeiras do Oiapoque.",
+   "access": "carro + piroga",
+   "times": [
+    "Dia 1 manhã",
+    "Dia 1 meio-dia",
+    "Dia 1 noite",
+    "Dia 2",
+    "Dia 3 (opcional)"
+   ],
+   "notes": [
+    "Parada à beira do Approuague.",
+    "Cerca de 6,5 km ida e volta; estação seca recomendada.",
+    "Pernoite no local; encha o tanque antes de sair de Caiena.",
+    "De piroga desde Saint-Georges ou de 4x4 pela pista.",
+    "Só de barco, se houver operador; senão, volta."
+   ]
+  },
+  "haut-maroni": {
+   "title": "Alto Maroni de avião",
+   "pitch": "Três comunas do rio sem estrada desde a costa: Maripasoula, a terra boni em Papaïchton, Grand-Santi.",
+   "access": "avião + 4x4 + a pé",
+   "times": [
+    "Dia 1",
+    "Dia 2",
+    "Dia 3",
+    "Dia 4"
+   ],
+   "notes": [
+    "Voo desde Caiena (cerca de 55 min); reserve cedo.",
+    "Táxi 4x4 pela pista; respeite os lugares tradicionais.",
+    "Voo desde Maripasoula, conforme os horários.",
+    "Voo de volta para Saint-Laurent ou Caiena."
+   ]
   }
  },
  "spots": {
