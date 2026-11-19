@@ -5,7 +5,7 @@
 // `verif` : date de dernière vérification documentaire du contenu.
 
 window.KARBE = {
-  version: "3.6.0",
+  version: "3.6.1",
 
   // Illustrations (gouache, créées pour Karbé), hébergées sur Vercel dans /img/src/.
   // c = couleur dominante, lqip = aperçu flou. Les originaux et leur provenance sont listés dans assets.json.
@@ -86,6 +86,11 @@ window.KARBE = {
     "montagne-argent": {"f":"montagne-argent.webp","c":"#857F55","lqip":"data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMABAABABoJZACdADXAnUWAAD5MVyk8SxxDpjTdWaUmU4pfDlQArSHG/nU+3oY6FStAzj3e9LXA6KxwAA=","cr":{"a":"Polo973","l":"CC BY-SA 3.0","u":"https://commons.wikimedia.org/wiki/File%3ABagne_Montagne_d%27argent.JPG","t":"Bagne Montagne d'argent.JPG"}},
     "camopi": {"f":"camopi.webp","c":"#A3A6A0","lqip":"data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoMABAABABoJZACw7DcqZB4O+cAAPyKqnTnOsu0k+a0o+SbNMHy5ACcorpYT4ifwkAViN9/5YWRwUB8fPPiqtH2PuJJqYAA","cr":{"a":"davric","l":"Domaine public","u":"https://commons.wikimedia.org/wiki/File%3ACamopi.JPG","t":"Camopi.JPG"}},
     "grand-connetable": {"f":"grand-connetable.webp","c":"#C4CFDA","lqip":"data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAwAgCdASoMABAABABoJQBOgCP866xy/rn+AAD+ZqGtwEpLY4ldAKqi7+Kho8IsWywACsJmOpt4XYAA","cr":{"a":"Pmau","l":"CC BY-SA 4.0","u":"https://commons.wikimedia.org/wiki/File%3A%C3%8Eles_du_grand_et_du_petit_conn%C3%A9table.jpg","t":"Îles du grand et du petit connétable.jpg"}},
+    "gosselin": {"f":"gosselin.webp","c":"#97A077","lqip":"data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoMABAABABoJbACdAEQ/LJLU6aAAP7ESXEaTgTwu5ZJdAY5ROSXp9SNhmpPR8UerUt0i5wOHccASwMOER7Z8Mv+jYP03iLkxN1umUAA","cr":{"a":"Detheux paul","l":"CC0","u":"https://commons.wikimedia.org/wiki/File%3APlage_de_Gosselin_%28Remire-Montjoly%29.jpg","t":"Plage de Gosselin (Remire-Montjoly).jpg"}},
+    "maison-eboue": {"f":"maison-eboue.webp","c":"#A5A19A","lqip":"data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoMABAABABoJZgCdAEQMt60aGQs4AD94tXzjLVYQsJIhIFi3o1V/Y/meu6hZoJGnWPlbgw2xZ5gt3aS2paDJaDcAmGDZgWn7J/nynQpVTAAAA==","cr":{"a":"Lydav","l":"CC BY-SA 3.0","u":"https://commons.wikimedia.org/wiki/File%3AMaison_natale_de_F%C3%A9lix_%C3%89bou%C3%A9_%281%29.jpg","t":"Maison natale de Félix Éboué (1).jpg"}},
+    "guisanbourg": {"f":"guisanbourg.webp","c":"#A8A591","lqip":"data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMABAABABoJbACdH8AE7gV24NK4AD+1rYL5tMiwfFEOU/5eSlLSqg0/I91SxGO+xJIc4t0yWsfb0BZpjaXZgy30emhDoI+O2HEgAAA","cr":{"a":"Takari7","l":"CC BY 4.0","u":"https://commons.wikimedia.org/wiki/File%3AEglise_de_Guisanbourg.png","t":"Eglise de Guisanbourg.png"}},
+    "montravel": {"f":"montravel.webp","c":"#9F8C69","lqip":"data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoMABAABABoJbAC7AEfB72bg4MgAP2UKJcD3NOb1qb0by61ot1su5pyAKs204R38oGyjf6wuQg+d9ZoZxl74AAA"},
+    "cocoteraie": {"f":"cocoteraie.webp","c":"#BAB5B5","lqip":"data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoMABAABABoJQBdgCPOwwj3upoAAOE6+1xcc62bOkH4M7Ujj20eSYmlllCbFN1JytMQRr2ltKjfc0Mi2kAAAA=="},
   },
 
   categories: {
@@ -365,6 +370,26 @@ window.KARBE = {
       nav: "Île du Grand Connétable", dur: "1 jour", access: ["bateau"], free: false,
       desc: "Rocher en pain de sucre à 18 km au large de l'Approuague, blanchi par les oiseaux marins. Réserve naturelle nationale avec le Petit Connétable : on l'observe depuis un bateau.",
       tips: ["Sorties en mer avec des prestataires depuis la région de Cayenne.", "Prenez des jumelles pour les oiseaux marins."] },
+    { id: "gosselin", img: "gosselin", name: "Plage de Gosselin", zone: "cayenne", cat: ["plage"], lat: 4.8938, lon: -52.2573, prec: "site",
+      nav: "Plage de Gosselin Rémire-Montjoly", dur: "2 h", access: ["voiture"], free: true,
+      desc: "Plage de la route des plages, à Rémire-Montjoly, l'une des plus fréquentées de la commune. Aménagée depuis 2021 : stationnement, accès sécurisés et passerelle pour les personnes à mobilité réduite.",
+      tips: ["Le week-end, venez tôt pour vous garer.", "Baignade selon l'état de la mer : vérifiez la houle dans Karbé."] },
+    { id: "montravel", img: "montravel", name: "Plage et polissoirs de Montravel", zone: "cayenne", cat: ["plage", "patrimoine"], lat: 4.9092, lon: -52.2586, prec: "site",
+      nav: "Plage de Montravel Rémire-Montjoly", dur: "2 h", access: ["voiture", "pied"], free: true,
+      desc: "Petite crique de sable et de rochers au pied de la colline Montravel, que l'on rejoint par un sentier en pente. Tout près, des polissoirs amérindiens sont inscrits monument historique depuis 2002.",
+      tips: ["Crique ombragée, protégée des courants.", "Ne marchez pas sur les polissoirs : ce sont des vestiges fragiles."] },
+    { id: "cocoteraie", img: "cocoteraie", name: "Plage de la Cocoteraie", zone: "savanes", cat: ["plage"], lat: 5.1659, lon: -52.6376, prec: "site",
+      nav: "Plage de la Cocoteraie Kourou", dur: "2 h", access: ["voiture", "pied"], free: true,
+      desc: "La plus grande plage de Kourou et l'une des rares plages aménagées de Guyane. Elle se prolonge par la petite plage Pim-Poum, jusqu'à la plage des Roches.",
+      tips: ["À combiner avec la pointe des Roches et la tour Dreyfus.", "Vérifiez la houle et la marée avant de vous baigner."] },
+    { id: "maison-eboue", img: "maison-eboue", name: "Maison natale de Félix Éboué", zone: "cayenne", cat: ["patrimoine", "culture"], lat: 4.9379, lon: -52.3282, prec: "site",
+      nav: "Maison natale de Félix Éboué Cayenne", dur: "45 min", access: ["pied", "voiture"], free: false,
+      desc: "Maison créole du 37 rue Richelieu, aujourd'hui rue Félix-Éboué, bâtie par le père du futur gouverneur après 1883. Elle est labellisée « Maison des Illustres » depuis 2011.",
+      tips: ["Horaires et conditions de visite : renseignez-vous avant.", "À deux pas de la place des Palmistes et de la statue d'Éboué."] },
+    { id: "guisanbourg", img: "guisanbourg", name: "Guisanbourg", zone: "oyapock", cat: ["patrimoine", "fleuve"], lat: 4.3907, lon: -51.9331, prec: "site",
+      nav: "Guisanbourg", dur: "1 jour", access: ["bateau"], free: false,
+      desc: "Village abandonné près de l'embouchure de l'Approuague, fondé par Jean Samuel Guisan. Premier chef-lieu de la commune de l'Approuague jusqu'en 1936, il garde les ruines de son église Saint-Pierre.",
+      tips: ["Accès uniquement par le fleuve, avec un prestataire.", "Respectez les ruines : n'escaladez pas les murs."] },
   ],
 
   itineraries: [
@@ -461,6 +486,7 @@ window.KARBE = {
   // Repères indicatifs par lieu : niveau (f facile, m modéré, s sportif), enfants (y/n),
   // baignade (o site de baignade, p avec prudence / conseil local, n non). Appréciation Karbé, à confirmer sur place.
   meta: {
+    "gosselin":"f y p", "montravel":"m y p", "cocoteraie":"f y p", "maison-eboue":"f y n", "guisanbourg":"m n n",
     "cathedrale":"f y n", "jardin-botanique":"f y n", "pointe-buzare":"f y n", "ilets-remire":"f y n", "montsinery":"f y n", "petit-saut":"f y n", "sinnamary":"f y n", "awala":"f y p", "apatou":"f y n", "grand-santi":"m y n", "papaichton":"m y n", "regina":"f y n", "kaw-village":"f y n", "montagne-argent":"m n n", "camopi":"s n n", "grand-connetable":"m y n",
     palmistes:"f y n", ceperou:"f y n", "marche-cayenne":"f y n", "musee-cultures":"f y n", montjoly:"f y p", salines:"f y n",
     rorota:"m y n", bourda:"m n n", loyola:"m y n", diamant:"f y n", matoury:"s n n", cacao:"f y n", molokoi:"s n n",

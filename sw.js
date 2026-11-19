@@ -1,5 +1,5 @@
 // Karbé 3 — service worker : app hors-ligne, médias, tuiles en cache, packs de cartes par territoire.
-const V = "karbe-3.6.0";
+const V = "karbe-3.6.1";
 const MEDIA = "karbe-media", TILES = "karbe-tiles", PACK = "karbe-tiles-pack", STATIC = "karbe-static";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "data.js", "manifest.webmanifest", "icon.svg", "icon-192.png", "apple-touch-icon.png"];
 const MAX_TILES = 3000;

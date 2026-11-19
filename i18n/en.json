@@ -1124,6 +1124,51 @@
     "Bring binoculars for the seabirds."
    ],
    "dur": "1 day"
+  },
+  "gosselin": {
+   "name": "Gosselin beach",
+   "desc": "A beach on the beach road in Rémire-Montjoly, one of the busiest in the commune. Improved since 2021: parking, safer access and a boardwalk for people with reduced mobility.",
+   "tips": [
+    "At weekends, come early to park.",
+    "Swimming depends on sea conditions: check the swell in Karbé."
+   ],
+   "dur": "2 h"
+  },
+  "montravel": {
+   "name": "Montravel beach and polishing stones",
+   "desc": "A small cove of sand and rocks below Montravel hill, reached by a sloping path. Nearby, Amerindian polishing stones have been a listed historic monument since 2002.",
+   "tips": [
+    "A shady cove, sheltered from currents.",
+    "Don't walk on the polishing stones: they are fragile remains."
+   ],
+   "dur": "2 h"
+  },
+  "cocoteraie": {
+   "name": "Cocoteraie beach",
+   "desc": "Kourou's largest beach and one of the few developed beaches in French Guiana. It continues into little Pim-Poum beach, up to Plage des Roches.",
+   "tips": [
+    "Combine with Pointe des Roches and the Dreyfus tower.",
+    "Check swell and tide before swimming."
+   ],
+   "dur": "2 h"
+  },
+  "maison-eboue": {
+   "name": "Félix Éboué's birthplace",
+   "desc": "A Creole house at 37 rue Richelieu, now rue Félix-Éboué, built by the future governor's father after 1883. It has held the 'Maison des Illustres' label since 2011.",
+   "tips": [
+    "Check opening hours and visiting conditions beforehand.",
+    "A short walk from Place des Palmistes and Éboué's statue."
+   ],
+   "dur": "45 min"
+  },
+  "guisanbourg": {
+   "name": "Guisanbourg",
+   "desc": "An abandoned village near the mouth of the Approuague, founded by Jean Samuel Guisan. The first seat of the Approuague commune until 1936, it keeps the ruins of its church of Saint-Pierre.",
+   "tips": [
+    "Reached only by river, with an operator.",
+    "Respect the ruins: don't climb the walls."
+   ],
+   "dur": "1 day"
   }
  }
 }

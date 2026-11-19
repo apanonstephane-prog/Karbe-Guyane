@@ -1030,6 +1030,66 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File%3A%C3%8Eles_du_grand_et_du_petit_conn%C3%A9table.jpg"
    }
+  },
+  {
+   "key": "gosselin",
+   "file": "img/src/gosselin.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_064428_7481a59e-673a-40b0-8221-9f2efd2a5657.png",
+   "sha256": "f8d96cb5df747865fdf6986aff64459a1a12ecec53abc2dc9a366090383aed84",
+   "bytes": 358226,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Plage de Gosselin (Remire-Montjoly).jpg",
+    "auteur": "Detheux paul",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlage_de_Gosselin_%28Remire-Montjoly%29.jpg"
+   }
+  },
+  {
+   "key": "maison-eboue",
+   "file": "img/src/maison-eboue.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_064428_1aa037f6-1a69-492a-819c-538720f4aa87.png",
+   "sha256": "6100d8bebe10a6d9ffe50943dbaa202abc4d3fb3390ff65c60485d2dc872ad7b",
+   "bytes": 266610,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Maison natale de Félix Éboué (1).jpg",
+    "auteur": "Lydav",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMaison_natale_de_F%C3%A9lix_%C3%89bou%C3%A9_%281%29.jpg"
+   }
+  },
+  {
+   "key": "guisanbourg",
+   "file": "img/src/guisanbourg.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_064428_7f982982-357b-4740-ae40-3325292cf6c6.png",
+   "sha256": "b8ba3d34d6579f35ab3110bf961b1072aa61620a69672c9c42d6e5e2eee477e3",
+   "bytes": 355292,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "photo": {
+    "titre": "Eglise de Guisanbourg.png",
+    "auteur": "Takari7",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEglise_de_Guisanbourg.png"
+   }
+  },
+  {
+   "key": "montravel",
+   "file": "img/src/montravel.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_064428_beef3495-06c5-4a92-a703-a4585c746e7a.png",
+   "sha256": "7d759fd122df98ad47b609b9328e576d1a33ad12de2322e18d3f263fb68773c4",
+   "bytes": 308522,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "nature": "illustration"
+  },
+  {
+   "key": "cocoteraie",
+   "file": "img/src/cocoteraie.webp",
+   "origin": "https://d8j0ntlcm91z4.cloudfront.net/user_38Z5SdprKPAyFm5lutStOjNJFmo/hf_20261119_064428_78897588-ae61-4dde-bbe9-db9fb6247415.png",
+   "sha256": "85f07ae9c3aa8226e84e91a8ce6eb9847109be3b6df3e69e2cb19c80136bb92b",
+   "bytes": 280688,
+   "note": "converti en WebP q86 depuis l’origine PNG",
+   "nature": "illustration"
   }
  ],
  "icon": {

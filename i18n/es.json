@@ -1124,6 +1124,51 @@
     "Lleva prismáticos para las aves marinas."
    ],
    "dur": "1 día"
+  },
+  "gosselin": {
+   "name": "Playa de Gosselin",
+   "desc": "Playa de la carretera de las playas, en Rémire-Montjoly, una de las más concurridas del municipio. Acondicionada desde 2021: aparcamiento, accesos seguros y pasarela para personas con movilidad reducida.",
+   "tips": [
+    "El fin de semana, llega temprano para aparcar.",
+    "Baño según el estado del mar: consulta el oleaje en Karbé."
+   ],
+   "dur": "2 h"
+  },
+  "montravel": {
+   "name": "Playa y pulidores de Montravel",
+   "desc": "Pequeña cala de arena y rocas al pie de la colina Montravel, a la que se baja por un sendero en pendiente. Muy cerca, unos pulidores amerindios son monumento histórico desde 2002.",
+   "tips": [
+    "Cala sombreada, protegida de las corrientes.",
+    "No pises los pulidores: son vestigios frágiles."
+   ],
+   "dur": "2 h"
+  },
+  "cocoteraie": {
+   "name": "Playa de la Cocoteraie",
+   "desc": "La playa más grande de Kourou y una de las pocas playas acondicionadas de Guayana. Se prolonga por la pequeña playa Pim-Poum hasta la playa des Roches.",
+   "tips": [
+    "Combínala con la Pointe des Roches y la torre Dreyfus.",
+    "Consulta el oleaje y la marea antes de bañarte."
+   ],
+   "dur": "2 h"
+  },
+  "maison-eboue": {
+   "name": "Casa natal de Félix Éboué",
+   "desc": "Casa criolla del número 37 de la rue Richelieu, hoy rue Félix-Éboué, construida por el padre del futuro gobernador después de 1883. Tiene el sello « Maison des Illustres » desde 2011.",
+   "tips": [
+    "Horarios y condiciones de visita: infórmate antes.",
+    "A dos pasos de la plaza des Palmistes y de la estatua de Éboué."
+   ],
+   "dur": "45 min"
+  },
+  "guisanbourg": {
+   "name": "Guisanbourg",
+   "desc": "Pueblo abandonado cerca de la desembocadura del Approuague, fundado por Jean Samuel Guisan. Primera cabecera del municipio del Approuague hasta 1936, conserva las ruinas de su iglesia Saint-Pierre.",
+   "tips": [
+    "Acceso solo por el río, con un operador.",
+    "Respeta las ruinas: no escales los muros."
+   ],
+   "dur": "1 día"
   }
  }
 }

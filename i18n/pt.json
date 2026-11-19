@@ -1124,6 +1124,51 @@
     "Leve binóculos para as aves marinhas."
    ],
    "dur": "1 dia"
+  },
+  "gosselin": {
+   "name": "Praia de Gosselin",
+   "desc": "Praia da estrada das praias, em Rémire-Montjoly, uma das mais frequentadas do município. Equipada desde 2021: estacionamento, acessos seguros e passarela para pessoas com mobilidade reduzida.",
+   "tips": [
+    "No fim de semana, chegue cedo para estacionar.",
+    "Banho conforme o mar: confira as ondas no Karbé."
+   ],
+   "dur": "2 h"
+  },
+  "montravel": {
+   "name": "Praia e polidores de Montravel",
+   "desc": "Pequena enseada de areia e rochas ao pé da colina Montravel, alcançada por uma trilha em declive. Perto dali, polidores ameríndios são monumento histórico desde 2002.",
+   "tips": [
+    "Enseada sombreada, protegida das correntes.",
+    "Não pise nos polidores: são vestígios frágeis."
+   ],
+   "dur": "2 h"
+  },
+  "cocoteraie": {
+   "name": "Praia da Cocoteraie",
+   "desc": "A maior praia de Kourou e uma das raras praias equipadas da Guiana. Continua pela pequena praia Pim-Poum até a praia des Roches.",
+   "tips": [
+    "Combine com a Pointe des Roches e a torre Dreyfus.",
+    "Confira as ondas e a maré antes de nadar."
+   ],
+   "dur": "2 h"
+  },
+  "maison-eboue": {
+   "name": "Casa natal de Félix Éboué",
+   "desc": "Casa crioula do número 37 da rue Richelieu, hoje rue Félix-Éboué, construída pelo pai do futuro governador depois de 1883. Tem o selo « Maison des Illustres » desde 2011.",
+   "tips": [
+    "Horários e condições de visita: informe-se antes.",
+    "A dois passos da Place des Palmistes e da estátua de Éboué."
+   ],
+   "dur": "45 min"
+  },
+  "guisanbourg": {
+   "name": "Guisanbourg",
+   "desc": "Aldeia abandonada perto da foz do Approuague, fundada por Jean Samuel Guisan. Primeira sede do município do Approuague até 1936, guarda as ruínas da igreja Saint-Pierre.",
+   "tips": [
+    "Acesso só pelo rio, com um operador.",
+    "Respeite as ruínas: não escale os muros."
+   ],
+   "dur": "1 dia"
   }
  }
 }
