@@ -334,7 +334,7 @@
   "Météo": "Weather",
   "Guide ou excursion": "Guide or tour",
   "Hébergement ou carbet": "Lodging or carbet",
-  "Restauration": "Food",
+  "Restauration": "Food & drink",
   "Location": "Rental",
   "Artisanat ou boutique": "Crafts or shop",
   "Autre": "Other",
@@ -435,7 +435,8 @@
   "Association": "Association",
   "Site": "Website",
   "Source {n}": "Source {n}",
-  "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.": "Found in at least two public sources on {d}. No partnership, rating or ranking: check hours, prices and permits before booking."
+  "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.": "Found in at least two public sources on {d}. No partnership, rating or ranking: check hours, prices and permits before booking.",
+  "Producteur": "Producer"
  },
  "zones": {
   "cayenne": "Cayenne island",
@@ -1212,6 +1213,14 @@
   "royal-amazonia": "A large 134-room hotel on the Montabo side, a few minutes' walk from the beach; two pools and a spa.",
   "grand-montabo": "A beachfront hotel at Montabo, formerly the Novotel Cayenne, with a pool. Renovation work reported on weekdays.",
   "ibis-styles": "A contemporary town-centre hotel with a pool.",
-  "maison-amana": "Visitor centre of the reserve protecting the sea-turtle nesting beaches; parking at the end of the D22. Reserve wardens and guides supervise nesting watches."
+  "maison-amana": "Visitor centre of the reserve protecting the sea-turtle nesting beaches; parking at the end of the D22. Reserve wardens and guides supervise nesting watches.",
+  "paris-cayenne": "A town-centre institution since 1981: French bistronomy with Guianese flavours, rue Lallouette.",
+  "ara-bleu": "A small family restaurant serving Guianese Creole food.",
+  "maison-peruvienne": "Peruvian cuisine, rue de l'Université; holds the Maître Restaurateur title since 2022, according to Petit Futé.",
+  "hotel-palmistes": "Bar-restaurant and small hotel in the Maison Thémire, a 19th-century Creole house on Place des Palmistes, at this address since 1908.",
+  "tipic-kreols": "Bar-restaurant with local and French food, rue Thiers; closed on Sundays.",
+  "acoustik-lounge": "An evening restaurant on chemin de Paddock.",
+  "domaine-voyageur": "A farm in Saül using slash-and-burn plots and agroforestry; holder of the Esprit parc national brand.",
+  "cacao-coeur-saul": "A small cacao farm in Saül village; the grower shows the path from tree to bar. Esprit parc national brand."
  }
 }

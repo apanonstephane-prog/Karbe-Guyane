@@ -37,7 +37,7 @@ const TR = () => (lang !== "fr" && window.KARBE_TR) || {};
 const t = (s, v) => { let r = TR().ui?.[s] || s; if (v) r = r.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? ""); return r; };
 const LOC = () => LANGS[lang][1];
 const L = s => s && lang !== "fr" ? { ...s, ...(TR().spots?.[s.id] || {}) } : s;            // lieu traduit
-const PRO_KIND = { sortie: "Sortie guidée", transport: "Transport", hebergement: "Hébergement", info: "Information", association: "Association" };
+const PRO_KIND = { sortie: "Sortie guidée", transport: "Transport", hebergement: "Hébergement", info: "Information", association: "Association", restauration: "Restauration", producteur: "Producteur" };
 /* Prestataires repérés : deux sources publiques au moins, sans partenariat ni avis. */
 function prosHTML(id) {
   const P = (D.pros || []).filter(p => p.spots.includes(id));

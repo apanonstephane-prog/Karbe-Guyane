@@ -334,7 +334,7 @@
   "Météo": "Tempo",
   "Guide ou excursion": "Guia ou passeio",
   "Hébergement ou carbet": "Hospedagem ou carbet",
-  "Restauration": "Restaurante",
+  "Restauration": "Restauração",
   "Location": "Aluguel",
   "Artisanat ou boutique": "Artesanato ou loja",
   "Autre": "Outro",
@@ -435,7 +435,8 @@
   "Association": "Associação",
   "Site": "Site",
   "Source {n}": "Fonte {n}",
-  "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.": "Identificados em pelo menos duas fontes públicas em {d}. Sem parceria, nota ou ranking: confira horários, preços e autorizações antes de reservar."
+  "Repérés sur au moins deux sources publiques le {d}. Ni partenariat, ni note, ni classement : vérifiez horaires, tarifs et autorisations avant de réserver.": "Identificados em pelo menos duas fontes públicas em {d}. Sem parceria, nota ou ranking: confira horários, preços e autorizações antes de reservar.",
+  "Producteur": "Produtor"
  },
  "zones": {
   "cayenne": "Ilha de Caiena",
@@ -1212,6 +1213,14 @@
   "royal-amazonia": "Grande hotel de 134 quartos do lado de Montabo, a poucos minutos a pé da praia; duas piscinas e spa.",
   "grand-montabo": "Hotel à beira da praia em Montabo, antigo Novotel de Caiena, com piscina. Obras de renovação nos dias úteis.",
   "ibis-styles": "Hotel contemporâneo no centro da cidade, com piscina.",
-  "maison-amana": "Casa da reserva que protege as praias de desova das tartarugas marinhas; estacionamento no fim da D22. Guardas e guias acompanham a observação das desovas."
+  "maison-amana": "Casa da reserva que protege as praias de desova das tartarugas marinhas; estacionamento no fim da D22. Guardas e guias acompanham a observação das desovas.",
+  "paris-cayenne": "Instituição do centro desde 1981: bistronomia francesa com sabores guianenses, rue Lallouette.",
+  "ara-bleu": "Pequeno restaurante familiar de cozinha crioula guianense.",
+  "maison-peruvienne": "Cozinha peruana, rue de l'Université; título de Maître Restaurateur desde 2022, segundo o Petit Futé.",
+  "hotel-palmistes": "Bar-restaurante e pequeno hotel na Maison Thémire, casa crioula do século XIX na place des Palmistes, neste endereço desde 1908.",
+  "tipic-kreols": "Bar-restaurante de cozinha local e francesa, rue Thiers; fechado aos domingos.",
+  "acoustik-lounge": "Restaurante noturno, chemin de Paddock.",
+  "domaine-voyageur": "Exploração agrícola de Saül, em roças e agrofloresta; beneficiária da marca Esprit parc national.",
+  "cacao-coeur-saul": "Pequena plantação de cacau no povoado de Saül; o produtor mostra o caminho da árvore à barra. Marca Esprit parc national."
  }
 }
